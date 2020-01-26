@@ -69,38 +69,38 @@
 |60 | [List artisan commands](#how-to-use-innerhtml-in-react) |
 |61 | [Session](#how-to-use-styles-in-react) |
 |62 | [Cookies](#how-events-are-different-in-react) |
-|63 | [What will happen if you use setState in constructor?](#what-will-happen-if-you-use-setstate-in-constructor) |
-|64 | [What is the impact of indexes as keys?](#what-is-the-impact-of-indexes-as-keys) |
-|65 | [Is it good to use setState() in componentWillMount() method?](#is-it-good-to-use-setstate-in-componentwillmount-method) |
-|66 | [What will happen if you use props in initial state?](#what-will-happen-if-you-use-props-in-initial-state) |
-|67 | [How do you conditionally render components?](#how-do-you-conditionally-render-components)
-|68 | [Why we need to be careful when spreading props on DOM elements??](#why-we-need-to-be-careful-when-spreading-props-on-dom-elements) |
-|69 | [How you use decorators in React?](#how-you-use-decorators-in-react) |
-|70 | [How do you memoize a component?](#how-do-you-memoize-a-component) |
-|71 | [How you implement Server-Side Rendering or SSR?](#how-you-implement-server-side-rendering-or-ssr) |
-|72 | [How to enable production mode in React?](#how-to-enable-production-mode-in-react) |
-|73 | [What is CRA and its benefits?](#what-is-cra-and-its-benefits) |
-|74 | [What is the lifecycle methods order in mounting?](#what-is-the-lifecycle-methods-order-in-mounting) |
-|75 | [What are the lifecycle methods going to be deprecated in React v16?](#what-are-the-lifecycle-methods-going-to-be-deprecated-in-react-v16) |
-|76 | [What is the purpose of getDerivedStateFromProps() lifecycle method?](#what-is-the-purpose-of-getderivedstatefromprops-lifecycle-method) |
-|77 | [What is the purpose of getSnapshotBeforeUpdate() lifecycle method?](#what-is-the-purpose-of-getsnapshotbeforeupdate-lifecycle-method) |
-|78 | [Do Hooks replace render props and higher order components?](#do-hooks-replace-render-props-and-higher-order-components) |
-|79 | [What is the recommended way for naming components?](#what-is-the-recommended-way-for-naming-components) |
-|80 | [What is the recommended ordering of methods in component class?](#what-is-the-recommended-ordering-of-methods-in-component-class) |
+|63 | [Current version of PHP,MySQL, Laravel, MongoDB etc](#what-will-happen-if-you-use-setstate-in-constructor) |
+|64 | [Design architecture of an app](#what-is-the-impact-of-indexes-as-keys) |
+|65 | [SQL Injections](#is-it-good-to-use-setstate-in-componentwillmount-method) |
+|66 | [How to call static methods?](#what-will-happen-if-you-use-props-in-initial-state) |
+|67 | [How to achieve multiple DB hosts?](#how-do-you-conditionally-render-components)
+|68 | [Abstract class](#why-we-need-to-be-careful-when-spreading-props-on-dom-elements) |
+|69 | [Default ports for MySQL, Email, etc](#how-you-use-decorators-in-react) |
+|70 | [Explain Joins](#how-do-you-memoize-a-component) |
+|71 | [Explain Unions](#how-you-implement-server-side-rendering-or-ssr) |
+|72 | [how mongodb is better than relational databases?](#how-to-enable-production-mode-in-react) |
+|73 | [are you aware about mongodb?](#what-is-cra-and-its-benefits) |
+|74 | [what is default session time](#what-is-the-lifecycle-methods-order-in-mounting) |
+|75 | [How to create hooks in Laravel?](#what-are-the-lifecycle-methods-going-to-be-deprecated-in-react-v16) |
+|76 | [What is csrf token and xss attack](#what-is-the-purpose-of-getderivedstatefromprops-lifecycle-method) |
+|77 | [Select highest/nth highest salary](#what-is-the-purpose-of-getsnapshotbeforeupdate-lifecycle-method) |
+|78 | [Write joins](#do-hooks-replace-render-props-and-higher-order-components) |
+|79 | [Write union](#what-is-the-recommended-way-for-naming-components) |
+|80 | [Write a complex query](#what-is-the-recommended-ordering-of-methods-in-component-class) |
 |81 | [What is a switching component?](#what-is-a-switching-component) |
-|82 | [Why we need to pass a function to setState()?](#why-we-need-to-pass-a-function-to-setstate) |
-|83 | [What is strict mode in React?](#what-is-strict-mode-in-react) |
-|84 | [What are React Mixins?](#what-are-react-mixins) |
-|85 | [Why is isMounted() an anti-pattern and what is the proper solution?](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
-|86 | [What are the Pointer Events supported in React?](#what-are-the-pointer-events-supported-in-react) |
-|87 | [Why should component names start with capital letter?](#why-should-component-names-start-with-capital-letter) |
-|88 | [Are custom DOM attributes supported in React v16?](#are-custom-dom-attributes-supported-in-react-v16) |
-|89 | [What is the difference between constructor and getInitialState?](#what-is-the-difference-between-constructor-and-getinitialstate) |
-|90 | [Can you force a component to re-render without calling setState?](#can-you-force-a-component-to-re-render-without-calling-setstate) |
-|91 | [What is the difference between super() and super(props) in React using ES6 classes?](#what-is-the-difference-between-super-and-superprops-in-react-using-es6-classes) |
-|92 | [How to loop inside JSX?](#how-to-loop-inside-jsx) |
-|93 | [How do you access props in attribute quotes?](#how-do-you-access-props-in-attribute-quotes) |
-|94 | [What is React PropType array with shape?](#what-is-react-proptype-array-with-shape) |
+|82 | [Difference between PHP 5 and 4.](#why-we-need-to-pass-a-function-to-setstate) |
+|83 | [Difference among various php versions](#what-is-strict-mode-in-react) |
+|84 | [Difference among various mysql versions](#what-are-react-mixins) |
+|85 | [Difference among various Laravel versions](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
+|86 | [How to add aws plugin in PHP?](#what-are-the-pointer-events-supported-in-react) |
+|87 | [desiging patterns](#why-should-component-names-start-with-capital-letter) |
+|88 | [Diff between GET and POST](#are-custom-dom-attributes-supported-in-react-v16) |
+|89 | [Which is fast between get and post?](#what-is-the-difference-between-constructor-and-getinitialstate) |
+|90 | [Simple OOP questions](#can-you-force-a-component-to-re-render-without-calling-setstate) |
+|91 | [deference between abstract class and interface](#what-is-the-difference-between-super-and-superprops-in-react-using-es6-classes) |
+|92 | [What is MVC Framework](#how-to-loop-inside-jsx) |
+|93 | [create a project with CRUD, one algorithm logic and insert data in db for testing.](#how-do-you-access-props-in-attribute-quotes) |
+|94 | [CURL , SOAP](#what-is-react-proptype-array-with-shape) |
 |95 | [How to conditionally apply class attributes?](#how-to-conditionally-apply-class-attributes) |
 |96 | [What is the difference between React and ReactDOM?](#what-is-the-difference-between-react-and-reactdom) |
 |97 | [Why ReactDOM is separated from React?](#why-reactdom-is-separated-from-react) |
