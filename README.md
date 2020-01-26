@@ -21,17 +21,17 @@
 |12 | [What is Query Builder?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)
 |13 | [What is Facades?](#what-is-the-difference-between-html-and-react-event-handling) |
 |14 | [What is Repository Pattern?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks) |
-|15 | [How to pass a parameter to an event handler or callback?](#how-to-pass-a-parameter-to-an-event-handler-or-callback) |
-|16 | [What are synthetic events in React?](#what-are-synthetic-events-in-react) |
-|17 | [What is inline conditional expressions?](#what-is-inline-conditional-expressions) |
-|18 | [What are "key" props and what is the benefit of using them in arrays of elements?](#what-are-key-props-and-what-is-the-benefit-of-using-them-in-arrays-of-elements) |
-|19 | [What is the use of refs?](#what-is-the-use-of-refs) |
-|20 | [How to create refs?](#how-to-create-refs)
-|21 | [What are forward refs?](#what-are-forward-refs) |
-|22 | [Which is preferred option with in callback refs and findDOMNode()?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode) |
-|23 | [Why are String Refs legacy?](#why-are-string-refs-legacy) |
-|24 | [What is Virtual DOM?](#what-is-virtual-dom) |
-|25 | [How Virtual DOM works?](#how-virtual-dom-works) |
+|15 | [What is Security (Authentication using Passport, CSRF, XSRF etc)?](#how-to-pass-a-parameter-to-an-event-handler-or-callback) |
+|16 | [What Unit testing?](#what-are-synthetic-events-in-react) |
+|17 | [What is Caching?](#what-is-inline-conditional-expressions) |
+|18 | [How to setup Emails?](#what-are-key-props-and-what-is-the-benefit-of-using-them-in-arrays-of-elements) |
+|19 | [What are Queues?](#what-is-the-use-of-refs) |
+|20 | [What are Jobs?](#how-to-create-refs)
+|21 | [What are Advanced Eloquent and Query Builder?](#what-are-forward-refs) |
+|22 | [Which is Error management?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode) |
+|23 | [What is API creation?](#why-are-string-refs-legacy) |
+|24 | [What are Events?](#what-is-virtual-dom) |
+|25 | [What are Listeners?](#how-virtual-dom-works) |
 |26 | [What is the difference between Shadow DOM and Virtual DOM?](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
 |27 | [What is React Fiber?](#what-is-react-fiber) |
 |28 | [What is the main goal of React Fiber?](#what-is-the-main-goal-of-react-fiber) |
