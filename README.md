@@ -15,12 +15,12 @@
 |6  | [When are Migrations?](#when-to-use-a-class-component-over-a-function-component) |
 |7  | [What are Seeders?](#what-are-pure-components) |
 |8  | [What are Service Providers?](#what-is-state-in-react) |
-|9  | [What are props in React?](#what-are-props-in-react) |
-|10 | [What is the difference between state and props?](#what-is-the-difference-between-state-and-props) |
-|11 | [Why should we not update the state directly?](#why-should-we-not-update-the-state-directly) |
-|12 | [What is the purpose of callback function as an argument of setState()?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)
-|13 | [What is the difference between HTML and React event handling?](#what-is-the-difference-between-html-and-react-event-handling) |
-|14 | [How to bind methods or event handlers in JSX callbacks?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks) |
+|9  | [What is Middleware?](#what-are-props-in-react) |
+|10 | [What is ORM?](#what-is-the-difference-between-state-and-props) |
+|11 | [What is Eloquent?](#why-should-we-not-update-the-state-directly) |
+|12 | [What is Query Builder?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)
+|13 | [What is Facades?](#what-is-the-difference-between-html-and-react-event-handling) |
+|14 | [What is Repository Pattern?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks) |
 |15 | [How to pass a parameter to an event handler or callback?](#how-to-pass-a-parameter-to-an-event-handler-or-callback) |
 |16 | [What are synthetic events in React?](#what-are-synthetic-events-in-react) |
 |17 | [What is inline conditional expressions?](#what-is-inline-conditional-expressions) |
