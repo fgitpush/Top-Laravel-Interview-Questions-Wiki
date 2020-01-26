@@ -41,34 +41,34 @@
 |32 | [Connecting other SQL databases](#what-is-lifting-state-up-in-react) |
 |33 | [Connecting non-SQL databases](#what-are-the-different-phases-of-component-lifecycle) |
 |34 | [Lumen](#what-are-the-lifecycle-methods-of-react) |
-|35 | [What are Higher-Order components?](#what-are-higher-order-components) |
-|36 | [How to create props proxy for HOC component?](#how-to-create-props-proxy-for-hoc-component) |
-|37 | [What is context?](#what-is-context) |
-|38 | [What is children prop?](#what-is-children-prop) |
-|39 | [How to write comments in React?](#how-to-write-comments-in-react) |
-|40 | [What is the purpose of using super constructor with props argument?](#what-is-the-purpose-of-using-super-constructor-with-props-argument) |
+|35 | [Redis](#what-are-higher-order-components) |
+|36 | [Memcache](#how-to-create-props-proxy-for-hoc-component) |
+|37 | [Horizontal scaling](#what-is-context) |
+|38 | [Vertical scaling](#what-is-children-prop) |
+|39 | [Single Page Applications in Laravel](#how-to-write-comments-in-react) |
+|40 | [Microservices in Laravel](#what-is-the-purpose-of-using-super-constructor-with-props-argument) |
 |41 | [What is reconciliation?](#what-is-reconciliation) |
-|42 | [How to set state with a dynamic key name?](#how-to-set-state-with-a-dynamic-key-name) |
-|43 | [What would be the common mistake of function being called every time the component renders?](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders) |
-|44 | [Is lazy function supports named exports??](#is-lazy-function-supports-named-exports) |
-|45 | [Why React uses className over class attribute?](#why-react-uses-classname-over-class-attribute) |
-|46 | [What are fragments?](#what-are-fragments) |
-|47 | [Why fragments are better than container divs?](#why-fragments-are-better-than-container-divs) |
-|48 | [What are portals in React?](#what-are-portals-in-react) |
-|49 | [What are stateless components?](#what-are-stateless-components) |
-|50 | [What are stateful components?](#what-are-stateful-components) |
-|51 | [How to apply validation on props in React?](#how-to-apply-validation-on-props-in-react) |
-|52 | [What are the advantages of React?](#what-are-the-advantages-of-react) |
-|53 | [What are the limitations of React?](#what-are-the-limitations-of-react) |
-|54 | [What are error boundaries in React v16](#what-are-error-boundaries-in-react-v16) |
-|55 | [How error boundaries handled in React v15?](#how-error-boundaries-handled-in-react-v15) |
-|56 | [What are the recommended ways for static type checking?](#what-are-the-recommended-ways-for-static-type-checking) |
-|57 | [What is the use of react-dom package?](#what-is-the-use-of-react-dom-package) |
-|58 | [What is the purpose of render method of react-dom?](#what-is-the-purpose-of-render-method-of-react-dom) |
-|59 | [What is ReactDOMServer?](#what-is-reactdomserver) |
-|60 | [How to use InnerHtml in React?](#how-to-use-innerhtml-in-react) |
-|61 | [How to use styles in React?](#how-to-use-styles-in-react) |
-|62 | [How events are different in React?](#how-events-are-different-in-react) |
+|42 | [Service Oriented Architecture in Laravel](#how-to-set-state-with-a-dynamic-key-name) |
+|43 | [Validations and custom validations](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders) |
+|44 | [Composer](#is-lazy-function-supports-named-exports) |
+|45 | [Symfony](#why-react-uses-classname-over-class-attribute) |
+|46 | [Route caching](#what-are-fragments) |
+|47 | [Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon](#why-fragments-are-better-than-container-divs) |
+|48 | [Named routes](#what-are-portals-in-react) |
+|49 | [Dependency injection in Laravel](#what-are-stateless-components) |
+|50 | [Laravel contracts?](#what-are-stateful-components) |
+|51 | [Query log](#how-to-apply-validation-on-props-in-react) |
+|52 | [Laravel Traits](#what-are-the-advantages-of-react) |
+|53 | [Bundles in Laravel](#what-are-the-limitations-of-react) |
+|54 | [System requirements for Laravel](#what-are-error-boundaries-in-react-v16) |
+|55 | [Aggregate methods in query builder](#how-error-boundaries-handled-in-react-v15) |
+|56 | [Singelton design pattern](#what-are-the-recommended-ways-for-static-type-checking) |
+|57 | [Reverse routing](#what-is-the-use-of-react-dom-package) |
+|58 | [Popular composer packages](#what-is-the-purpose-of-render-method-of-react-dom) |
+|59 | [How to get the data from more than 3 table without use join ?Answer: Subquery, union.](#what-is-reactdomserver) |
+|60 | [List artisan commands](#how-to-use-innerhtml-in-react) |
+|61 | [Session](#how-to-use-styles-in-react) |
+|62 | [Cookies](#how-events-are-different-in-react) |
 |63 | [What will happen if you use setState in constructor?](#what-will-happen-if-you-use-setstate-in-constructor) |
 |64 | [What is the impact of indexes as keys?](#what-is-the-impact-of-indexes-as-keys) |
 |65 | [Is it good to use setState() in componentWillMount() method?](#is-it-good-to-use-setstate-in-componentwillmount-method) |
