@@ -32,15 +32,15 @@
 |23 | [What is API creation?](#why-are-string-refs-legacy) |
 |24 | [What are Events?](#what-is-virtual-dom) |
 |25 | [What are Listeners?](#how-virtual-dom-works) |
-|26 | [What is the difference between Shadow DOM and Virtual DOM?](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
-|27 | [What is React Fiber?](#what-is-react-fiber) |
-|28 | [What is the main goal of React Fiber?](#what-is-the-main-goal-of-react-fiber) |
-|29 | [What are controlled components?](#what-are-controlled-components) |
-|30 | [What are uncontrolled components?](#what-are-uncontrolled-components) |
-|31 | [What is the difference between createElement and cloneElement?](#what-is-the-difference-between-createelement-and-cloneelement) |
-|32 | [What is Lifting State Up in React?](#what-is-lifting-state-up-in-react) |
-|33 | [What are the different phases of component lifecycle?](#what-are-the-different-phases-of-component-lifecycle) |
-|34 | [What are the lifecycle methods of React?](#what-are-the-lifecycle-methods-of-react) |
+|26 | [What Payments and cashier](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
+|27 | [What is Test Driven Development?](#what-is-react-fiber) |
+|28 | [What is Package development?](#what-is-the-main-goal-of-react-fiber) |
+|29 | [Laravel Scout search and algolia](#what-are-controlled-components) |
+|30 | [Socialie and Auth?](#what-are-uncontrolled-components) |
+|31 | [Vue.js?](#what-is-the-difference-between-createelement-and-cloneelement) |
+|32 | [Connecting other SQL databases](#what-is-lifting-state-up-in-react) |
+|33 | [Connecting non-SQL databases](#what-are-the-different-phases-of-component-lifecycle) |
+|34 | [Lumen](#what-are-the-lifecycle-methods-of-react) |
 |35 | [What are Higher-Order components?](#what-are-higher-order-components) |
 |36 | [How to create props proxy for HOC component?](#how-to-create-props-proxy-for-hoc-component) |
 |37 | [What is context?](#what-is-context) |
