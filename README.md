@@ -101,14 +101,14 @@
 |92 | [What is MVC Framework](#how-to-loop-inside-jsx) |
 |93 | [create a project with CRUD, one algorithm logic and insert data in db for testing.](#how-do-you-access-props-in-attribute-quotes) |
 |94 | [CURL , SOAP](#what-is-react-proptype-array-with-shape) |
-|95 | [How to conditionally apply class attributes?](#how-to-conditionally-apply-class-attributes) |
-|96 | [What is the difference between React and ReactDOM?](#what-is-the-difference-between-react-and-reactdom) |
-|97 | [Why ReactDOM is separated from React?](#why-reactdom-is-separated-from-react) |
-|98 | [How to use React label element?](#how-to-use-react-label-element) |
-|99 | [How to combine multiple inline style objects?](#how-to-combine-multiple-inline-style-objects) |
-|100| [How to re-render the view when the browser is resized?](#how-to-re-render-the-view-when-the-browser-is-resized)
-|101| [What is the difference between setState and replaceState methods?](#what-is-the-difference-between-setstate-and-replacestate-methods) |
-|102| [How to listen to state changes?](#how-to-listen-to-state-changes) |
+|95 | [In MySql , we use many types of engines which one is faster and why](#how-to-conditionally-apply-class-attributes) |
+|96 | [Triggers](#what-is-the-difference-between-react-and-reactdom) |
+|97 | [Procedures](#why-reactdom-is-separated-from-react) |
+|98 | [New feaatures of Laravel X](#how-to-use-react-label-element) |
+|99 | [New features of PHP X](#how-to-combine-multiple-inline-style-objects) |
+|100| [Difference between session and cookies](#how-to-re-render-the-view-when-the-browser-is-resized)
+|101| [Merge 2 arrays with duplicate](#what-is-the-difference-between-setstate-and-replacestate-methods) |
+|102| [Find the count of vowel and consonants](#how-to-listen-to-state-changes) |
 |103| [What is the recommended approach of removing an array element in react state?](#what-is-the-recommended-approach-of-removing-an-array-element-in-react-state) |
 |104| [Is it possible to use React without rendering HTML?](#is-it-possible-to-use-react-without-rendering-html) |
 |105| [How to pretty print JSON with React?](#how-to-pretty-print-json-with-react) |
