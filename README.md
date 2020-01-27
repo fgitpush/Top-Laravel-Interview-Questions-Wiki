@@ -109,48 +109,48 @@
 |100| [Difference between session and cookies](#how-to-re-render-the-view-when-the-browser-is-resized)
 |101| [Merge 2 arrays with duplicate](#what-is-the-difference-between-setstate-and-replacestate-methods) |
 |102| [Find the count of vowel and consonants](#how-to-listen-to-state-changes) |
-|103| [What is the recommended approach of removing an array element in react state?](#what-is-the-recommended-approach-of-removing-an-array-element-in-react-state) |
-|104| [Is it possible to use React without rendering HTML?](#is-it-possible-to-use-react-without-rendering-html) |
-|105| [How to pretty print JSON with React?](#how-to-pretty-print-json-with-react) |
-|106| [Why you can't update props in React?](#why-you-cant-update-props-in-react) |
-|107| [How to focus an input element on page load?](#how-to-focus-an-input-element-on-page-load) |
-|108| [What are the possible ways of updating objects in state?](#what-are-the-possible-ways-of-updating-objects-in-state) |
-|109| [Why function is preferred over object for setState?](#why-function-is-preferred-over-object-for-setstate) |
-|110| [How can we find the version of React at runtime in the browser?](#how-can-we-find-the-version-of-react-at-runtime-in-the-browser) |
-|111| [What are the approaches to include polyfills in your create-react-app?](#what-are-the-approaches-to-include-polyfills-in-your-create-react-app) |
-|112| [How to use https instead of http in create-react-app?](#how-to-use-https-instead-of-http-in-create-react-app) |
-|113| [How to avoid using relative path imports in create-react-app?](#how-to-avoid-using-relative-path-imports-in-create-react-app) |
+|103| [Explain AWS Services](#what-is-the-recommended-approach-of-removing-an-array-element-in-react-state) |
+|104| [How to do Web scraping?](#is-it-possible-to-use-react-without-rendering-html) |
+|105| [require and require once difference](#how-to-pretty-print-json-with-react) |
+|106| [include and require diffrence](#why-you-cant-update-props-in-react) |
+|107| [Directory structure of Laravel](#how-to-focus-an-input-element-on-page-load) |
+|108| [How to install Laravel via composer?](#what-are-the-possible-ways-of-updating-objects-in-state) |
+|109| [Which ORM are being used by laravel?](#why-function-is-preferred-over-object-for-setstate) |
+|110| [List types of relationships available in Laravel Eloquent?](#how-can-we-find-the-version-of-react-at-runtime-in-the-browser) |
+|111| [How to enable maintenance mode in Laravel?](#what-are-the-approaches-to-include-polyfills-in-your-create-react-app) |
+|112| [What is the purpose of using dd() function in laravel?](#how-to-use-https-instead-of-http-in-create-react-app) |
+|113| [How do you register a Service Provider?](#how-to-avoid-using-relative-path-imports-in-create-react-app) |
 |114| [How to add Google Analytics for react-router?](#how-to-add-google-analytics-for-react-router) |
-|115| [How to update a component every second?](#how-to-update-a-component-every-second) |
-|116| [How do you apply vendor prefixes to inline styles in React?](#how-do-you-apply-vendor-prefixes-to-inline-styles-in-react) |
-|117| [How to import and export components using react and ES6?](#how-to-import-and-export-components-using-react-and-es6) |
-|118| [Why React component names must begin with a capital letter?](#why-react-component-names-must-begin-with-a-capital-letter) |
-|119| [Why is a component constructor called only once?](#why-is-a-component-constructor-called-only-once) |
-|120| [How to define constants in React?](#how-to-define-constants-in-react) |
-|121| [How to programmatically trigger click event in React?](#how-to-programmatically-trigger-click-event-in-react) |
-|122| [Is it possible to use async/await in plain React?](#is-it-possible-to-use-asyncawait-in-plain-react) |
-|123| [What are the common folder structures for React?](#what-are-the-common-folder-structures-for-react) |
-|124| [What are the popular packages for animation?](#what-are-the-popular-packages-for-animation) |
-|125| [What is the benefit of styles modules?](#what-is-the-benefit-of-styles-modules) |
-|126| [What are the popular React-specific linters?](#what-are-the-popular-react-specific-linters) |
-|127| [How to make AJAX call and In which component lifecycle methods should I make an AJAX call?](#how-to-make-ajax-call-and-in-which-component-lifecycle-methods-should-i-make-an-ajax-call) |
-|128| [What are render props?](#what-are-render-props) |
+|115| [Helper Functions](#how-to-update-a-component-every-second) |
+|116| [What is Fillable Attribute in a Laravel Model?](#how-do-you-apply-vendor-prefixes-to-inline-styles-in-react) |
+|117| [What is Guarded Attribute in a Laravel Model?](#how-to-import-and-export-components-using-react-and-es6) |
+|118| [What are Closures in Laravel?](#why-react-component-names-must-begin-with-a-capital-letter) |
+|119| [How to get Logged in user info in Laravel?](#why-is-a-component-constructor-called-only-once) |
+|120| [What is Laravel Elixir?](#how-to-define-constants-in-react) |
+|121| [What is Laravel Mix?](#how-to-programmatically-trigger-click-event-in-react) |
+|122| [How can you display HTML with Blade in Laravel?](#is-it-possible-to-use-asyncawait-in-plain-react) |
+|123| [List out databases that laravel supports?](#what-are-the-common-folder-structures-for-react) |
+|124| [How to use custom table in Laravel Model?](#what-are-the-popular-packages-for-animation) |
+|125| [How To Use Select Query In Laravel? Eloquent and QB?](#what-is-the-benefit-of-styles-modules) |
+|126| [What are Accessors and Mutators in Eloquent and why should you use them?](#what-are-the-popular-react-specific-linters) |
+|127| [How do I log an error?](#how-to-make-ajax-call-and-in-which-component-lifecycle-methods-should-i-make-an-ajax-call) |
+|128| [What is Monolog library in Laravel?](#what-are-render-props) |
 |   | **React Router** |
-|129| [What is React Router?](#what-is-react-router) |
-|130| [How React Router is different from history library?](#how-react-router-is-different-from-history-library) |
-|131| [What are the \<Router> components of React Router v4?](#what-are-the-router-components-of-react-router-v4) |
-|132| [What is the purpose of push and replace methods of history?](#what-is-the-purpose-of-push-and-replace-methods-of-history) |
-|133| [How do you programmatically navigate using React router v4?](#how-do-you-programmatically-navigate-using-react-router-v4) |
-|134| [How to get query parameters in React Router v4](#how-to-get-query-parameters-in-react-router-v4) |
-|135| [Why you get "Router may have only one child element" warning?](#why-you-get-router-may-have-only-one-child-element-warning) |
-|136| [How to pass params to history.push method in React Router v4?](#how-to-pass-params-to-historypush-method-in-react-router-v4) |
-|137| [How to implement default or NotFound page?](#how-to-implement-default-or-notfound-page) |
-|138| [How to get history on React Router v4?](#how-to-get-history-on-react-router-v4) |
-|139| [How to perform automatic redirect after login?](#how-to-perform-automatic-redirect-after-login) |
+|129| [Exceptions are handled by which class in Laravel?](#what-is-react-router) |
+|130| [What is Serialization in Laravel?](#how-react-router-is-different-from-history-library) |
+|131| [What is Response in Laravel?](#what-are-the-router-components-of-react-router-v4) |
+|132| [What is Response Macros in Laravel?](#what-is-the-purpose-of-push-and-replace-methods-of-history) |
+|133| [What is Rate Limiting OR Throttle in Laravel?](#how-do-you-programmatically-navigate-using-react-router-v4) |
+|134| [What is Lazy vs Eager Loading in Laravel?](#how-to-get-query-parameters-in-react-router-v4) |
+|135| [How to get current environment in Laravel?](#why-you-get-router-may-have-only-one-child-element-warning) |
+|136| [How to use custom table in Laravel Model ?](#how-to-pass-params-to-historypush-method-in-react-router-v4) |
+|137| [What is Binding?](#how-to-implement-default-or-notfound-page) |
+|138| [Explain Binding A Singleton?](#how-to-get-history-on-react-router-v4) |
+|139| [Explain Binding Instances?](#how-to-perform-automatic-redirect-after-login) |
 |   | **React Internationalization** |
-|140| [What is React-Intl?](#what-is-react-intl) |
-|141| [What are the main features of React Intl?](#what-are-the-main-features-of-react-intl) |
-|142| [What are the two ways of formatting in React Intl?](#what-are-the-two-ways-of-formatting-in-react-intl) |
+|140| [Explain Binding Primitives?](#what-is-react-intl) |
+|141| [Explain Contextual Binding and how does it work?](#what-are-the-main-features-of-react-intl) |
+|142| [What is Tagging?](#what-are-the-two-ways-of-formatting-in-react-intl) |
 |143| [How to use FormattedMessage as placeholder using React Intl?](#how-to-use-formattedmessage-as-placeholder-using-react-intl) |
 |144| [How to access current locale with React Intl](#how-to-access-current-locale-with-react-intl) |
 |145| [How to format date using React Intl?](#how-to-format-date-using-react-intl) |
