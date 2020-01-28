@@ -345,10 +345,9 @@ A model is where you write the database logic.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-6. ### When to use a Class Component over a Function Component?
+6. ### When are Migrations?
 
-    If the component needs *state or lifecycle methods* then use class component otherwise use function component.
-    *However, from React 16.8 with the addition of Hooks, you could use state , lifecycle  methods and other features that were only available in class component right in your function component.*
+Migrations help us keep SQL tables in code. When we have to setup the DB, we just run the migration.
 
 
    **[⬆ Back to Top](#table-of-contents)**
