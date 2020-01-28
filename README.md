@@ -319,9 +319,9 @@ A model is where you write the database logic.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-5. ### How to create components in React?
+5. ### What is Request/Response?
 
-    There are two possible ways to create a component.
+    When we type a URL, a request is sent to the server. The server goes from /public to bootstrap folder from which is goes to the routes file. The route files sends it the right controller/view.
 
     1. **Function Components:** This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as first parameter and return React elements:
 
