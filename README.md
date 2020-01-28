@@ -239,7 +239,7 @@
 
    **[⬆ Back to Top](#table-of-contents)**
     
-2. ### What are the major features of React?
+2. ### What is Controller?
 
 Controller is the place where we write the logic of the program.
 
