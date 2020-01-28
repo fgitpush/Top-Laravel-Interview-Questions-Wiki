@@ -151,61 +151,61 @@
 |140| [Explain Binding Primitives?](#what-is-react-intl) |
 |141| [Explain Contextual Binding and how does it work?](#what-are-the-main-features-of-react-intl) |
 |142| [What is Tagging?](#what-are-the-two-ways-of-formatting-in-react-intl) |
-|143| [How to use FormattedMessage as placeholder using React Intl?](#how-to-use-formattedmessage-as-placeholder-using-react-intl) |
-|144| [How to access current locale with React Intl](#how-to-access-current-locale-with-react-intl) |
-|145| [How to format date using React Intl?](#how-to-format-date-using-react-intl) |
+|143| [Explain Extending Bindings?](#how-to-use-formattedmessage-as-placeholder-using-react-intl) |
+|144| [What is the make Method?](#how-to-access-current-locale-with-react-intl) |
+|145| [How to clear cache in Laravel?](#how-to-format-date-using-react-intl) |
 |   | **React Testing** |
-|146| [What is Shallow Renderer in React testing?](#what-is-shallow-renderer-in-react-testing) |
-|147| [What is TestRenderer package in React?](#what-is-testrenderer-package-in-react) |
-|148| [What is the purpose of ReactTestUtils package?](#what-is-the-purpose-of-reacttestutils-package) |
-|149| [What is Jest?](#what-is-jest) |
-|150| [What are the advantages of Jest over Jasmine?](#what-are-the-advantages-of-jest-over-jasmine) |
-|151| [Give a simple example of Jest test case](#give-a-simple-example-of-jest-test-case) |
+|146| [What is CSRF token?](#what-is-shallow-renderer-in-react-testing) |
+|147| [How will you explain homestead in Laravel?](#what-is-testrenderer-package-in-react) |
+|148| [How can we get the user's IP address in Laravel?](#what-is-the-purpose-of-reacttestutils-package) |
+|149| [How will you create a helper file in Laravel?](#what-is-jest) |
+|150| [How can we create a record in Laravel using eloquent?](#what-are-the-advantages-of-jest-over-jasmine) |
+|151| [How can we get the user's IP address in Laravel?](#give-a-simple-example-of-jest-test-case) |
 |   | **React Redux** |
-|152| [What is Flux?](#what-is-flux) |
-|153| [What is Redux?](#what-is-redux) |
-|154| [What are the core principles of Redux?](#what-are-the-core-principles-of-redux) |
-|155| [What are the downsides of Redux compared to Flux?](#what-are-the-downsides-of-redux-compared-to-flux) |
-|156| [What is the difference between mapStateToProps() and mapDispatchToProps()?](#what-is-the-difference-between-mapstatetoprops-and-mapdispatchtoprops) |
-|157| [Can I dispatch an action in reducer?](#can-i-dispatch-an-action-in-reducer) |
-|158| [How to access Redux store outside a component?](#how-to-access-redux-store-outside-a-component) |
-|159| [What are the drawbacks of MVW pattern](#what-are-the-drawbacks-of-mvw-pattern) |
-|160| [Are there any similarities between Redux and RxJS?](#are-there-any-similarities-between-redux-and-rxjs) |
-|161| [How to dispatch an action on load?](#how-to-dispatch-an-action-on-load) |
-|162| [How to use connect from React Redux?](#how-to-use-connect-from-react-redux) |
-|163| [How to reset state in Redux?](#how-to-reset-state-in-redux) |
-|164| [Whats the purpose of at symbol in the redux connect decorator?](#whats-the-purpose-of-at-symbol-in-the-redux-connect-decorator) |
-|165| [What is the difference between React context and React Redux?](#what-is-the-difference-between-react-context-and-react-redux) |
-|166| [Why are Redux state functions called reducers?](#why-are-redux-state-functions-called-reducers) |
-|167| [How to make AJAX request in Redux?](#how-to-make-ajax-request-in-redux) |
-|168| [Should I keep all component's state in Redux store?](#should-i-keep-all-components-state-in-redux-store) |
-|169| [What is the proper way to access Redux store?](#what-is-the-proper-way-to-access-redux-store) |
-|170| [What is the difference between component and container in React Redux?](#what-is-the-difference-between-component-and-container-in-react-redux) |
-|171| [What is the purpose of the constants in Redux? ](#what-is-the-purpose-of-the-constants-in-redux) |
-|172| [What are the different ways to write mapDispatchToProps()?](#what-are-the-different-ways-to-write-mapdispatchtoprops) |
-|173| [What is the use of the ownProps parameter in mapStateToProps() and mapDispatchToProps()?](#what-is-the-use-of-the-ownprops-parameter-in-mapstatetoprops-and-mapdispatchtoprops) |
-|174| [How to structure Redux top level directories?](#how-to-structure-redux-top-level-directories) |
-|175| [What is redux-saga?](#what-is-redux-saga) |
-|176| [What is the mental model of redux-saga?](#what-is-the-mental-model-of-redux-saga) |
-|177| [What are the differences between call and put in redux-saga](#what-are-the-differences-between-call-and-put-in-redux-saga) |
-|178| [What is Redux Thunk?](#what-is-redux-thunk) |
-|179| [What are the differences between redux-saga and redux-thunk](#what-are-the-differences-between-redux-saga-and-redux-thunk) |
-|180| [What is Redux DevTools?](#what-is-redux-devtools) |
-|181| [What are the features of Redux DevTools?](#what-are-the-features-of-redux-devtools) |
-|182| [What are Redux selectors and Why to use them?](#what-are-redux-selectors-and-why-to-use-them) |
-|183| [What is Redux Form?](#what-is-redux-form) |
-|184| [What are the main features of Redux Form?](#what-are-the-main-features-of-redux-form) |
-|185| [How to add multiple middlewares to Redux?](#how-to-add-multiple-middlewares-to-redux) |
-|186| [How to set initial state in Redux?](#how-to-set-initial-state-in-redux) |
-|187| [How Relay is different from Redux?](#how-relay-is-different-from-redux) |
+|152| [What is faker in Laravel?](#what-is-flux) |
+|153| [What are active records?](#what-is-redux) |
+|154| [What are the difference between insert() and insertGetId() in laravel?](#what-are-the-core-principles-of-redux) |
+|155| [Laravel Vapor Compatibility](#what-are-the-downsides-of-redux-compared-to-flux) |
+|156| [What is Semantic Versioning?](#what-is-the-difference-between-mapstatetoprops-and-mapdispatchtoprops) |
+|157| [Job Middleware](#can-i-dispatch-an-action-in-reducer) |
+|158| [Laravel User Interface (UI)](#how-to-access-redux-store-outside-a-component) |
+|159| [Eloquent Subquery Enhancements](#what-are-the-drawbacks-of-mvw-pattern) |
+|160| [Improved Authorization Responses](#are-there-any-similarities-between-redux-and-rxjs) |
+|161| [Lazy Collections](#how-to-dispatch-an-action-on-load) |
+|162| [How to make a constant and use globally?](#how-to-use-connect-from-react-redux) |
+|163| [How to remove /public from URL in laravel?](#how-to-reset-state-in-redux) |
+|164| [What are the difference between soft delete & delete in Laravel?](#whats-the-purpose-of-at-symbol-in-the-redux-connect-decorator) |
+|165| [How we can upload files in laravel?](#what-is-the-difference-between-react-context-and-react-redux) |
+|166| [How to create real time sitemap.xml file in Laravel?](#why-are-redux-state-functions-called-reducers) |
+|167| [How to use skip() and take() in Laravel Query?](#how-to-make-ajax-request-in-redux) |
+|168| [What is tinker in laravel?](#should-i-keep-all-components-state-in-redux-store) |
+|169| [What is a REPL?](#what-is-the-proper-way-to-access-redux-store) |
+|170| [How to use multiple OR condition in Laravel Query?](#what-is-the-difference-between-component-and-container-in-react-redux) |
+|171| [Please write some additional where Clauses in Laravel?](#what-is-the-purpose-of-the-constants-in-redux) |
+|172| [How to check column is exists or not in a table using Laravel?](#what-are-the-different-ways-to-write-mapdispatchtoprops) |
+|173| [What is eager loading in Laravel?](#what-is-the-use-of-the-ownprops-parameter-in-mapstatetoprops-and-mapdispatchtoprops) |
+|174| [How to generate application key in laravel?](#how-to-structure-redux-top-level-directories) |
+|175| [What is LTS version of Laravel?](#what-is-redux-saga) |
+|176| [How to use GROUP_CONCAT() with JOIN in Laravel?](#what-is-the-mental-model-of-redux-saga) |
+|177| [How to extend login expire time in Auth?](#what-are-the-differences-between-call-and-put-in-redux-saga) |
+|178| [How to extend a layout file in laravel view?](#what-is-redux-thunk) |
+|179| [How do you use yield()?](#what-are-the-differences-between-redux-saga-and-redux-thunk) |
+|180| [How to redirect form controller to view file in laravel?](#what-is-redux-devtools) |
+|181| [How to get current route name?](#what-are-the-features-of-redux-devtools) |
+|182| [What is ACL in laravel?](#what-are-redux-selectors-and-why-to-use-them) |
+|183| [How to check Ajax request in Laravel?](#what-is-redux-form) |
+|184| [How to check if value is sent in request?](#what-are-the-main-features-of-redux-form) |
+|185| [Laravel String Helper functions?](#how-to-add-multiple-middlewares-to-redux) |
+|186| [Laravel Array Helper functions?](#how-to-set-initial-state-in-redux) |
+|187| [How to exclude a route with parameters from CSRF verification?](#how-relay-is-different-from-redux) |
 |   | **React Native** |
-|188| [What is the difference between React Native and React?](#what-is-the-difference-between-react-native-and-react) |
-|189| [How to test React Native apps?](#how-to-test-react-native-apps) |
-|190| [How to do logging in React Native?](#how-to-do-logging-in-react-native) |
-|191| [How to debug your React Native?](#how-to-debug-your-react-native) |
+|188| [What are policies classes?](#what-is-the-difference-between-react-native-and-react) |
+|189| [How to rollback last migration?](#how-to-test-react-native-apps) |
+|190| [What do you mean by Laravel Dusk?](#how-to-do-logging-in-react-native) |
+|191| [Explain Laravel echo](#how-to-debug-your-react-native) |
 |   | **React supported libraries and Integration** |
-|192| [What is reselect and how it works?](#what-is-reselect-and-how-it-works) |
-|193| [What is Flow?](#what-is-flow) |
+|192| [What is namespace in Laravel?](#what-is-reselect-and-how-it-works) |
+|193| [What is Laravel Forge?](#what-is-flow) |
 |194| [What is the difference between Flow and PropTypes?](#what-is-the-difference-between-flow-and-proptypes) |
 |195| [How to use font-awesome icons in React?](#how-to-use-font-awesome-icons-in-react) |
 |196| [What is React Dev Tools?](#what-is-react-dev-tools) |
