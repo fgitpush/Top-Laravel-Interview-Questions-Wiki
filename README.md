@@ -267,9 +267,9 @@ Controller is the place where we write the logic of the program.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-4. ### What is the difference between Element and Component?
+4. ### 	What are Model?
 
-    An *Element* is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components. *Elements* can contain other *Elements* in their props. Creating a React element is cheap. Once an element is created, it is never mutated.
+A model is where you write the database logic.
 
     The object representation of React Element would be as follows:
 
