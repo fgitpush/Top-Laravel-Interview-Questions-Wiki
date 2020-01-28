@@ -352,9 +352,9 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
 
    **[⬆ Back to Top](#table-of-contents)**
     
-7. ### What are Pure Components?
+7. ### What are Service Providers?
 
-    *`React.PureComponent`* is exactly the same as *`React.Component`* except that it handles the `shouldComponentUpdate()` method for you. When props or state changes, *PureComponent* will do a shallow comparison on both props and state. *Component* on the other hand won't compare current props and state to next out of the box. Thus, the component will re-render by default whenever `shouldComponentUpdate` is called.
+  Service providers are responsible for booting and configuration (binding all resources.)
 
 
    **[⬆ Back to Top](#table-of-contents)**
