@@ -359,9 +359,9 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
 
    **[⬆ Back to Top](#table-of-contents)**
     
-8. ### What is state in React?
+8. ### What is Middleware?
 
-    *State* of a component is an object that holds some information that may change over the lifetime of the component. We should always try to make our state as simple as possible and minimize the number of stateful components. Let's create an user component with message state,
+  Middleware checks for authentication.
 
 
     ```jsx harmony
