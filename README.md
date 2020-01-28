@@ -241,12 +241,7 @@
     
 2. ### What are the major features of React?
 
-    The major features of React are:
-
-    * It uses **VirtualDOM** instead RealDOM considering that RealDOM manipulations are expensive.
-    * Supports **server-side rendering**.
-    * Follows **Unidirectional** data flow or data binding.
-    * Uses **reusable/composable** UI components to develop the view.
+Controller is the place where we write the logic of the program.
 
 
    **[⬆ Back to Top](#table-of-contents)**
