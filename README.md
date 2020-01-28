@@ -228,13 +228,13 @@
 |212| [Whats CSRF and JWT token?](#how-redux-form-initialvalues-get-updated-from-state) |
 
 
-## Core React
+## Core Laravel
 
 
     
-1. ### What is React?
+1. ### What is Routing?
 
-    React is an **open-source frontend JavaScript library** which is used for building user interfaces especially for single page applications. It is used for handling view layer for web and mobile apps. React was created by [Jordan Walke](https://github.com/jordwalke), a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
+  When a user enters a URL, it gets send to a routes file. Laravel contains a routes.php file where it matches it with the right controller/view.
 
 
    **[⬆ Back to Top](#table-of-contents)**
