@@ -9,8 +9,8 @@
 |   | **Core Laravel** |
 |1  | [What is Routing?](#what-is-react) |
 |2  | [What is Controller?](#what-are-the-major-features-of-react) |
-|3  | [What is Views?](#what-is-jsx) |
-|4  | [What is Model?](#what-is-the-difference-between-element-and-component) |
+|3  | [What are Views?](#what-is-jsx) |
+|4  | [What are Model?](#what-is-the-difference-between-element-and-component) |
 |5  | [What is Request/Response?](#how-to-create-components-in-react) |
 |6  | [When are Migrations?](#when-to-use-a-class-component-over-a-function-component) |
 |7  | [What are Seeders?](#what-are-pure-components) |
@@ -246,9 +246,9 @@ Controller is the place where we write the logic of the program.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-3. ### What is JSX?
+3. ### What are Views?
 
-    *JSX* is a XML-like syntax extension to ECMAScript (the acronym stands for *JavaScript XML*). Basically it just provides syntactic sugar for the `React.createElement()` function, giving us expressiveness of JavaScript along with HTML like template syntax.
+  Views is the fornt end of Laravel.
 
     In the example below text inside `<h1>` tag return as JavaScript function to the render function.
 
