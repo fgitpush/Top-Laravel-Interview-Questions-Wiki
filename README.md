@@ -769,7 +769,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-25. ### How Virtual DOM works?
+25. ### HWhat Payments and cashier
 
     The *Virtual DOM* works in three simple steps.
 
