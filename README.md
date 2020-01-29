@@ -736,7 +736,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-23. ### Why are String Refs legacy?
+23. ### What are Events?
 
     If you worked with React before, you might be familiar with an older API where the `ref` attribute is a string, like `ref={'textInput'}`, and the DOM node is accessed as `this.refs.textInput`. We advise against it because *string refs have below issues*, and are considered legacy. String refs were **removed in React v16**.
 
