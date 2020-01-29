@@ -539,7 +539,8 @@ Repository pattern is used to create templates where implementation details are 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-15. ### How to pass a parameter to an event handler or callback?
+15. ### What Unit testing?
+Testing every function
 
     You can use an *arrow function* to wrap around an *event handler* and pass parameters:
 
