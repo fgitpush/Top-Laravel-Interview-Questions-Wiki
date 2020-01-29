@@ -423,9 +423,9 @@ Object oriented and Model based way of DB query
 
    **[⬆ Back to Top](#table-of-contents)**
     
-11. ### Why should we not update the state directly?
+11. ### What is Query Builder?
 
-    If you try to update state directly then it won't re-render the component.
+   A database wrapper that makes it easy to access DB.
 
     ```javascript
     //Wrong
