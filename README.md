@@ -444,9 +444,9 @@ Object oriented and Model based way of DB query
 
    **[⬆ Back to Top](#table-of-contents)**
     
-12. ### What is the purpose of callback function as an argument of `setState()`?
+12. ###  What is Facades?
 
-    The callback function is invoked when setState finished and the component gets rendered. Since `setState()` is **asynchronous** the callback function is used for any post action.
+Facades are used to hide implementation details and complexities from end user making him/her feel like interacting with a black box.
 
     **Note:** It is recommended to use lifecycle method rather than this callback function.
 
