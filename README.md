@@ -678,7 +678,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-21. ### What are forward refs?
+21. ### Which is Error management?
 
     *Ref forwarding* is a feature that lets some components take a *ref* they receive, and pass it further down to a child.
 
