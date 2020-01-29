@@ -697,7 +697,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-22. ### Which is preferred option with in callback refs and findDOMNode()?
+22. ### What is API creation?
 
     It is preferred to use *callback refs* over `findDOMNode()` API. Because `findDOMNode()` prevents certain improvements in React in the future.
 
