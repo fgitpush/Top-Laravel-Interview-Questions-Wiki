@@ -393,7 +393,7 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
     
 9. ### What is ORM?
 
-Wrapper around query builder that makes it even easier to write queries.
+Object oriented and Model based way of DB query
 
     The primary purpose of props in React is to provide following component functionality:
 
