@@ -391,9 +391,9 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
 
    **[⬆ Back to Top](#table-of-contents)**
     
-9. ### What are props in React?
+9. ### What is ORM?
 
-    *Props* are inputs to components. They are single values or objects containing a set of values that are passed to components on creation using a naming convention similar to HTML-tag attributes. They are data passed down from a parent component to a child component.
+Wrapper around query builder that makes it even easier to write queries.
 
     The primary purpose of props in React is to provide following component functionality:
 
