@@ -493,7 +493,7 @@ Repository pattern is used to create templates where implementation details are 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-14. ### How to bind methods or event handlers in JSX callbacks?
+14. ### What is Security (Authentication using Passport, CSRF, XSRF etc)?
 
     There are 3 possible ways to achieve this:
 
