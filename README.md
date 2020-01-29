@@ -632,7 +632,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-20. ### How to create refs?
+20. ### What are Advanced Eloquent and Query Builder?
 
     There are two approaches
     1. This is a recently added approach. *Refs* are created using `React.createRef()` method and attached to React elements via the `ref` attribute. In order to use *refs* throughout the component, just assign the *ref* to the instance property within constructor.
