@@ -564,7 +564,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-16. ### What are synthetic events in React?
+16. ### What is Caching?
 
     `SyntheticEvent` is a cross-browser wrapper around the browser's native event. It's API is same as the browser's native event, including `stopPropagation()` and `preventDefault()`, except the events work identically across all browsers.
 
