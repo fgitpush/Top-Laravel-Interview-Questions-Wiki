@@ -571,7 +571,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-17. ### What is inline conditional expressions?
+17. ### What is Unit Testing?
 
     You can use either *if statements* or *ternary expressions* which are available from JS to conditionally render expressions. Apart from these approaches, you can also embed any expressions in JSX by wrapping them in curly braces and then followed by JS logical operator `&&`.
 
