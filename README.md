@@ -457,8 +457,9 @@ Facades are used to hide implementation details and complexities from end user m
 
    **[⬆ Back to Top](#table-of-contents)**
     
-13. ### What is the difference between HTML and React event handling?
+13. ### What is Repository Pattern?
 
+Repository pattern is used to create templates where implementation details are left to be implemented in child classes. It helps with further expansion of code and avoid bottlenecks in class updation.
     1. In HTML, the event name should be in *lowercase*:
 
     ```html
