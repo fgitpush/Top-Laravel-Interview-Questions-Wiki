@@ -63,7 +63,7 @@
 |54 | [System requirements for Laravel](#what-are-error-boundaries-in-react-v16) |
 |55 | [Aggregate methods in query builder](#how-error-boundaries-handled-in-react-v15) |
 |56 | [Singelton design pattern](#what-are-the-recommended-ways-for-static-type-checking) |
-|57 | [Reverse routing](#what-is-the-use-of-react-dom-package) |
+|57 | [Reverse routing](#what-is-the-use-of-react-dom-package) | 
 |58 | [Popular composer packages](#what-is-the-purpose-of-render-method-of-react-dom) |
 |59 | [How to get the data from more than 3 table without use join ?Answer: Subquery, union.](#what-is-reactdomserver) |
 |60 | [List artisan commands](#how-to-use-innerhtml-in-react) |
