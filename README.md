@@ -769,7 +769,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-25. ### HWhat Payments and cashier
+25. ### What Payments and cashier
 
     The *Virtual DOM* works in three simple steps.
 
@@ -792,21 +792,21 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-27. ### What is React Fiber?
+27. ### What is Package development?
 
     Fiber is the new *reconciliation* engine or reimplementation of core algorithm in React v16. The goal of React Fiber is to increase its suitability for areas like animation, layout, gestures, ability to pause, abort, or reuse work and assign priority to different types of updates; and new concurrency primitives.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-28. ### What is the main goal of React Fiber?
+28. ### Laravel Scout search and algoliar?
 
     The goal of *React Fiber* is to increase its suitability for areas like animation, layout, and gestures. Its headline feature is **incremental rendering**: the ability to split rendering work into chunks and spread it out over multiple frames.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-29. ### What are controlled components?
+29. ### Socialie and Auth?
 
     A component that controls the input elements within the forms on subsequent user input is called **Controlled Component**, i.e, every state mutation will have an associated handler function.
 
