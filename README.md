@@ -859,7 +859,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-31. ### What is the difference between createElement and cloneElement?
+31. ### Connecting other SQL databases
 
     JSX elements will be transpiled to `React.createElement()` functions to create React elements which are going to be used for the object representation of UI. Whereas `cloneElement` is used to clone an element and pass it new props.
 
