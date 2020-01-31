@@ -6,7 +6,6 @@
 
 | No. | Questions |
 | --- | --------- |
-|   | **Core Laravel** |
 |1  | [What is Routing?](#what-is-react) |
 |2  | [What is Controller?](#what-are-the-major-features-of-react) |
 |3  | [What are Views?](#what-is-jsx) |
