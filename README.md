@@ -135,7 +135,6 @@
 |126| [What are Accessors and Mutators in Eloquent and why should you use them?](#what-are-the-popular-react-specific-linters) |
 |127| [How do I log an error?](#how-to-make-ajax-call-and-in-which-component-lifecycle-methods-should-i-make-an-ajax-call) |
 |128| [What is Monolog library in Laravel?](#what-are-render-props) |
-|   | **React Router** |
 |129| [Exceptions are handled by which class in Laravel?](#what-is-react-router) |
 |130| [What is Serialization in Laravel?](#how-react-router-is-different-from-history-library) |
 |131| [What is Response in Laravel?](#what-are-the-router-components-of-react-router-v4) |
@@ -147,21 +146,18 @@
 |137| [What is Binding?](#how-to-implement-default-or-notfound-page) |
 |138| [Explain Binding A Singleton?](#how-to-get-history-on-react-router-v4) |
 |139| [Explain Binding Instances?](#how-to-perform-automatic-redirect-after-login) |
-|   | **React Internationalization** |
 |140| [Explain Binding Primitives?](#what-is-react-intl) |
 |141| [Explain Contextual Binding and how does it work?](#what-are-the-main-features-of-react-intl) |
 |142| [What is Tagging?](#what-are-the-two-ways-of-formatting-in-react-intl) |
 |143| [Explain Extending Bindings?](#how-to-use-formattedmessage-as-placeholder-using-react-intl) |
 |144| [What is the make Method?](#how-to-access-current-locale-with-react-intl) |
 |145| [How to clear cache in Laravel?](#how-to-format-date-using-react-intl) |
-|   | **React Testing** |
 |146| [What is CSRF token?](#what-is-shallow-renderer-in-react-testing) |
 |147| [How will you explain homestead in Laravel?](#what-is-testrenderer-package-in-react) |
 |148| [How can we get the user's IP address in Laravel?](#what-is-the-purpose-of-reacttestutils-package) |
 |149| [How will you create a helper file in Laravel?](#what-is-jest) |
 |150| [How can we create a record in Laravel using eloquent?](#what-are-the-advantages-of-jest-over-jasmine) |
 |151| [How can we get the user's IP address in Laravel?](#give-a-simple-example-of-jest-test-case) |
-|   | **React Redux** |
 |152| [What is faker in Laravel?](#what-is-flux) |
 |153| [What are active records?](#what-is-redux) |
 |154| [What are the difference between insert() and insertGetId() in laravel?](#what-are-the-core-principles-of-redux) |
@@ -198,12 +194,10 @@
 |185| [Laravel String Helper functions?](#how-to-add-multiple-middlewares-to-redux) |
 |186| [Laravel Array Helper functions?](#how-to-set-initial-state-in-redux) |
 |187| [How to exclude a route with parameters from CSRF verification?](#how-relay-is-different-from-redux) |
-|   | **React Native** |
 |188| [What are policies classes?](#what-is-the-difference-between-react-native-and-react) |
 |189| [How to rollback last migration?](#how-to-test-react-native-apps) |
 |190| [What do you mean by Laravel Dusk?](#how-to-do-logging-in-react-native) |
 |191| [Explain Laravel echo](#how-to-debug-your-react-native) |
-|   | **React supported libraries and Integration** |
 |192| [What is namespace in Laravel?](#what-is-reselect-and-how-it-works) |
 |193| [What is Laravel Forge?](#what-is-flow) |
 |194| [State the difference between CodeIgniter and Laravel.](#what-is-the-difference-between-flow-and-proptypes) |
@@ -218,7 +212,6 @@
 |203| [How to generate a request in Laravel?](#give-an-example-of-styled-components) |
 |204| [I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?](#what-is-relay) |
 |205| [How to assign a variable value for all view file?](#how-to-use-typescript-in-create-react-app-application) |
-|   | **Miscellaneous** |
 |206| [How to make a constant and use globally?](#what-are-the-main-features-of-reselect-library) |
 |207| [How to check current installed version of Laravel?](#give-an-example-of-reselect-usage) |
 |208| [](#what-is-an-action-in-redux) |
