@@ -214,11 +214,10 @@
 |205| [How to assign a variable value for all view file?](#how-to-use-typescript-in-create-react-app-application) |
 |206| [How to make a constant and use globally?](#what-are-the-main-features-of-reselect-library) |
 |207| [How to check current installed version of Laravel?](#give-an-example-of-reselect-usage) |
-|208| [](#what-is-an-action-in-redux) |
-|209| [What does "composer dump-autoload" do?](#does-the-statics-object-work-with-es6-classes-in-react) |
-|210| [What is Kept in vendor directory of Laravel?](#can-redux-only-be-used-with-react) |
-|211| [What does PHP compact function do?](#do-you-need-to-have-a-particular-build-tool-to-use-redux) |
-|212| [Whats CSRF and JWT token?](#how-redux-form-initialvalues-get-updated-from-state) |
+|208| [What does "composer dump-autoload" do?](#what-is-an-action-in-redux) |
+|209| [What is Kept in vendor directory of Laravel?](#does-the-statics-object-work-with-es6-classes-in-react) |
+|210| [What does PHP compact function do?](#can-redux-only-be-used-with-react) |
+|211| [Whats CSRF and JWT token?](#do-you-need-to-have-a-particular-build-tool-to-use-redux) |
 
 
 ## Core Laravel
