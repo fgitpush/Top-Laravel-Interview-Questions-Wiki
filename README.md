@@ -28,47 +28,47 @@
 |20 | [What are Jobs?](#how-to-create-refs)
 |21 | [What is Advanced Eloquent and Query Builder?](#what-are-forward-refs) |
 |22 | [Which is Error management?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode) |
-|23 | [How to create API?](#why-are-string-refs-legacy) |
+|23 | [How to create an API?](#why-are-string-refs-legacy) |
 |24 | [What are Events?](#what-is-virtual-dom) |
 |25 | [What are Listeners?](#how-virtual-dom-works) |
 |26 | [What are Payments and cashier](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
 |27 | [What is Test Driven Development?](#what-is-react-fiber) |
 |28 | [What is Package development?](#what-is-the-main-goal-of-react-fiber) |
-|29 | [Laravel Scout search and algolia](#what-are-controlled-components) |
-|30 | [Socialie and Auth?](#what-are-uncontrolled-components) |
-|31 | [Vue.js?](#what-is-the-difference-between-createelement-and-cloneelement) |
-|32 | [Connecting other SQL databases](#what-is-lifting-state-up-in-react) |
-|33 | [Connecting non-SQL databases](#what-are-the-different-phases-of-component-lifecycle) |
-|34 | [Lumen](#what-are-the-lifecycle-methods-of-react) |
-|35 | [Redis](#what-are-higher-order-components) |
-|36 | [Memcache](#how-to-create-props-proxy-for-hoc-component) |
-|37 | [Horizontal scaling](#what-is-context) |
-|38 | [Vertical scaling](#what-is-children-prop) |
+|29 | [What is Laravel Scout search and Algolia](#what-are-controlled-components) |
+|30 | [What is Socialie and Auth?](#what-are-uncontrolled-components) |
+|31 | [What is Vue.js?](#what-is-the-difference-between-createelement-and-cloneelement) |
+|32 | [Connecting Laravel with other SQL databases](#what-is-lifting-state-up-in-react) |
+|33 | [Connecting Laravel with Connecting non-SQL databases](#what-are-the-different-phases-of-component-lifecycle) |
+|34 | [What is Lumen?](#what-are-the-lifecycle-methods-of-react) |
+|35 | [What is Redis](#what-are-higher-order-components) |
+|36 | [What is Memcache](#how-to-create-props-proxy-for-hoc-component) |
+|37 | [What is Horizontal scaling](#what-is-context) |
+|38 | [What is Vertical scaling](#what-is-children-prop) |
 |39 | [What are Single Page Applications in Laravel](#how-to-write-comments-in-react) |
 |40 | [What are Microservices in Laravel](#what-is-the-purpose-of-using-super-constructor-with-props-argument) |
-|41 | [What is reconciliation?](#what-is-reconciliation) |
-|42 | [What isService Oriented Architecture in Laravel](#how-to-set-state-with-a-dynamic-key-name) |
-|43 | [Validations and custom validations](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders) |
-|44 | [Composer](#is-lazy-function-supports-named-exports) |
-|45 | [Symfony](#why-react-uses-classname-over-class-attribute) |
-|46 | [Route caching](#what-are-fragments) |
-|47 | [Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon](#why-fragments-are-better-than-container-divs) |
-|48 | [Named routes](#what-are-portals-in-react) |
-|49 | [Dependency injection in Laravel](#what-are-stateless-components) |
-|50 | [Laravel contracts?](#what-are-stateful-components) |
-|51 | [Query log](#how-to-apply-validation-on-props-in-react) |
-|52 | [Laravel Traits](#what-are-the-advantages-of-react) |
-|53 | [Bundles in Laravel](#what-are-the-limitations-of-react) |
-|54 | [System requirements for Laravel](#what-are-error-boundaries-in-react-v16) |
-|55 | [Aggregate methods in query builder](#how-error-boundaries-handled-in-react-v15) |
-|56 | [Singelton design pattern](#what-are-the-recommended-ways-for-static-type-checking) |
-|57 | [Reverse routing](#what-is-the-use-of-react-dom-package) | 
-|58 | [Popular composer packages](#what-is-the-purpose-of-render-method-of-react-dom) |
+|41 | [What is Reconciliation?](#what-is-reconciliation) |
+|42 | [What is Service Oriented Architecture in Laravel](#how-to-set-state-with-a-dynamic-key-name) |
+|43 | [What are Validations and custom validations](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders) |
+|44 | [What is Composer](#is-lazy-function-supports-named-exports) |
+|45 | [What is Symfony](#why-react-uses-classname-over-class-attribute) |
+|46 | [What is Route caching](#what-are-fragments) |
+|47 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon](#why-fragments-are-better-than-container-divs) |
+|48 | [What are Named routes](#what-are-portals-in-react) |
+|49 | [What is Dependency injection in Laravel](#what-are-stateless-components) |
+|50 | [What are Laravel contracts?](#what-are-stateful-components) |
+|51 | [What is Query log](#how-to-apply-validation-on-props-in-react) |
+|52 | [What is Laravel Traits](#what-are-the-advantages-of-react) |
+|53 | [What arfe Bundles in Laravel](#what-are-the-limitations-of-react) |
+|54 | [What are System requirements for Laravel](#what-are-error-boundaries-in-react-v16) |
+|55 | [What are Aggregate methods in query builder](#how-error-boundaries-handled-in-react-v15) |
+|56 | [What is Singelton design pattern](#what-are-the-recommended-ways-for-static-type-checking) |
+|57 | [What is Reverse routing](#what-is-the-use-of-react-dom-package) | 
+|58 | [What arfe Popular composer packages](#what-is-the-purpose-of-render-method-of-react-dom) |
 |59 | [How to get the data from more than 3 table without use join ?Answer: Subquery, union.](#what-is-reactdomserver) |
 |60 | [List artisan commands](#how-to-use-innerhtml-in-react) |
-|61 | [Session](#how-to-use-styles-in-react) |
-|62 | [Cookies](#how-events-are-different-in-react) |
-|63 | [Current version of PHP,MySQL, Laravel, MongoDB etc](#what-will-happen-if-you-use-setstate-in-constructor) |
+|61 | [What are Sessisons](#how-to-use-styles-in-react) |
+|62 | [What are Cookies](#how-events-are-different-in-react) |
+|63 | [What is Current version of PHP,MySQL, Laravel, MongoDB etc](#what-will-happen-if-you-use-setstate-in-constructor) |
 |64 | [Design architecture of an app](#what-is-the-impact-of-indexes-as-keys) |
 |65 | [SQL Injections](#is-it-good-to-use-setstate-in-componentwillmount-method) |
 |66 | [How to call static methods?](#what-will-happen-if-you-use-props-in-initial-state) |
