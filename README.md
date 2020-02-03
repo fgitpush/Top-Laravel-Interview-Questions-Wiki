@@ -70,27 +70,27 @@
 |62 | [What are Cookies](#how-events-are-different-in-react) |
 |63 | [What is Current version of PHP,MySQL, Laravel, MongoDB etc](#what-will-happen-if-you-use-setstate-in-constructor) |
 |64 | [Design architecture of an app](#what-is-the-impact-of-indexes-as-keys) |
-|65 | [SQL Injections](#is-it-good-to-use-setstate-in-componentwillmount-method) |
+|65 | [What are SQL Injections](#is-it-good-to-use-setstate-in-componentwillmount-method) |
 |66 | [How to call static methods?](#what-will-happen-if-you-use-props-in-initial-state) |
 |67 | [How to achieve multiple DB hosts?](#how-do-you-conditionally-render-components)
-|68 | [Abstract class](#why-we-need-to-be-careful-when-spreading-props-on-dom-elements) |
-|69 | [Default ports for MySQL, Email, etc](#how-you-use-decorators-in-react) |
+|68 | [What is Abstract class](#why-we-need-to-be-careful-when-spreading-props-on-dom-elements) |
+|69 | [What are Default ports for MySQL, Email, etc](#how-you-use-decorators-in-react) |
 |70 | [Explain Joins](#how-do-you-memoize-a-component) |
 |71 | [Explain Unions](#how-you-implement-server-side-rendering-or-ssr) |
-|72 | [how mongodb is better than relational databases?](#how-to-enable-production-mode-in-react) |
-|73 | [are you aware about mongodb?](#what-is-cra-and-its-benefits) |
+|72 | [How mongodb is better than relational databases?](#how-to-enable-production-mode-in-react) |
+|73 | [What is  mongodb?](#what-is-cra-and-its-benefits) |
 |74 | [what is default session time](#what-is-the-lifecycle-methods-order-in-mounting) |
 |75 | [How to create hooks in Laravel?](#what-are-the-lifecycle-methods-going-to-be-deprecated-in-react-v16) |
 |76 | [What is csrf token and xss attack](#what-is-the-purpose-of-getderivedstatefromprops-lifecycle-method) |
 |77 | [Select highest/nth highest salary](#what-is-the-purpose-of-getsnapshotbeforeupdate-lifecycle-method) |
-|78 | [Write joins](#do-hooks-replace-render-props-and-higher-order-components) |
-|79 | [Write union](#what-is-the-recommended-way-for-naming-components) |
+|78 | [Write a join](#do-hooks-replace-render-props-and-higher-order-components) |
+|79 | [Write a union](#what-is-the-recommended-way-for-naming-components) |
 |80 | [Write a complex query](#what-is-the-recommended-ordering-of-methods-in-component-class) |
 |81 | [What is a switching component?](#what-is-a-switching-component) |
-|82 | [Difference between PHP 5 and 4.](#why-we-need-to-pass-a-function-to-setstate) |
-|83 | [Difference among various php versions](#what-is-strict-mode-in-react) |
-|84 | [Difference among various mysql versions](#what-are-react-mixins) |
-|85 | [Difference among various Laravel versions](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
+|82 | What is Difference between PHP 5 and 4?](#why-we-need-to-pass-a-function-to-setstate) |
+|83 | [What is Difference among various php versions](#what-is-strict-mode-in-react) |
+|84 | [What is Difference among various mysql versions](#what-are-react-mixins) |
+|85 | What is [Difference among various Laravel versions](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
 |86 | [How to add aws plugin in PHP?](#what-are-the-pointer-events-supported-in-react) |
 |87 | [desiging patterns](#why-should-component-names-start-with-capital-letter) |
 |88 | [Diff between GET and POST](#are-custom-dom-attributes-supported-in-react-v16) |
