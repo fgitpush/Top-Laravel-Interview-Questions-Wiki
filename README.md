@@ -31,7 +31,7 @@
 |23 | [How to create API?](#why-are-string-refs-legacy) |
 |24 | [What are Events?](#what-is-virtual-dom) |
 |25 | [What are Listeners?](#how-virtual-dom-works) |
-|26 | [What Payments and cashier](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
+|26 | [What are Payments and cashier](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
 |27 | [What is Test Driven Development?](#what-is-react-fiber) |
 |28 | [What is Package development?](#what-is-the-main-goal-of-react-fiber) |
 |29 | [Laravel Scout search and algolia](#what-are-controlled-components) |
@@ -44,10 +44,10 @@
 |36 | [Memcache](#how-to-create-props-proxy-for-hoc-component) |
 |37 | [Horizontal scaling](#what-is-context) |
 |38 | [Vertical scaling](#what-is-children-prop) |
-|39 | [Single Page Applications in Laravel](#how-to-write-comments-in-react) |
-|40 | [Microservices in Laravel](#what-is-the-purpose-of-using-super-constructor-with-props-argument) |
+|39 | [What are Single Page Applications in Laravel](#how-to-write-comments-in-react) |
+|40 | [What are Microservices in Laravel](#what-is-the-purpose-of-using-super-constructor-with-props-argument) |
 |41 | [What is reconciliation?](#what-is-reconciliation) |
-|42 | [Service Oriented Architecture in Laravel](#how-to-set-state-with-a-dynamic-key-name) |
+|42 | [What isService Oriented Architecture in Laravel](#how-to-set-state-with-a-dynamic-key-name) |
 |43 | [Validations and custom validations](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders) |
 |44 | [Composer](#is-lazy-function-supports-named-exports) |
 |45 | [Symfony](#why-react-uses-classname-over-class-attribute) |
