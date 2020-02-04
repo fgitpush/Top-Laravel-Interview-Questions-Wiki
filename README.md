@@ -37,71 +37,71 @@ What is Difference among various php versions# Laravel Interview Questions & Ans
 |29 | [What is Laravel Scout search and Algolia](#what-is-scout-search) |
 |30 | [What is Socialite and Auth?](#what-is-socialite-auth) |
 |31 | [What is Vue.js?](#what-is-vue) |
-|32 | [How to connect Laravel with other SQL databases](#laravel-other-sql) |
-|33 | [How to connect Laravel with non-SQL databases](#laravel-non-sql) |
+|32 | [How to connect Laravel with other SQL databases?](#laravel-other-sql) |
+|33 | [How to connect Laravel with non-SQL databases?](#laravel-non-sql) |
 |34 | [What is Lumen?](#what-are-the-lifecycle-methods-of-react) |
-|35 | [What is Redis](#what-are-higher-order-components) |
-|36 | [What is Memcache](#how-to-create-props-proxy-for-hoc-component) |
-|37 | [What is Horizontal scaling](#what-is-context) |
-|38 | [What is Vertical scaling](#what-is-children-prop) |
-|39 | [What are Single Page Applications in Laravel](#how-to-write-comments-in-react) |
-|40 | [What are Microservices in Laravel](#what-is-the-purpose-of-using-super-constructor-with-props-argument) |
+|35 | [What is Redis?](#what-are-higher-order-components) |
+|36 | [What is Memcache?](#how-to-create-props-proxy-for-hoc-component) |
+|37 | [What is Horizontal scaling?](#what-is-context) |
+|38 | [What is Vertical scaling?](#what-is-children-prop) |
+|39 | [What are Single Page Applications in Laravel?](#how-to-write-comments-in-react) |
+|40 | [What are Microservices in Laravel?](#what-is-the-purpose-of-using-super-constructor-with-props-argument) |
 |41 | [What is Reconciliation?](#what-is-reconciliation) |
-|42 | [What is Service Oriented Architecture in Laravel](#how-to-set-state-with-a-dynamic-key-name) |
-|43 | [What are Validations and custom validations](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders) |
-|44 | [What is Composer](#is-lazy-function-supports-named-exports) |
-|45 | [What is Symfony](#why-react-uses-classname-over-class-attribute) |
-|46 | [What is Route caching](#what-are-fragments) |
-|47 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon](#why-fragments-are-better-than-container-divs) |
-|48 | [What are Named routes](#what-are-portals-in-react) |
-|49 | [What is Dependency injection in Laravel](#what-are-stateless-components) |
+|42 | [What is Service Oriented Architecture in Laravel?](#how-to-set-state-with-a-dynamic-key-name) |
+|43 | [What are Validations and custom validations?](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders) |
+|44 | [What is Composer?](#is-lazy-function-supports-named-exports) |
+|45 | [What is Symfony?](#why-react-uses-classname-over-class-attribute) |
+|46 | [What is Route caching?](#what-are-fragments) |
+|47 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#why-fragments-are-better-than-container-divs) |
+|48 | [What are Named routes?](#what-are-portals-in-react) |
+|49 | [What is Dependency injection in Laravel?](#what-are-stateless-components) |
 |50 | [What are Laravel contracts?](#what-are-stateful-components) |
-|51 | [What is Query log](#how-to-apply-validation-on-props-in-react) |
-|52 | [What is Laravel Traits](#what-are-the-advantages-of-react) |
-|53 | [What arfe Bundles in Laravel](#what-are-the-limitations-of-react) |
-|54 | [What are System requirements for Laravel](#what-are-error-boundaries-in-react-v16) |
-|55 | [What are Aggregate methods in query builder](#how-error-boundaries-handled-in-react-v15) |
-|56 | [What is Singelton design pattern](#what-are-the-recommended-ways-for-static-type-checking) |
-|57 | [What is Reverse routing](#what-is-the-use-of-react-dom-package) | 
-|58 | [What arfe Popular composer packages](#what-is-the-purpose-of-render-method-of-react-dom) |
-|59 | [How to get the data from more than 3 table without use join ?Answer: Subquery, union.](#what-is-reactdomserver) |
+|51 | [What is Query log?](#how-to-apply-validation-on-props-in-react) |
+|52 | [What is Laravel Traits?](#what-are-the-advantages-of-react) |
+|53 | [What are Bundles in Laravel?](#what-are-the-limitations-of-react) |
+|54 | [What are System requirements for Laravel?](#what-are-error-boundaries-in-react-v16) |
+|55 | [What are Aggregate methods in query builder?](#how-error-boundaries-handled-in-react-v15) |
+|56 | [What is Singelton design pattern?](#what-are-the-recommended-ways-for-static-type-checking) |
+|57 | [What is Reverse routing?](#what-is-the-use-of-react-dom-package) | 
+|58 | [What are Popular composer packages?](#what-is-the-purpose-of-render-method-of-react-dom) |
+|59 | [How to get the data from more than 3 table without use join ? Answer: Subquery, union.](#what-is-reactdomserver) |
 |60 | [List some artisan commands](#how-to-use-innerhtml-in-react) |
-|61 | [What are Sessisons](#how-to-use-styles-in-react) |
-|62 | [What are Cookies](#how-events-are-different-in-react) |
-|63 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc](#what-will-happen-if-you-use-setstate-in-constructor) |
-|64 | [Describe design architecture of an app](#what-is-the-impact-of-indexes-as-keys) |
-|65 | [What are SQL Injections](#is-it-good-to-use-setstate-in-componentwillmount-method) |
+|61 | [What are Sessisons?](#how-to-use-styles-in-react) |
+|62 | [What are Cookies?](#how-events-are-different-in-react) |
+|63 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-will-happen-if-you-use-setstate-in-constructor) |
+|64 | [Describe design architecture of an app?](#what-is-the-impact-of-indexes-as-keys) |
+|65 | [What are SQL Injections?](#is-it-good-to-use-setstate-in-componentwillmount-method) |
 |66 | [How to call static methods?](#what-will-happen-if-you-use-props-in-initial-state) |
 |67 | [How to achieve multiple DB hosts?](#how-do-you-conditionally-render-components)
-|68 | [What is Abstract class](#why-we-need-to-be-careful-when-spreading-props-on-dom-elements) |
-|69 | [What are Default ports for MySQL, Email, etc](#how-you-use-decorators-in-react) |
+|68 | [What is Abstract class?](#why-we-need-to-be-careful-when-spreading-props-on-dom-elements) |
+|69 | [What are Default ports for MySQL, Email, etc?](#how-you-use-decorators-in-react) |
 |70 | [Explain Joins](#how-do-you-memoize-a-component) |
 |71 | [Explain Unions](#how-you-implement-server-side-rendering-or-ssr) |
 |72 | [How mongodb is better than relational databases?](#how-to-enable-production-mode-in-react) |
 |73 | [What is  mongodb?](#what-is-cra-and-its-benefits) |
-|74 | [what is default session time](#what-is-the-lifecycle-methods-order-in-mounting) |
+|74 | [What is default session time?](#what-is-the-lifecycle-methods-order-in-mounting) |
 |75 | [How to create hooks in Laravel?](#what-are-the-lifecycle-methods-going-to-be-deprecated-in-react-v16) |
-|76 | [What is csrf token and xss attack](#what-is-the-purpose-of-getderivedstatefromprops-lifecycle-method) |
-|77 | [Select highest/nth highest salary](#what-is-the-purpose-of-getsnapshotbeforeupdate-lifecycle-method) |
+|76 | [What is csrf token and xss attack?](#what-is-the-purpose-of-getderivedstatefromprops-lifecycle-method) |
+|77 | [Select highest/nth highest salary from DB](#what-is-the-purpose-of-getsnapshotbeforeupdate-lifecycle-method) |
 |78 | [Write a join](#do-hooks-replace-render-props-and-higher-order-components) |
 |79 | [Write a union](#what-is-the-recommended-way-for-naming-components) |
-|80 | [Write a complex query](#what-is-the-recommended-ordering-of-methods-in-component-class) |
+|80 | [Write a complex query?](#what-is-the-recommended-ordering-of-methods-in-component-class) |
 |81 | [What is a switching component?](#what-is-a-switching-component) |
 |82 | [What is Difference between PHP 5 and 4?](#why-we-need-to-pass-a-function-to-setstate) |
-|83 | [What is the Difference among various php versions?](#what-is-strict-mode-in-react) |
+|83 | [What is the difference among various php versions?](#what-is-strict-mode-in-react) |
 |84 | [What is the difference among various mysql versions?](#what-are-react-mixins) |
 |85 | [What is the difference among various Laravel versions?](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
 |86 | [How to add AWS plugin in PHP?](#what-are-the-pointer-events-supported-in-react) |
 |87 | [What are design patterns?](#why-should-component-names-start-with-capital-letter) |
 |88 | [What is the difference between GET and POST](#are-custom-dom-attributes-supported-in-react-v16) |
-|89 | [Which is fast between get and post?](#what-is-the-difference-between-constructor-and-getinitialstate) |
+|89 | [Which is fast between GET and POST?](#what-is-the-difference-between-constructor-and-getinitialstate) |
 |90 | [Explain 4 basics of OOP](#can-you-force-a-component-to-re-render-without-calling-setstate) |
-|91 | [Diference between abstract class and interface](#what-is-the-difference-between-super-and-superprops-in-react-using-es6-classes) |
-|92 | [What is MVC Framework](#how-to-loop-inside-jsx) |
+|91 | [What is diference between abstract class and interface?](#what-is-the-difference-between-super-and-superprops-in-react-using-es6-classes) |
+|92 | [What is MVC Framework?](#how-to-loop-inside-jsx) |
 |93 | [Create a project with CRUD, one algorithm logic and insert data in db for testing.](#how-do-you-access-props-in-attribute-quotes) |
-|94 | [Explain CURL , SOAP](#what-is-react-proptype-array-with-shape) |
-|95 | [In MySql , we use many types of engines which one is faster and why](#how-to-conditionally-apply-class-attributes) |
-|96 | [Triggers](#what-is-the-difference-between-react-and-reactdom) |
+|94 | [Explain CURL and SOAP?](#what-is-react-proptype-array-with-shape) |
+|95 | [In MySql we use many types of engines which one is faster and why?](#how-to-conditionally-apply-class-attributes) |
+|96 | [What are Triggers?](#what-is-the-difference-between-react-and-reactdom) |
 |97 | [Procedures](#why-reactdom-is-separated-from-react) |
 |98 | [New feaatures of Laravel X](#how-to-use-react-label-element) |
 |99 | [New features of PHP X](#how-to-combine-multiple-inline-style-objects) |
