@@ -1,4 +1,4 @@
-# Laravel Interview Questions & Answers
+What is Difference among various php versions# Laravel Interview Questions & Answers
 
 > Click :star: if you like the project. Pull Request are highly appreciated.
 
@@ -88,9 +88,9 @@
 |80 | [Write a complex query](#what-is-the-recommended-ordering-of-methods-in-component-class) |
 |81 | [What is a switching component?](#what-is-a-switching-component) |
 |82 | [What is Difference between PHP 5 and 4?](#why-we-need-to-pass-a-function-to-setstate) |
-|83 | [What is Difference among various php versions](#what-is-strict-mode-in-react) |
-|84 | [What is Difference among various mysql versions](#what-are-react-mixins) |
-|85 | [What is Difference among various Laravel versions](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
+|83 | [What is the Difference among various php versions?](#what-is-strict-mode-in-react) |
+|84 | [What is the difference among various mysql versions](#what-are-react-mixins) |
+|85 | [What is the difference among various Laravel versions](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
 |86 | [How to add AWS plugin in PHP?](#what-are-the-pointer-events-supported-in-react) |
 |87 | [What are desiging patterns?](#why-should-component-names-start-with-capital-letter) |
 |88 | [Diff between GET and POST](#are-custom-dom-attributes-supported-in-react-v16) |
