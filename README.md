@@ -89,11 +89,11 @@ What is Difference among various php versions# Laravel Interview Questions & Ans
 |81 | [What is a switching component?](#what-is-a-switching-component) |
 |82 | [What is Difference between PHP 5 and 4?](#why-we-need-to-pass-a-function-to-setstate) |
 |83 | [What is the Difference among various php versions?](#what-is-strict-mode-in-react) |
-|84 | [What is the difference among various mysql versions](#what-are-react-mixins) |
-|85 | [What is the difference among various Laravel versions](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
+|84 | [What is the difference among various mysql versions?](#what-are-react-mixins) |
+|85 | [What is the difference among various Laravel versions?](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
 |86 | [How to add AWS plugin in PHP?](#what-are-the-pointer-events-supported-in-react) |
-|87 | [What are desiging patterns?](#why-should-component-names-start-with-capital-letter) |
-|88 | [Diff between GET and POST](#are-custom-dom-attributes-supported-in-react-v16) |
+|87 | [What are design patterns?](#why-should-component-names-start-with-capital-letter) |
+|88 | [What is the difference between GET and POST](#are-custom-dom-attributes-supported-in-react-v16) |
 |89 | [Which is fast between get and post?](#what-is-the-difference-between-constructor-and-getinitialstate) |
 |90 | [Explain 4 basics of OOP](#can-you-force-a-component-to-re-render-without-calling-setstate) |
 |91 | [Diference between abstract class and interface](#what-is-the-difference-between-super-and-superprops-in-react-using-es6-classes) |
