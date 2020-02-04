@@ -102,9 +102,9 @@ What is Difference among various php versions# Laravel Interview Questions & Ans
 |94 | [Explain CURL and SOAP?](#what-is-react-proptype-array-with-shape) |
 |95 | [In MySql we use many types of engines which one is faster and why?](#how-to-conditionally-apply-class-attributes) |
 |96 | [What are Triggers?](#what-is-the-difference-between-react-and-reactdom) |
-|97 | [Procedures](#why-reactdom-is-separated-from-react) |
-|98 | [New feaatures of Laravel X](#how-to-use-react-label-element) |
-|99 | [New features of PHP X](#how-to-combine-multiple-inline-style-objects) |
+|97 | [What are Procedures](#why-reactdom-is-separated-from-react) |
+|98 | [What are some new feaatures of Laravel X?](#how-to-use-react-label-element) |
+|99 | [What are some new features of PHP X?](#how-to-combine-multiple-inline-style-objects) |
 |100| [Explain Difference between session and cookies?](#how-to-re-render-the-view-when-the-browser-is-resized)
 |101| [Merge 2 arrays with duplicate](#what-is-the-difference-between-setstate-and-replacestate-methods) |
 |102| [Find the count of vowel and consonants](#how-to-listen-to-state-changes) |
