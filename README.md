@@ -162,11 +162,11 @@ What is Difference among various php versions# Laravel Interview Questions & Ans
 |154| [What are the difference between insert() and insertGetId() in laravel?](#what-are-the-core-principles-of-redux) |
 |155| [Laravel Vapor Compatibility](#what-are-the-downsides-of-redux-compared-to-flux) |
 |156| [What is Semantic Versioning?](#what-is-the-difference-between-mapstatetoprops-and-mapdispatchtoprops) |
-|157| [Job Middleware](#can-i-dispatch-an-action-in-reducer) |
-|158| [Laravel User Interface (UI)](#how-to-access-redux-store-outside-a-component) |
-|159| [Eloquent Subquery Enhancements](#what-are-the-drawbacks-of-mvw-pattern) |
-|160| [Improved Authorization Responses](#are-there-any-similarities-between-redux-and-rxjs) |
-|161| [Lazy Collections](#how-to-dispatch-an-action-on-load) |
+|157| [What are Jobs and Middleware?](#can-i-dispatch-an-action-in-reducer) |
+|158| [Talk about Laravel User Interface (UI)](#how-to-access-redux-store-outside-a-component) |
+|159| [Talk about Eloquent Subquery Enhancements](#what-are-the-drawbacks-of-mvw-pattern) |
+|160| [What are improved Authorization Responses](#are-there-any-similarities-between-redux-and-rxjs) |
+|161| [What are lazy collections](#how-to-dispatch-an-action-on-load) |
 |162| [How to make a constant and use globally?](#how-to-use-connect-from-react-redux) |
 |163| [How to remove /public from URL in laravel?](#how-to-reset-state-in-redux) |
 |164| [What are the difference between soft delete & delete in Laravel?](#whats-the-purpose-of-at-symbol-in-the-redux-connect-decorator) |
@@ -175,7 +175,7 @@ What is Difference among various php versions# Laravel Interview Questions & Ans
 |167| [How to use skip() and take() in Laravel Query?](#how-to-make-ajax-request-in-redux) |
 |168| [What is tinker in laravel?](#should-i-keep-all-components-state-in-redux-store) |
 |169| [What is a REPL?](#what-is-the-proper-way-to-access-redux-store) |
-|170| [How to use multiple OR condition in Laravel Query?](#what-is-the-difference-between-component-and-container-in-react-redux) |
+|170| [How to use multiple 'OR' condition in Laravel Query?](#what-is-the-difference-between-component-and-container-in-react-redux) |
 |171| [Please write some additional where Clauses in Laravel?](#what-is-the-purpose-of-the-constants-in-redux) |
 |172| [How to check column is exists or not in a table using Laravel?](#what-are-the-different-ways-to-write-mapdispatchtoprops) |
 |173| [What is eager loading in Laravel?](#what-is-the-use-of-the-ownprops-parameter-in-mapstatetoprops-and-mapdispatchtoprops) |
