@@ -31,7 +31,7 @@ What is Difference among various php versions# Laravel Interview Questions & Ans
 |23 | [How to create an API?](#why-are-string-refs-legacy) |
 |24 | [What are Events?](#what-is-virtual-dom) |
 |25 | [What are Listeners?](#how-virtual-dom-works) |
-|26 | [What are Payments and cashier](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
+|26 | [What are Payments and cashier?](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
 |27 | [What is Test Driven Development?](#what-is-react-fiber) |
 |28 | [What is Package development?](#what-is-the-main-goal-of-react-fiber) |
 |29 | [What is Laravel Scout search and Algolia](#what-are-controlled-components) |
