@@ -98,8 +98,8 @@
 |90 | [Explain 4 basics of OOP](#can-you-force-a-component-to-re-render-without-calling-setstate) |
 |91 | [Diference between abstract class and interface](#what-is-the-difference-between-super-and-superprops-in-react-using-es6-classes) |
 |92 | [What is MVC Framework](#how-to-loop-inside-jsx) |
-|93 | [create a project with CRUD, one algorithm logic and insert data in db for testing.](#how-do-you-access-props-in-attribute-quotes) |
-|94 | [CURL , SOAP](#what-is-react-proptype-array-with-shape) |
+|93 | [Create a project with CRUD, one algorithm logic and insert data in db for testing.](#how-do-you-access-props-in-attribute-quotes) |
+|94 | [Explain CURL , SOAP](#what-is-react-proptype-array-with-shape) |
 |95 | [In MySql , we use many types of engines which one is faster and why](#how-to-conditionally-apply-class-attributes) |
 |96 | [Triggers](#what-is-the-difference-between-react-and-reactdom) |
 |97 | [Procedures](#why-reactdom-is-separated-from-react) |
