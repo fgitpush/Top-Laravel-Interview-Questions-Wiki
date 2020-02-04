@@ -37,8 +37,8 @@ What is Difference among various php versions# Laravel Interview Questions & Ans
 |29 | [What is Laravel Scout search and Algolia](#what-are-controlled-components) |
 |30 | [What is Socialie and Auth?](#what-are-uncontrolled-components) |
 |31 | [What is Vue.js?](#what-is-the-difference-between-createelement-and-cloneelement) |
-|32 | [Connecting Laravel with other SQL databases](#what-is-lifting-state-up-in-react) |
-|33 | [Connecting Laravel with Connecting non-SQL databases](#what-are-the-different-phases-of-component-lifecycle) |
+|32 | [How to Connect Laravel with other SQL databases](#what-is-lifting-state-up-in-react) |
+|33 | [How to Connect Laravel with Connecting non-SQL databases](#what-are-the-different-phases-of-component-lifecycle) |
 |34 | [What is Lumen?](#what-are-the-lifecycle-methods-of-react) |
 |35 | [What is Redis](#what-are-higher-order-components) |
 |36 | [What is Memcache](#how-to-create-props-proxy-for-hoc-component) |
