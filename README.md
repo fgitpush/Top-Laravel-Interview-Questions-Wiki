@@ -6,26 +6,26 @@ What is Difference among various php versions# Laravel Interview Questions & Ans
 
 | No. | Questions |
 | --- | --------- |
-|1  | [What is Routing?](#what-is-react) |
-|2  | [What is Controller?](#what-are-the-major-features-of-react) |
-|3  | [What are Views?](#what-is-jsx) |
-|4  | [What is Model?](#what-is-the-difference-between-element-and-component) |
-|5  | [What is Request/Response?](#how-to-create-components-in-react) |
-|6  | [When are Migrations?](#when-to-use-a-class-component-over-a-function-component) |
-|7  | [What are Seeders?](#what-are-pure-components) |
-|8  | [What is Service Provider?](#what-is-state-in-react) |
-|9  | [What is Middleware?](#what-are-props-in-react) |
-|10 | [What is ORM?](#what-is-the-difference-between-state-and-props) |
-|11 | [What is Eloquent?](#why-should-we-not-update-the-state-directly) |
-|12 | [What is Query Builder?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)
-|13 | [What are Facades?](#what-is-the-difference-between-html-and-react-event-handling) |
-|14 | [What is Repository Pattern?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks) |
-|15 | [What is Security (Authentication using Passport, CSRF, XSRF etc)?](#how-to-pass-a-parameter-to-an-event-handler-or-callback) |
-|16 | [What is Unit testing?](#what-are-synthetic-events-in-react) |
-|17 | [What is Caching?](#what-is-inline-conditional-expressions) |
-|18 | [How to setup Emails?](#what-are-key-props-and-what-is-the-benefit-of-using-them-in-arrays-of-elements) |
-|19 | [What are Queues?](#what-is-the-use-of-refs) |
-|20 | [What are Jobs?](#how-to-create-refs)
+|1  | [What is Routing?](#what-is-routing) |
+|2  | [What is Controller?](#what-is-controller) |
+|3  | [What are Views?](#what-are-views) |
+|4  | [What is Model?](#what-is-model) |
+|5  | [What is Request/Response?](#what-is-request-response) |
+|6  | [When are Migrations?](#what-are-migrations) |
+|7  | [What are Seeders?](#what-are-seeders) |
+|8  | [What is Service Provider?](#what-is-service-provider) |
+|9  | [What is Middleware?](#what-is-middleware) |
+|10 | [What is ORM?](#what-is-orm) |
+|11 | [What is Eloquent?](#what-is-eloquent) |
+|12 | [What is Query Builder?](#what-is-query-builder)
+|13 | [What are Facades?](#what-are-facades) |
+|14 | [What is Repository Pattern?](#what-is-repository-pattern) |
+|15 | [What is Security (Authentication using Passport, CSRF, XSRF etc)?](#what-is-security) |
+|16 | [What is Unit testing?](#what-is-unit-testing) |
+|17 | [What is Caching?](#what-is-caching) |
+|18 | [How to setup Emails?](#how-to-setup-emails) |
+|19 | [What are Queues?](#what-are-queues) |
+|20 | [What are Jobs?](#what-are-jobs)
 |21 | [What is Advanced Eloquent and Query Builder?](#what-are-forward-refs) |
 |22 | [Which is Error management?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode) |
 |23 | [How to create an API?](#why-are-string-refs-legacy) |
