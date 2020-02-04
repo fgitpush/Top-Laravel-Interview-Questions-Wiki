@@ -90,7 +90,7 @@
 |82 | What is Difference between PHP 5 and 4?](#why-we-need-to-pass-a-function-to-setstate) |
 |83 | [What is Difference among various php versions](#what-is-strict-mode-in-react) |
 |84 | [What is Difference among various mysql versions](#what-are-react-mixins) |
-|85 | What is [Difference among various Laravel versions](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
+|85 | [What is Difference among various Laravel versions](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
 |86 | [How to add AWS plugin in PHP?](#what-are-the-pointer-events-supported-in-react) |
 |87 | [What are desiging patterns?](#why-should-component-names-start-with-capital-letter) |
 |88 | [Diff between GET and POST](#are-custom-dom-attributes-supported-in-react-v16) |
@@ -105,13 +105,13 @@
 |97 | [Procedures](#why-reactdom-is-separated-from-react) |
 |98 | [New feaatures of Laravel X](#how-to-use-react-label-element) |
 |99 | [New features of PHP X](#how-to-combine-multiple-inline-style-objects) |
-|100| [Difference between session and cookies](#how-to-re-render-the-view-when-the-browser-is-resized)
+|100| [Explain Difference between session and cookies?](#how-to-re-render-the-view-when-the-browser-is-resized)
 |101| [Merge 2 arrays with duplicate](#what-is-the-difference-between-setstate-and-replacestate-methods) |
 |102| [Find the count of vowel and consonants](#how-to-listen-to-state-changes) |
 |103| [Explain AWS Services](#what-is-the-recommended-approach-of-removing-an-array-element-in-react-state) |
 |104| [How to do Web scraping?](#is-it-possible-to-use-react-without-rendering-html) |
-|105| [require and require once difference](#how-to-pretty-print-json-with-react) |
-|106| [include and require diffrence](#why-you-cant-update-props-in-react) |
+|105| [Explain require and require once difference](#how-to-pretty-print-json-with-react) |
+|106| [Explain include and require diffrence](#why-you-cant-update-props-in-react) |
 |107| [Directory structure of Laravel](#how-to-focus-an-input-element-on-page-load) |
 |108| [How to install Laravel via composer?](#what-are-the-possible-ways-of-updating-objects-in-state) |
 |109| [Which ORM are being used by laravel?](#why-function-is-preferred-over-object-for-setstate) |
