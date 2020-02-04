@@ -87,7 +87,7 @@
 |79 | [Write a union](#what-is-the-recommended-way-for-naming-components) |
 |80 | [Write a complex query](#what-is-the-recommended-ordering-of-methods-in-component-class) |
 |81 | [What is a switching component?](#what-is-a-switching-component) |
-|82 | What is Difference between PHP 5 and 4?](#why-we-need-to-pass-a-function-to-setstate) |
+|82 | [What is Difference between PHP 5 and 4?](#why-we-need-to-pass-a-function-to-setstate) |
 |83 | [What is Difference among various php versions](#what-is-strict-mode-in-react) |
 |84 | [What is Difference among various mysql versions](#what-are-react-mixins) |
 |85 | [What is Difference among various Laravel versions](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
