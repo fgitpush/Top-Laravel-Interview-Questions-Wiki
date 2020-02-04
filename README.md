@@ -160,13 +160,13 @@ What is Difference among various php versions# Laravel Interview Questions & Ans
 |152| [What is faker in Laravel?](#what-is-flux) |
 |153| [What are active records?](#what-is-redux) |
 |154| [What are the difference between insert() and insertGetId() in laravel?](#what-are-the-core-principles-of-redux) |
-|155| [Laravel Vapor Compatibility](#what-are-the-downsides-of-redux-compared-to-flux) |
+|155| [Talk about Laravel Vapor Compatibility](#what-are-the-downsides-of-redux-compared-to-flux) |
 |156| [What is Semantic Versioning?](#what-is-the-difference-between-mapstatetoprops-and-mapdispatchtoprops) |
 |157| [What are Jobs and Middleware?](#can-i-dispatch-an-action-in-reducer) |
 |158| [Talk about Laravel User Interface (UI)](#how-to-access-redux-store-outside-a-component) |
-|159| [Talk about Eloquent Subquery Enhancements](#what-are-the-drawbacks-of-mvw-pattern) |
-|160| [What are improved Authorization Responses](#are-there-any-similarities-between-redux-and-rxjs) |
-|161| [What are lazy collections](#how-to-dispatch-an-action-on-load) |
+|159| [Talk about Eloquent Subquery Enhancements?](#what-are-the-drawbacks-of-mvw-pattern) |
+|160| [What are improved Authorization Responses?](#are-there-any-similarities-between-redux-and-rxjs) |
+|161| [What are lazy collections?](#how-to-dispatch-an-action-on-load) |
 |162| [How to make a constant and use globally?](#how-to-use-connect-from-react-redux) |
 |163| [How to remove /public from URL in laravel?](#how-to-reset-state-in-redux) |
 |164| [What are the difference between soft delete & delete in Laravel?](#whats-the-purpose-of-at-symbol-in-the-redux-connect-decorator) |
@@ -203,8 +203,8 @@ What is Difference among various php versions# Laravel Interview Questions & Ans
 |195| [What is an Observer?](#how-to-use-font-awesome-icons-in-react) |
 |196| [What is the use of the bootstrap directory?](#what-is-react-dev-tools) |
 |197| [What is the default session timeout duration?](#why-is-devtools-not-loading-in-chrome-for-local-files) |
-|198| [Explain API.PHP route.](#how-to-use-polymer-in-react) |
-|199| [Define hashing in Laravel.](#what-are-the-advantages-of-react-over-vuejs) |
+|198| [Explain API.PHP route](#how-to-use-polymer-in-react) |
+|199| [Define hashing in Laravel](#what-are-the-advantages-of-react-over-vuejs) |
 |200| [What is Localization?](#what-is-the-difference-between-react-and-angular) |
 |201| [Explain the concept of encryption and decryption in Laravel.](#why-react-tab-is-not-showing-up-in-devtools) |
 |202| [How to share data with views?](#what-are-styled-components) |
