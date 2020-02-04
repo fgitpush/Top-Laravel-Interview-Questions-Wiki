@@ -65,11 +65,11 @@
 |57 | [What is Reverse routing](#what-is-the-use-of-react-dom-package) | 
 |58 | [What arfe Popular composer packages](#what-is-the-purpose-of-render-method-of-react-dom) |
 |59 | [How to get the data from more than 3 table without use join ?Answer: Subquery, union.](#what-is-reactdomserver) |
-|60 | [List artisan commands](#how-to-use-innerhtml-in-react) |
+|60 | [List some artisan commands](#how-to-use-innerhtml-in-react) |
 |61 | [What are Sessisons](#how-to-use-styles-in-react) |
 |62 | [What are Cookies](#how-events-are-different-in-react) |
-|63 | [What is Current version of PHP,MySQL, Laravel, MongoDB etc](#what-will-happen-if-you-use-setstate-in-constructor) |
-|64 | [Design architecture of an app](#what-is-the-impact-of-indexes-as-keys) |
+|63 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc](#what-will-happen-if-you-use-setstate-in-constructor) |
+|64 | [Describe design architecture of an app](#what-is-the-impact-of-indexes-as-keys) |
 |65 | [What are SQL Injections](#is-it-good-to-use-setstate-in-componentwillmount-method) |
 |66 | [How to call static methods?](#what-will-happen-if-you-use-props-in-initial-state) |
 |67 | [How to achieve multiple DB hosts?](#how-do-you-conditionally-render-components)
@@ -91,12 +91,12 @@
 |83 | [What is Difference among various php versions](#what-is-strict-mode-in-react) |
 |84 | [What is Difference among various mysql versions](#what-are-react-mixins) |
 |85 | What is [Difference among various Laravel versions](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
-|86 | [How to add aws plugin in PHP?](#what-are-the-pointer-events-supported-in-react) |
-|87 | [desiging patterns](#why-should-component-names-start-with-capital-letter) |
+|86 | [How to add AWS plugin in PHP?](#what-are-the-pointer-events-supported-in-react) |
+|87 | [What are desiging patterns?](#why-should-component-names-start-with-capital-letter) |
 |88 | [Diff between GET and POST](#are-custom-dom-attributes-supported-in-react-v16) |
 |89 | [Which is fast between get and post?](#what-is-the-difference-between-constructor-and-getinitialstate) |
-|90 | [Simple OOP questions](#can-you-force-a-component-to-re-render-without-calling-setstate) |
-|91 | [deference between abstract class and interface](#what-is-the-difference-between-super-and-superprops-in-react-using-es6-classes) |
+|90 | [Explain 4 basics of OOP](#can-you-force-a-component-to-re-render-without-calling-setstate) |
+|91 | [Diference between abstract class and interface](#what-is-the-difference-between-super-and-superprops-in-react-using-es6-classes) |
 |92 | [What is MVC Framework](#how-to-loop-inside-jsx) |
 |93 | [create a project with CRUD, one algorithm logic and insert data in db for testing.](#how-do-you-access-props-in-attribute-quotes) |
 |94 | [CURL , SOAP](#what-is-react-proptype-array-with-shape) |
