@@ -32,34 +32,34 @@
 |24 | [What are Events?](#what-are-events) |
 |25 | [What are Listeners?](#what-are-listeners) |
 |26 | [What are Payments and cashier?](#what-are-payments) |
-|27 | [What is Test Driven Development?](#what-is-tdd) |
+|27 | [What is Test Driven Development?](#what-is-tdd |
 |28 | [What is Package development?](#what-is-package-development) |
 |29 | [What is Laravel Scout search and Algolia](#what-is-scout-search) |
 |30 | [What is Socialite and Auth?](#what-is-socialite-auth) |
 |31 | [What is Vue.js?](#what-is-vue) |
 |32 | [How to connect Laravel with other SQL databases?](#laravel-other-sql) |
 |33 | [How to connect Laravel with non-SQL databases?](#laravel-non-sql) |
-|34 | [What is Lumen?](#what-are-the-lifecycle-methods-of-react) |
-|35 | [What is Redis?](#what-are-higher-order-components) |
-|36 | [What is Memcache?](#how-to-create-props-proxy-for-hoc-component) |
-|37 | [What is Horizontal scaling?](#what-is-context) |
-|38 | [What is Vertical scaling?](#what-is-children-prop) |
-|39 | [What are Single Page Applications in Laravel?](#how-to-write-comments-in-react) |
-|40 | [What are Microservices in Laravel?](#what-is-the-purpose-of-using-super-constructor-with-props-argument) |
-|41 | [What is Reconciliation?](#what-is-reconciliation) |
-|42 | [What is Service Oriented Architecture in Laravel?](#how-to-set-state-with-a-dynamic-key-name) |
-|43 | [What are Validations and custom validations?](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders) |
-|44 | [What is Composer?](#is-lazy-function-supports-named-exports) |
-|45 | [What is Symfony?](#why-react-uses-classname-over-class-attribute) |
-|46 | [What is Route caching?](#what-are-fragments) |
-|47 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#why-fragments-are-better-than-container-divs) |
-|48 | [What are Named routes?](#what-are-portals-in-react) |
-|49 | [What is Dependency injection in Laravel?](#what-are-stateless-components) |
-|50 | [What are Laravel contracts?](#what-are-stateful-components) |
-|51 | [What is Query log?](#how-to-apply-validation-on-props-in-react) |
-|52 | [What is Laravel Traits?](#what-are-the-advantages-of-react) |
-|53 | [What are Bundles in Laravel?](#what-are-the-limitations-of-react) |
-|54 | [What are System requirements for Laravel?](#what-are-error-boundaries-in-react-v16) |
+|34 | [What is Lumen?](#what-is-lumen) |
+|35 | [What is Redis?](#what-is-redis) |
+|36 | [What is Memcache?](#what-is-memcache) |
+|37 | [What is Horizontal scaling?](#horizontal-scaling) |
+|38 | [What is Vertical scaling?](#vetical-scaling) |
+|39 | [What is Single Page Applications in Laravel?](#what-is-spa) |
+|40 | [What are Microservices in Laravel?](#what-are-microservices) |
+|41 | 
+|42 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
+|43 | [What are Validations and custom validations?](#what-are-validators) |
+|44 | [What is Composer?](#what-is-composer) |
+|45 | [What is Symfony?](#what-is-symfony) |
+|46 | [What is Route caching?](#what-is-route-caching) |
+|47 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
+|48 | [What are Named routes?](#what-are-named-routes) |
+|49 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
+|50 | [What are Laravel contracts?](#what-are-contracts) |
+|51 | [What is Query log?](#what-is-query-log) |
+|52 | [What are Laravel Traits?](#what-are-traits) |
+|53 | [What are Bundles in Laravel?](#bundles) |
+|54 | [What are System requirements for Laravel?](#system-requirements) |
 |55 | [What are Aggregate methods in query builder?](#how-error-boundaries-handled-in-react-v15) |
 |56 | [What is Singelton design pattern?](#what-are-the-recommended-ways-for-static-type-checking) |
 |57 | [What is Reverse routing?](#what-is-the-use-of-react-dom-package) | 
