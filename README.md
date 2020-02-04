@@ -26,19 +26,19 @@ What is Difference among various php versions# Laravel Interview Questions & Ans
 |18 | [How to setup Emails?](#how-to-setup-emails) |
 |19 | [What are Queues?](#what-are-queues) |
 |20 | [What are Jobs?](#what-are-jobs)
-|21 | [What is Advanced Eloquent and Query Builder?](#what-are-forward-refs) |
-|22 | [Which is Error management?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode) |
-|23 | [How to create an API?](#why-are-string-refs-legacy) |
-|24 | [What are Events?](#what-is-virtual-dom) |
-|25 | [What are Listeners?](#how-virtual-dom-works) |
-|26 | [What are Payments and cashier?](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
-|27 | [What is Test Driven Development?](#what-is-react-fiber) |
-|28 | [What is Package development?](#what-is-the-main-goal-of-react-fiber) |
-|29 | [What is Laravel Scout search and Algolia](#what-are-controlled-components) |
-|30 | [What is Socialie and Auth?](#what-are-uncontrolled-components) |
-|31 | [What is Vue.js?](#what-is-the-difference-between-createelement-and-cloneelement) |
-|32 | [How to Connect Laravel with other SQL databases](#what-is-lifting-state-up-in-react) |
-|33 | [How to Connect Laravel with Connecting non-SQL databases](#what-are-the-different-phases-of-component-lifecycle) |
+|21 | [What is Advanced Eloquent and Query Builder?](#what-is-advanced-eloquent) |
+|22 | [Which is Error management?](#which-is-error-management) |
+|23 | [How to create an API?](#how-to-create-api) |
+|24 | [What are Events?](#what-are-events) |
+|25 | [What are Listeners?](#what-are-listeners) |
+|26 | [What are Payments and cashier?](#what-are-payments) |
+|27 | [What is Test Driven Development?](#what-is-tdd |
+|28 | [What is Package development?](#what-is-package-development) |
+|29 | [What is Laravel Scout search and Algolia](#what-is-scout-search) |
+|30 | [What is Socialite and Auth?](#what-is-socialite-auth) |
+|31 | [What is Vue.js?](#what-is-vue) |
+|32 | [How to connect Laravel with other SQL databases](#laravel-other-sql) |
+|33 | [How to connect Laravel with non-SQL databases](#laravel-non-sql) |
 |34 | [What is Lumen?](#what-are-the-lifecycle-methods-of-react) |
 |35 | [What is Redis](#what-are-higher-order-components) |
 |36 | [What is Memcache](#how-to-create-props-proxy-for-hoc-component) |
