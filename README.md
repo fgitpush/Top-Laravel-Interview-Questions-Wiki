@@ -46,7 +46,7 @@
 |38 | [What is Vertical scaling?](#vetical-scaling) |
 |39 | [What is Single Page Applications in Laravel?](#what-is-spa) |
 |40 | [What are Microservices in Laravel?](#what-are-microservices) |
-|41 | 
+|41 | [Whats CSRF and JWT token?](#do-you-need-to-have-a-particular-build-tool-to-use-redux) |
 |42 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
 |43 | [What are Validations and custom validations?](#what-are-validators) |
 |44 | [What is Composer?](#what-is-composer) |
@@ -216,8 +216,6 @@
 |208| [What does "composer dump-autoload" do?](#what-is-an-action-in-redux) |
 |209| [What is Kept in vendor directory of Laravel?](#does-the-statics-object-work-with-es6-classes-in-react) |
 |210| [What does PHP compact function do?](#can-redux-only-be-used-with-react) |
-|211| [Whats CSRF and JWT token?](#do-you-need-to-have-a-particular-build-tool-to-use-redux) |
-
 
 ## Core Laravel
 
