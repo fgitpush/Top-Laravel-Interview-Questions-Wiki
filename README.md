@@ -225,6 +225,13 @@
 
   When a user enters a URL, it gets send to a routes file. Laravel contains a routes.php file where it matches it with the right controller/view.
 
+below is an example route from route.php. You can can call site.exension/foo and it will bring the result.
+
+```
+Route::get('foo', function () {
+    return 'Hello World';
+});
+```
 
    **[⬆ Back to Top](#table-of-contents)**
     
