@@ -240,6 +240,16 @@ Route::get('foo', function () {
 
    **[⬆ Back to Top](#table-of-contents)**
     
+2. ### How many types of routes are there??
+
+There are four types of routes in routes.php file,
+A. web.php
+B. api.php
+C. console.php
+D. broadcast.php
+
+   **[⬆ Back to Top](#table-of-contents)**
+    
 2. ### What is Controller?
 
 Controller is the place where we write the logic of the program.
