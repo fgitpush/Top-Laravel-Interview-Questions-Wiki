@@ -248,6 +248,21 @@ B. api.php
 C. console.php
 D. broadcast.php
 
+|4  | [What is api.php?](#what-is-api-php) |
+|5  | [What is channels.php?](#what-is-channels-php) |
+|6  | [What is console.php?](#what-is-console-php) 
+
+   **[⬆ Back to Top](#what-is-web-php)**
+    
+2. ### What is web.php?
+
+web.php used for web routes. Like example.com/test
+    ```
+    Route::get('/test', function () {
+        $path = storage_path() . "/app/json/options/docs.json";
+        return view('skin/dev-wireframe', array('menu' => json_decode(file_get_contents($path), true)));
+    });
+    ```
    **[⬆ Back to Top](#table-of-contents)**
     
 2. ### What is Controller?
@@ -263,7 +278,7 @@ Controller is the place where we write the logic of the program.
 
     In the example below text inside `<h1>` tag return as JavaScript function to the render function.
 
-    ```jsx harmony
+    jsx harmony
     class App extends React.Component {
       render() {
         return(
