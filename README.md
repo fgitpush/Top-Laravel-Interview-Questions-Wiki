@@ -262,7 +262,12 @@ web.php used for web routes. Like example.com/test
     ```
     
     
-    |4  | [What is api.php?](#what-is-api-php) |
+   **[⬆ Back to Top](#what-is-api-php)**
+    
+2. ### What is api.php?
+
+Controller is the place where we write the logic of the program.
+    
 |5  | [What is channels.php?](#what-is-channels-php) |
 |6  | [What is console.php?](#what-is-console-php) 
 
