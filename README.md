@@ -237,8 +237,7 @@ Route::get('foo', function () {
     return 'Hello World';
 });
 ```
-
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Back to Top](#types-of-routes)**
     
 2. ### How many types of routes are there??
 
