@@ -25,7 +25,7 @@
 |12 | [What is Query Builder?](#what-is-query-builder)
 |13 | [What are Facades?](#what-are-facades) |
 |14 | [What is Repository Pattern?](#what-is-repository-pattern) |
-|15 | [What is Security (Authentication using Passport, CSRF, XSRF etc)?](#what-is-security) |
+|15 | [What is Authentication using Passport CSRF XSRF?](#What-is-Authentication-using-Passport-CSRF-XSRF) |
 |16 | [What is Unit testing?](#what-is-unit-testing) |
 |17 | [What is Caching?](#what-is-caching) |
 |18 | [How to setup Emails?](#how-to-setup-emails) |
@@ -517,7 +517,7 @@ Repository pattern is used to create templates where implementation details are 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-14. ### What is Security (Authentication using Passport, CSRF, XSRF etc)?
+14. ### What is Authentication using Passport CSRF XSRF?
 
     There are 3 possible ways to achieve this:
 
