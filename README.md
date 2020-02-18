@@ -8,10 +8,10 @@
 | --- | --------- |
 |1  | [What is Routing?](#what-is-routing) |
 |2  | [How many types of routes are there?](#how-many-types-of-routes-are-there) |
-|3  | [What is web.php?](#what-is-web-php) |
-|4  | [What is api.php?](#what-is-api-php) |
-|5  | [What is channels.php?](#what-is-channels-php) |
-|6  | [What is console.php?](#what-is-console-php) |
+|3  | [What is web.php?](#what-is-web.php) |
+|4  | [What is api.php?](#what-is-api.php) |
+|5  | [What is channels.php?](#what-is-channels.php) |
+|6  | [What is console.php?](#what-is-console.php) |
 |2  | [What is Controller?](#what-is-controller) |
 |3  | [What are Views?](#what-are-views) |
 |4  | [What is a Model?](#what-is-a-model) |
