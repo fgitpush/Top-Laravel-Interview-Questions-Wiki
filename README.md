@@ -468,7 +468,7 @@ Object oriented and Model based way of DB query
 
    **[⬆ Back to Top](#table-of-contents)**
     
-12. ###  What is Facades?
+12. ### What are Facades?
 
 Facades are used to hide implementation details and complexities from end user making him/her feel like interacting with a black box.
 
