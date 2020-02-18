@@ -242,6 +242,7 @@ Route::get('foo', function () {
 2. ### How many types of routes are there?
 
 There are four types of routes in routes.php file,
+
     A. web.php 
     
     B. api.php
