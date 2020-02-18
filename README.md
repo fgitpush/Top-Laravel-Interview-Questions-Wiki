@@ -15,7 +15,7 @@
 |2  | [What is Controller?](#what-is-controller) |
 |3  | [What are Views?](#what-are-views) |
 |4  | [What is a Model?](#what-is-a-model) |
-|5  | [What is Request/Response?](#what-is-request-response) |
+|5  | [What is Request-Response?](#what-is-request-response) |
 |6  | [When are Migrations?](#what-are-migrations) |
 |7  | [What are Seeders?](#what-are-seeders) |
 |8  | [What is Service Provider?](#what-is-service-provider) |
@@ -343,7 +343,7 @@ A model is where you write the database logic. Stored in `/app`
 
    **[⬆ Back to Top](#table-of-contents)**
     
-5. ### What is Request/Response?
+5. ### What is Request-Response?
 
     When we type a URL, a request is sent to the server. The server goes from /public to bootstrap folder from which is goes to the routes file. The route files sends it the right controller/view.
 
