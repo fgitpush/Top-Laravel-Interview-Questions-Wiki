@@ -39,7 +39,7 @@
 |26 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
 |27 | [What is Test Driven Development?](#what-is-test-driven-development) |
 |28 | [What is Package development?](#what-is-package-development) |
-|29 | [What are Laravel Scout search and Algolia](#what-are-scout-search-and-algolia) |
+|29 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
 |30 | [What is Socialite and Auth?](#what-is-socialite-auth) |
 |31 | [What is Vue.js?](#what-is-vue) |
 |32 | [How to connect Laravel with other SQL databases?](#laravel-other-sql) |
