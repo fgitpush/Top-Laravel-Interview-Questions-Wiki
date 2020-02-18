@@ -33,7 +33,7 @@
 |20 | [What are Jobs?](#what-are-jobs)
 |21 | [What are Advanced Eloquent and Query Builder?](#what-are-advanced-eloquent-and-query-builder) |
 |22 | [Which is Error management?](#which-is-error-management) |
-|23 | [How to create an API?](#how-to-create-api) |
+|23 | [How to create an API?](#how-to-create-an-api) |
 |24 | [What are Events?](#what-are-events) |
 |25 | [What are Listeners?](#what-are-listeners) |
 |26 | [What are Payments and cashier?](#what-are-payments) |
@@ -729,7 +729,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-22. ### What is API creation?
+22. ### How to create an API?
 
     It is preferred to use *callback refs* over `findDOMNode()` API. Because `findDOMNode()` prevents certain improvements in React in the future.
 
