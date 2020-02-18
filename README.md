@@ -253,7 +253,7 @@ There are four types of routes in routes.php file,
 
    **[⬆ Back to Top](#what-is-web-php)**
     
-5. ### What is web.php?
+5. ### What is web php?
 
 web.php used for web routes. Like example.com/test
 
@@ -267,10 +267,12 @@ web.php used for web routes. Like example.com/test
     
    **[⬆ Back to Top](#types-of-routes)**
     
-6. ### What is api.php?
+6. ### What is api php?
 
 Controller is the place where we write the logic of the program.
     
+
+
 |5  | [What is channels.php?](#what-is-channels-php) |
 |6  | [What is console.php?](#what-is-console-php) 
 
