@@ -31,7 +31,7 @@
 |18 | [How to setup Emails?](#how-to-setup-emails) |
 |19 | [What are Queues?](#what-are-queues) |
 |20 | [What are Jobs?](#what-are-jobs)
-|21 | [What is Advanced Eloquent and Query Builder?](#what-is-advanced-eloquent) |
+|21 | [What are Advanced Eloquent and Query Builder?](#what-are-advanced-eloquent-and-query-builder) |
 |22 | [Which is Error management?](#which-is-error-management) |
 |23 | [How to create an API?](#how-to-create-api) |
 |24 | [What are Events?](#what-are-events) |
