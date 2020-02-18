@@ -269,15 +269,20 @@ web.php used for web routes. Like example.com/test
     
 6. ### What is api php?
 
-Controller is the place where we write the logic of the program.
+The place where we write API route for mobile and API usage.
     
+7. ### What is channels php?
 
+Update here
 
-|5  | [What is channels.php?](#what-is-channels-php) |
-|6  | [What is console.php?](#what-is-console-php) 
+ **[⬆ Back to Top](#what-is-api-php)**
 
+8. ### What is console php?
+
+Update here.
 
    **[⬆ Back to Top](#what-is-api-php)**
+   
     
 6. ### What is Controller?
 
