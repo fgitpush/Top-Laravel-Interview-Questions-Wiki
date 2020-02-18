@@ -303,20 +303,14 @@ Controller is the place where we write the logic of the program. Placed in app/H
     
 3. ### What are Views?
 
-  Views is the fornt end of Laravel.
+  Views is the fornt end of Laravel. Stored in `resources/views`.
 
-    In the example below text inside `<h1>` tag return as JavaScript function to the render function.
-
-    jsx harmony
-    class App extends React.Component {
-      render() {
-        return(
-          <div>
-            <h1>{'Welcome to React world!'}</h1>
-          </div>
-        )
-      }
-    }
+    ```
+    <html>
+        <body>
+            <h1>Hello, {{ $name }}</h1>
+        </body>
+    </html>
     ```
 
 
