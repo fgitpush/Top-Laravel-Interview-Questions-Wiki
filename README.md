@@ -239,7 +239,7 @@ Route::get('foo', function () {
 ```
    **[⬆ Back to Top](#types-of-routes)**
     
-2. ### How many types of routes are there??
+2. ### How many types of routes are there?
 
 There are four types of routes in routes.php file,
 A. web.php
@@ -249,7 +249,7 @@ D. broadcast.php
 
    **[⬆ Back to Top](#what-is-web-php)**
     
-2. ### What is web.php?
+5. ### What is web.php?
 
 web.php used for web routes. Like example.com/test
 
