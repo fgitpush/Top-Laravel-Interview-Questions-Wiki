@@ -831,7 +831,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-28. ### Laravel Scout search and algoliar?
+28. ### What are Laravel Scout search and Algolia?
 
     The goal of *React Fiber* is to increase its suitability for areas like animation, layout, and gestures. Its headline feature is **incremental rendering**: the ability to split rendering work into chunks and spread it out over multiple frames.
 
