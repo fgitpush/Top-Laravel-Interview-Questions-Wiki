@@ -18,7 +18,7 @@
 |5  | [What is Request-Response?](#what-is-request-response) |
 |6  | [When are Migrations?](#what-are-migrations) |
 |7  | [What are Seeders?](#what-are-seeders) |
-|8  | [What is Service Provider?](#what-is-service-provider) |
+|8  | [What are Service Providers?](#what-are-service-providers) |
 |9  | [What is Middleware?](#what-is-middleware) |
 |10 | [What is ORM?](#what-is-orm) |
 |11 | [What is Eloquent?](#what-is-eloquent) |
