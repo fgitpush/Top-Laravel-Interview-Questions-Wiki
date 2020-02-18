@@ -655,6 +655,14 @@ Testing every function
 
 
    **[⬆ Back to Top](#table-of-contents)**
+   
+   
+19. ### How to setup Emails?
+
+    The *ref* is used to return a reference to the element. They *should be avoided* in most cases, however, they can be useful when you need a direct access to the DOM element or an instance of a component.
+
+
+   **[⬆ Back to Top](#table-of-contents)**
     
 20. ### What are Advanced Eloquent and Query Builder?
 
