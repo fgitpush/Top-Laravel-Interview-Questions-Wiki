@@ -7,7 +7,7 @@
 | No. | Questions |
 | --- | --------- |
 |1  | [What is Routing?](#what-is-routing) |
-|2  | [How many types of routes are there?](#how-many-types-of-routes-are-there?) |
+|2  | [How many types of routes are there?](#how-many-types-of-routes-are-there) |
 |3  | [What is web.php?](#what-is-web-php) |
 |4  | [What is api.php?](#what-is-api-php) |
 |5  | [What is channels.php?](#what-is-channels-php) |
