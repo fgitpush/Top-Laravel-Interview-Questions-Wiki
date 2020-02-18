@@ -369,7 +369,7 @@ A model is where you write the database logic. Stored in `/app`
 
    **[⬆ Back to Top](#table-of-contents)**
     
-6. ### When are Migrations?
+6. ### What are Migrations?
 
 Migrations help us keep SQL tables in code. When we have to setup the DB, we just run the migration.
 
