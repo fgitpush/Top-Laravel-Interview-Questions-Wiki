@@ -275,7 +275,28 @@ Controller is the place where we write the logic of the program.
     
 6. ### What is Controller?
 
-Controller is the place where we write the logic of the program.
+Controller is the place where we write the logic of the program. Placed in app/Http/Conrollers
+
+    ```
+    <?php namespace App\Http\Controllers;
+
+    use App\Http\Controllers\Controller;
+
+    class UserController extends Controller {
+
+        /**
+         * Show the profile for the given user.
+         *
+         * @param  int  $id
+         * @return Response
+         */
+        public function showProfile($id)
+        {
+            return view('user.profile', ['user' => User::findOrFail($id)]);
+        }
+
+    }
+    ```
 
 
    **[⬆ Back to Top](#table-of-contents)**
