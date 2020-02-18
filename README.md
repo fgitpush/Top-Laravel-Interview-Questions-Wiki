@@ -14,7 +14,7 @@
 |6  | [What is console.php?](#what-is-console-php) |
 |2  | [What is Controller?](#what-is-controller) |
 |3  | [What are Views?](#what-are-views) |
-|4  | [What is Model?](#what-is-model) |
+|4  | [What is a Model?](#what-is-a-model) |
 |5  | [What is Request/Response?](#what-is-request-response) |
 |6  | [When are Migrations?](#what-are-migrations) |
 |7  | [What are Seeders?](#what-are-seeders) |
@@ -316,8 +316,7 @@ Controller is the place where we write the logic of the program. Placed in app/H
 
    **[⬆ Back to Top](#table-of-contents)**
     
-4. ### 	What are Model?
-
+4. ### 	What is a Model?
 A model is where you write the database logic. Stored in `/app`
 
     <?php
