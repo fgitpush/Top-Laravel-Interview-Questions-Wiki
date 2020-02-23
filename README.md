@@ -891,14 +891,14 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-31. ### Connecting other SQL databases
+31. ### How to connect Laravel with other SQL databases?
 
     JSX elements will be transpiled to `React.createElement()` functions to create React elements which are going to be used for the object representation of UI. Whereas `cloneElement` is used to clone an element and pass it new props.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-32. ### Connecting non-SQL databases
+32. ### How to connect Laravel with non-SQL databases?
 
     When several components need to share the same changing data then it is recommended to *lift the shared state up* to their closest common ancestor. That means if two child components share the same data from its parent, then move the state to parent instead of maintaining local state in both of the child components.
 
