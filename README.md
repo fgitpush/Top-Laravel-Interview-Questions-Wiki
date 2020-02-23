@@ -43,14 +43,14 @@
 |30 | [What is Socialite and Auth?](#what-is-socialite-auth) |
 |31 | [What is Vue-js?](#what-is-vue-js) |
 |32 | [How to connect Laravel with other SQL databases?](#How-to-connect-Laravel-with-other-SQL-databases) |
-|33 | [How to connect Laravel with non-SQL databases?](#laravel-non-sql) |
+|33 | [How to connect Laravel with non-SQL databases?](#How-to-connect-Laravel-with-non-SQL-databases) |
 |34 | [What is Lumen?](#what-is-lumen) |
 |35 | [What is Redis?](#what-is-redis) |
 |36 | [What is Memcache?](#what-is-memcache) |
-|37 | [What is Horizontal scaling?](#horizontal-scaling) |
-|38 | [What is Vertical scaling?](#vetical-scaling) |
-|39 | [What is Single Page Applications in Laravel?](#what-is-spa) |
-|40 | [What are Microservices in Laravel?](#what-are-microservices) |
+|37 | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
+|38 | [What is Vertical scaling?](#What-is-Vertical-scaling) |
+|39 | [What is Single Page Applications in Laravel?](#What-is-Single-Page-Applications-in-Laravel) |
+|40 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
 |41 | [Whats CSRF and JWT token?](#do-you-need-to-have-a-particular-build-tool-to-use-redux) |
 |42 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
 |43 | [What are Validations and custom validations?](#what-are-validators) |
