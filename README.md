@@ -42,7 +42,7 @@
 |29 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
 |30 | [What is Socialite and Auth?](#what-is-socialite-auth) |
 |31 | [What is Vue-js?](#what-is-vue-js) |
-|32 | [How to connect Laravel with other SQL databases?](#laravel-other-sql) |
+|32 | [How to connect Laravel with other SQL databases?](#How-to-connect-Laravel-with-other-SQL-databases) |
 |33 | [How to connect Laravel with non-SQL databases?](#laravel-non-sql) |
 |34 | [What is Lumen?](#what-is-lumen) |
 |35 | [What is Redis?](#what-is-redis) |
