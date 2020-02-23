@@ -853,7 +853,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-30. ### Vue.js??
+30. ### What is Vue.js?
 
     The **Uncontrolled Components** are the ones that store their own state internally, and you query the DOM using a ref to find its current value when you need it. This is a bit more like traditional HTML.
 
