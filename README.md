@@ -41,7 +41,7 @@
 |28 | [What is Package development?](#what-is-package-development) |
 |29 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
 |30 | [What is Socialite and Auth?](#what-is-socialite-auth) |
-|31 | [What is Vue.js?](#what-is-vue) |
+|31 | [What is Vue-js?](#what-is-vue-js) |
 |32 | [How to connect Laravel with other SQL databases?](#laravel-other-sql) |
 |33 | [How to connect Laravel with non-SQL databases?](#laravel-non-sql) |
 |34 | [What is Lumen?](#what-is-lumen) |
@@ -853,7 +853,7 @@ Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-30. ### What is Vue.js?
+30. ### What is Vue-js?
 
     The **Uncontrolled Components** are the ones that store their own state internally, and you query the DOM using a ref to find its current value when you need it. This is a bit more like traditional HTML.
 
