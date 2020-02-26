@@ -618,7 +618,7 @@ Testing every function
    
 18. ### How to setup Emails?
 
-    Using PHP's `mail()` function.
+    Using PHP's `mail()` function amnd Laravel's `sendmail()` function.
 
   **[⬆ Back to Top](#table-of-contents)**
   
