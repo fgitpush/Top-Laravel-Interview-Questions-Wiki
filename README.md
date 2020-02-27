@@ -613,8 +613,9 @@ Symfony is a framework Laravel is inspired from.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-46. ### What are fragments?
+46. ### What is Route caching?
 
+Caching of routes to make going to routes faster. Command: `php artisan route:cache`
 
    **[⬆ Back to Top](#table-of-contents)**
     
