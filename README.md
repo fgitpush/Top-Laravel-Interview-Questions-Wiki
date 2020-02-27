@@ -51,7 +51,7 @@
 |38 | [What is Vertical scaling?](#What-is-Vertical-scaling) |
 |39 | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
 |40 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
-|41 | [Whats CSRF and JWT token?](#do-you-need-to-have-a-particular-build-tool-to-use-redux) |
+|41 | [What is CSRF and JWT token?](#what-is-CSRF-and-JWT-token) |
 |42 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
 |43 | [What are Validations and custom validations?](#what-are-validators) |
 |44 | [What is Composer?](#what-is-composer) |
@@ -589,7 +589,7 @@ Go to config/database.php
 ...
    **[⬆ Back to Top](#table-of-contents)**
     
-41. ### What is reconciliation?
+41. ### What is CSRF and JWT token?
 ...
 
    **[⬆ Back to Top](#table-of-contents)**
