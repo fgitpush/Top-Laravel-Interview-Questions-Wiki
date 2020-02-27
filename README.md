@@ -641,9 +641,9 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-51. ### How to apply validation on props in React?
+51. ### What is Query log?
 
-   
+   ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
