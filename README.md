@@ -624,9 +624,9 @@ Job is a task being performed in the background.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-48. ### What are portals in React?
+48. ### What are Named routes?
 
-   
+You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
