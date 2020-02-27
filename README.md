@@ -269,7 +269,13 @@ web.php used for web routes. Like example.com/test
     
 6. ### What is api php?
 
-The place where we write API route for mobile and API usage.
+The place where we write API route for mobile and API usage. Like http://localhost:8080/api/test
+    ```
+    Route::get('/test', function () {
+        $path = storage_path() . "/app/json/options/docs.json";
+        return view('skin/dev-wireframe', array('menu' => json_decode(file_get_contents($path), true)));
+    });
+    ```
     
 7. ### What is channels php?
 
