@@ -555,42 +555,42 @@ Go to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
-35. ### What are Higher-Order Components?
+35. ### What is Memcache?
 
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 36. ### How to create props proxy for HOC component?
 
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 37. ### What is context?
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 38. ### What is children prop?
 
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 39. ### How to write comments in React?
 
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 40. ### What is the purpose of using super constructor with props argument?
 
-
+...
    **[⬆ Back to Top](#table-of-contents)**
     
 41. ### What is reconciliation?
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
