@@ -572,7 +572,7 @@ Go to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
-38. ### What is children prop?
+38. ### What is Single Page Applications in Laravel?
 
 ...
 
