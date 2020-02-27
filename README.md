@@ -567,7 +567,7 @@ Go to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
-37. ### What is context?
+37. ###	What is Vertical scaling?
 ...
 
    **[⬆ Back to Top](#table-of-contents)**
