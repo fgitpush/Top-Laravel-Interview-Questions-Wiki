@@ -550,7 +550,7 @@ Go to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
-34. ### What are the lifecycle methods of React?
+34. ### What is Redis?
 
 
    **[⬆ Back to Top](#table-of-contents)**
