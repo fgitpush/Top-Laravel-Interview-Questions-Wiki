@@ -2700,8 +2700,67 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-151. ### Give a simple example of Jest test case
 
+151. ### How can we get the user's IP address in Laravel?
+152. ### What is faker in Laravel?
+153. ### What are active records?
+154. ### What are the difference between insert() and insertGetId() in laravel?
+155. ### Talk about Laravel Vapor Compatibility
+156. ### What is Semantic Versioning?
+157. ### What are Jobs and Middleware?
+158. ### Talk about Laravel User Interface (UI)
+159. ### Talk about Eloquent Subquery Enhancements?
+160. ### What are improved Authorization Responses?
+161. ### What are lazy collections?
+162. ### How to make a constant and use globally?
+163. ### How to remove /public from URL in laravel?
+164. ### What are the difference between soft delete & delete in Laravel?
+165. ### How we can upload files in laravel?
+166. ### How to create real time sitemap.xml file in Laravel?
+167. ### How to use skip() and take() in Laravel Query?
+168. ### What is tinker in laravel?
+169. ### What is a REPL?
+170. ### How to use multiple 'OR' condition in Laravel Query?
+171. ### Please write some additional where Clauses in Laravel?
+172. ### How to check column is exists or not in a table using Laravel?
+173. ### What is eager loading in Laravel?
+174. ### How to generate application key in laravel?
+175. ### What is LTS version of Laravel?
+176. ### How to use GROUP_CONCAT() with JOIN in Laravel?
+177. ### How to extend login expire time in Auth?
+178. ### How to extend a layout file in laravel view?
+179. ### How do you use yield()?
+180. ### How to redirect form controller to view file in laravel?
+181. ### How to get current route name?
+182. ### What is ACL in laravel?
+183. ### How to check Ajax request in Laravel?
+184. ### How to check if value is sent in request?
+185. ### Laravel String Helper functions?
+186. ### Laravel Array Helper functions?
+187. ### How to exclude a route with parameters from CSRF verification?
+188. ### What are policies classes?
+189. ### How to rollback last migration?
+190. ### What do you mean by Laravel Dusk?
+191. ### Explain Laravel echo
+192. ### What is namespace in Laravel?
+193. ### What is Laravel Forge?
+194. ### State the difference between CodeIgniter and Laravel.
+195. ### What is an Observer?
+196. ### What is the use of the bootstrap directory?
+197. ### What is the default session timeout duration?
+198	Explain API.PHP route
+199. ### Define hashing in Laravel
+200. ### What is Localization?
+201. ### Explain the concept of encryption and decryption in Laravel.
+202. ### How to share data with views?
+203	How to generate a request in Laravel?
+204. ### I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?
+205. ### How to assign a variable value for all view file?
+206. ### How to make a constant and use globally?
+207. ### How to check current installed version of Laravel?
+208. ### What does "composer dump-autoload" do?
+209. ### What is Kept in vendor directory of Laravel?
+210. ### What does PHP compact function do?
      Let's write a test for a function that adds two numbers in `sum.js` file:
 
      ```javascript
