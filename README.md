@@ -630,7 +630,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-49. ### What are stateless components?
+49. ### What is Dependency injection in Laravel?
 
 
    **[⬆ Back to Top](#table-of-contents)**
