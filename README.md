@@ -49,7 +49,7 @@
 |36 | [What is Memcache?](#what-is-memcache) |
 |37 | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
 |38 | [What is Vertical scaling?](#What-is-Vertical-scaling) |
-|39 | [What is Single Page Applications in Laravel?](#What-is-Single-Page-Applications-in-Laravel) |
+|39 | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
 |40 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
 |41 | [Whats CSRF and JWT token?](#do-you-need-to-have-a-particular-build-tool-to-use-redux) |
 |42 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
@@ -572,7 +572,7 @@ Go to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
-38. ### What is Single Page Applications in Laravel?
+38. ### What is Single Page Application in Laravel?
 
 ...
 
