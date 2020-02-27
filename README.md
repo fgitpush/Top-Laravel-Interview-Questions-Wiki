@@ -527,13 +527,13 @@ Job is a task being performed in the background.
     
 30. ### What is Vue-js?
 
- In easy way to do SPA where you can change state.
+    In easy way to do SPA where you can change state.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 31. ### How to connect Laravel with other SQL databases?
 
-Go to config/database.php
+    Go to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -563,64 +563,64 @@ Go to config/database.php
     
 36. ### What is Horizontal scaling?
 
-By adding more servers we scale horizontally.
+    By adding more servers we scale horizontally.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 37. ###	What is Vertical scaling?
 
-By increasing the size of the same server we scale vertically.
+    By increasing the size of the same server we scale vertically.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 38. ### What is Single Page Application in Laravel?
 
-There is single URL. The assets are loaded once and only content keeps changing using JSON request. Its not great for SEO but there are workarounds to create virtual URL.
+    There is single URL. The assets are loaded once and only content keeps changing using JSON request. Its not great for SEO but there are workarounds to create virtual URL.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 40. ### What are Microservices in Laravel?
 
-There are many services which are similar sized. Each performs exactly one function and they talk to each other.
+    There are many services which are similar sized. Each performs exactly one function and they talk to each other.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 41. ### What is CSRF and JWT token?
-CSRF and JWT tokens are used to make sure the action is performed by the user. If there is no token, someone can give a link to user to click or hide it behind some action and him do what the hacker wants.
+    CSRF and JWT tokens are used to make sure the action is performed by the user. If there is no token, someone can give a link to user to click or hide it behind some action and him do what the hacker wants.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 42. ### What is Service Oriented Architecture in Laravel?
 
-There are many services which are similar sized. Each performs exactly one function and they talk to each other. 
+    There are many services which are similar sized. Each performs exactly one function and they talk to each other. 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 43. ### What are Validations and custom validations?
 
-Validations are used to make sure input is of the kind function wanted. Custom validators are custom made valiators.
+    Validations are used to make sure input is of the kind function wanted. Custom validators are custom made valiators.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 44. ### What is Composer?
    
-Composer is PHP's package manager.
+    Composer is PHP's package manager.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 45. ### What is Symfony?
-Symfony is a framework Laravel is inspired from.
+    Symfony is a framework Laravel is inspired from.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 46. ### What is Route caching?
 
-Caching of routes to make going to routes faster. Command: `php artisan route:cache`
+    Caching of routes to make going to routes faster. Command: `php artisan route:cache`
 
    **[⬆ Back to Top](#table-of-contents)**
     
-47. ### Why fragments are better than container divs?
-
+47. ### What are Default packages?
+    Cashier, Envoy, Passport, Scout, Socialite, Horizon etc
 
    **[⬆ Back to Top](#table-of-contents)**
     
