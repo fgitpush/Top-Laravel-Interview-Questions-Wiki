@@ -663,20 +663,22 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-55. ### How error boundaries handled in React v15?
+55	### What are Aggregate methods in query builder?
 
    
 
    **[⬆ Back to Top](#table-of-contents)**
     
-56. ### What are the recommended ways for static type checking?
+56	### What is Singelton design pattern?
+
 
  
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-57. ### What is the use of `react-dom` package?
+57	### What is Reverse routing?
+
 
     The `react-dom` package provides *DOM-specific methods* that can be used at the top level of your app. Most of the components are not required to use this module. Some of the methods of this package are:
 
@@ -689,7 +691,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-58. ### What is the purpose of render method of `react-dom`?
+58	### What are Popular composer packages?
+
 
     This method is used to render a React element into the DOM in the supplied container and return a reference to the component. If the React element was previously rendered into container, it will perform an update on it and only mutate the DOM as necessary to reflect the latest changes.
 
@@ -702,7 +705,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-59. ### What is ReactDOMServer?
+59	### How to get the data from more than 3 table without use join ? Answer: Subquery, union.
+
 
     The `ReactDOMServer` object enables you to render components to static markup (typically used on node server). This object is mainly used for *server-side rendering* (SSR). The following methods can be used in both the server and browser environments:
 
@@ -728,7 +732,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-60. ### How to use innerHTML in React?
+60	### List some artisan commands
+
 
     The `dangerouslySetInnerHTML` attribute is React's replacement for using `innerHTML` in the browser DOM. Just like `innerHTML`, it is risky to use this attribute considering cross-site scripting (XSS) attacks. You just need to pass a `__html` object as key and HTML text as value.
 
@@ -747,7 +752,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-61. ### How to use styles in React?
+61	### What are Sessisons?
+
 
     The `style` attribute accepts a JavaScript object with camelCased properties rather than a CSS string. This is consistent with the DOM style JavaScript property, is more efficient, and prevents XSS security holes.
 
@@ -767,7 +773,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-62. ### How events are different in React?
+62	### What are Cookies?
 
     Handling events in React elements has some syntactic differences:
 
@@ -777,14 +783,16 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-63. ### What will happen if you use `setState()` in constructor?
+63	### What is Current version of PHP, MySQL, Laravel, MongoDB etc?
+
+
 
     When you use `setState()`, then apart from assigning to the object state React also re-renders the component and all its children. You would get error like this: *Can only update a mounted or mounting component.* So we need to use `this.state` to initialize variables inside constructor.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-64. ### What is the impact of indexes as keys?
+64	### Describe design architecture of an app?
 
     Keys should be stable, predictable, and unique so that React can keep track of elements.
 
@@ -811,7 +819,9 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-65. ### Is it good to use `setState()` in `componentWillMount()` method?
+65	### What are SQL Injections?
+
+
 
     It is recommended to avoid async initialization in `componentWillMount()` lifecycle method. `componentWillMount()` is invoked immediately before mounting occurs. It is called before `render()`, therefore setting state in this method will not trigger a re-render. Avoid introducing any side-effects or subscriptions in this method. We need to make sure async calls for component initialization happened in `componentDidMount()` instead of `componentWillMount()`.
 
@@ -829,7 +839,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-66. ### What will happen if you use props in initial state?
+66	### How to call static methods?
+
 
     If the props on the component are changed without the component being refreshed, the new prop value will never be displayed because the constructor function will never update the current state of the component. The initialization of state from props only runs when the component is first created.
 
@@ -873,7 +884,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-67. ### How do you conditionally render components?
+67	### How to achieve multiple DB hosts?
+
 
     In some cases you want to render different components depending on some state. JSX does not render `false` or `undefined`, so you can use conditional *short-circuiting* to render a given part of your component only if a certain condition is true.
 
@@ -905,7 +917,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-68. ### Why we need to be careful when spreading props on DOM elements?
+68	### What is Abstract class?
+
 
     When we *spread props* we run into the risk of adding unknown HTML attributes, which is a bad practice. Instead we can use prop destructuring with `...rest` operator, so it will add only required props. For example,
 
@@ -920,7 +933,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-69. ### How you use decorators in React?
+69	### What are Default ports for MySQL, Email, etc?
+
 
     You can *decorate* your *class* components, which is the same as passing the component into a function. **Decorators** are flexible and readable way of modifying component functionality.
 
@@ -953,7 +967,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-70. ### How do you memoize a component?
+70	### Explain Joins
 
     There are memoize libraries available which can be used on function components. For example `moize` library can memoize the component in another component.
 
