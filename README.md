@@ -487,614 +487,191 @@ Job is a task being performed in the background.
     
 24. ### What are Listeners?
 
-    The *Virtual DOM* (VDOM) is an in-memory representation of *Real DOM*. The representation of a UI is kept in memory and synced with the "real" DOM. It's a step that happens between the render function being called and the displaying of elements on the screen. This entire process is called *reconciliation*.
-
+  Which listen to the events
 
    **[⬆ Back to Top](#table-of-contents)**
     
 25. ### What are Payments and cashier?
 
-    The *Virtual DOM* works in three simple steps.
-
-    1. Whenever any underlying data changes, the entire UI is re-rendered in Virtual DOM representation.
-        ![vdom](images/vdom1.png)
-
-    2. Then the difference between the previous DOM representation and the new one is calculated.
-        ![vdom2](images/vdom2.png)
-
-    3. Once the calculations are done, the real DOM will be updated with only the things that have actually changed.
-        ![vdom3](images/vdom3.png)
+   Payment processing is difficult. Cashier is a package which makes it easy.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-26. ### 	What is Test Driven Development?
+26. ### What is Test Driven Development?
 
-    The *Shadow DOM* is a browser technology designed primarily for scoping variables and CSS in *web components*. The *Virtual DOM* is a concept implemented by libraries in JavaScript on top of browser APIs.
+    Test is written first and then the function is written.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 27. ### What is Package development?
 
-    Fiber is the new *reconciliation* engine or reimplementation of core algorithm in React v16. The goal of React Fiber is to increase its suitability for areas like animation, layout, gestures, ability to pause, abort, or reuse work and assign priority to different types of updates; and new concurrency primitives.
+    Laarvel uses composer which gets packages. You can develop your own package and submit.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 28. ### What are Laravel Scout search and Algolia?
 
-    The goal of *React Fiber* is to increase its suitability for areas like animation, layout, and gestures. Its headline feature is **incremental rendering**: the ability to split rendering work into chunks and spread it out over multiple frames.
-
+   ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 29. ### Socialie and Auth?
 
-    A component that controls the input elements within the forms on subsequent user input is called **Controlled Component**, i.e, every state mutation will have an associated handler function.
-
-    For example, to write all the names in uppercase letters, we use handleChange as below,
-
-    ```javascript
-    handleChange(event) {
-      this.setState({value: event.target.value.toUpperCase()})
-    }
-    ```
+  ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 30. ### What is Vue-js?
 
-    The **Uncontrolled Components** are the ones that store their own state internally, and you query the DOM using a ref to find its current value when you need it. This is a bit more like traditional HTML.
-
-    In the below UserProfile component, the `name` input is accessed using ref.
-
-    ```jsx harmony
-    class UserProfile extends React.Component {
-      constructor(props) {
-        super(props)
-        this.handleSubmit = this.handleSubmit.bind(this)
-        this.input = React.createRef()
-      }
-
-      handleSubmit(event) {
-        alert('A name was submitted: ' + this.input.current.value)
-        event.preventDefault()
-      }
-
-      render() {
-        return (
-          <form onSubmit={this.handleSubmit}>
-            <label>
-              {'Name:'}
-              <input type="text" ref={this.input} />
-            </label>
-            <input type="submit" value="Submit" />
-          </form>
-        );
-      }
-    }
-    ```
-
-    In most cases, it's recommend to use controlled components to implement forms.
-
+ In easy way to do SPA where you can change state.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 31. ### How to connect Laravel with other SQL databases?
 
-    JSX elements will be transpiled to `React.createElement()` functions to create React elements which are going to be used for the object representation of UI. Whereas `cloneElement` is used to clone an element and pass it new props.
-
+Go to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
 32. ### How to connect Laravel with non-SQL databases?
 
-    When several components need to share the same changing data then it is recommended to *lift the shared state up* to their closest common ancestor. That means if two child components share the same data from its parent, then move the state to parent instead of maintaining local state in both of the child components.
-
+   Add the entry to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
 33. ### What are the different phases of component lifecycle?
 
-    The component lifecycle has three distinct lifecycle phases:
-
-    1. **Mounting:** The component is ready to mount in the browser DOM. This phase covers initialization from `constructor()`, `getDerivedStateFromProps()`, `render()`, and `componentDidMount()` lifecycle methods.
-
-    2. **Updating:** In this phase, the component get updated in two ways, sending the new props and updating the state either from `setState()` or `forceUpdate()`. This phase covers `getDerivedStateFromProps()`, `shouldComponentUpdate()`, `render()`, `getSnapshotBeforeUpdate()` and `componentDidUpdate()` lifecycle methods.
-
-    3. **Unmounting:** In this last phase, the component is not needed and get unmounted from the browser DOM. This phase includes `componentWillUnmount()` lifecycle method.
-
-    It's worth mentioning that React internally has a concept of phases when applying changes to the DOM. They are separated as follows
-
-    1. **Render** The component will render without any side-effects. This applies for Pure components and in this phase, React can pause, abort, or restart the render.
-
-    2. **Pre-commit** Before the component actually applies the changes to the DOM, there is a moment that allows React to read from the DOM through the `getSnapshotBeforeUpdate()`.
-
-    3. **Commit** React works with the DOM and executes the final lifecycles respectively `componentDidMount()` for mounting, `componentDidUpdate()` for updating, and `componentWillUnmount()` for unmounting.
-
-    React 16.3+ Phases (or an [interactive version](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/))
-
-    ![phases 16.3+](images/phases16.3.jpg)
-
-    Before React 16.3
-
-    ![phases 16.2](images/phases.png)
-
+    
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 34. ### What are the lifecycle methods of React?
 
-    React 16.3+
-
-    - **getDerivedStateFromProps:** Invoked right before calling `render()` and is invoked on *every* render. This exists for rare use cases where you need derived state. Worth reading [if you need derived state](https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html).
-    - **componentDidMount:** Executed after first rendering and here all AJAX requests, DOM or state updates, and set up event listeners should occur.
-    - **shouldComponentUpdate:** Determines if the component will be updated or not. By default it returns `true`. If you are sure that the component doesn't need to render after state or props are updated, you can return false value. It is a great place to improve performance as it allows you to prevent a re-render if component receives new prop.
-    - **getSnapshotBeforeUpdate:** Executed right before rendered output is committed to the DOM. Any value returned by this will be passed into `componentDidUpdate()`. This is useful to capture information from the DOM i.e. scroll position.
-    - **componentDidUpdate:** Mostly it is used to update the DOM in response to prop or state changes. This will not fire if `shouldComponentUpdate()` returns `false`.
-    - **componentWillUnmount** It will be used to cancel any outgoing network requests, or remove all event listeners associated with the component.
-
-    Before 16.3
-
-    - **componentWillMount:** Executed before rendering and is used for App level configuration in your root component.
-    - **componentDidMount:** Executed after first rendering and here all AJAX requests, DOM or state updates, and set up event listeners should occur.
-    - **componentWillReceiveProps:** Executed when particular prop updates to trigger state transitions.
-    - **shouldComponentUpdate:** Determines if the component will be updated or not. By default it returns `true`. If you are sure that the component doesn't need to render after state or props are updated, you can return false value. It is a great place to improve performance as it allows you to prevent a re-render if component receives new prop.
-    - **componentWillUpdate:** Executed before re-rendering the component when there are props & state changes confirmed by `shouldComponentUpdate()` which returns true.
-    - **componentDidUpdate:** Mostly it is used to update the DOM in response to prop or state changes.
-    - **componentWillUnmount:** It will be used to cancel any outgoing network requests, or remove all event listeners associated with the component.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 35. ### What are Higher-Order Components?
 
-    A *higher-order component* (*HOC*) is a function that takes a component and returns a new component. Basically, it's a pattern that is derived from React's compositional nature.
-
-    We call them **pure components** because they can accept any dynamically provided child component but they won't modify or copy any behavior from their input components.
-
-    ```javascript
-    const EnhancedComponent = higherOrderComponent(WrappedComponent)
-    ```
-
-    HOC can be used for many use cases:
-
-    1. Code reuse, logic and bootstrap abstraction.
-    2. Render hijacking.
-    3. State abstraction and manipulation.
-    4. Props manipulation.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 36. ### How to create props proxy for HOC component?
 
-    You can add/edit props passed to the component using *props proxy* pattern like this:
-
-    ```jsx harmony
-    function HOC(WrappedComponent) {
-      return class Test extends Component {
-        render() {
-          const newProps = {
-            title: 'New Header',
-            footer: false,
-            showFeatureX: false,
-            showFeatureY: true
-          }
-
-          return <WrappedComponent {...this.props} {...newProps} />
-        }
-      }
-    }
-    ```
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 37. ### What is context?
 
-    *Context* provides a way to pass data through the component tree without having to pass props down manually at every level. For example, authenticated user, locale preference, UI theme need to be accessed in the application by many components.
-
-    ```javascript
-    const {Provider, Consumer} = React.createContext(defaultValue)
-    ```
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 38. ### What is children prop?
 
-    *Children* is a prop (`this.prop.children`) that allow you to pass components as data to other components, just like any other prop you use. Component tree put between component's opening and closing tag will be passed to that component as `children` prop.
-
-    There are a number of methods available in the React API to work with this prop. These include `React.Children.map`, `React.Children.forEach`, `React.Children.count`, `React.Children.only`, `React.Children.toArray`.
-    A simple usage of children prop looks as below,
-
-    ```jsx harmony
-    const MyDiv = React.createClass({
-      render: function() {
-        return <div>{this.props.children}</div>
-      }
-    })
-
-    ReactDOM.render(
-      <MyDiv>
-        <span>{'Hello'}</span>
-        <span>{'World'}</span>
-      </MyDiv>,
-      node
-    )
-    ```
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 39. ### How to write comments in React?
 
-    The comments in React/JSX are similar to JavaScript Multiline comments but are wrapped in curly braces.
-
-    **Single-line comments:**
-
-    ```jsx harmony
-    <div>
-      {/* Single-line comments(In vanilla JavaScript, the single-line comments are represented by double slash(//)) */}
-      {`Welcome ${user}, let's play React`}
-    </div>
-    ```
-
-    **Multi-line comments:**
-
-    ```jsx harmony
-    <div>
-      {/* Multi-line comments for more than
-       one line */}
-      {`Welcome ${user}, let's play React`}
-    </div>
-    ```
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 40. ### What is the purpose of using super constructor with props argument?
 
-    A child class constructor cannot make use of `this` reference until `super()` method has been called. The same applies for ES6 sub-classes as well. The main reason of passing props parameter to `super()` call is to access `this.props` in your child constructors.
-
-    **Passing props:**
-
-    ```javascript
-    class MyComponent extends React.Component {
-      constructor(props) {
-        super(props)
-
-        console.log(this.props) // prints { name: 'John', age: 42 }
-      }
-    }
-    ```
-
-    **Not passing props:**
-
-    ```javascript
-    class MyComponent extends React.Component {
-      constructor(props) {
-        super()
-
-        console.log(this.props) // prints undefined
-
-        // but props parameter is still available
-        console.log(props) // prints { name: 'John', age: 42 }
-      }
-
-      render() {
-        // no difference outside constructor
-        console.log(this.props) // prints { name: 'John', age: 42 }
-      }
-    }
-    ```
-
-    The above code snippets reveals that `this.props` is different only within the constructor. It would be the same outside the constructor.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 41. ### What is reconciliation?
-
-    When a component's props or state change, React decides whether an actual DOM update is necessary by comparing the newly returned element with the previously rendered one. When they are not equal, React will update the DOM. This process is called *reconciliation*.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 42. ### How to set state with a dynamic key name?
 
-    If you are using ES6 or the Babel transpiler to transform your JSX code then you can accomplish this with *computed property names*.
-
-    ```javascript
-    handleInputChange(event) {
-      this.setState({ [event.target.id]: event.target.value })
-    }
-    ```
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 43. ### What would be the common mistake of function being called every time the component renders?
 
-    You need to make sure that function is not being called while passing the function as a parameter.
-
-    ```jsx harmony
-    render() {
-      // Wrong: handleClick is called instead of passed as a reference!
-      return <button onClick={this.handleClick()}>{'Click Me'}</button>
-    }
-    ```
-
-    Instead, pass the function itself without parenthesis:
-
-    ```jsx harmony
-    render() {
-      // Correct: handleClick is passed as a reference!
-      return <button onClick={this.handleClick}>{'Click Me'}</button>
-    }
-    ```
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 44. ### Is lazy function supports named exports?
-    No, currently `React.lazy` function supports default exports only. If you would like to import modules which are named exports, you can create an intermediate module that reexports it as the default. It also ensures that tree shaking keeps working and don’t pull unused components.
-    Let's take a component file which exports multiple named components,
-    ```javascript
-    // MoreComponents.js
-    export const SomeComponent = /* ... */;
-    export const UnusedComponent = /* ... */;
-    ```
-    and reexport `MoreComponents.js` components in an intermediate file `IntermediateComponent.js`
-    ```javascript
-    // IntermediateComponent.js
-    export { SomeComponent as default } from "./MoreComponents.js";
-    ```
-    Now you can import the module using lazy function as below,
-    ```javascript
-    import React, { lazy } from 'react';
-    const SomeComponent = lazy(() => import("./IntermediateComponent.js"));
-    ```
+   
 
    **[⬆ Back to Top](#table-of-contents)**
     
 45. ### Why React uses `className` over `class` attribute?
-
-    `class` is a keyword in JavaScript, and JSX is an extension of JavaScript. That's the principal reason why React uses `className` instead of `class`. Pass a string as the `className` prop.
-
-    ```jsx harmony
-    render() {
-      return <span className={'menu navigation-menu'}>{'Menu'}</span>
-    }
-    ```
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 46. ### What are fragments?
 
-    It's common pattern in React which is used for a component to return multiple elements. *Fragments* let you group a list of children without adding extra nodes to the DOM.
-
-    ```jsx harmony
-    render() {
-      return (
-        <React.Fragment>
-          <ChildA />
-          <ChildB />
-          <ChildC />
-        </React.Fragment>
-      )
-    }
-    ```
-
-    There is also a *shorter syntax*, but it's not supported in many tools:
-
-    ```jsx harmony
-    render() {
-      return (
-        <>
-          <ChildA />
-          <ChildB />
-          <ChildC />
-        </>
-      )
-    }
-    ```
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 47. ### Why fragments are better than container divs?
-
-    1. Fragments are a bit faster and use less memory by not creating an extra DOM node. This only has a real benefit on very large and deep trees.
-    2. Some CSS mechanisms like *Flexbox* and *CSS Grid* have a special parent-child relationships, and adding divs in the middle makes it hard to keep the desired layout.
-    3. The DOM Inspector is less cluttered.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 48. ### What are portals in React?
 
-    *Portal* is a recommended way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.
-
-    ```javascript
-    ReactDOM.createPortal(child, container)
-    ```
-
-    The first argument is any render-able React child, such as an element, string, or fragment. The second argument is a DOM element.
-
+   
 
    **[⬆ Back to Top](#table-of-contents)**
     
 49. ### What are stateless components?
-
-    If the behaviour is independent of its state then it can be a stateless component. You can use either a function or a class for creating stateless components. But unless you need to use a lifecycle hook in your components, you should go for function components. There are a lot of benefits if you decide to use function components here; they are easy to write, understand, and test, a little faster, and you can avoid the `this` keyword altogether.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 50. ### What are stateful components?
 
-    If the behaviour of a component is dependent on the *state* of the component then it can be termed as stateful component. These *stateful components* are always *class components* and have a state that gets initialized in the `constructor`.
-
-    ```javascript
-    class App extends Component {
-      constructor(props) {
-        super(props)
-        this.state = { count: 0 }
-      }
-
-      render() {
-        // ...
-      }
-    }
-    ```
-    **React 16.8 Update:**
-    Hooks let you use state and other React features without writing classes.
-
-    *The Equivalent Functional Component*
-
-    ```javascript
-    import React, {useState} from 'react';
-
-    const App = (props) => {
-      const [count, setCount] = useState(0);
-
-      return (
-        // JSX
-      )
-    }
-    ```
-
-
+ 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 51. ### How to apply validation on props in React?
 
-    When the application is running in *development mode*, React will automatically check all props that we set on components to make sure they have *correct type*. If the type is incorrect, React will generate warning messages in the console. It's disabled in *production mode* due performance impact. The mandatory props are defined with `isRequired`.
-
-    The set of predefined prop types:
-
-    1. `PropTypes.number`
-    2. `PropTypes.string`
-    3. `PropTypes.array`
-    4. `PropTypes.object`
-    5. `PropTypes.func`
-    6. `PropTypes.node`
-    7. `PropTypes.element`
-    8. `PropTypes.bool`
-    9. `PropTypes.symbol`
-    10. `PropTypes.any`
-
-    We can define `propTypes` for `User` component as below:
-
-    ```jsx harmony
-    import React from 'react'
-    import PropTypes from 'prop-types'
-
-    class User extends React.Component {
-      static propTypes = {
-        name: PropTypes.string.isRequired,
-        age: PropTypes.number.isRequired
-      }
-
-      render() {
-        return (
-          <>
-            <h1>{`Welcome, ${this.props.name}`}</h1>
-            <h2>{`Age, ${this.props.age}`}</h2>
-          </>
-        )
-      }
-    }
-    ```
-
-    **Note:** In React v15.5 *PropTypes* were moved from `React.PropTypes` to `prop-types` library.
-
+   
 
    **[⬆ Back to Top](#table-of-contents)**
     
 52. ### What are the advantages of React?
-
-    1. Increases the application's performance with *Virtual DOM*.
-    2. JSX makes code easy to read and write.
-    3. It renders both on client and server side (*SSR*).
-    4. Easy to integrate with frameworks (Angular, Backbone) since it is only a view library.
-    5. Easy to write unit and integration tests with tools such as Jest.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 53. ### What are the limitations of React?
 
-    1. React is just a view library, not a full framework.
-    2. There is a learning curve for beginners who are new to web development.
-    3. Integrating React into a traditional MVC framework requires some additional configuration.
-    4. The code complexity increases with inline templating and JSX.
-    5. Too many smaller components leading to over engineering or boilerplate.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 54. ### What are error boundaries in React v16?
 
-    *Error boundaries* are components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed.
-
-    A class component becomes an error boundary if it defines a new lifecycle method called `componentDidCatch(error, info)` or `static getDerivedStateFromError() `:
-
-    ```jsx harmony
-    class ErrorBoundary extends React.Component {
-      constructor(props) {
-        super(props)
-        this.state = { hasError: false }
-      }
-
-      componentDidCatch(error, info) {
-        // You can also log the error to an error reporting service
-        logErrorToMyService(error, info)
-      }
-
-      static getDerivedStateFromError(error) {
-         // Update state so the next render will show the fallback UI.
-         return { hasError: true };
-       }
-
-      render() {
-        if (this.state.hasError) {
-          // You can render any custom fallback UI
-          return <h1>{'Something went wrong.'}</h1>
-        }
-        return this.props.children
-      }
-    }
-    ```
-
-    After that use it as a regular component:
-
-    ```jsx harmony
-    <ErrorBoundary>
-      <MyWidget />
-    </ErrorBoundary>
-    ```
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 55. ### How error boundaries handled in React v15?
 
-    React v15 provided very basic support for *error boundaries* using `unstable_handleError` method. It has been renamed to `componentDidCatch` in React v16.
-
+   
 
    **[⬆ Back to Top](#table-of-contents)**
     
 56. ### What are the recommended ways for static type checking?
 
-    Normally we use *PropTypes library* (`React.PropTypes` moved to a `prop-types` package since React v15.5) for *type checking* in the React applications. For large code bases, it is recommended to use *static type checkers* such as Flow or TypeScript, that perform type checking at compile time and provide auto-completion features.
+ 
 
 
    **[⬆ Back to Top](#table-of-contents)**
