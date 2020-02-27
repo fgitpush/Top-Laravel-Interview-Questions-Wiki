@@ -563,34 +563,30 @@ Go to config/database.php
     
 36. ### What is Horizontal scaling?
 
-...
+By adding more servers we scale horizontally.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 37. ###	What is Vertical scaling?
-...
+
+By increasing the size of the same server we scale vertically.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 38. ### What is Single Page Application in Laravel?
 
-...
-
-   **[⬆ Back to Top](#table-of-contents)**
-    
-39. ### How to write comments in React?
-
-...
+There is single URL. The assets are loaded once and only content keeps changing using JSON request. Its not great for SEO but there are workarounds to create virtual URL.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 40. ### What are Microservices in Laravel?
 
-...
+There are many services which are similar sized. Each performs exactly one function and they talk to each other.
+
    **[⬆ Back to Top](#table-of-contents)**
     
 41. ### What is CSRF and JWT token?
-...
+CSRF and JWT tokens are used to make sure the action is performed by the user. If there is no token, someone can give a link to user to click or hide it behind some action and him do what the hacker wants.
 
    **[⬆ Back to Top](#table-of-contents)**
     
