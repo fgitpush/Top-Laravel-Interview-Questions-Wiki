@@ -561,7 +561,7 @@ Go to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
-36. ### How to create props proxy for HOC component?
+36. ### What is Horizontal scaling?
 
 ...
 
