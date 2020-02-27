@@ -608,8 +608,8 @@ Composer is PHP's package manager.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-45. ### Why React uses `className` over `class` attribute?
-
+45. ### What is Symfony?
+Symfony is a framework Laravel is inspired from.
 
    **[⬆ Back to Top](#table-of-contents)**
     
