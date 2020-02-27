@@ -543,9 +543,9 @@ Go to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
-33. ### What are the different phases of component lifecycle?
+33. ### What is Lumen?
 
-    
+    Lumen is the lightweight version of Laravel used usually for making microservices.
 
 
    **[⬆ Back to Top](#table-of-contents)**
