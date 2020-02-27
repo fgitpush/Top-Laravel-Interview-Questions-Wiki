@@ -997,7 +997,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-71. ### How you implement Server Side Rendering or SSR?
+71	### Explain Unions
+
 
     React is already equipped to handle rendering on Node servers. A special version of the DOM renderer is available, which follows the same pattern as on the client side.
 
@@ -1013,14 +1014,15 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-72. ### How to enable production mode in React?
+72	### How mongodb is better than relational databases?
+
 
     You should use Webpack's `DefinePlugin` method to set `NODE_ENV` to `production`, by which it strip out things like propType validation and extra warnings. Apart from this, if you minify the code, for example, Uglify's dead-code elimination to strip out development only code and comments, it will drastically reduce the size of your bundle.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-73. ### What is CRA and its benefits?
+73	### What is mongodb?
 
     The `create-react-app` CLI tool allows you to quickly create & run React applications with no configuration step.
 
@@ -1051,7 +1053,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-74. ### What is the lifecycle methods order in mounting?
+74	### What is default session time?
+
 
     The lifecycle methods are called in the following order when an instance of a component is being created and inserted into the DOM.
 
@@ -1063,7 +1066,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-75. ### What are the lifecycle methods going to be deprecated in React v16?
+75	### How to create hooks in Laravel?
+
 
     The following lifecycle methods going to be unsafe coding practices and will be more problematic with async rendering.
 
@@ -1076,7 +1080,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-76. ### What is the purpose of `getDerivedStateFromProps()` lifecycle method?
+76	### What is csrf token and xss attack?
+
 
     The new static `getDerivedStateFromProps()` lifecycle method is invoked after a component is instantiated as well as before it is re-rendered. It can return an object to update state, or `null` to indicate that the new props do not require any state updates.
 
@@ -1093,7 +1098,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-77. ### What is the purpose of `getSnapshotBeforeUpdate()` lifecycle method?
+77	### Select highest/nth highest salary from DB
+
 
     The new `getSnapshotBeforeUpdate()` lifecycle method is called right before DOM updates. The return value from this method will be passed as the third parameter to `componentDidUpdate()`.
 
@@ -1110,14 +1116,16 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-78. ### Do Hooks replace render props and higher order components?
+78	### Write a join
+
 
     Both render props and higher-order components render only a single child but in most of the cases Hooks are a simpler way to serve this by reducing nesting in your tree.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-79. ### What is the recommended way for naming components?
+79	### Write a union
+
 
     It is recommended to name the component by reference instead of using `displayName`.
 
@@ -1141,7 +1149,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-80. ### What is the recommended ordering of methods in component class?
+80	### Write a complex query?
+
 
     *Recommended* ordering of methods from *mounting* to *render stage*:
 
@@ -1163,7 +1172,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-81. ### What is a switching component?
+81	### What is a switching component?
+
 
     A *switching component* is a component that renders one of many components. We need to use object to map prop values to components.
 
@@ -1197,7 +1207,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-82. ### Why we need to pass a function to setState()?
+82	### What is Difference between PHP 5 and 4?
+
 
     The reason behind for this is that `setState()` is an asynchronous operation. React batches state changes for performance reasons, so the state may not change immediately after `setState()` is called. That means you should not rely on the current state when calling `setState()` since you can't be sure what that state will be. The solution is to pass a function to `setState()`, with the previous state as an argument. By doing this you can avoid issues with the user getting the old state value on access due to the asynchronous nature of `setState()`.
 
@@ -1223,7 +1234,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-83. ### What is strict mode in React?
+83	### What is the difference among various php versions?
+
 
     `React.StrictMode` is an useful component for highlighting potential problems in an application. Just like `<Fragment>`, `<StrictMode>` does not render any extra DOM elements. It activates additional checks and warnings for its descendants. These checks apply for *development mode* only.
 
@@ -1251,7 +1263,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-84. ### What are React Mixins?
+84	### What is the difference among various mysql versions?
+
 
     *Mixins* are a way to totally separate components to have a common functionality. Mixins **should not be used** and can be replaced with *higher-order components* or *decorators*.
 
@@ -1270,7 +1283,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-85. ### Why is `isMounted()` an anti-pattern and what is the proper solution?
+85	### What is the difference among various Laravel versions?
+
 
     The primary use case for `isMounted()` is to avoid calling `setState()` after a component has been unmounted, because it will emit a warning.
 
@@ -1287,7 +1301,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-86. ### What are the Pointer Events supported in React?
+86	### How to add AWS plugin in PHP?
+
 
     *Pointer Events* provide a unified way of handling all input events. In the old days we had a mouse and respective event listeners to handle them but nowadays we have many devices which don't correlate to having a mouse, like phones with touch surface or pens. We need to remember that these events will only work in browsers that support the *Pointer Events* specification.
 
@@ -1307,7 +1322,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-87. ### Why should component names start with capital letter?
+87	### What are design patterns?
+
 
     If you are rendering your component using JSX, the name of that component has to begin with a capital letter otherwise React will throw an error as unrecognized tag. This convention is because only HTML elements and SVG tags can begin with a lowercase letter.
     ```jsx harmony
@@ -1336,7 +1352,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-88. ### Are custom DOM attributes supported in React v16?
+88	### What is the difference between GET and POST
+
 
     Yes. In the past, React used to ignore unknown DOM attributes. If you wrote JSX with an attribute that React doesn't recognize, React would just skip it. For example, this:
 
@@ -1361,7 +1378,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-89. ### What is the difference between constructor and getInitialState?
+89	### Which is fast between GET and POST?
+
 
     You should initialize state in the constructor when using ES6 classes, and `getInitialState()` method when using `React.createClass()`.
 
@@ -1391,7 +1409,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-90. ### Can you force a component to re-render without calling setState?
+90	### Explain 4 basics of OOP
+
 
     By default, when your component's state or props change, your component will re-render. If your `render()` method depends on some other data, you can tell React that the component needs re-rendering by calling `forceUpdate()`.
 
@@ -1404,7 +1423,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-91. ### What is the difference between `super()` and `super(props)` in React using ES6 classes?
+91	### What is diference between abstract class and interface?
+
 
     When you want to access `this.props` in `constructor()` then you should pass props to `super()` method.
 
@@ -1435,7 +1455,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-92. ### How to loop inside JSX?
+92	### What is MVC Framework?
+
 
     You can simply use `Array.prototype.map` with ES6 *arrow function* syntax. For example, the `items` array of objects is mapped into an array of components:
 
@@ -1460,7 +1481,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-93. ### How do you access props in attribute quotes?
+93	### Create a project with CRUD, one algorithm logic and insert data in db for testing.
+
 
     React (or JSX) doesn't support variable interpolation inside an attribute value. The below representation won't work:
 
@@ -1483,7 +1505,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-94. ### What is React proptype array with shape?
+94	### Explain CURL and SOAP?
+
 
     If you want to pass an array of objects to a component with a particular shape then use `React.PropTypes.shape()` as an argument to `React.PropTypes.arrayOf()`.
 
@@ -1499,7 +1522,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-95. ### How to conditionally apply class attributes?
+95	### In MySql we use many types of engines which one is faster and why?
+
 
     You shouldn't use curly braces inside quotes because it is going to be evaluated as a string.
 
@@ -1522,21 +1546,24 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-96. ### What is the difference between React and ReactDOM?
+96	### What are Triggers?
+
 
     The `react` package contains `React.createElement()`, `React.Component`, `React.Children`, and other helpers related to elements and component classes. You can think of these as the isomorphic or universal helpers that you need to build components. The `react-dom` package contains `ReactDOM.render()`, and in `react-dom/server` we have *server-side rendering* support with `ReactDOMServer.renderToString()` and `ReactDOMServer.renderToStaticMarkup()`.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-97. ### Why ReactDOM is separated from React?
+97	### What are Procedures
+
 
     The React team worked on extracting all DOM-related features into a separate library called *ReactDOM*. React v0.14 is the first release in which the libraries are split. By looking at some of the packages, `react-native`, `react-art`, `react-canvas`, and `react-three`, it has become clear that the beauty and essence of React has nothing to do with browsers or the DOM. To build more environments that React can render to, React team planned to split the main React package into two: `react` and `react-dom`. This paves the way to writing components that can be shared between the web version of React and React Native.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-98. ### How to use React label element?
+98	### What are some new feaatures of Laravel X?
+
 
     If you try to render a `<label>` element bound to a text input using the standard `for` attribute, then it produces HTML missing that attribute and prints a warning to the console.
 
@@ -1555,7 +1582,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-99. ### How to combine multiple inline style objects?
+99	### What are some new features of PHP X?
+
 
     You can use *spread operator* in regular React:
 
@@ -1572,7 +1600,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-100. ### How to re-render the view when the browser is resized?
+100	### Explain Difference between session and cookies?
 
      You can listen to the `resize` event in `componentDidMount()` and then update the dimensions (`width` and `height`). You should remove the listener in `componentWillUnmount()` method.
 
