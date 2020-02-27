@@ -602,8 +602,9 @@ Validations are used to make sure input is of the kind function wanted. Custom v
 
    **[⬆ Back to Top](#table-of-contents)**
     
-44. ### Is lazy function supports named exports?
+44. ### What is Composer?
    
+Composer is PHP's package manager.
 
    **[⬆ Back to Top](#table-of-contents)**
     
