@@ -647,7 +647,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-52. ### What are the advantages of React?
+52. ### What are Laravel Traits?
 
 
    **[⬆ Back to Top](#table-of-contents)**
