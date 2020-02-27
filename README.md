@@ -596,8 +596,9 @@ There are many services which are similar sized. Each performs exactly one funct
 
    **[⬆ Back to Top](#table-of-contents)**
     
-43. ### What would be the common mistake of function being called every time the component renders?
+43. ### What are Validations and custom validations?
 
+Validations are used to make sure input is of the kind function wanted. Custom validators are custom made valiators.
 
    **[⬆ Back to Top](#table-of-contents)**
     
