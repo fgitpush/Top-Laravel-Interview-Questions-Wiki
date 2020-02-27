@@ -590,8 +590,9 @@ CSRF and JWT tokens are used to make sure the action is performed by the user. I
 
    **[⬆ Back to Top](#table-of-contents)**
     
-42. ### How to set state with a dynamic key name?
+42. ### What is Service Oriented Architecture in Laravel?
 
+There are many services which are similar sized. Each performs exactly one function and they talk to each other. 
 
    **[⬆ Back to Top](#table-of-contents)**
     
