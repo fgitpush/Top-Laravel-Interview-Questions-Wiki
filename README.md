@@ -657,9 +657,9 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-54. ### What are error boundaries in React v16?
+54. ### What are System requirements for Laravel?
 
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
