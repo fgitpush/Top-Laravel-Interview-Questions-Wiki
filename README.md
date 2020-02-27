@@ -448,7 +448,7 @@ Object oriented and Model based way of DB query
     
 10. ### What is Eloquent?
 
-    The ORM wrapper Laravel uses is called Eloquent.
+    The ORM wrapper Laravel uses is called Eloquent. Every table has a model associated with it.
 
 
    **[⬆ Back to Top](#table-of-contents)**
