@@ -353,25 +353,6 @@ A model is where you write the database logic. Stored in `/app`
 
     When we type a URL, a request is sent to the server. The server goes from /public to bootstrap folder from which is goes to the routes file. The route files sends it the right controller/view.
 
-    1. **Function Components:** This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as first parameter and return React elements:
-
-        ```jsx harmony
-        function Greeting({ message }) {
-          return <h1>{`Hello, ${message}`}</h1>
-
-        }
-        ```
-
-    2. **Class Components:** You can also use ES6 class to define a component. The above function component can be written as:
-
-        ```jsx harmony
-        class Greeting extends React.Component {
-          render() {
-            return <h1>{`Hello, ${this.props.message}`}</h1>
-          }
-        }
-        ```
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -394,54 +375,11 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
   Middleware checks for authentication.
 
 
-    ```jsx harmony
-    class User extends React.Component {
-      constructor(props) {
-        super(props)
-
-        this.state = {
-          message: 'Welcome to React world'
-        }
-      }
-
-      render() {
-        return (
-          <div>
-            <h1>{this.state.message}</h1>
-          </div>
-        )
-      }
-    }
-    ```
-
-    ![state](images/state.jpg)
-
-    State is similar to props, but it is private and fully controlled by the component. i.e, It is not accessible to any component other than the one that owns and sets it.
-
-
    **[⬆ Back to Top](#table-of-contents)**
     
 9. ### What is ORM?
 
 Object oriented and Model based way of DB query
-
-    The primary purpose of props in React is to provide following component functionality:
-
-    1. Pass custom data to your component.
-    2. Trigger state changes.
-    3. Use via `this.props.reactProp` inside component's `render()` method.
-
-    For example, let us create an element with `reactProp` property:
-
-    ```jsx harmony
-    <Element reactProp={'1'} />
-    ```
-
-    This `reactProp` (or whatever you came up with) name then becomes a property attached to React's native props object which originally already exists on all components created using React library.
-
-    ```
-    props.reactProp
-    ```
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -457,20 +395,6 @@ Object oriented and Model based way of DB query
 
    A database wrapper that makes it easy to access DB.
 
-    ```javascript
-    //Wrong
-    this.state.message = 'Hello world'
-    ```
-
-    Instead use `setState()` method. It schedules an update to a component's state object. When state changes, the component responds by re-rendering.
-
-    ```javascript
-    //Correct
-    this.setState({ message: 'Hello World' })
-    ```
-
-    **Note:** You can directly assign to the state object either in *constructor* or using latest javascript's class field declaration syntax.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -478,147 +402,33 @@ Object oriented and Model based way of DB query
 
 Facades are used to hide implementation details and complexities from end user making him/her feel like interacting with a black box.
 
-    **Note:** It is recommended to use lifecycle method rather than this callback function.
-
-    ```javascript
-    setState({ name: 'John' }, () => console.log('The name has updated and component re-rendered'))
-    ```
-
-
    **[⬆ Back to Top](#table-of-contents)**
     
 13. ### What is Repository Pattern?
 
 Repository pattern is used to create templates where implementation details are left to be implemented in child classes. It helps with further expansion of code and avoid bottlenecks in class updation.
-    1. In HTML, the event name should be in *lowercase*:
-
-    ```html
-    <button onclick='activateLasers()'>
-    ```
-
-    Whereas in React it follows *camelCase* convention:
-
-    ```jsx harmony
-    <button onClick={activateLasers}>
-    ```
-
-    2. In HTML, you can return `false` to prevent default behavior:
-
-    ```html
-    <a href='#' onclick='console.log("The link was clicked."); return false;' />
-    ```
-
-    Whereas in React you must call `preventDefault()` explicitly:
-
-    ```javascript
-    function handleClick(event) {
-      event.preventDefault()
-      console.log('The link was clicked.')
-    }
-    ```
-
-    3. In HTML, you need to invoke the function by appending `()`
-    Whereas in react you should not append `()` with the function name. (refer "activateLasers" function in the first point for example)
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
-14. ### What is Authentication using Passport CSRF XSRF?
-
-    There are 3 possible ways to achieve this:
-
-    1.	**Binding in Constructor:** In JavaScript classes, the methods are not bound by default. The same thing applies for React event handlers defined as class methods. Normally we bind them in constructor.
-
-    ```javascript
-    class Component extends React.Componenet {
-      constructor(props) {
-        super(props)
-        this.handleClick = this.handleClick.bind(this)
-      }
-
-      handleClick() {
-        // ...
-      }
-    }
-    ```
-
-    2. **Public class fields syntax:** If you don't like to use bind approach then *public class fields syntax* can be used to correctly bind callbacks.
-
-    ```jsx harmony
-    handleClick = () => {
-      console.log('this is:', this)
-    }
-    ```
-
-    ```jsx harmony
-    <button onClick={this.handleClick}>
-      {'Click me'}
-    </button>
-    ```
-
-    3. **Arrow functions in callbacks:** You can use *arrow functions* directly in the callbacks.
-
-    ```jsx harmony
-    <button onClick={(event) => this.handleClick(event)}>
-      {'Click me'}
-    </button>
-    ```
-
-    **Note:** If the callback is passed as prop to child components, those components might do an extra re-rendering. In those cases, it is preferred to go with `.bind()` or *public class fields syntax* approach considering performance.
-
+14. ### What is Authentication using Passport?
+    Passport provides a better way to create API.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 15. ### What Unit testing?
 Testing every function
 
-    You can use an *arrow function* to wrap around an *event handler* and pass parameters:
-
-    ```jsx harmony
-    <button onClick={() => this.handleClick(id)} />
-    ```
-
-    This is an equivalent to calling `.bind`:
-
-    ```jsx harmony
-    <button onClick={this.handleClick.bind(this, id)} />
-    ```
-    Apart from these two approaches, you can also pass arguments to a function which is defined as array function
-    ```jsx harmony
-    <button onClick={this.handleClick(id)} />
-    handleClick = (id) => () => {
-        console.log("Hello, your ticket number is", id)
-    };
-    ```
-
-
    **[⬆ Back to Top](#table-of-contents)**
     
 16. ### What is Caching?
 
-    `SyntheticEvent` is a cross-browser wrapper around the browser's native event. It's API is same as the browser's native event, including `stopPropagation()` and `preventDefault()`, except the events work identically across all browsers.
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 17. ### What is Unit Testing?
 
-    You can use either *if statements* or *ternary expressions* which are available from JS to conditionally render expressions. Apart from these approaches, you can also embed any expressions in JSX by wrapping them in curly braces and then followed by JS logical operator `&&`.
-
-    ```jsx harmony
-    <h1>Hello!</h1>
-    {
-        messages.length > 0 && !isLogin?
-          <h2>
-              You have {messages.length} unread messages.
-          </h2>
-          :
-          <h2>
-              You don't have unread messages.
-          </h2>
-    }
-    ```
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
    
@@ -630,179 +440,48 @@ Testing every function
   
 18. ### What are Queues?
 
-    A `key` is a special string attribute you **should** include when creating arrays of elements. *Keys* help React identify which items have changed, are added, or are removed.
-
-    Most often we use IDs from our data as *keys*:
-
-    ```jsx harmony
-    const todoItems = todos.map((todo) =>
-      <li key={todo.id}>
-        {todo.text}
-      </li>
-    )
-    ```
-
-    When you don't have stable IDs for rendered items, you may use the item *index* as a *key* as a last resort:
-
-    ```jsx harmony
-    const todoItems = todos.map((todo, index) =>
-      <li key={index}>
-        {todo.text}
-      </li>
-    )
-    ```
-
-    **Note:**
-
-    1. Using *indexes* for *keys* is **not recommended** if the order of items may change. This can negatively impact performance and may cause issues with component state.
-    2. If you extract list item as separate component then apply *keys* on list component instead of `li` tag.
-    3. There will be a warning message in the console if the `key` prop is not present on list items.
-
+Queue is a line of jobs to be proccessed. You can create multiple queues which is multiple lines of jobs
 
    **[⬆ Back to Top](#table-of-contents)**
     
 19. ### What are Jobs?
 
-    The *ref* is used to return a reference to the element. They *should be avoided* in most cases, however, they can be useful when you need a direct access to the DOM element or an instance of a component.
-
+Job is a task being performed in the background.
 
    **[⬆ Back to Top](#table-of-contents)**
    
    
 19. ### How to setup Emails?
 
-    The *ref* is used to return a reference to the element. They *should be avoided* in most cases, however, they can be useful when you need a direct access to the DOM element or an instance of a component.
+   Use Laravel's sendmail() function and create a mail template.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 20. ### What are Advanced Eloquent and Query Builder?
 
-    There are two approaches
-    1. This is a recently added approach. *Refs* are created using `React.createRef()` method and attached to React elements via the `ref` attribute. In order to use *refs* throughout the component, just assign the *ref* to the instance property within constructor.
-
-    ```jsx harmony
-    class MyComponent extends React.Component {
-      constructor(props) {
-        super(props)
-        this.myRef = React.createRef()
-      }
-      render() {
-        return <div ref={this.myRef} />
-      }
-    }
-    ```
-    2. You can also use ref callbacks approach regardless of React version. For example, the search bar component's input element accessed as follows,
-    ```jsx harmony
-    class SearchBar extends Component {
-       constructor(props) {
-          super(props);
-          this.txtSearch = null;
-          this.state = { term: '' };
-          this.setInputSearchRef = e => {
-             this.txtSearch = e;
-          }
-       }
-       onInputChange(event) {
-          this.setState({ term: this.txtSearch.value });
-       }
-       render() {
-          return (
-             <input
-                value={this.state.term}
-                onChange={this.onInputChange.bind(this)}
-                ref={this.setInputSearchRef} />
-          );
-       }
-    }
-    ```
-
-    You can also use *refs* in function components using **closures**.
-    **Note**: You can also use inline ref callbacks even though it is not a recommended approach
+    ...
+   
 
    **[⬆ Back to Top](#table-of-contents)**
     
 21. ### Which is Error management?
 
-    *Ref forwarding* is a feature that lets some components take a *ref* they receive, and pass it further down to a child.
-
-    ```jsx harmony
-    const ButtonElement = React.forwardRef((props, ref) => (
-      <button ref={ref} className="CustomButton">
-        {props.children}
-      </button>
-    ));
-
-    // Create ref to the DOM button:
-    const ref = React.createRef();
-    <ButtonElement ref={ref}>{'Forward Ref'}</ButtonElement>
-    ```
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 22. ### How to create an API?
 
-    It is preferred to use *callback refs* over `findDOMNode()` API. Because `findDOMNode()` prevents certain improvements in React in the future.
-
-    The **legacy** approach of using `findDOMNode`:
-
-    ```javascript
-    class MyComponent extends Component {
-      componentDidMount() {
-        findDOMNode(this).scrollIntoView()
-      }
-
-      render() {
-        return <div />
-      }
-    }
-    ```
-
-    The recommended approach is:
-
-    ```javascript
-    class MyComponent extends Component {
-      constructor(props){
-        super(props);
-        this.node = createRef();
-      }
-      componentDidMount() {
-        this.node.current.scrollIntoView();
-      }
-
-      render() {
-        return <div ref={this.node} />
-      }
-    }
-    ```
+  Use api.php. Link will be x.com/api/slug
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 23. ### What are Events?
 
-    If you worked with React before, you might be familiar with an older API where the `ref` attribute is a string, like `ref={'textInput'}`, and the DOM node is accessed as `this.refs.textInput`. We advise against it because *string refs have below issues*, and are considered legacy. String refs were **removed in React v16**.
-
-    1. They *force React to keep track of currently executing component*. This is problematic because it makes react module stateful, and thus causes weird errors when react module is duplicated in the bundle.
-    2. They are *not composable* — if a library puts a ref on the passed child, the user can't put another ref on it. Callback refs are perfectly composable.
-    3. They *don't work with static analysis* like Flow. Flow can't guess the magic that framework does to make the string ref appear on `this.refs`, as well as its type (which could be different). Callback refs are friendlier to static analysis.
-    4. It doesn't work as most people would expect with the "render callback" pattern (e.g. <DataGrid renderRow={this.renderRow} />)
-       ```jsx harmony
-       class MyComponent extends Component {
-         renderRow = (index) => {
-           // This won't work. Ref will get attached to DataTable rather than MyComponent:
-           return <input ref={'input-' + index} />;
-
-           // This would work though! Callback refs are awesome.
-           return <input ref={input => this['input-' + index] = input} />;
-         }
-
-         render() {
-           return <DataTable data={this.props.data} renderRow={this.renderRow} />
-         }
-       }
-       ```
+   You get notified when an action is triggered.
 
    **[⬆ Back to Top](#table-of-contents)**
     
