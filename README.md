@@ -2702,65 +2702,7 @@ You can give route a name using a parameter.
     
 
 151. ### How can we get the user's IP address in Laravel?
-152. ### What is faker in Laravel?
-153. ### What are active records?
-154. ### What are the difference between insert() and insertGetId() in laravel?
-155. ### Talk about Laravel Vapor Compatibility
-156. ### What is Semantic Versioning?
-157. ### What are Jobs and Middleware?
-158. ### Talk about Laravel User Interface (UI)
-159. ### Talk about Eloquent Subquery Enhancements?
-160. ### What are improved Authorization Responses?
-161. ### What are lazy collections?
-162. ### How to make a constant and use globally?
-163. ### How to remove /public from URL in laravel?
-164. ### What are the difference between soft delete & delete in Laravel?
-165. ### How we can upload files in laravel?
-166. ### How to create real time sitemap.xml file in Laravel?
-167. ### How to use skip() and take() in Laravel Query?
-168. ### What is tinker in laravel?
-169. ### What is a REPL?
-170. ### How to use multiple 'OR' condition in Laravel Query?
-171. ### Please write some additional where Clauses in Laravel?
-172. ### How to check column is exists or not in a table using Laravel?
-173. ### What is eager loading in Laravel?
-174. ### How to generate application key in laravel?
-175. ### What is LTS version of Laravel?
-176. ### How to use GROUP_CONCAT() with JOIN in Laravel?
-177. ### How to extend login expire time in Auth?
-178. ### How to extend a layout file in laravel view?
-179. ### How do you use yield()?
-180. ### How to redirect form controller to view file in laravel?
-181. ### How to get current route name?
-182. ### What is ACL in laravel?
-183. ### How to check Ajax request in Laravel?
-184. ### How to check if value is sent in request?
-185. ### Laravel String Helper functions?
-186. ### Laravel Array Helper functions?
-187. ### How to exclude a route with parameters from CSRF verification?
-188. ### What are policies classes?
-189. ### How to rollback last migration?
-190. ### What do you mean by Laravel Dusk?
-191. ### Explain Laravel echo
-192. ### What is namespace in Laravel?
-193. ### What is Laravel Forge?
-194. ### State the difference between CodeIgniter and Laravel.
-195. ### What is an Observer?
-196. ### What is the use of the bootstrap directory?
-197. ### What is the default session timeout duration?
-198	Explain API.PHP route
-199. ### Define hashing in Laravel
-200. ### What is Localization?
-201. ### Explain the concept of encryption and decryption in Laravel.
-202. ### How to share data with views?
-203	How to generate a request in Laravel?
-204. ### I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?
-205. ### How to assign a variable value for all view file?
-206. ### How to make a constant and use globally?
-207. ### How to check current installed version of Laravel?
-208. ### What does "composer dump-autoload" do?
-209. ### What is Kept in vendor directory of Laravel?
-210. ### What does PHP compact function do?
+
      Let's write a test for a function that adds two numbers in `sum.js` file:
 
      ```javascript
@@ -2802,7 +2744,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-152. ### What is flux?
+152. ### What is faker in Laravel?
 
      *Flux* is an *application design paradigm* used as a replacement for the more traditional MVC pattern. It is not a framework or a library but a new kind of architecture that complements React and the concept of Unidirectional Data Flow. Facebook uses this pattern internally when working with React.
 
@@ -2813,14 +2755,16 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-153. ### What is Redux?
+153. ### What are active records?
+
 
      *Redux* is a predictable state container for JavaScript apps based on the *Flux design pattern*. Redux can be used together with React, or with any other view library. It is tiny (about 2kB) and has no dependencies.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-154. ### What are the core principles of Redux?
+154. ### What are the difference between insert() and insertGetId() in laravel?
+
 
      Redux follows three fundamental principles:
 
@@ -2831,7 +2775,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-155. ### What are the downsides of Redux compared to Flux?
+155. ### Talk about Laravel Vapor Compatibility
+
 
      Instead of saying downsides we can say that there are few compromises of using Redux over Flux. Those are as follows:
 
@@ -2842,7 +2787,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-156. ### What is the difference between `mapStateToProps()` and `mapDispatchToProps()`?
+156. ### What is Semantic Versioning?
+
 
      `mapStateToProps()` is a utility which helps your component get updated state (which is updated by some other components):
 
@@ -2879,14 +2825,15 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-157. ### Can I dispatch an action in reducer?
+157. ### What are Jobs and Middleware?
+
 
      Dispatching an action within a reducer is an **anti-pattern**. Your reducer should be *without side effects*, simply digesting the action payload and returning a new state object. Adding listeners and dispatching actions within the reducer can lead to chained actions and other side effects.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-158. ### How to access Redux store outside a component?
+158. ### Talk about Laravel User Interface (UI)
 
      You just need to export the store from the module where it created with `createStore()`. Also, it shouldn't pollute the global window object.
 
@@ -2899,7 +2846,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-159. ### What are the drawbacks of MVW pattern?
+159. ### Talk about Eloquent Subquery Enhancements?
 
      1. DOM manipulation is very expensive which causes applications to behave slow and inefficient.
      3. Due to circular dependencies, a complicated model was created around models and views.
@@ -2909,7 +2856,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-160. ### Are there any similarities between Redux and RxJS?
+160. ### What are improved Authorization Responses?
 
      These libraries are very different for very different purposes, but there are some vague similarities.
 
@@ -2918,7 +2865,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-161. ### How to dispatch an action on load?
+161. ### What are lazy collections?
+
 
      You can dispatch an action in `componentDidMount()` method and in `render()` method you can verify the data.
 
@@ -2947,7 +2895,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-162. ### How to use `connect()` from React Redux?
+162. ### How to make a constant and use globally?
+
 
      You need to follow two steps to use your store in your container:
 
@@ -2974,7 +2923,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-163. ### How to reset state in Redux?
+163. ### How to remove /public from URL in laravel?
+
 
      You need to write a *root reducer* in your application which delegate handling the action to the reducer generated by `combineReducers()`.
 
@@ -3017,7 +2967,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-164. ### Whats the purpose of `at` symbol in the Redux connect decorator?
+164. ### What are the difference between soft delete & delete in Laravel?
+
 
      The **@** symbol is in fact a JavaScript expression used to signify decorators. *Decorators* make it possible to annotate and modify classes and properties at design time.
 
@@ -3073,21 +3024,23 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-165. ### What is the difference between React context and React Redux?
+165. ### How we can upload files in laravel?
 
      You can use **Context** in your application directly and is going to be great for passing down data to deeply nested components which what it was designed for. Whereas **Redux** is much more powerful and provides a large number of features that the Context API doesn't provide. Also, React Redux uses context internally but it doesn't expose this fact in the public API.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-166. ### Why are Redux state functions called reducers?
+166. ### Why are Redux state functions c166. ### How to create real time sitemap.xml file in Laravel?
+
 
      Reducers always return the accumulation of the state (based on all previous and current actions). Therefore, they act as a reducer of state. Each time a Redux reducer is called, the state and action are passed as parameters. This state is then reduced (or accumulated) based on the action, and then the next state is returned. You could *reduce* a collection of actions and an initial state (of the store) on which to perform these actions to get the resulting final state.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-167. ### How to make AJAX request in Redux?
+167. ### How to use skip() and take() in Laravel Query?
+
 
      You can use `redux-thunk` middleware which allows you to define async actions.
 
@@ -3116,14 +3069,16 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-168. ### Should I keep all component's state in Redux store?
+168. ### What is tinker in laravel?
+
 
       Keep your data in the Redux store, and the UI related state internally in the component.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-169. ### What is the proper way to access Redux store?
+169. ### What is a REPL?
+
 
      The best way to access your store in a component is to use the `connect()` function, that creates a new component that wraps around your existing one. This pattern is called *Higher-Order Components*, and is generally the preferred way of extending a component's functionality in React. This allows you to map state and action creators to your component, and have them passed in automatically as your store updates.
 
@@ -3163,7 +3118,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-170. ### What is the difference between component and container in React Redux?
+170. ### How to use multiple 'OR' condition in Laravel Query?
+
 
      **Component** is a class or function component that describes the presentational part of your application.
 
@@ -3172,7 +3128,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-171. ### What is the purpose of the constants in Redux?
+171. ### Please write some additional where Clauses in Laravel?
+
 
      Constants allows you to easily find all usages of that specific functionality across the project when you use an IDE. It also prevents you from introducing silly bugs caused by typos – in which case, you will get a `ReferenceError` immediately.
 
@@ -3227,7 +3184,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-172. ### What are the different ways to write `mapDispatchToProps()`?
+172. ### How to check column is exists or not in a table using Laravel?
+
 
      There are a few ways of binding *action creators* to `dispatch()` in `mapDispatchToProps()`. Below are the possible options:
 
@@ -3252,7 +3210,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-173. ### What is the use of the `ownProps` parameter in `mapStateToProps()` and `mapDispatchToProps()`?
+173. ### What is eager loading in Laravel?
+
 
      If the `ownProps` parameter is specified, React Redux will pass the props that were passed to the component into your *connect* functions. So, if you use a connected component:
 
@@ -3273,7 +3232,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-174. ### How to structure Redux top level directories?
+174. ### How to generate application key in laravel?
+
 
      Most of the applications has several top-level directories as below:
 
@@ -3288,7 +3248,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-175. ### What is redux-saga?
+175. ### What is LTS version of Laravel?
+
 
      `redux-saga` is a library that aims to make side effects (asynchronous things like data fetching and impure things like accessing the browser cache) in React/Redux applications easier and better.
 
@@ -3301,14 +3262,16 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-176. ### What is the mental model of redux-saga?
+176. ### How to use GROUP_CONCAT() with JOIN in Laravel?
+
 
      *Saga* is like a separate thread in your application, that's solely responsible for side effects. `redux-saga` is a redux *middleware*, which means this thread can be started, paused and cancelled from the main application with normal Redux actions, it has access to the full Redux application state and it can dispatch Redux actions as well.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-177. ### What are the differences between `call()` and `put()` in redux-saga?
+177. ### How to extend login expire time in Auth?
+
 
      Both `call()` and `put()` are effect creator functions. `call()` function is used to create effect description, which instructs middleware to call the promise. `put()` function creates an effect, which instructs middleware to dispatch an action to the store.
 
@@ -3331,28 +3294,32 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-178. ### What is Redux Thunk?
+178. ### How to extend a layout file in laravel view?
+
 
      *Redux Thunk* middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner function receives the store methods `dispatch()` and `getState()` as parameters.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-179. ### What are the differences between `redux-saga` and `redux-thunk`?
+181. ### How to get current route name?
+
 
      Both *Redux Thunk* and *Redux Saga* take care of dealing with side effects. In most of the scenarios, Thunk uses *Promises* to deal with them, whereas Saga uses *Generators*. Thunk is simple to use and Promises are familiar to many developers, Sagas/Generators are more powerful but you will need to learn them. But both middleware can coexist, so you can start with Thunks and introduce Sagas when/if you need them.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-180. ### What is Redux DevTools?
+179. ### How do you use yield()?
+
 
      *Redux DevTools* is a live-editing time travel environment for Redux with hot reloading, action replay, and customizable UI. If you don't want to bother with installing Redux DevTools and integrating it into your project, consider using Redux DevTools Extension for Chrome and Firefox.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-181. ### What are the features of Redux DevTools?
+180. ### How to redirect form controller to view file in laravel?
+
 
      1. Lets you inspect every state and action payload.
      2. Lets you go back in time by *cancelling* actions.
@@ -3363,7 +3330,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-182. ### What are Redux selectors and why to use them?
+182. ### What is ACL in laravel?
+
 
      *Selectors* are functions that take Redux state as an argument and return some data to pass to the component.
 
@@ -3376,14 +3344,16 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-183. ### What is Redux Form?
+183. ### How to check Ajax request in Laravel?
+
 
      *Redux Form* works with React and Redux to enable a form in React to use Redux to store all of its state. Redux Form can be used with raw HTML5 inputs, but it also works very well with common UI frameworks like Material UI, React Widgets and React Bootstrap.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-184. ### What are the main features of Redux Form?
+184. ### How to check if value is sent in request?
+
 
        1. Field values persistence via Redux store.
        2. Validation (sync/async) and submission.
@@ -3392,7 +3362,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-185. ### How to add multiple middlewares to Redux?
+185. ### Laravel String Helper functions?
+
 
      You can use `applyMiddleware()`.
 
@@ -3406,7 +3377,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-186. ### How to set initial state in Redux?
+186. ### Laravel Array Helper functions?
+
 
      You need to pass initial state as second argument to createStore:
 
@@ -3429,7 +3401,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-187. ### How Relay is different from Redux?
+187. ### How to exclude a route with parameters from CSRF verification?
+
 
      Relay is similar to Redux in that they both use a single store. The main difference is that relay only manages state originated from the server, and all access to the state is used via *GraphQL* queries (for reading data) and mutations (for changing data). Relay caches the data for you and optimizes data fetching for you, by fetching only changed data and nothing more.
 
@@ -3438,7 +3411,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-188. ### What is the difference between React Native and React?
+188. ### What are policies classes?
+
 
      **React** is a JavaScript library, supporting both front end web and being run on the server, for building user interfaces and web applications.
 
@@ -3447,14 +3421,15 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-189. ### How to test React Native apps?
+189. ### How to rollback last migration?
+
 
      React Native can be tested only in mobile simulators like iOS and Android. You can run the app in your mobile using expo app (https://expo.io) Where it syncs using QR code, your mobile and computer should be in same wireless network.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-190. ### How to do logging in React Native?
+190. ### What do you mean by Laravel Dusk?
 
      You can use `console.log`, `console.warn`, etc. As of React Native v0.29 you can simply run the following to see logs in the console:
 
@@ -3466,7 +3441,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-191. ### How to debug your React Native?
+191. ### Explain Laravel echo
+
 
      Follow the below steps to debug React Native app:
 
@@ -3481,7 +3457,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-192. ### What is reselect and how it works?
+192. ### What is namespace in Laravel?
+
 
      *Reselect* is a **selector library** (for Redux) which uses *memoization* concept. It was originally written to compute derived data from Redux-like applications state, but it can't be tied to any architecture or library.
 
@@ -3490,21 +3467,24 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-193. ### What is Flow?
+193. ### What is Laravel Forge?
+
 
      *Flow* is a *static type checker* designed to find type errors in JavaScript. Flow types can express much more fine-grained distinctions than traditional type systems. For example, Flow helps you catch errors involving `null`, unlike most type systems.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-194. ### What is the difference between Flow and PropTypes?
+194. ### State the difference between CodeIgniter and Laravel.
+
 
      Flow is a *static analysis tool* (static checker) which uses a superset of the language, allowing you to add type annotations to all of your code and catch an entire class of bugs at compile time. PropTypes is a *basic type checker* (runtime checker) which has been patched onto React. It can't check anything other than the types of the props being passed to a given component. If you want more flexible typechecking for your entire project Flow/TypeScript are appropriate choices.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-195. ### How to use Font Awesome icons in React?
+195. ### What is an Observer?
+
 
      The below steps followed to include Font Awesome in React:
 
@@ -3531,7 +3511,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-196. ### What is React Dev Tools?
+196. ### What is the use of the bootstrap directory?
+
 
      *React Developer Tools* let you inspect the component hierarchy, including component props and state. It exists both as a browser extension (for Chrome and Firefox), and as a standalone app (works with other environments including Safari, IE, and React Native).
 
@@ -3543,14 +3524,16 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-197. ### Why is DevTools not loading in Chrome for local files?
+197. ### What is the default session timeout duration?
+
 
      If you opened a local HTML file in your browser (`file://...`) then you must first open *Chrome Extensions* and check `Allow access to file URLs`.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-198. ### How to use Polymer in React?
+198	Explain API.PHP route
+
 
      1. Create a Polymer element:
 
@@ -3589,7 +3572,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-199. ### What are the advantages of React over Vue.js?
+199. ### Define hashing in Laravel
+
 
      React has the following advantages over Vue.js:
 
@@ -3601,7 +3585,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-200. ### What is the difference between React and Angular?
+200. ### What is Localization?
+
 
      | React | Angular |
      | ----- | ------- |
@@ -3614,21 +3599,24 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-201. ### Why React tab is not showing up in DevTools?
+201. ### Explain the concept of encryption and decryption in Laravel.
+
 
      When the page loads, *React DevTools* sets a global named `__REACT_DEVTOOLS_GLOBAL_HOOK__`, then React communicates with that hook during initialization. If the website is not using React or if React fails to communicate with DevTools then it won't show up the tab.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-202. ### What are Styled Components?
+202. ### How to share data with views?
+
 
      `styled-components` is a JavaScript library for styling React applications. It removes the mapping between styles and components, and lets you write actual CSS augmented with JavaScript.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-203. ### Give an example of Styled Components?
+203	How to generate a request in Laravel?
+
 
      Lets create `<Title>` and `<Wrapper>` components with specific styles for each.
 
@@ -3661,14 +3649,16 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-204. ### What is Relay?
+204. ### I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?
+
 
      Relay is a JavaScript framework for providing a data layer and client-server communication to web applications using the React view layer.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-205. ### How to use TypeScript in `create-react-app` application?
+205. ### How to assign a variable value for all view file?
+
      Starting from react-scripts@2.1.0 or higher, there is a built-in support for typescript. You can just pass `--typescript` option as below
      ```bash
      npx create-react-app my-app --typescript
@@ -3701,13 +3691,15 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-206. ### What are the main features of Reselect library?
+206. ### How to make a constant and use globally?
+
 
        1. Selectors can compute derived data, allowing Redux to store the minimal possible state.
        2. Selectors are efficient. A selector is not recomputed unless one of its arguments changes.
        3. Selectors are composable. They can be used as input to other selectors.
 
-207. #### Give an example of Reselect usage?
+207. ### How to check current installed version of Laravel?
+
 
      Let's take calculations and different amounts of a shipment order with the simplified usage of Reselect:
 
@@ -3752,7 +3744,8 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-208. ### What is an action in Redux?
+208. ### What does "composer dump-autoload" do?
+
 
      *Actions* are plain JavaScript objects or payloads of information that send data from your application to your store. They are the only source of information for the store. Actions must have a type property that indicates the type of action being performed.
 
@@ -3768,7 +3761,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-209. ### Does the statics object work with ES6 classes in React?
+209. ### What is Kept in vendor directory of Laravel?
 
      No, `statics` only works with `React.createClass()`:
 
@@ -3807,7 +3800,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-210. ### Can Redux only be used with React?
+210. ### What does PHP compact function do?alled reducers?
 
      Redux can be used as a data store for any UI layer. The most common usage is with React and React Native, but there are bindings available for Angular, Angular 2, Vue, Mithril, and more. Redux simply provides a subscription mechanism which can be used by any other code.
 
