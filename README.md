@@ -652,7 +652,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-53. ### What are the limitations of React?
+53. ### What are Bundles in Laravel?
 
 
    **[⬆ Back to Top](#table-of-contents)**
