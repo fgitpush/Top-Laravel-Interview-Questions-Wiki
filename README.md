@@ -1124,7 +1124,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-79	### Write a union
+79. ### Write a union
 
 
     It is recommended to name the component by reference instead of using `displayName`.
@@ -1149,7 +1149,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-80	### Write a complex query?
+80. ### Write a complex query?
 
 
     *Recommended* ordering of methods from *mounting* to *render stage*:
@@ -1172,7 +1172,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-81	### What is a switching component?
+81. ### What is a switching component?
 
 
     A *switching component* is a component that renders one of many components. We need to use object to map prop values to components.
@@ -1207,7 +1207,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-82	### What is Difference between PHP 5 and 4?
+82. ### What is Difference between PHP 5 and 4?
 
 
     The reason behind for this is that `setState()` is an asynchronous operation. React batches state changes for performance reasons, so the state may not change immediately after `setState()` is called. That means you should not rely on the current state when calling `setState()` since you can't be sure what that state will be. The solution is to pass a function to `setState()`, with the previous state as an argument. By doing this you can avoid issues with the user getting the old state value on access due to the asynchronous nature of `setState()`.
@@ -1234,7 +1234,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-83	### What is the difference among various php versions?
+83. ### What is the difference among various php versions?
 
 
     `React.StrictMode` is an useful component for highlighting potential problems in an application. Just like `<Fragment>`, `<StrictMode>` does not render any extra DOM elements. It activates additional checks and warnings for its descendants. These checks apply for *development mode* only.
@@ -1263,7 +1263,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-84	### What is the difference among various mysql versions?
+84. ### What is the difference among various mysql versions?
 
 
     *Mixins* are a way to totally separate components to have a common functionality. Mixins **should not be used** and can be replaced with *higher-order components* or *decorators*.
@@ -1283,7 +1283,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-85	### What is the difference among various Laravel versions?
+85. ### What is the difference among various Laravel versions?
 
 
     The primary use case for `isMounted()` is to avoid calling `setState()` after a component has been unmounted, because it will emit a warning.
@@ -1301,7 +1301,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-86	### How to add AWS plugin in PHP?
+86. ### How to add AWS plugin in PHP?
 
 
     *Pointer Events* provide a unified way of handling all input events. In the old days we had a mouse and respective event listeners to handle them but nowadays we have many devices which don't correlate to having a mouse, like phones with touch surface or pens. We need to remember that these events will only work in browsers that support the *Pointer Events* specification.
@@ -1322,7 +1322,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-87	### What are design patterns?
+87. ### What are design patterns?
 
 
     If you are rendering your component using JSX, the name of that component has to begin with a capital letter otherwise React will throw an error as unrecognized tag. This convention is because only HTML elements and SVG tags can begin with a lowercase letter.
@@ -1352,7 +1352,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-88	### What is the difference between GET and POST
+88. ### What is the difference between GET and POST
 
 
     Yes. In the past, React used to ignore unknown DOM attributes. If you wrote JSX with an attribute that React doesn't recognize, React would just skip it. For example, this:
@@ -1378,7 +1378,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-89	### Which is fast between GET and POST?
+89. ### Which is fast between GET and POST?
 
 
     You should initialize state in the constructor when using ES6 classes, and `getInitialState()` method when using `React.createClass()`.
@@ -1409,7 +1409,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-90	### Explain 4 basics of OOP
+90. ### Explain 4 basics of OOP
 
 
     By default, when your component's state or props change, your component will re-render. If your `render()` method depends on some other data, you can tell React that the component needs re-rendering by calling `forceUpdate()`.
@@ -1423,7 +1423,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-91	### What is diference between abstract class and interface?
+91. ### What is diference between abstract class and interface?
 
 
     When you want to access `this.props` in `constructor()` then you should pass props to `super()` method.
@@ -1455,7 +1455,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-92	### What is MVC Framework?
+92. ### What is MVC Framework?
 
 
     You can simply use `Array.prototype.map` with ES6 *arrow function* syntax. For example, the `items` array of objects is mapped into an array of components:
@@ -1481,7 +1481,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-93	### Create a project with CRUD, one algorithm logic and insert data in db for testing.
+93. ### Create a project with CRUD, one algorithm logic and insert data in db for testing.
 
 
     React (or JSX) doesn't support variable interpolation inside an attribute value. The below representation won't work:
@@ -1505,7 +1505,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-94	### Explain CURL and SOAP?
+94. ### Explain CURL and SOAP?
 
 
     If you want to pass an array of objects to a component with a particular shape then use `React.PropTypes.shape()` as an argument to `React.PropTypes.arrayOf()`.
@@ -1522,7 +1522,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-95	### In MySql we use many types of engines which one is faster and why?
+95. ### In MySql we use many types of engines which one is faster and why?
 
 
     You shouldn't use curly braces inside quotes because it is going to be evaluated as a string.
@@ -1546,7 +1546,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-96	### What are Triggers?
+96. ### What are Triggers?
 
 
     The `react` package contains `React.createElement()`, `React.Component`, `React.Children`, and other helpers related to elements and component classes. You can think of these as the isomorphic or universal helpers that you need to build components. The `react-dom` package contains `ReactDOM.render()`, and in `react-dom/server` we have *server-side rendering* support with `ReactDOMServer.renderToString()` and `ReactDOMServer.renderToStaticMarkup()`.
@@ -1554,7 +1554,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-97	### What are Procedures
+97. ### What are Procedures
 
 
     The React team worked on extracting all DOM-related features into a separate library called *ReactDOM*. React v0.14 is the first release in which the libraries are split. By looking at some of the packages, `react-native`, `react-art`, `react-canvas`, and `react-three`, it has become clear that the beauty and essence of React has nothing to do with browsers or the DOM. To build more environments that React can render to, React team planned to split the main React package into two: `react` and `react-dom`. This paves the way to writing components that can be shared between the web version of React and React Native.
@@ -1562,7 +1562,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-98	### What are some new feaatures of Laravel X?
+98. ### What are some new feaatures of Laravel X?
 
 
     If you try to render a `<label>` element bound to a text input using the standard `for` attribute, then it produces HTML missing that attribute and prints a warning to the console.
@@ -1582,7 +1582,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-99	### What are some new features of PHP X?
+99. ### What are some new features of PHP X?
 
 
     You can use *spread operator* in regular React:
@@ -1600,7 +1600,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-100	### Explain Difference between session and cookies?
+100. ### Explain Difference between session and cookies?
 
      You can listen to the `resize` event in `componentDidMount()` and then update the dimensions (`width` and `height`). You should remove the listener in `componentWillUnmount()` method.
 
@@ -1636,7 +1636,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-101	### Merge 2 arrays with duplicate
+101. ### Merge 2 arrays with duplicate
 
 
      When you use `setState()` the current and previous states are merged. `replaceState()` throws out the current state, and replaces it with only what you provide. Usually `setState()` is used unless you really need to remove all previous keys for some reason. You can also set state to `false`/`null` in `setState()` instead of using `replaceState()`.
@@ -1644,7 +1644,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-102	### Find the count of vowel and consonants
+102. ### Find the count of vowel and consonants
 
 
      The following lifecycle methods will be called when state changes. You can compare provided state and props values with current state and props to determine if something meaningful changed.
@@ -1657,7 +1657,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-103	### Explain AWS Services
+103. ### Explain AWS Services
 
 
      The better approach is to use `Array.prototype.filter()` method.
@@ -1675,7 +1675,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-104	### How to do Web scraping?
+104. ### How to do Web scraping?
 
 
      It is possible with latest version (>=16.2). Below are the possible options:
@@ -1715,7 +1715,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-105	### Explain require and require once difference
+105. ### Explain require and require once difference
 
 
      We can use `<pre>` tag so that the formatting of the `JSON.stringify()` is retained:
@@ -1739,7 +1739,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
    
-106	### Explain include and require diffrence
+106. ### Explain include and require diffrence
 
 
      The React philosophy is that props should be *immutable* and *top-down*. This means that a parent can send any prop values to a child, but the child can't modify received props.
@@ -1747,7 +1747,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-107	### Directory structure of Laravel
+107. ### Directory structure of Laravel
 
 
      You can do it by creating *ref* for `input` element and using it in `componentDidMount()`:
@@ -1779,7 +1779,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-108	### How to install Laravel via composer?
+108. ### How to install Laravel via composer?
 
 
      1. **Calling `setState()` with an object to merge with state:**
@@ -1812,7 +1812,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-109	### Which ORM are being used by laravel?
+109. ### Which ORM are being used by laravel?
 
 
      React may batch multiple `setState()` calls into a single update for performance. Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
@@ -1838,7 +1838,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
    
-110	### List types of relationships available in Laravel Eloquent?
+110. ### List types of relationships available in Laravel Eloquent?
 
 
      You can use `React.version` to get the version.
@@ -1855,7 +1855,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-111	### How to enable maintenance mode in Laravel?
+111. ### How to enable maintenance mode in Laravel?
 
 
      1. **Manual import from `core-js`:**
@@ -1881,7 +1881,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-112	### What is the purpose of using dd() function in laravel?
+112. ### What is the purpose of using dd() function in laravel?
 
 
      You just need to use `HTTPS=true` configuration. You can edit your `package.json` scripts section:
@@ -1897,7 +1897,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-113	### How do you register a Service Provider?
+113. ### How do you register a Service Provider?
 
 
      Create a file called `.env` in the project root and write the import path:
@@ -1911,7 +1911,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-114	### How to add Google Analytics for react-router?
+114. ### How to add Google Analytics for react-router?
 
 
      Add a listener on the `history` object to record each page view:
@@ -1926,7 +1926,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-115	### Helper Functions
+115. ### Helper Functions
 
 
      You need to use `setInterval()` to trigger the change, but you also need to clear the timer when the component unmounts to prevent errors and memory leaks.
@@ -1944,7 +1944,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-116	### What is Fillable Attribute in a Laravel Model?
+116. ### What is Fillable Attribute in a Laravel Model?
 
 
      React *does not* apply *vendor prefixes* automatically. You need to add vendor prefixes manually.
@@ -1960,7 +1960,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-117	### What is Guarded Attribute in a Laravel Model?
+117. ### What is Guarded Attribute in a Laravel Model?
 
 
      You should use default for exporting the components
@@ -1985,7 +1985,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-118	### What are Closures in Laravel?
+118. ### What are Closures in Laravel?
 
 
      The component names should start with a uppercase letter but there are few exceptions on this convention. The lowercase tag names with a dot (property accessors) are still considered as valid component names.
@@ -2000,7 +2000,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-119	### How to get Logged in user info in Laravel?
+119. ### How to get Logged in user info in Laravel?
 
 
      React's *reconciliation* algorithm assumes that without any information to the contrary, if a custom component appears in the same place on subsequent renders, it's the same component as before, so reuses the previous instance rather than creating a new one.
@@ -2008,7 +2008,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-120	### What is Laravel Elixir?
+120. ### What is Laravel Elixir?
 
 
      You can use ES7 `static` field to define constant.
@@ -2024,7 +2024,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-121	### What is Laravel Mix?
+121. ### What is Laravel Mix?
 
 
      You could use the ref prop to acquire a reference to the underlying `HTMLInputElement` object through a callback, store the reference as a class property, then use that reference to later trigger a click from your event handlers using the `HTMLElement.click` method. This can be done in two steps:
@@ -2044,7 +2044,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-122	### How can you display HTML with Blade in Laravel?
+122. ### How can you display HTML with Blade in Laravel?
 
 
      If you want to use `async`/`await` in React, you will need *Babel* and [transform-async-to-generator](https://babeljs.io/docs/en/babel-plugin-transform-async-to-generator) plugin. React Native ships with Babel and a set of transforms.
@@ -2106,7 +2106,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-124	### List out databases that laravel supports?
+124. ### List out databases that laravel supports?
 
 
      *React Transition Group* and *React Motion* are popular animation packages in React ecosystem.
@@ -2114,7 +2114,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-124	### How to use custom table in Laravel Model?
+124. ### How to use custom table in Laravel Model?
 
 
      It is recommended to avoid hard coding style values in components. Any values that are likely to be used across different UI components should be extracted into their own modules.
@@ -2146,8 +2146,9 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-125	### How To Use Select Query In Laravel? Eloquent and QB?
-126	### What are Accessors and Mutators in Eloquent and why should you use them?
+125. ### How To Use Select Query In Laravel? Eloquent and QB?
+
+126. ### What are Accessors and Mutators in Eloquent and why should you use them?
 
 
      ESLint is a popular JavaScript linter. There are plugins available that analyse specific code styles. One of the most common for React is an npm package called `eslint-plugin-react`. By default, it will check a number of best practices, with rules checking things from keys in iterators to a complete set of prop types. Another popular plugin is `eslint-plugin-jsx-a11y`, which will help fix common issues with accessibility. As JSX offers slightly different syntax to regular HTML, issues with `alt` text and `tabindex`, for example, will not be picked up by regular plugins.
@@ -2155,7 +2156,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-127	### How do I log an error?
+127. ### How do I log an error?
 
 
      You can use AJAX libraries such as Axios, jQuery AJAX, and the browser built-in `fetch`. You should fetch data in the `componentDidMount()` lifecycle method. This is so you can use `setState()` to update your component when the data is retrieved.
@@ -2209,7 +2210,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-128	### What is Monolog library in Laravel?
+128. ### What is Monolog library in Laravel?
 
 
      **Render Props** is a simple technique for sharing code between components using a prop whose value is a function. The below component uses render prop which returns a React element.
@@ -2227,7 +2228,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-129	### Exceptions are handled by which class in Laravel?
+129. ### Exceptions are handled by which class in Laravel?
 
 
      React Router is a powerful routing library built on top of React that helps you add new screens and flows to your application incredibly quickly, all while keeping the URL in sync with what's being displayed on the page.
@@ -2235,7 +2236,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-130	### What is Serialization in Laravel?
+130. ### What is Serialization in Laravel?
 
 
      React Router is a wrapper around the `history` library which handles interaction with the browser's `window.history` with its browser and hash histories. It also provides memory history which is useful for environments that don't have global history, such as mobile app development (React Native) and unit testing with Node.
@@ -2243,7 +2244,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-131	### What is Response in Laravel?
+131. ### What is Response in Laravel?
 
 
      React Router v4 provides below 3 `<Router>` components:
@@ -2257,7 +2258,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-132	### What is Response Macros in Laravel?
+132. ### What is Response Macros in Laravel?
 
 
      A history instance has two methods for navigation purpose.
@@ -2270,7 +2271,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-133	### What is Rate Limiting OR Throttle in Laravel?
+133. ### What is Rate Limiting OR Throttle in Laravel?
 
 
      There are three different ways to achieve programmatic routing/navigation within components.
@@ -2337,7 +2338,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-134	### What is Lazy vs Eager Loading in Laravel?
+134. ### What is Lazy vs Eager Loading in Laravel?
 
 
      The ability to parse query strings was taken out of React Router v4 because there have been user requests over the years to support different implementation. So the decision has been given to users to choose the implementation they like. The recommended approach is to use query strings library.
@@ -2359,7 +2360,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-135	### How to get current environment in Laravel?
+135. ### How to get current environment in Laravel?
 
 
      You have to wrap your Route's in a `<Switch>` block because `<Switch>` is unique in that it renders a route exclusively.
@@ -2384,7 +2385,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-136	### How to use custom table in Laravel Model ?
+136. ### How to use custom table in Laravel Model ?
 
 
      While navigating you can pass props to the `history` object:
@@ -2402,7 +2403,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-137	### What is Binding?
+137. ### What is Binding?
 
 
      A `<Switch>` renders the first child `<Route>` that matches. A `<Route>` with no path always matches. So you just need to simply drop path attribute as below
@@ -2418,7 +2419,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-138	### Explain Binding A Singleton?
+138. ### Explain Binding A Singleton?
 
 
      1. Create a module that exports a `history` object and import this module across the project.
@@ -2459,7 +2460,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-139 ### Explain Binding Instances?
+139. ### Explain Binding Instances?
 
 
      The `react-router` package provides `<Redirect>` component in React Router. Rendering a `<Redirect>` will navigate to a new location. Like server-side redirects, the new location will override the current location in the history stack.
@@ -2484,7 +2485,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-140	### Explain Binding Primitives?
+140. ### Explain Binding Primitives?
 
 
      The *React Intl* library makes internalization in React straightforward, with off-the-shelf components and an API that can handle everything from formatting strings, dates, and numbers, to pluralization. React Intl is part of *FormatJS* which provides bindings to React via its components and API.
@@ -2492,7 +2493,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-141	### Explain Contextual Binding and how does it work?
+141. ### Explain Contextual Binding and how does it work?
 
 
      1. Display numbers with separators.
@@ -2506,7 +2507,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-142	### What is Tagging?
+142. ### What is Tagging?
 
 
      The library provides two ways to format strings, numbers, and dates: react components or an API.
@@ -2532,7 +2533,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-143	### Explain Extending Bindings?
+143. ### Explain Extending Bindings?
 
 
      The `<Formatted... />` components from `react-intl` return elements, not plain text, so they can't be used for placeholders, alt text, etc. In that case, you should use lower level API `formatMessage()`. You can inject the `intl` object into your component using `injectIntl()` higher-order component and then format the message using `formatMessage()` available on that object.
@@ -2556,7 +2557,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-144	### What is the make Method?
+144. ### What is the make Method?
 
 
      You can get the current locale in any component of your application using `injectIntl()`:
@@ -2578,7 +2579,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-145	### How to clear cache in Laravel?
+145. ### How to clear cache in Laravel?
 
 
      The `injectIntl()` higher-order component will give you access to the `formatDate()` method via the props in your component. The method is used internally by instances of `FormattedDate` and it returns the string representation of the formatted date.
@@ -2608,7 +2609,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-146	### What is CSRF token?
+146. ### What is CSRF token?
 
 
      *Shallow rendering* is useful for writing unit test cases in React. It lets you render a component *one level deep* and assert facts about what its render method returns, without worrying about the behavior of child components, which are not instantiated or rendered.
@@ -2647,7 +2648,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-147	### How will you explain homestead in Laravel?
+147. ### How will you explain homestead in Laravel?
 
 
      This package provides a renderer that can be used to render components to pure JavaScript objects, without depending on the DOM or a native mobile environment. This package makes it easy to grab a snapshot of the platform view hierarchy (similar to a DOM tree) rendered by a ReactDOM or React Native without using a browser or `jsdom`.
@@ -2672,7 +2673,7 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-148	### How can we get the user's IP address in Laravel?
+14. ### How can we get the user's IP address in Laravel?
 
 
      *ReactTestUtils* are provided in the `with-addons` package and allow you to perform actions against a simulated DOM for the purpose of unit testing.
@@ -2680,14 +2681,14 @@ You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-149	### How will you create a helper file in Laravel?
+149. ### How will you create a helper file in Laravel?
 
      *Jest* is a JavaScript unit testing framework created by Facebook based on Jasmine and provides automated mock creation and a `jsdom` environment. It's often used for testing components.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-150	### How can we create a record in Laravel using eloquent?
+150. ### How can we create a record in Laravel using eloquent?
 
      There are couple of advantages compared to Jasmine:
 
