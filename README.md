@@ -63,7 +63,7 @@
 |50 | [What are Laravel contracts?](#what-are-contracts) |
 |51 | [What is Query log?](#what-is-query-log) |
 |52 | [What are Laravel Traits?](#what-are-traits) |
-|53 | [What are Bundles in Laravel?](#bundles) |
+|53 | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
 |54 | [What are System requirements for Laravel?](#system-requirements) |
 |55 | [What are Aggregate methods in query builder?](#how-error-boundaries-handled-in-react-v15) |
 |56 | [What is Singelton design pattern?](#what-are-the-recommended-ways-for-static-type-checking) |
