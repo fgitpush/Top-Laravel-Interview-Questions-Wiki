@@ -484,13 +484,13 @@ Job is a task being performed in the background.
     
 24. ### What are Listeners?
 
-  Which listen to the events
+  Which listen to the events.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 25. ### What are Payments and cashier?
 
-   Payment processing is difficult. Cashier is a package which makes it easy.
+   Payment processing is difficult. Cashier is a package which makes it easy. Its installed using composer.
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -511,13 +511,13 @@ Job is a task being performed in the background.
     
 28. ### What are Laravel Scout search and Algolia?
 
-   ...
+   https://laravel.com/docs/5.8/scout
 
    **[⬆ Back to Top](#table-of-contents)**
     
 29. ### Socialie and Auth?
 
-  ...
+  Socialite = Social login for Laravel.
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -544,11 +544,10 @@ Job is a task being performed in the background.
 
     Lumen is the lightweight version of Laravel used usually for making microservices.
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
 34. ### What is Redis?
-
+Key-value database making query faster.
 
    **[⬆ Back to Top](#table-of-contents)**
     
