@@ -441,7 +441,6 @@ Testing every function
 18. ### What are Queues?
 
 Queue is a line of jobs to be proccessed. You can create multiple queues which is multiple lines of jobs
-
    **[⬆ Back to Top](#table-of-contents)**
     
 19. ### What are Jobs?
@@ -460,15 +459,13 @@ Job is a task being performed in the background.
     
 20. ### What are Advanced Eloquent and Query Builder?
 
-    ...
-   
+    Complex eloquent queries are called advanced eloquent. Query builder is wrapper for database queries.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 21. ### Which is Error management?
 
-    ...
-
+   Error handling is managing `exception` in a Laravel application.
 
    **[⬆ Back to Top](#table-of-contents)**
     
