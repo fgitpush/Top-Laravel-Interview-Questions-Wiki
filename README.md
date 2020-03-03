@@ -221,7 +221,7 @@
 |208| [What does "composer dump-autoload" do?](#what-is-an-action-in-redux) |
 |209| [What is Kept in vendor directory of Laravel?](#does-the-statics-object-work-with-es6-classes-in-react) |
 |210| [What does PHP compact function do?](#can-redux-only-be-used-with-react) |
-
+|210| [What is APP_KEY used for?](#can-redux-only-be-used-with-react) |
 ## Core Laravel
 
 
@@ -3570,5 +3570,7 @@ You can give route a name using a parameter.
 210. ### What does PHP compact function do?alled reducers?
 
    ...
+211. ### What does PHP compact function do?alled reducers?
+    `APP_KEY` is used for encryption of cookies.
 
    **[⬆ Back to Top](#table-of-contents)**
