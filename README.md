@@ -622,7 +622,7 @@ Testing every function
     
 48. ### What are Named routes?
 
-You can give route a name using a parameter.
+    You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -639,7 +639,7 @@ You can give route a name using a parameter.
     
 51. ### What is Query log?
 
-   ...
+   You can enable logging queries and Laravel will record the queries which were run.
 
    **[⬆ Back to Top](#table-of-contents)**
     
