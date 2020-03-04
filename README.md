@@ -279,7 +279,7 @@ The place where we write API route for mobile and API usage. Like http://localho
     
 7. ### What is channels php?
 
-Update here
+...
 
  **[⬆ Back to Top](#what-is-api-php)**
 
@@ -3206,9 +3206,7 @@ Tinker is command line code functionality where you can write Laravel code in CL
     
 191. ### Explain Laravel echo
 
-...
-
-## React supported libraries & Integration
+Used with broadcasting and sockets.
 
 
    **[⬆ Back to Top](#table-of-contents)**
