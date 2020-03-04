@@ -269,7 +269,7 @@ web.php used for web routes. Like example.com/test
     
 6. ### What is api php?
 
-The place where we write API route for mobile and API usage. Like http://localhost:8080/api/test
+    The place where we write API route for mobile and API usage. Like http://localhost:8080/api/test
     ```
     Route::get('/test', function () {
         $path = storage_path() . "/app/json/options/docs.json";
@@ -292,7 +292,7 @@ Update here.
     
 6. ### What is Controller?
 
-Controller is the place where we write the logic of the program. Placed in app/Http/Conrollers
+    Controller is the place where we write the logic of the program. Placed in app/Http/Conrollers
 
     ```
     <?php namespace App\Http\Controllers;
@@ -334,7 +334,7 @@ Controller is the place where we write the logic of the program. Placed in app/H
    **[⬆ Back to Top](#table-of-contents)**
     
 4. ### 	What is a Model?
-A model is where you write the database logic. Stored in `/app`
+    A model is where you write the database logic. Stored in `/app`
 
     <?php
 
@@ -379,7 +379,7 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
     
 9. ### What is ORM?
 
-Object oriented and Model based way of DB query
+    Object oriented and Model based way of DB query
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -387,42 +387,41 @@ Object oriented and Model based way of DB query
 10. ### What is Eloquent?
 
     The ORM wrapper Laravel uses is called Eloquent. Every table has a model associated with it.
-
-
+    
    **[⬆ Back to Top](#table-of-contents)**
     
 11. ### What is Query Builder?
 
    A database wrapper that makes it easy to access DB.
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
 12. ### What are Facades?
 
-Facades are used to hide implementation details and complexities from end user making him/her feel like interacting with a black box.
+    Facades are used to hide implementation details and complexities from end user making him/her feel like interacting with a black box.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 13. ### What is Repository Pattern?
 
-Repository pattern is used to create templates where implementation details are left to be implemented in child classes. It helps with further expansion of code and avoid bottlenecks in class updation.
+    Repository pattern is used to create templates where implementation details are left to be implemented in child classes. It helps with further expansion of code and avoid bottlenecks in class updation.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 14. ### What is Authentication using Passport?
+    
     Passport provides a better way to create API.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 15. ### What Unit testing?
-Testing every function
+    Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
 16. ### What is Caching?
 
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -471,7 +470,6 @@ Testing every function
 22. ### How to create an API?
 
   Use api.php. Link will be x.com/api/slug
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
