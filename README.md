@@ -3068,66 +3068,25 @@ You can give route a name using a parameter.
     
 168. ### What is tinker in laravel?
 
-
-      Keep your data in the Redux store, and the UI related state internally in the component.
-
+Tinker is command line code functionality where you can write Laravel code in CLI.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 169. ### What is a REPL?
 
-
-     The best way to access your store in a component is to use the `connect()` function, that creates a new component that wraps around your existing one. This pattern is called *Higher-Order Components*, and is generally the preferred way of extending a component's functionality in React. This allows you to map state and action creators to your component, and have them passed in automatically as your store updates.
-
-     Let's take an example of `<FilterLink>` component using connect:
-
-     ```javascript
-     import { connect } from 'react-redux'
-     import { setVisibilityFilter } from '../actions'
-     import Link from '../components/Link'
-
-     const mapStateToProps = (state, ownProps) => ({
-       active: ownProps.filter === state.visibilityFilter
-     })
-
-     const mapDispatchToProps = (dispatch, ownProps) => ({
-       onClick: () => dispatch(setVisibilityFilter(ownProps.filter))
-     })
-
-     const FilterLink = connect(
-       mapStateToProps,
-       mapDispatchToProps
-     )(Link)
-
-     export default FilterLink
-     ```
-
-     Due to it having quite a few performance optimizations and generally being less likely to cause bugs, the Redux developers almost always recommend using `connect()` over accessing the store directly (using context API).
-
-     ```javascript
-     class MyComponent {
-       someMethod() {
-         doSomethingWith(this.context.store)
-       }
-     }
-     ```
+...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 170. ### How to use multiple 'OR' condition in Laravel Query?
-
-
-     **Component** is a class or function component that describes the presentational part of your application.
-
-     **Container** is an informal term for a component that is connected to a Redux store. Containers *subscribe* to Redux state updates and *dispatch* actions, and they usually don't render DOM elements; they delegate rendering to presentational child components.
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 171. ### Please write some additional where Clauses in Laravel?
     
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
