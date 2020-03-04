@@ -3126,121 +3126,27 @@ You can give route a name using a parameter.
    **[⬆ Back to Top](#table-of-contents)**
     
 171. ### Please write some additional where Clauses in Laravel?
-
-
-     Constants allows you to easily find all usages of that specific functionality across the project when you use an IDE. It also prevents you from introducing silly bugs caused by typos – in which case, you will get a `ReferenceError` immediately.
-
-     Normally we will save them in a single file (`constants.js` or `actionTypes.js`).
-
-     ```javascript
-     export const ADD_TODO = 'ADD_TODO'
-     export const DELETE_TODO = 'DELETE_TODO'
-     export const EDIT_TODO = 'EDIT_TODO'
-     export const COMPLETE_TODO = 'COMPLETE_TODO'
-     export const COMPLETE_ALL = 'COMPLETE_ALL'
-     export const CLEAR_COMPLETED = 'CLEAR_COMPLETED'
-     ```
-
-     In Redux you use them in two places:
-
-     1. **During action creation:**
-
-         Let's take `actions.js`:
-
-         ```javascript
-         import { ADD_TODO } from './actionTypes';
-
-         export function addTodo(text) {
-           return { type: ADD_TODO, text }
-         }
-         ```
-
-     2. **In reducers:**
-
-         Let's create `reducer.js`:
-
-         ```javascript
-         import { ADD_TODO } from './actionTypes'
-
-         export default (state = [], action) => {
-           switch (action.type) {
-             case ADD_TODO:
-               return [
-                 ...state,
-                 {
-                   text: action.text,
-                   completed: false
-                 }
-               ];
-             default:
-               return state
-           }
-         }
-         ```
+    
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 172. ### How to check column is exists or not in a table using Laravel?
 
-
-     There are a few ways of binding *action creators* to `dispatch()` in `mapDispatchToProps()`. Below are the possible options:
-
-     ```javascript
-     const mapDispatchToProps = (dispatch) => ({
-      action: () => dispatch(action())
-     })
-     ```
-
-     ```javascript
-     const mapDispatchToProps = (dispatch) => ({
-      action: bindActionCreators(action, dispatch)
-     })
-     ```
-
-     ```javascript
-     const mapDispatchToProps = { action }
-     ```
-
-     The third option is just a shorthand for the first one.
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 173. ### What is eager loading in Laravel?
-
-
-     If the `ownProps` parameter is specified, React Redux will pass the props that were passed to the component into your *connect* functions. So, if you use a connected component:
-
-     ```jsx harmony
-     import ConnectedComponent from './containers/ConnectedComponent';
-
-     <ConnectedComponent user={'john'} />
-     ```
-
-     The `ownProps` inside your `mapStateToProps()` and `mapDispatchToProps()` functions will be an object:
-
-     ```javascript
-     { user: 'john' }
-     ```
-
-     You can use this object to decide what to return from those functions.
-
+   
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 174. ### How to generate application key in laravel?
 
 
-     Most of the applications has several top-level directories as below:
-
-     1. **Components**: Used for *dumb* components unaware of Redux.
-     2. **Containers**: Used for *smart* components connected to Redux.
-     3. **Actions**: Used for all action creators, where file names correspond to part of the app.
-     4. **Reducers**: Used for all reducers, where files name correspond to state key.
-     5. **Store**: Used for store initialization.
-
-     This structure works well for small and medium size apps.
+  ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -3248,206 +3154,100 @@ You can give route a name using a parameter.
 175. ### What is LTS version of Laravel?
 
 
-     `redux-saga` is a library that aims to make side effects (asynchronous things like data fetching and impure things like accessing the browser cache) in React/Redux applications easier and better.
-
-     It is available in NPM:
-
-     ```console
-     $ npm install --save redux-saga
-     ```
+    LTS version is a version where the support is longer i.e it gets longer fixes and support and is a stable version.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 176. ### How to use GROUP_CONCAT() with JOIN in Laravel?
 
-
-     *Saga* is like a separate thread in your application, that's solely responsible for side effects. `redux-saga` is a redux *middleware*, which means this thread can be started, paused and cancelled from the main application with normal Redux actions, it has access to the full Redux application state and it can dispatch Redux actions as well.
+...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 177. ### How to extend login expire time in Auth?
 
-
-     Both `call()` and `put()` are effect creator functions. `call()` function is used to create effect description, which instructs middleware to call the promise. `put()` function creates an effect, which instructs middleware to dispatch an action to the store.
-
-     Let's take example of how these effects work for fetching particular user data.
-
-     ```javascript
-     function* fetchUserSaga(action) {
-       // `call` function accepts rest arguments, which will be passed to `api.fetchUser` function.
-       // Instructing middleware to call promise, it resolved value will be assigned to `userData` variable
-       const userData = yield call(api.fetchUser, action.userId)
-
-       // Instructing middleware to dispatch corresponding action.
-       yield put({
-         type: 'FETCH_USER_SUCCESS',
-         userData
-       })
-     }
-     ```
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 178. ### How to extend a layout file in laravel view?
 
-
-     *Redux Thunk* middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner function receives the store methods `dispatch()` and `getState()` as parameters.
-
-
-   **[⬆ Back to Top](#table-of-contents)**
-    
-181. ### How to get current route name?
-
-
-     Both *Redux Thunk* and *Redux Saga* take care of dealing with side effects. In most of the scenarios, Thunk uses *Promises* to deal with them, whereas Saga uses *Generators*. Thunk is simple to use and Promises are familiar to many developers, Sagas/Generators are more powerful but you will need to learn them. But both middleware can coexist, so you can start with Thunks and introduce Sagas when/if you need them.
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 179. ### How do you use yield()?
 
-
-     *Redux DevTools* is a live-editing time travel environment for Redux with hot reloading, action replay, and customizable UI. If you don't want to bother with installing Redux DevTools and integrating it into your project, consider using Redux DevTools Extension for Chrome and Firefox.
-
-
-   **[⬆ Back to Top](#table-of-contents)**
-    
-180. ### How to redirect form controller to view file in laravel?
-
-
-     1. Lets you inspect every state and action payload.
-     2. Lets you go back in time by *cancelling* actions.
-     3. If you change the reducer code, each *staged* action will be re-evaluated.
-     4. If the reducers throw, you will see during which action this happened, and what the error was.
-     5. With `persistState()` store enhancer, you can persist debug sessions across page reloads.
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 182. ### What is ACL in laravel?
 
-
-     *Selectors* are functions that take Redux state as an argument and return some data to pass to the component.
-
-     For example, to get user details from the state:
-
-     ```javascript
-     const getUserData = state => state.user.data
-     ```
+...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 183. ### How to check Ajax request in Laravel?
 
-
-     *Redux Form* works with React and Redux to enable a form in React to use Redux to store all of its state. Redux Form can be used with raw HTML5 inputs, but it also works very well with common UI frameworks like Material UI, React Widgets and React Bootstrap.
+...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 184. ### How to check if value is sent in request?
 
-
-       1. Field values persistence via Redux store.
-       2. Validation (sync/async) and submission.
-       3. Formatting, parsing and normalization of field values.
+...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 185. ### Laravel String Helper functions?
 
-
-     You can use `applyMiddleware()`.
-
-     For example, you can add `redux-thunk` and `logger` passing them as arguments to `applyMiddleware()`:
-
-     ```javascript
-     import { createStore, applyMiddleware } from 'redux'
-     const createStoreWithMiddleware = applyMiddleware(ReduxThunk, logger)(createStore)
-     ```
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 186. ### Laravel Array Helper functions?
 
-
-     You need to pass initial state as second argument to createStore:
-
-     ```javascript
-     const rootReducer = combineReducers({
-       todos: todos,
-       visibilityFilter: visibilityFilter
-     })
-
-     const initialState = {
-       todos: [{ id: 123, name: 'example', completed: false }]
-     }
-
-     const store = createStore(
-       rootReducer,
-       initialState
-     )
-     ```
+...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 187. ### How to exclude a route with parameters from CSRF verification?
 
-
-     Relay is similar to Redux in that they both use a single store. The main difference is that relay only manages state originated from the server, and all access to the state is used via *GraphQL* queries (for reading data) and mutations (for changing data). Relay caches the data for you and optimizes data fetching for you, by fetching only changed data and nothing more.
-
-## React Native
+...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 188. ### What are policies classes?
 
-
-     **React** is a JavaScript library, supporting both front end web and being run on the server, for building user interfaces and web applications.
-
-     **React Native** is a mobile framework that compiles to native app components, allowing you to build native mobile applications (iOS, Android, and Windows) in JavaScript that allows you to use React to build your components, and implements React under the hood.
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 189. ### How to rollback last migration?
 
 
-     React Native can be tested only in mobile simulators like iOS and Android. You can run the app in your mobile using expo app (https://expo.io) Where it syncs using QR code, your mobile and computer should be in same wireless network.
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 190. ### What do you mean by Laravel Dusk?
 
-     You can use `console.log`, `console.warn`, etc. As of React Native v0.29 you can simply run the following to see logs in the console:
-
-     ```
-     $ react-native log-ios
-     $ react-native log-android
-     ```
+...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 191. ### Explain Laravel echo
 
-
-     Follow the below steps to debug React Native app:
-
-     1. Run your application in the iOS simulator.
-     2. Press `Command + D` and a webpage should open up at `http://localhost:8081/debugger-ui`.
-     3. Enable *Pause On Caught Exceptions* for a better debugging experience.
-     4. Press `Command + Option + I` to open the Chrome Developer tools, or open it via `View` -> `Developer` -> `Developer Tools`.
-     5. You should now be able to debug as you normally would.
+...
 
 ## React supported libraries & Integration
 
@@ -3494,15 +3294,15 @@ You can give route a name using a parameter.
    **[⬆ Back to Top](#table-of-contents)**
     
 198	Explain API.PHP route
-..
 
+...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 199. ### Define hashing in Laravel
 
-..
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -3535,8 +3335,6 @@ You can give route a name using a parameter.
 205. ### How to assign a variable value for all view file?
 
 ...
-
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
