@@ -440,12 +440,12 @@ Testing every function
   
 18. ### What are Queues?
 
-Queue is a line of jobs to be proccessed. You can create multiple queues which is multiple lines of jobs
+    Queue is a line of jobs to be proccessed. You can create multiple queues which is multiple lines of jobs
    **[⬆ Back to Top](#table-of-contents)**
     
 19. ### What are Jobs?
 
-Job is a task being performed in the background.
+    Job is a task being performed in the background.
 
    **[⬆ Back to Top](#table-of-contents)**
    
@@ -453,7 +453,6 @@ Job is a task being performed in the background.
 19. ### How to setup Emails?
 
    Use Laravel's sendmail() function and create a mail template.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -484,13 +483,13 @@ Job is a task being performed in the background.
     
 24. ### What are Listeners?
 
-  Which listen to the events.
+    Which listen to the events.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 25. ### What are Payments and cashier?
 
-   Payment processing is difficult. Cashier is a package which makes it easy. Its installed using composer.
+    Payment processing is difficult. Cashier is a package which makes it easy. Its installed using composer.
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -504,7 +503,7 @@ Job is a task being performed in the background.
     
 27. ### What is Package development?
 
-    Laarvel uses composer which gets packages. You can develop your own package and submit.
+    Larvel uses composer which gets packages. You can develop your own package and submit.
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -517,7 +516,7 @@ Job is a task being performed in the background.
     
 29. ### Socialie and Auth?
 
-  Socialite = Social login for Laravel.
+    Socialite = Social login for Laravel.
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -547,13 +546,14 @@ Job is a task being performed in the background.
    **[⬆ Back to Top](#table-of-contents)**
     
 34. ### What is Redis?
-Key-value database making query faster.
+    Key-value database making query faster.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 35. ### What is Memcache?
 
-...
+    Key-value database making query faster.
+
 
    **[⬆ Back to Top](#table-of-contents)**
     
