@@ -421,13 +421,13 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
     
 16. ### What is Caching?
 
-    ...
+    Configured using `config/cache.php`. Used for database caching. Popular ways Redis and Memcache.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 17. ### What is Unit Testing?
 
-    ...
+    Writing a test for every unit (function or class) you write.
 
    **[⬆ Back to Top](#table-of-contents)**
    
