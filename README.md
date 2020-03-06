@@ -659,7 +659,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-55	### What are Aggregate methods in query builder?
+55.	### What are Aggregate methods in query builder?
 
     Max, min, sum etc
    ```
@@ -669,31 +669,31 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
    **[⬆ Back to Top](#table-of-contents)**
   
     
-56	### What is Singelton design pattern?
+56.	### What is Singelton design pattern?
 
     A single object of a class is created throughout the lifecycle.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-57	### What is Reverse routing?
+57.	### What is Reverse routing?
 
     ...
    **[⬆ Back to Top](#table-of-contents)**
     
-58	### What are Popular composer packages?
+58.	### What are Popular composer packages?
 
     Guzzle
 
    **[⬆ Back to Top](#table-of-contents)**
     
-59	### How to get the data from more than 3 table without use join ?
+59.	### How to get the data from more than 3 table without use join ?
 
  Answer: Subquery, union.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-60	### List some artisan commands
+60.	### List some artisan commands
 
     ```
     php artisan list
@@ -706,124 +706,112 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-61	### What are Sessisons?
+61.	### What are Sessisons?
 
 Session is data related to a specific user.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-62	### What are Cookies?
+62.	### What are Cookies?
 
   Cookies is generalized data.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-63	### What is Current version of PHP, MySQL, Laravel, MongoDB etc?
+63.	### What is Current version of PHP, MySQL, Laravel, MongoDB etc?
 
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
-64	### Describe design architecture of an app?
+64.	### Describe design architecture of an app?
 
-...
+    ...
   
+   **[⬆ Back to Top](#table-of-contents)**
+    
+65.	### What are SQL Injections?
+
+    Its a trick to complete a SQL query by filling a form content and placing query parts inside the form.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-65	### What are SQL Injections?
+66.	### How to call static methods?
 
-Its a trick to complete a SQL query by filling a form content and placing query parts inside the form.
-
-   **[⬆ Back to Top](#table-of-contents)**
-    
-66	### How to call static methods?
-
-    Using ::
+    Using `::` before function name instead of `->`.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-67	### How to achieve multiple DB hosts?
+67.	### How to achieve multiple DB hosts?
 
     Define the new DB in env or config/database.php and use it.
     
    **[⬆ Back to Top](#table-of-contents)**
     
-68	### What is Abstract class?
-
+68.	### What is Abstract class?
 
     A class which is just a template i.e has no defination but just declaration.
 
+   **[⬆ Back to Top](#table-of-contents)**
+    
+69.	### What are Default ports for MySQL, Email, etc?
+
+    http: 80
+    MYSQL: 3306
+    Email: 587
 
    **[⬆ Back to Top](#table-of-contents)**
     
-69	### What are Default ports for MySQL, Email, etc?
+70.	### Explain Joins
 
-http: 80
-MYSQL: 3306
-Email: 587
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
-70	### Explain Joins
+71.	### Explain Unions
 
-...
-
-   **[⬆ Back to Top](#table-of-contents)**
-    
-71	### Explain Unions
-
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
-72	### How mongodb is better than relational databases?
+72.	### How mongodb is better than relational databases?
 
-It is faster and it stores data in JSON form so you can enter multiple types of data without being dependent on the data being consistent in type.
+    It is faster and it stores data in JSON form so you can enter multiple types of data without being dependent on the data being consistent in type.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-73	### What is mongodb?
+73.	### What is mongodb?
 
    It is a NO SQL key value based database.
-
-
+   
    **[⬆ Back to Top](#table-of-contents)**
     
-74	### What is default session time?
-
+74.	### What is default session time?
 
    1 hour.
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
-75	### How to create hooks in Laravel?
-
+75.	### How to create hooks in Laravel?
+    
     ...
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
-76	### What is csrf token and xss attack?
-
+76.	### What is csrf token and xss attack?
 
    ...
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
-77	### Select highest/nth highest salary from DB
-
+77.	### Select highest/nth highest salary from DB
 
     ...
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
-78	### Write a join
-
+78.	### Write a join
 
 ...
 
