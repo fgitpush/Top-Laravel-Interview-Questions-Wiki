@@ -660,49 +660,35 @@ Read more: https://medium.com/a-young-devoloper/how-laravel-injects-our-dependen
     
 55	### What are Aggregate methods in query builder?
 
+    Max, min, sum etc
+   ```
+   $price = DB::table('orders')->max('price');
+   ```
    
-
    **[⬆ Back to Top](#table-of-contents)**
+  
     
 56	### What is Singelton design pattern?
 
-
- 
-
+    A single object of a class is created throughout the lifecycle.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 57	### What is Reverse routing?
 
-
-    The `react-dom` package provides *DOM-specific methods* that can be used at the top level of your app. Most of the components are not required to use this module. Some of the methods of this package are:
-
-    1. `render()`
-    2. `hydrate()`
-    3. `unmountComponentAtNode()`
-    4. `findDOMNode()`
-    5. `createPortal()`
-
-
+    ...
    **[⬆ Back to Top](#table-of-contents)**
     
 58	### What are Popular composer packages?
 
-
-    This method is used to render a React element into the DOM in the supplied container and return a reference to the component. If the React element was previously rendered into container, it will perform an update on it and only mutate the DOM as necessary to reflect the latest changes.
-
-    ```
-    ReactDOM.render(element, container[, callback])
-    ```
-
-    If the optional callback is provided, it will be executed after the component is rendered or updated.
+    Guzzle, 
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-59	### How to get the data from more than 3 table without use join ? Answer: Subquery, union.
+59	### How to get the data from more than 3 table without use join ?
 
-...
+ Answer: Subquery, union.
 
 
    **[⬆ Back to Top](#table-of-contents)**
