@@ -649,12 +649,13 @@ Read more: https://medium.com/a-young-devoloper/how-laravel-injects-our-dependen
     
 53. ### What are Bundles in Laravel?
 
+    Used for grouping stuff like route groups (CRUD in one line.)
 
    **[⬆ Back to Top](#table-of-contents)**
     
 54. ### What are System requirements for Laravel?
 
-...
+PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -681,8 +682,7 @@ Read more: https://medium.com/a-young-devoloper/how-laravel-injects-our-dependen
     
 58	### What are Popular composer packages?
 
-    Guzzle, 
-
+    Guzzle
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -710,7 +710,6 @@ Read more: https://medium.com/a-young-devoloper/how-laravel-injects-our-dependen
 
 Session is data related to a specific user.
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
 62	### What are Cookies?
@@ -728,261 +727,66 @@ Session is data related to a specific user.
     
 64	### Describe design architecture of an app?
 
-    Keys should be stable, predictable, and unique so that React can keep track of elements.
-
-    In the below code snippet each element's key will be based on ordering, rather than tied to the data that is being represented. This limits the optimizations that React can do.
-
-    ```jsx harmony
-    {todos.map((todo, index) =>
-      <Todo
-        {...todo}
-        key={index}
-      />
-    )}
-    ```
-
-    If you use element data for unique key, assuming todo.id is unique to this list and stable, React would be able to reorder elements without needing to reevaluate them as much.
-
-    ```jsx harmony
-    {todos.map((todo) =>
-      <Todo {...todo}
-        key={todo.id} />
-    )}
-    ```
-
+...
+  
 
    **[⬆ Back to Top](#table-of-contents)**
     
 65	### What are SQL Injections?
 
-
-
-    It is recommended to avoid async initialization in `componentWillMount()` lifecycle method. `componentWillMount()` is invoked immediately before mounting occurs. It is called before `render()`, therefore setting state in this method will not trigger a re-render. Avoid introducing any side-effects or subscriptions in this method. We need to make sure async calls for component initialization happened in `componentDidMount()` instead of `componentWillMount()`.
-
-    ```jsx harmony
-    componentDidMount() {
-      axios.get(`api/todos`)
-        .then((result) => {
-          this.setState({
-            messages: [...result.data]
-          })
-        })
-    }
-    ```
-
+Its a trick to complete a SQL query by filling a form content and placing query parts inside the form.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 66	### How to call static methods?
 
-
-    If the props on the component are changed without the component being refreshed, the new prop value will never be displayed because the constructor function will never update the current state of the component. The initialization of state from props only runs when the component is first created.
-
-    The below component won't display the updated input value:
-
-    ```jsx harmony
-    class MyComponent extends React.Component {
-      constructor(props) {
-        super(props)
-
-        this.state = {
-          records: [],
-          inputValue: this.props.inputValue
-        };
-      }
-
-      render() {
-        return <div>{this.state.inputValue}</div>
-      }
-    }
-    ```
-
-    Using props inside render method will update the value:
-
-    ```jsx harmony
-    class MyComponent extends React.Component {
-      constructor(props) {
-        super(props)
-
-        this.state = {
-          record: []
-        }
-      }
-
-      render() {
-        return <div>{this.props.inputValue}</div>
-      }
-    }
-    ```
-
+    Using ::
 
    **[⬆ Back to Top](#table-of-contents)**
     
 67	### How to achieve multiple DB hosts?
 
-
-    In some cases you want to render different components depending on some state. JSX does not render `false` or `undefined`, so you can use conditional *short-circuiting* to render a given part of your component only if a certain condition is true.
-
-    ```jsx harmony
-    const MyComponent = ({ name, address }) => (
-      <div>
-        <h2>{name}</h2>
-        {address &&
-          <p>{address}</p>
-        }
-      </div>
-    )
-    ```
-
-    If you need an `if-else` condition then use *ternary operator*.
-
-    ```jsx harmony
-    const MyComponent = ({ name, address }) => (
-      <div>
-        <h2>{name}</h2>
-        {address
-          ? <p>{address}</p>
-          : <p>{'Address is not available'}</p>
-        }
-      </div>
-    )
-    ```
-
-
+    Define the new DB in env or config/database.php and use it.
+    
    **[⬆ Back to Top](#table-of-contents)**
     
 68	### What is Abstract class?
 
 
-    When we *spread props* we run into the risk of adding unknown HTML attributes, which is a bad practice. Instead we can use prop destructuring with `...rest` operator, so it will add only required props. For example,
-
-    ```jsx harmony
-    const ComponentA = () =>
-      <ComponentB isDisplay={true} className={'componentStyle'} />
-
-    const ComponentB = ({ isDisplay, ...domProps }) =>
-      <div {...domProps}>{'ComponentB'}</div>
-    ```
+    A class which is just a template i.e has no defination but just declaration.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 69	### What are Default ports for MySQL, Email, etc?
 
-
-    You can *decorate* your *class* components, which is the same as passing the component into a function. **Decorators** are flexible and readable way of modifying component functionality.
-
-    ```jsx harmony
-    @setTitle('Profile')
-    class Profile extends React.Component {
-        //....
-    }
-
-    /*
-      title is a string that will be set as a document title
-      WrappedComponent is what our decorator will receive when
-      put directly above a component class as seen in the example above
-    */
-    const setTitle = (title) => (WrappedComponent) => {
-      return class extends React.Component {
-        componentDidMount() {
-          document.title = title
-        }
-
-        render() {
-          return <WrappedComponent {...this.props} />
-        }
-      }
-    }
-    ```
-
-    **Note:** Decorators are a feature that didn't make it into ES7, but are currently a *stage 2 proposal*.
-
+http: 80
+MYSQL: 3306
+Email: 587
 
    **[⬆ Back to Top](#table-of-contents)**
     
 70	### Explain Joins
 
-    There are memoize libraries available which can be used on function components. For example `moize` library can memoize the component in another component.
-
-    ```jsx harmony
-    import moize from 'moize'
-    import Component from './components/Component' // this module exports a non-memoized component
-
-    const MemoizedFoo = moize.react(Component)
-
-    const Consumer = () => {
-      <div>
-        {'I will memoize the following entry:'}
-        <MemoizedFoo/>
-      </div>
-    }
-    ```
-
-    **Update:** Since React v16.6.0, we have a `React.memo`. It provides a higher order component which memoizes component unless the props change. To use it, simply wrap the component using React.memo before you use it.
-
-    ```js
-      const MemoComponent = React.memo(function MemoComponent(props) {
-        /* render using props */
-      });
-      OR
-      export default React.memo(MyFunctionComponent);
-    ```
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 71	### Explain Unions
 
-
-    React is already equipped to handle rendering on Node servers. A special version of the DOM renderer is available, which follows the same pattern as on the client side.
-
-    ```jsx harmony
-    import ReactDOMServer from 'react-dom/server'
-    import App from './App'
-
-    ReactDOMServer.renderToString(<App />)
-    ```
-
-    This method will output the regular HTML as a string, which can be then placed inside a page body as part of the server response. On the client side, React detects the pre-rendered content and seamlessly picks up where it left off.
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 72	### How mongodb is better than relational databases?
 
-
-    You should use Webpack's `DefinePlugin` method to set `NODE_ENV` to `production`, by which it strip out things like propType validation and extra warnings. Apart from this, if you minify the code, for example, Uglify's dead-code elimination to strip out development only code and comments, it will drastically reduce the size of your bundle.
-
+It is faster and it stores data in JSON form so you can enter multiple types of data without being dependent on the data being consistent in type.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 73	### What is mongodb?
 
-    The `create-react-app` CLI tool allows you to quickly create & run React applications with no configuration step.
-
-    Let's create Todo App using *CRA*:
-
-    ```console
-    # Installation
-    $ npm install -g create-react-app
-
-    # Create new project
-    $ create-react-app todo-app
-    $ cd todo-app
-
-    # Build, test and run
-    $ npm run build
-    $ npm run test
-    $ npm start
-    ```
-    It includes everything we need to build a React app:
-
-    1. React, JSX, ES6, and Flow syntax support.
-    2. Language extras beyond ES6 like the object spread operator.
-    3. Autoprefixed CSS, so you don’t need -webkit- or other prefixes.
-    4. A fast interactive unit test runner with built-in support for coverage reporting.
-    5. A live development server that warns about common mistakes.
-    6. A build script to bundle JS, CSS, and images for production, with hashes and sourcemaps.
+   It is a NO SQL key value based database.
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -990,26 +794,14 @@ Session is data related to a specific user.
 74	### What is default session time?
 
 
-    The lifecycle methods are called in the following order when an instance of a component is being created and inserted into the DOM.
-
-    1. `constructor()`
-    2. `static getDerivedStateFromProps()`
-    3. `render()`
-    4. `componentDidMount()`
+   1 hour.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 75	### How to create hooks in Laravel?
 
-
-    The following lifecycle methods going to be unsafe coding practices and will be more problematic with async rendering.
-
-    1. `componentWillMount()`
-    2. `componentWillReceiveProps()`
-    3. `componentWillUpdate()`
-
-    Starting with React v16.3 these methods are aliased with `UNSAFE_` prefix, and the unprefixed version will be removed in React v17.
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1017,17 +809,7 @@ Session is data related to a specific user.
 76	### What is csrf token and xss attack?
 
 
-    The new static `getDerivedStateFromProps()` lifecycle method is invoked after a component is instantiated as well as before it is re-rendered. It can return an object to update state, or `null` to indicate that the new props do not require any state updates.
-
-    ```javascript
-    class MyComponent extends React.Component {
-      static getDerivedStateFromProps(props, state) {
-        // ...
-      }
-    }
-    ```
-
-    This lifecycle method along with `componentDidUpdate()` covers all the use cases of `componentWillReceiveProps()`.
+   ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1035,17 +817,7 @@ Session is data related to a specific user.
 77	### Select highest/nth highest salary from DB
 
 
-    The new `getSnapshotBeforeUpdate()` lifecycle method is called right before DOM updates. The return value from this method will be passed as the third parameter to `componentDidUpdate()`.
-
-    ```javascript
-    class MyComponent extends React.Component {
-      getSnapshotBeforeUpdate(prevProps, prevState) {
-        // ...
-      }
-    }
-    ```
-
-    This lifecycle method along with `componentDidUpdate()` covers all the use cases of `componentWillUpdate()`.
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1053,55 +825,20 @@ Session is data related to a specific user.
 78	### Write a join
 
 
-    Both render props and higher-order components render only a single child but in most of the cases Hooks are a simpler way to serve this by reducing nesting in your tree.
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 79. ### Write a union
 
-
-    It is recommended to name the component by reference instead of using `displayName`.
-
-    Using `displayName` for naming component:
-
-    ```javascript
-    export default React.createClass({
-      displayName: 'TodoApp',
-      // ...
-    })
-    ```
-
-    The **recommended** approach:
-
-    ```javascript
-    export default class TodoApp extends React.Component {
-      // ...
-    }
-    ```
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 80. ### Write a complex query?
 
 
-    *Recommended* ordering of methods from *mounting* to *render stage*:
-
-    1. `static` methods
-    2. `constructor()`
-    3. `getChildContext()`
-    4. `componentWillMount()`
-    5. `componentDidMount()`
-    6. `componentWillReceiveProps()`
-    7. `shouldComponentUpdate()`
-    8. `componentWillUpdate()`
-    9. `componentDidUpdate()`
-    10. `componentWillUnmount()`
-    11. click handlers or event handlers like `onClickSubmit()` or `onChangeDescription()`
-    12. getter methods for render like `getSelectReason()` or `getFooterContent()`
-    13. optional render methods like `renderNavigation()` or `renderProfilePicture()`
-    14. `render()`
+   Like a 3 tables joined.
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1109,111 +846,21 @@ Session is data related to a specific user.
 81. ### What is a switching component?
 
 
-    A *switching component* is a component that renders one of many components. We need to use object to map prop values to components.
-
-    For example, a switching component to display different pages based on `page` prop:
-
-    ```jsx harmony
-    import HomePage from './HomePage'
-    import AboutPage from './AboutPage'
-    import ServicesPage from './ServicesPage'
-    import ContactPage from './ContactPage'
-
-    const PAGES = {
-      home: HomePage,
-      about: AboutPage,
-      services: ServicesPage,
-      contact: ContactPage
-    }
-
-    const Page = (props) => {
-      const Handler = PAGES[props.page] || ContactPage
-
-      return <Handler {...props} />
-    }
-
-    // The keys of the PAGES object can be used in the prop types to catch dev-time errors.
-    Page.propTypes = {
-      page: PropTypes.oneOf(Object.keys(PAGES)).isRequired
-    }
-    ```
+   ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 82. ### What is Difference between PHP 5 and 4?
 
-
-    The reason behind for this is that `setState()` is an asynchronous operation. React batches state changes for performance reasons, so the state may not change immediately after `setState()` is called. That means you should not rely on the current state when calling `setState()` since you can't be sure what that state will be. The solution is to pass a function to `setState()`, with the previous state as an argument. By doing this you can avoid issues with the user getting the old state value on access due to the asynchronous nature of `setState()`.
-
-    Let's say the initial count value is zero. After three consecutive increment operations, the value is going to be incremented only by one.
-
-    ```javascript
-    // assuming this.state.count === 0
-    this.setState({ count: this.state.count + 1 })
-    this.setState({ count: this.state.count + 1 })
-    this.setState({ count: this.state.count + 1 })
-    // this.state.count === 1, not 3
-    ```
-
-    If we pass a function to `setState()`, the count gets incremented correctly.
-
-    ```javascript
-    this.setState((prevState, props) => ({
-      count: prevState.count + props.increment
-    }))
-    // this.state.count === 3 as expected
-    ```
+    PHP 5 has OOP.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 83. ### What is the difference among various php versions?
 
-
-    `React.StrictMode` is an useful component for highlighting potential problems in an application. Just like `<Fragment>`, `<StrictMode>` does not render any extra DOM elements. It activates additional checks and warnings for its descendants. These checks apply for *development mode* only.
-
-    ```jsx harmony
-    import React from 'react'
-
-    function ExampleApplication() {
-      return (
-        <div>
-          <Header />
-          <React.StrictMode>
-            <div>
-              <ComponentOne />
-              <ComponentTwo />
-            </div>
-          </React.StrictMode>
-          <Footer />
-        </div>
-      )
-    }
-    ```
-
-    In the example above, the *strict mode* checks apply to `<ComponentOne>` and `<ComponentTwo>` components only.
-
-
-   **[⬆ Back to Top](#table-of-contents)**
-    
-84. ### What is the difference among various mysql versions?
-
-
-    *Mixins* are a way to totally separate components to have a common functionality. Mixins **should not be used** and can be replaced with *higher-order components* or *decorators*.
-
-    One of the most commonly used mixins is `PureRenderMixin`. You might be using it in some components to prevent unnecessary re-renders when the props and state are shallowly equal to the previous props and state:
-
-    ```javascript
-    const PureRenderMixin = require('react-addons-pure-render-mixin')
-
-    const Button = React.createClass({
-      mixins: [PureRenderMixin],
-      // ...
-    })
-    ````
-    <!-- TODO: mixins are deprecated -->
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
