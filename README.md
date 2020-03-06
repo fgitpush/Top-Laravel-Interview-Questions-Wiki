@@ -872,226 +872,91 @@ Session is data related to a specific user.
     
 86. ### How to add AWS plugin in PHP?
 
-
-    *Pointer Events* provide a unified way of handling all input events. In the old days we had a mouse and respective event listeners to handle them but nowadays we have many devices which don't correlate to having a mouse, like phones with touch surface or pens. We need to remember that these events will only work in browsers that support the *Pointer Events* specification.
-
-    The following event types are now available in *React DOM*:
-
-    1. `onPointerDown`
-    2. `onPointerMove`
-    3. `onPointerUp`
-    4. `onPointerCancel`
-    5. `onGotPointerCapture`
-    6. `onLostPointerCaptur`
-    7. `onPointerEnter`
-    8. `onPointerLeave`
-    9. `onPointerOver`
-    10. `onPointerOut`
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 87. ### What are design patterns?
 
-
-    If you are rendering your component using JSX, the name of that component has to begin with a capital letter otherwise React will throw an error as unrecognized tag. This convention is because only HTML elements and SVG tags can begin with a lowercase letter.
-    ```jsx harmony
-    class SomeComponent extends Component {
-     // Code goes here
-    }
-    ```
-    You can define component class which name starts with lowercase letter, but when it's imported it should have capital letter. Here lowercase is fine:
-
-    ```jsx harmony
-    class myComponent extends Component {
-      render() {
-        return <div />
-      }
-    }
-
-    export default myComponent
-    ```
-
-    While when imported in another file it should start with capital letter:
-
-    ```jsx harmony
-    import MyComponent from './MyComponent'
-    ```
-
+    They are well known solutions to common problems every developer faces.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 88. ### What is the difference between GET and POST
 
-
-    Yes. In the past, React used to ignore unknown DOM attributes. If you wrote JSX with an attribute that React doesn't recognize, React would just skip it. For example, this:
-
-    ```jsx harmony
-    <div mycustomattribute={'something'} />
-    ```
-
-    Would render an empty div to the DOM with React v15:
-
-    ```html
-    <div />
-    ```
-
-    In React v16 any unknown attributes will end up in the DOM:
-
-    ```html
-    <div mycustomattribute='something' />
-    ```
-
-    This is useful for supplying browser-specific non-standard attributes, trying new DOM APIs, and integrating with opinionated third-party libraries.
+    GET is used for retriving data
+    POST is used to perform a change i.e action
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 89. ### Which is fast between GET and POST?
 
-
-    You should initialize state in the constructor when using ES6 classes, and `getInitialState()` method when using `React.createClass()`.
-
-    Using ES6 classes:
-
-    ```javascript
-    class MyComponent extends React.Component {
-      constructor(props) {
-        super(props)
-        this.state = { /* initial state */ }
-      }
-    }
-    ```
-
-    Using `React.createClass()`:
-
-    ```javascript
-    const MyComponent = React.createClass({
-      getInitialState() {
-        return { /* initial state */ }
-      }
-    })
-    ```
-
-    **Note:** `React.createClass()` is deprecated and removed in React v16. Use plain JavaScript classes instead.
-
-
-   **[⬆ Back to Top](#table-of-contents)**
+    GET is used for retriving data
+    POST is used to perform a change i.e action
     
 90. ### Explain 4 basics of OOP
 
-
-    By default, when your component's state or props change, your component will re-render. If your `render()` method depends on some other data, you can tell React that the component needs re-rendering by calling `forceUpdate()`.
-
-    ```javascript
-    component.forceUpdate(callback)
-    ```
-
-    It is recommended to avoid all uses of `forceUpdate()` and only read from `this.props` and `this.state` in `render()`.
+    Inheritance
+    Polymorphism
+    Encapsulation
+    Abstraction
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 91. ### What is diference between abstract class and interface?
 
-
-    When you want to access `this.props` in `constructor()` then you should pass props to `super()` method.
-
-    Using `super(props)`:
-
-    ```javascript
-    class MyComponent extends React.Component {
-      constructor(props) {
-        super(props)
-        console.log(this.props) // { name: 'John', ... }
-      }
-    }
     ```
-
-    Using `super()`:
-
-    ```javascript
-    class MyComponent extends React.Component {
-      constructor(props) {
-        super()
-        console.log(this.props) // undefined
-      }
-    }
-    ```
-
-    Outside `constructor()` both will display same value for `this.props`.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 92. ### What is MVC Framework?
 
-
-    You can simply use `Array.prototype.map` with ES6 *arrow function* syntax. For example, the `items` array of objects is mapped into an array of components:
-
-    ```jsx harmony
-    <tbody>
-      {items.map(item => <SomeComponent key={item.id} name={item.name} />)}
-    </tbody>
-    ```
-
-    You can't iterate using `for` loop:
-
-    ```jsx harmony
-    <tbody>
-      for (let i = 0; i < items.length; i++) {
-        <SomeComponent key={items[i].id} name={items[i].name} />
-      }
-    </tbody>
-    ```
-
-    This is because JSX tags are transpiled into *function calls*, and you can't use statements inside expressions. This may change thanks to `do` expressions which are *stage 1 proposal*.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 93. ### Create a project with CRUD, one algorithm logic and insert data in db for testing.
 
-
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 95. ### In MySql we use many types of engines which one is faster and why?
 
-There are two main types of engines,
-1.InnoDB
-2.MyISAM
-InnoDB is faster.
+    There are two main types of engines,
+    1.InnoDB
+    2.MyISAM
+    InnoDB is faster.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 96. ### What are Triggers?
 
-
-...
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 97. ### What are Procedures
 
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 98. ### What are some new feaatures of Laravel X?
 
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 99. ### What are some new features of PHP X?
 
-PHP 7.4 brings,
-1. 
-2.
-
+    PHP 7.4 brings,
+    1. 
+    2.
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1104,21 +969,13 @@ PHP 7.4 brings,
     
 101. ### Merge 2 arrays with duplicate
 
-
-     When you use `setState()` the current and previous states are merged. `replaceState()` throws out the current state, and replaces it with only what you provide. Usually `setState()` is used unless you really need to remove all previous keys for some reason. You can also set state to `false`/`null` in `setState()` instead of using `replaceState()`.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 102. ### Find the count of vowel and consonants
 
-
-     The following lifecycle methods will be called when state changes. You can compare provided state and props values with current state and props to determine if something meaningful changed.
-
-     ```
-     componentWillUpdate(object nextProps, object nextState)
-     componentDidUpdate(object prevProps, object prevState)
-     ```
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1126,827 +983,248 @@ PHP 7.4 brings,
 103. ### Explain AWS Services
 
 
-     The better approach is to use `Array.prototype.filter()` method.
-
-     For example, let's create a `removeItem()` method for updating the state.
-
-     ```javascript
-     removeItem(index) {
-       this.setState({
-         data: this.state.data.filter((item, i) => i !== index)
-       })
-     }
-     ```
+    AWS has 20 main categories and 150 sub-categories of items. For hosting, EC2 is a well known server type.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 104. ### How to do Web scraping?
 
-
-     It is possible with latest version (>=16.2). Below are the possible options:
-
-     ```jsx harmony
-     render() {
-       return false
-     }
-     ```
-
-     ```jsx harmony
-     render() {
-       return null
-     }
-     ```
-
-     ```jsx harmony
-     render() {
-       return []
-     }
-     ```
-
-     ```jsx harmony
-     render() {
-       return <React.Fragment></React.Fragment>
-     }
-     ```
-
-     ```jsx harmony
-     render() {
-       return <></>
-     }
-     ```
-
-     Returning `undefined` won't work.
-
+    Composer has built in packages for it. They may get stopped due to IP usage (no of connections
 
    **[⬆ Back to Top](#table-of-contents)**
     
 105. ### Explain require and require once difference
 
-
-     We can use `<pre>` tag so that the formatting of the `JSON.stringify()` is retained:
-
-     ```jsx harmony
-     const data = { name: 'John', age: 42 }
-
-     class User extends React.Component {
-       render() {
-         return (
-           <pre>
-             {JSON.stringify(data, null, 2)}
-           </pre>
-         )
-       }
-     }
-
-     React.render(<User />, document.getElementById('container'))
-     ```
+    In require, you can use require multiple times for the same file. It will add the file multiple times while require_once will only require it once.
 
 
    **[⬆ Back to Top](#table-of-contents)**
    
 106. ### Explain include and require diffrence
 
-
-     The React philosophy is that props should be *immutable* and *top-down*. This means that a parent can send any prop values to a child, but the child can't modify received props.
-
+    In include() the script will run even if the file is not found while in require it will stop if file required is not found.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 107. ### Directory structure of Laravel
 
-
-     You can do it by creating *ref* for `input` element and using it in `componentDidMount()`:
-
-     ```jsx harmony
-     class App extends React.Component{
-       componentDidMount() {
-         this.nameInput.focus()
-       }
-
-       render() {
-         return (
-           <div>
-             <input
-               defaultValue={'Won\'t focus'}
-             />
-             <input
-               ref={(input) => this.nameInput = input}
-               defaultValue={'Will focus'}
-             />
-           </div>
-         )
-       }
-     }
-
-     ReactDOM.render(<App />, document.getElementById('app'))
-     ```
-
+    ```
+    /bootsrtrap
+    /public
+    /routes
+    /resources
+    /config
+    /app
+    .env
+    ```
+    etc
 
    **[⬆ Back to Top](#table-of-contents)**
     
 108. ### How to install Laravel via composer?
 
-
-     1. **Calling `setState()` with an object to merge with state:**
-
-         * Using `Object.assign()` to create a copy of the object:
-
-             ```javascript
-             const user = Object.assign({}, this.state.user, { age: 42 })
-             this.setState({ user })
-             ```
-
-         * Using *spread operator*:
-
-             ```javascript
-             const user = { ...this.state.user, age: 42 }
-             this.setState({ user })
-             ```
-
-     2. **Calling `setState()` with a function:**
-
-         ```javascript
-         this.setState(prevState => ({
-           user: {
-             ...prevState.user,
-             age: 42
-           }
-         }))
-         ```
-
+    ```
+    composer create-project --prefer-dist laravel/laravel blog "5.8.*"
+    ```
 
    **[⬆ Back to Top](#table-of-contents)**
     
 109. ### Which ORM are being used by laravel?
 
-
-     React may batch multiple `setState()` calls into a single update for performance. Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
-
-     This counter example will fail to update as expected:
-
-     ```javascript
-     // Wrong
-     this.setState({
-       counter: this.state.counter + this.props.increment,
-     })
-     ```
-
-     The preferred approach is to call `setState()` with function rather than object. That function will receive the previous state as the first argument, and the props at the time the update is applied as the second argument.
-
-     ```javascript
-     // Correct
-     this.setState((prevState, props) => ({
-       counter: prevState.counter + props.increment
-     }))
-     ```
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
    
 110. ### List types of relationships available in Laravel Eloquent?
 
-
-     You can use `React.version` to get the version.
-
-     ```jsx harmony
-     const REACT_VERSION = React.version
-
-     ReactDOM.render(
-       <div>{`React version: ${REACT_VERSION}`}</div>,
-       document.getElementById('app')
-     )
-     ```
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 111. ### How to enable maintenance mode in Laravel?
 
-
-     1. **Manual import from `core-js`:**
-
-         Create a file called (something like) `polyfills.js` and import it into root `index.js` file. Run `npm install core-js` or `yarn add core-js` and import your specific required features.
-
-         ```javascript
-         import 'core-js/fn/array/find'
-         import 'core-js/fn/array/includes'
-         import 'core-js/fn/number/is-nan'
-         ```
-
-     2. **Using Polyfill service:**
-
-         Use the polyfill.io CDN to retrieve custom, browser-specific polyfills by adding this line to `index.html`:
-
-         ```html
-         <script src='https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.includes'></script>
-         ```
-
-         In the above script we had to explicitly request the `Array.prototype.includes` feature as it is not included in the default feature set.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 112. ### What is the purpose of using dd() function in laravel?
 
-
-     You just need to use `HTTPS=true` configuration. You can edit your `package.json` scripts section:
-
-     ```json
-     "scripts": {
-       "start": "set HTTPS=true && react-scripts start"
-     }
-     ```
-
-     or just run `set HTTPS=true && npm start`
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 113. ### How do you register a Service Provider?
-
-
-     Create a file called `.env` in the project root and write the import path:
-
-     ```
-     NODE_PATH=src/app
-     ```
-
-     After that restart the development server. Now you should be able to import anything inside `src/app` without relative paths.
-
+    
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 114. ### How to add Google Analytics for react-router?
-
-
-     Add a listener on the `history` object to record each page view:
-
-     ```javascript
-     history.listen(function (location) {
-       window.ga('set', 'page', location.pathname + location.search)
-       window.ga('send', 'pageview', location.pathname + location.search)
-     })
-     ```
-
+    
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 115. ### Helper Functions
-
-
-     You need to use `setInterval()` to trigger the change, but you also need to clear the timer when the component unmounts to prevent errors and memory leaks.
-
-     ```javascript
-     componentDidMount() {
-       this.interval = setInterval(() => this.setState({ time: Date.now() }), 1000)
-     }
-
-     componentWillUnmount() {
-       clearInterval(this.interval)
-     }
-     ```
-
+    
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 116. ### What is Fillable Attribute in a Laravel Model?
 
-
-     React *does not* apply *vendor prefixes* automatically. You need to add vendor prefixes manually.
-
-     ```jsx harmony
-     <div style={{
-       transform: 'rotate(90deg)',
-       WebkitTransform: 'rotate(90deg)', // note the capital 'W' here
-       msTransform: 'rotate(90deg)' // 'ms' is the only lowercase vendor prefix
-     }} />
-     ```
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 117. ### What is Guarded Attribute in a Laravel Model?
 
-
-     You should use default for exporting the components
-
-     ```jsx harmony
-     import React from 'react'
-     import User from 'user'
-
-     export default class MyProfile extends React.Component {
-       render(){
-         return (
-           <User type="customer">
-             //...
-           </User>
-         )
-       }
-     }
-     ```
-
-     With the export specifier, the MyProfile is going to be the member and exported to this module and the same can be imported without mentioning the name in other components.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 118. ### What are Closures in Laravel?
 
-
-     The component names should start with a uppercase letter but there are few exceptions on this convention. The lowercase tag names with a dot (property accessors) are still considered as valid component names.
-     For example the below tag can be compiled to a valid component,
-     ```javascript
-     render(){
-        return (
-            <obj.component /> // `React.createElement(obj.component)`
-           )
-     }
-     ```
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 119. ### How to get Logged in user info in Laravel?
 
-
-     React's *reconciliation* algorithm assumes that without any information to the contrary, if a custom component appears in the same place on subsequent renders, it's the same component as before, so reuses the previous instance rather than creating a new one.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 120. ### What is Laravel Elixir?
 
-
-     You can use ES7 `static` field to define constant.
-
-     ```javascript
-     class MyComponent extends React.Component {
-       static DEFAULT_PAGINATION = 10
-     }
-     ```
-
-     *Static fields* are part of the *Class Fields* stage 3 proposal.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 121. ### What is Laravel Mix?
 
-
-     You could use the ref prop to acquire a reference to the underlying `HTMLInputElement` object through a callback, store the reference as a class property, then use that reference to later trigger a click from your event handlers using the `HTMLElement.click` method. This can be done in two steps:
-
-     1. Create ref in render method:
-
-         ```jsx harmony
-         <input ref={input => this.inputElement = input} />
-         ```
-
-     2. Apply click event in your event handler:
-
-         ```javascript
-         this.inputElement.click()
-         ```
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 122. ### How can you display HTML with Blade in Laravel?
 
-
-     If you want to use `async`/`await` in React, you will need *Babel* and [transform-async-to-generator](https://babeljs.io/docs/en/babel-plugin-transform-async-to-generator) plugin. React Native ships with Babel and a set of transforms.
-
+     ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 123. ### What are the common folder structures for React?
 
-     There are two common practices for React project file structure.
-
-     1. **Grouping by features or routes:**
-
-         One common way to structure projects is locate CSS, JS, and tests together, grouped by feature or route.
-
-         ```
-         common/
-         ├─ Avatar.js
-         ├─ Avatar.css
-         ├─ APIUtils.js
-         └─ APIUtils.test.js
-         feed/
-         ├─ index.js
-         ├─ Feed.js
-         ├─ Feed.css
-         ├─ FeedStory.js
-         ├─ FeedStory.test.js
-         └─ FeedAPI.js
-         profile/
-         ├─ index.js
-         ├─ Profile.js
-         ├─ ProfileHeader.js
-         ├─ ProfileHeader.css
-         └─ ProfileAPI.js
-         ```
-
-     2. **Grouping by file type:**
-
-         Another popular way to structure projects is to group similar files together.
-
-         ```
-         api/
-         ├─ APIUtils.js
-         ├─ APIUtils.test.js
-         ├─ ProfileAPI.js
-         └─ UserAPI.js
-         components/
-         ├─ Avatar.js
-         ├─ Avatar.css
-         ├─ Feed.js
-         ├─ Feed.css
-         ├─ FeedStory.js
-         ├─ FeedStory.test.js
-         ├─ Profile.js
-         ├─ ProfileHeader.js
-         └─ ProfileHeader.css
-         ```
-
+     ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 124. ### List out databases that laravel supports?
 
 
-     *React Transition Group* and *React Motion* are popular animation packages in React ecosystem.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 124. ### How to use custom table in Laravel Model?
 
-
-     It is recommended to avoid hard coding style values in components. Any values that are likely to be used across different UI components should be extracted into their own modules.
-
-     For example, these styles could be extracted into a separate component:
-
-     ```javascript
-     export const colors = {
-       white,
-       black,
-       blue
-     }
-
-     export const space = [
-       0,
-       8,
-       16,
-       32,
-       64
-     ]
-     ```
-
-     And then imported individually in other components:
-
-     ```javascript
-     import { space, colors } from './styles'
-     ```
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 125. ### How To Use Select Query In Laravel? Eloquent and QB?
 
+    ...
+    
 126. ### What are Accessors and Mutators in Eloquent and why should you use them?
 
-
-     ESLint is a popular JavaScript linter. There are plugins available that analyse specific code styles. One of the most common for React is an npm package called `eslint-plugin-react`. By default, it will check a number of best practices, with rules checking things from keys in iterators to a complete set of prop types. Another popular plugin is `eslint-plugin-jsx-a11y`, which will help fix common issues with accessibility. As JSX offers slightly different syntax to regular HTML, issues with `alt` text and `tabindex`, for example, will not be picked up by regular plugins.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 127. ### How do I log an error?
 
-
-     You can use AJAX libraries such as Axios, jQuery AJAX, and the browser built-in `fetch`. You should fetch data in the `componentDidMount()` lifecycle method. This is so you can use `setState()` to update your component when the data is retrieved.
-
-     For example, the employees list fetched from API and set local state:
-
-     ```jsx harmony
-     class MyComponent extends React.Component {
-       constructor(props) {
-         super(props)
-         this.state = {
-           employees: [],
-           error: null
-         }
-       }
-
-       componentDidMount() {
-         fetch('https://api.example.com/items')
-           .then(res => res.json())
-           .then(
-             (result) => {
-               this.setState({
-                 employees: result.employees
-               })
-             },
-             (error) => {
-               this.setState({ error })
-             }
-           )
-       }
-
-       render() {
-         const { error, employees } = this.state
-         if (error) {
-           return <div>Error: {error.message}</div>;
-         } else {
-           return (
-             <ul>
-               {employees.map(item => (
-                 <li key={employee.name}>
-                   {employee.name}-{employees.experience}
-                 </li>
-               ))}
-             </ul>
-           )
-         }
-       }
-     }
-     ```
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 128. ### What is Monolog library in Laravel?
 
-
-     **Render Props** is a simple technique for sharing code between components using a prop whose value is a function. The below component uses render prop which returns a React element.
-
-     ```jsx harmony
-     <DataProvider render={data => (
-       <h1>{`Hello ${data.target}`}</h1>
-     )}/>
-     ```
-
-     Libraries such as React Router and DownShift are using this pattern.
-
-## React Router
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 129. ### Exceptions are handled by which class in Laravel?
 
-
-     React Router is a powerful routing library built on top of React that helps you add new screens and flows to your application incredibly quickly, all while keeping the URL in sync with what's being displayed on the page.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 130. ### What is Serialization in Laravel?
 
-
-     React Router is a wrapper around the `history` library which handles interaction with the browser's `window.history` with its browser and hash histories. It also provides memory history which is useful for environments that don't have global history, such as mobile app development (React Native) and unit testing with Node.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 131. ### What is Response in Laravel?
 
-
-     React Router v4 provides below 3 `<Router>` components:
-
-     1. `<BrowserRouter>`
-     2. `<HashRouter>`
-     3. `<MemoryRouter>`
-
-     The above components will create *browser*, *hash*, and *memory* history instances. React Router v4 makes the properties and methods of the `history` instance associated with your router available through the context in the `router` object.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 132. ### What is Response Macros in Laravel?
 
-
-     A history instance has two methods for navigation purpose.
-
-     1. `push()`
-     2. `replace()`
-
-     If you think of the history as an array of visited locations, `push()` will add a new location to the array and `replace()` will replace the current location in the array with the new one.
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 133. ### What is Rate Limiting OR Throttle in Laravel?
 
-
-     There are three different ways to achieve programmatic routing/navigation within components.
-
-     1. **Using the `withRouter()` higher-order function:**
-
-         The `withRouter()` higher-order function will inject the history object as a prop of the component. This object provides `push()` and `replace()` methods to avoid the usage of context.
-
-         ```jsx harmony
-         import { withRouter } from 'react-router-dom' // this also works with 'react-router-native'
-
-         const Button = withRouter(({ history }) => (
-           <button
-             type='button'
-             onClick={() => { history.push('/new-location') }}
-           >
-             {'Click Me!'}
-           </button>
-         ))
-         ```
-
-     2. **Using `<Route>` component and render props pattern:**
-
-         The `<Route>` component passes the same props as `withRouter()`, so you will be able to access the history methods through the history prop.
-
-         ```jsx harmony
-         import { Route } from 'react-router-dom'
-
-         const Button = () => (
-           <Route render={({ history }) => (
-             <button
-               type='button'
-               onClick={() => { history.push('/new-location') }}
-             >
-               {'Click Me!'}
-             </button>
-           )} />
-         )
-         ```
-
-     3. **Using context:**
-
-         This option is not recommended and treated as unstable API.
-
-         ```jsx harmony
-         const Button = (props, context) => (
-           <button
-             type='button'
-             onClick={() => {
-               context.history.push('/new-location')
-             }}
-           >
-             {'Click Me!'}
-           </button>
-         )
-
-         Button.contextTypes = {
-           history: React.PropTypes.shape({
-             push: React.PropTypes.func.isRequired
-           })
-         }
-         ```
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 134. ### What is Lazy vs Eager Loading in Laravel?
 
-
-     The ability to parse query strings was taken out of React Router v4 because there have been user requests over the years to support different implementation. So the decision has been given to users to choose the implementation they like. The recommended approach is to use query strings library.
-
-     ```javascript
-     const queryString = require('query-string');
-     const parsed = queryString.parse(props.location.search);
-     ```
-
-     You can also use `URLSearchParams` if you want something native:
-
-     ```javascript
-     const params = new URLSearchParams(props.location.search)
-     const foo = params.get('name')
-     ```
-
-     You should use a *polyfill* for IE11.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 135. ### How to get current environment in Laravel?
 
-
-     You have to wrap your Route's in a `<Switch>` block because `<Switch>` is unique in that it renders a route exclusively.
-
-     At first you need to add `Switch` to your imports:
-
-     ```javascript
-     import { Switch, Router, Route } from 'react-router'
-     ```
-
-     Then define the routes within `<Switch>` block:
-
-     ```jsx harmony
-     <Router>
-       <Switch>
-         <Route {/* ... */} />
-         <Route {/* ... */} />
-       </Switch>
-     </Router>
-     ```
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 136. ### How to use custom table in Laravel Model ?
 
-
-     While navigating you can pass props to the `history` object:
-
-     ```javascript
-     this.props.history.push({
-       pathname: '/template',
-       search: '?name=sudheer',
-       state: { detail: response.data }
-     })
-     ```
-
-     The `search` property is used to pass query params in `push()` method.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 137. ### What is Binding?
 
-
-     A `<Switch>` renders the first child `<Route>` that matches. A `<Route>` with no path always matches. So you just need to simply drop path attribute as below
-
-     ```jsx harmony
-     <Switch>
-       <Route exact path="/" component={Home}/>
-       <Route path="/user" component={User}/>
-       <Route component={NotFound} />
-     </Switch>
-     ```
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 138. ### Explain Binding A Singleton?
 
-
-     1. Create a module that exports a `history` object and import this module across the project.
-
-         For example, create `history.js` file:
-
-         ```javascript
-         import { createBrowserHistory } from 'history'
-
-         export default createBrowserHistory({
-           /* pass a configuration object here if needed */
-         })
-         ```
-
-     2. You should use the `<Router>` component instead of built-in routers. Imported the above `history.js` inside `index.js` file:
-
-         ```jsx harmony
-         import { Router } from 'react-router-dom'
-         import history from './history'
-         import App from './App'
-
-         ReactDOM.render((
-           <Router history={history}>
-             <App />
-           </Router>
-         ), holder)
-         ```
-
-     3. You can also use push method of `history` object similar to built-in history object:
-
-         ```javascript
-         // some-other-file.js
-         import history from './history'
-
-         history.push('/go-here')
-         ```
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 139. ### Explain Binding Instances?
 
-
-     The `react-router` package provides `<Redirect>` component in React Router. Rendering a `<Redirect>` will navigate to a new location. Like server-side redirects, the new location will override the current location in the history stack.
-
-     ```javascript
-     import React, { Component } from 'react'
-     import { Redirect } from 'react-router'
-
-     export default class LoginComponent extends Component {
-       render() {
-         if (this.state.isLoggedIn === true) {
-           return <Redirect to="/your/redirect/page" />
-         } else {
-           return <div>{'Login Please'}</div>
-         }
-       }
-     }
-     ```
-
-## React Internationalization
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1954,94 +1232,34 @@ PHP 7.4 brings,
 140. ### Explain Binding Primitives?
 
 
-     The *React Intl* library makes internalization in React straightforward, with off-the-shelf components and an API that can handle everything from formatting strings, dates, and numbers, to pluralization. React Intl is part of *FormatJS* which provides bindings to React via its components and API.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 141. ### Explain Contextual Binding and how does it work?
 
-
-     1. Display numbers with separators.
-     2. Display dates and times correctly.
-     3. Display dates relative to "now".
-     4. Pluralize labels in strings.
-     5. Support for 150+ languages.
-     6. Runs in the browser and Node.
-     7. Built on standards.
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 142. ### What is Tagging?
 
-
-     The library provides two ways to format strings, numbers, and dates: react components or an API.
-
-     ```jsx harmony
-     <FormattedMessage
-       id={'account'}
-       defaultMessage={'The amount is less than minimum balance.'}
-     />
-     ```
-
-     ```javascript
-     const messages = defineMessages({
-       accountMessage: {
-         id: 'account',
-         defaultMessage: 'The amount is less than minimum balance.',
-       }
-     })
-
-     formatMessage(messages.accountMessage)
-     ```
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 143. ### Explain Extending Bindings?
 
-
-     The `<Formatted... />` components from `react-intl` return elements, not plain text, so they can't be used for placeholders, alt text, etc. In that case, you should use lower level API `formatMessage()`. You can inject the `intl` object into your component using `injectIntl()` higher-order component and then format the message using `formatMessage()` available on that object.
-
-     ```jsx harmony
-     import React from 'react'
-     import { injectIntl, intlShape } from 'react-intl'
-
-     const MyComponent = ({ intl }) => {
-       const placeholder = intl.formatMessage({id: 'messageId'})
-       return <input placeholder={placeholder} />
-     }
-
-     MyComponent.propTypes = {
-       intl: intlShape.isRequired
-     }
-
-     export default injectIntl(MyComponent)
-     ```
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 144. ### What is the make Method?
 
-
-     You can get the current locale in any component of your application using `injectIntl()`:
-
-     ```jsx harmony
-     import { injectIntl, intlShape } from 'react-intl'
-
-     const MyComponent = ({ intl }) => (
-       <div>{`The current locale is ${intl.locale}`}</div>
-     )
-
-     MyComponent.propTypes = {
-       intl: intlShape.isRequired
-     }
-
-     export default injectIntl(MyComponent)
-     ```
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
