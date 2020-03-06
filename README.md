@@ -701,88 +701,41 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
     
 59	### How to get the data from more than 3 table without use join ? Answer: Subquery, union.
 
-
-    The `ReactDOMServer` object enables you to render components to static markup (typically used on node server). This object is mainly used for *server-side rendering* (SSR). The following methods can be used in both the server and browser environments:
-
-    1. `renderToString()`
-    2. `renderToStaticMarkup()`
-
-    For example, you generally run a Node-based web server like Express, Hapi, or Koa, and you call `renderToString` to render your root component to a string, which you then send as response.
-
-    ```javascript
-    // using Express
-    import { renderToString } from 'react-dom/server'
-    import MyPage from './MyPage'
-
-    app.get('/', (req, res) => {
-      res.write('<!DOCTYPE html><html><head><title>My Page</title></head><body>')
-      res.write('<div id="content">')
-      res.write(renderToString(<MyPage/>))
-      res.write('</div></body></html>')
-      res.end()
-    })
-    ```
+...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 60	### List some artisan commands
 
-
-    The `dangerouslySetInnerHTML` attribute is React's replacement for using `innerHTML` in the browser DOM. Just like `innerHTML`, it is risky to use this attribute considering cross-site scripting (XSS) attacks. You just need to pass a `__html` object as key and HTML text as value.
-
-    In this example MyComponent uses `dangerouslySetInnerHTML` attribute for setting HTML markup:
-
-    ```jsx harmony
-    function createMarkup() {
-      return { __html: 'First &middot; Second' }
-    }
-
-    function MyComponent() {
-      return <div dangerouslySetInnerHTML={createMarkup()} />
-    }
     ```
-
+    php artisan list
+    php artisan make:migrate
+    php artisan make:controller
+    php artisan make:model
+    php artisan config:clear
+    php artisan serve
+    ```
 
    **[⬆ Back to Top](#table-of-contents)**
     
 61	### What are Sessisons?
 
-
-    The `style` attribute accepts a JavaScript object with camelCased properties rather than a CSS string. This is consistent with the DOM style JavaScript property, is more efficient, and prevents XSS security holes.
-
-    ```jsx harmony
-    const divStyle = {
-      color: 'blue',
-      backgroundImage: 'url(' + imgUrl + ')'
-    };
-
-    function HelloWorldComponent() {
-      return <div style={divStyle}>Hello World!</div>
-    }
-    ```
-
-    Style keys are camelCased in order to be consistent with accessing the properties on DOM nodes in JavaScript (e.g. `node.style.backgroundImage`).
+Session is data related to a specific user.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 62	### What are Cookies?
 
-    Handling events in React elements has some syntactic differences:
-
-    1. React event handlers are named using camelCase, rather than lowercase.
-    2. With JSX you pass a function as the event handler, rather than a string.
+  Cookies is generalized data.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 63	### What is Current version of PHP, MySQL, Laravel, MongoDB etc?
 
-
-
-    When you use `setState()`, then apart from assigning to the object state React also re-renders the component and all its children. You would get error like this: *Can only update a mounted or mounting component.* So we need to use `this.state` to initialize variables inside constructor.
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
