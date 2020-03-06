@@ -1265,122 +1265,38 @@ Session is data related to a specific user.
     
 145. ### How to clear cache in Laravel?
 
-
-     The `injectIntl()` higher-order component will give you access to the `formatDate()` method via the props in your component. The method is used internally by instances of `FormattedDate` and it returns the string representation of the formatted date.
-
-     ```jsx harmony
-     import { injectIntl, intlShape } from 'react-intl'
-
-     const stringDate = this.props.intl.formatDate(date, {
-       year: 'numeric',
-       month: 'numeric',
-       day: 'numeric'
-     })
-
-     const MyComponent = ({intl}) => (
-       <div>{`The formatted date is ${stringDate}`}</div>
-     )
-
-     MyComponent.propTypes = {
-       intl: intlShape.isRequired
-     }
-
-     export default injectIntl(MyComponent)
-     ```
-
-## React Testing
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 146. ### What is CSRF token?
 
-
-     *Shallow rendering* is useful for writing unit test cases in React. It lets you render a component *one level deep* and assert facts about what its render method returns, without worrying about the behavior of child components, which are not instantiated or rendered.
-
-     For example, if you have the following component:
-
-     ```javascript
-     function MyComponent() {
-       return (
-         <div>
-           <span className={'heading'}>{'Title'}</span>
-           <span className={'description'}>{'Description'}</span>
-         </div>
-       )
-     }
-     ```
-
-     Then you can assert as follows:
-
-     ```jsx harmony
-     import ShallowRenderer from 'react-test-renderer/shallow'
-
-     // in your test
-     const renderer = new ShallowRenderer()
-     renderer.render(<MyComponent />)
-
-     const result = renderer.getRenderOutput()
-
-     expect(result.type).toBe('div')
-     expect(result.props.children).toEqual([
-       <span className={'heading'}>{'Title'}</span>,
-       <span className={'description'}>{'Description'}</span>
-     ])
-     ```
+     ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 147. ### How will you explain homestead in Laravel?
 
-
-     This package provides a renderer that can be used to render components to pure JavaScript objects, without depending on the DOM or a native mobile environment. This package makes it easy to grab a snapshot of the platform view hierarchy (similar to a DOM tree) rendered by a ReactDOM or React Native without using a browser or `jsdom`.
-
-     ```jsx harmony
-     import TestRenderer from 'react-test-renderer'
-
-     const Link = ({page, children}) => <a href={page}>{children}</a>
-
-     const testRenderer = TestRenderer.create(
-       <Link page={'https://www.facebook.com/'}>{'Facebook'}</Link>
-     )
-
-     console.log(testRenderer.toJSON())
-     // {
-     //   type: 'a',
-     //   props: { href: 'https://www.facebook.com/' },
-     //   children: [ 'Facebook' ]
-     // }
-     ```
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 14. ### How can we get the user's IP address in Laravel?
 
-
-     *ReactTestUtils* are provided in the `with-addons` package and allow you to perform actions against a simulated DOM for the purpose of unit testing.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 149. ### How will you create a helper file in Laravel?
 
-     *Jest* is a JavaScript unit testing framework created by Facebook based on Jasmine and provides automated mock creation and a `jsdom` environment. It's often used for testing components.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 150. ### How can we create a record in Laravel using eloquent?
 
-     There are couple of advantages compared to Jasmine:
-
-     - Automatically finds tests to execute in your source code.
-     - Automatically mocks dependencies when running your tests.
-     - Allows you to test asynchronous code synchronously.
-     - Runs your tests with a fake DOM implementation (via `jsdom`) so that your tests can be run on the command line.
-     - Runs tests in parallel processes so that they finish sooner.
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1388,266 +1304,87 @@ Session is data related to a specific user.
 
 151. ### How can we get the user's IP address in Laravel?
 
-     Let's write a test for a function that adds two numbers in `sum.js` file:
-
-     ```javascript
-     const sum = (a, b) => a + b
-
-     export default sum
-     ```
-
-     Create a file named `sum.test.js` which contains actual test:
-
-     ```javascript
-     import sum from './sum'
-
-     test('adds 1 + 2 to equal 3', () => {
-       expect(sum(1, 2)).toBe(3)
-     })
-     ```
-
-     And then add the following section to your `package.json`:
-
-     ```json
-     {
-       "scripts": {
-         "test": "jest"
-       }
-     }
-     ```
-
-     Finally, run `yarn test` or `npm test` and Jest will print a result:
-
-     ```console
-     $ yarn test
-     PASS ./sum.test.js
-     ✓ adds 1 + 2 to equal 3 (2ms)
-     ```
-
-## React Redux
-
+   ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 152. ### What is faker in Laravel?
 
-     *Flux* is an *application design paradigm* used as a replacement for the more traditional MVC pattern. It is not a framework or a library but a new kind of architecture that complements React and the concept of Unidirectional Data Flow. Facebook uses this pattern internally when working with React.
-
-     The workflow between dispatcher, stores and views components with distinct inputs and outputs as follows:
-
-     ![flux](images/flux.png)
+   
+     ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 153. ### What are active records?
 
-
-     *Redux* is a predictable state container for JavaScript apps based on the *Flux design pattern*. Redux can be used together with React, or with any other view library. It is tiny (about 2kB) and has no dependencies.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 154. ### What are the difference between insert() and insertGetId() in laravel?
 
-
-     Redux follows three fundamental principles:
-
-     1. **Single source of truth:** The state of your whole application is stored in an object tree within a single store. The single state tree makes it easier to keep track of changes over time and debug or inspect the application.
-     2. **State is read-only:** The only way to change the state is to emit an action, an object describing what happened. This ensures that neither the views nor the network callbacks will ever write directly to the state.
-     3. **Changes are made with pure functions:** To specify how the state tree is transformed by actions, you write reducers. Reducers are just pure functions that take the previous state and an action as parameters, and return the next state.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 155. ### Talk about Laravel Vapor Compatibility
 
-
-     Instead of saying downsides we can say that there are few compromises of using Redux over Flux. Those are as follows:
-
-     1. **You will need to learn to avoid mutations:** Flux is un-opinionated about mutating data, but Redux doesn't like mutations and many packages complementary to Redux assume you never mutate the state. You can enforce this with dev-only packages like `redux-immutable-state-invariant`, Immutable.js, or instructing your team to write non-mutating code.
-     2. **You're going to have to carefully pick your packages:** While Flux explicitly doesn't try to solve problems such as undo/redo, persistence, or forms, Redux has extension points such as middleware and store enhancers, and it has spawned a rich ecosystem.
-     3. **There is no nice Flow integration yet:** Flux currently lets you do very impressive static type checks which Redux doesn't support yet.
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 156. ### What is Semantic Versioning?
 
-
-     `mapStateToProps()` is a utility which helps your component get updated state (which is updated by some other components):
-
-     ```javascript
-     const mapStateToProps = (state) => {
-       return {
-         todos: getVisibleTodos(state.todos, state.visibilityFilter)
-       }
-     }
-     ```
-
-     `mapDispatchToProps()` is a utility which will help your component to fire an action event (dispatching action which may cause change of application state):
-
-     ```javascript
-     const mapDispatchToProps = (dispatch) => {
-       return {
-         onTodoClick: (id) => {
-           dispatch(toggleTodo(id))
-         }
-       }
-     }
-     ```
-     
-     Recommend always using the “object shorthand” form for the `mapDispatchToProps`
-        
-     Redux wrap it in another function that looks like (…args) => dispatch(onTodoClick(…args)), and pass that wrapper function as a prop to your component.
-      
-      ```javascript
-       const mapDispatchToProps = ({
-         onTodoClick
-       })
-      ```
+    Major version . Minor version . Bug fix
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 157. ### What are Jobs and Middleware?
 
-
-     Dispatching an action within a reducer is an **anti-pattern**. Your reducer should be *without side effects*, simply digesting the action payload and returning a new state object. Adding listeners and dispatching actions within the reducer can lead to chained actions and other side effects.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 158. ### Talk about Laravel User Interface (UI)
 
-     You just need to export the store from the module where it created with `createStore()`. Also, it shouldn't pollute the global window object.
-
-     ```javascript
-     store = createStore(myReducer)
-
-     export default store
-     ```
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 159. ### Talk about Eloquent Subquery Enhancements?
 
-     1. DOM manipulation is very expensive which causes applications to behave slow and inefficient.
-     3. Due to circular dependencies, a complicated model was created around models and views.
-     3. Lot of data changes happens for collaborative applications(like Google Docs).
-     4. No way to do undo (travel back in time) easily without adding so much extra code.
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 160. ### What are improved Authorization Responses?
 
-     These libraries are very different for very different purposes, but there are some vague similarities.
-
-     Redux is a tool for managing state throughout the application. It is usually used as an architecture for UIs. Think of it as an alternative to (half of) Angular. RxJS is a reactive programming library. It is usually used as a tool to accomplish asynchronous tasks in JavaScript. Think of it as an alternative to Promises. Redux uses the Reactive paradigm because the Store is reactive. The Store observes actions from a distance, and changes itself. RxJS also uses the Reactive paradigm, but instead of being an architecture, it gives you basic building blocks, Observables, to accomplish this pattern.
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 161. ### What are lazy collections?
 
-
-     You can dispatch an action in `componentDidMount()` method and in `render()` method you can verify the data.
-
-     ```javascript
-     class App extends Component {
-       componentDidMount() {
-         this.props.fetchData()
-       }
-
-       render() {
-         return this.props.isLoaded
-           ? <div>{'Loaded'}</div>
-           : <div>{'Not Loaded'}</div>
-       }
-     }
-
-     const mapStateToProps = (state) => ({
-       isLoaded: state.isLoaded
-     })
-
-     const mapDispatchToProps = { fetchData }
-
-     export default connect(mapStateToProps, mapDispatchToProps)(App)
-     ```
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 162. ### How to make a constant and use globally?
 
-
-     You need to follow two steps to use your store in your container:
-
-     1. **Use `mapStateToProps()`:** It maps the state variables from your store to the props that you specify.
-     2. **Connect the above props to your container:** The object returned by the `mapStateToProps` function is connected to the container. You can import `connect()` from `react-redux`.
-
-         ```jsx harmony
-         import React from 'react'
-         import { connect } from 'react-redux'
-
-         class App extends React.Component {
-           render() {
-             return <div>{this.props.containerData}</div>
-           }
-         }
-
-         function mapStateToProps(state) {
-           return { containerData: state.data }
-         }
-
-         export default connect(mapStateToProps)(App)
-         ```
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 163. ### How to remove /public from URL in laravel?
 
 
-     You need to write a *root reducer* in your application which delegate handling the action to the reducer generated by `combineReducers()`.
-
-     For example, let us take `rootReducer()` to return the initial state after `USER_LOGOUT` action. As we know, reducers are supposed to return the initial state when they are called with `undefined` as the first argument, no matter the action.
-
-     ```javascript
-     const appReducer = combineReducers({
-       /* your app's top-level reducers */
-     })
-
-     const rootReducer = (state, action) => {
-       if (action.type === 'USER_LOGOUT') {
-         state = undefined
-       }
-
-       return appReducer(state, action)
-     }
-     ```
-
-     In case of using `redux-persist`, you may also need to clean your storage. `redux-persist` keeps a copy of your state in a storage engine. First, you need to import the appropriate storage engine and then, to parse the state before setting it to undefined and clean each storage state key.
-
-     ```javascript
-     const appReducer = combineReducers({
-       /* your app's top-level reducers */
-     })
-
-     const rootReducer = (state, action) => {
-       if (action.type === 'USER_LOGOUT') {
-         Object.keys(state).forEach(key => {
-           storage.removeItem(`persist:${key}`)
-         })
-
-         state = undefined
-       }
-
-       return appReducer(state, action)
-     }
-     ```
+     ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1655,253 +1392,172 @@ Session is data related to a specific user.
 164. ### What are the difference between soft delete & delete in Laravel?
 
 
-     The **@** symbol is in fact a JavaScript expression used to signify decorators. *Decorators* make it possible to annotate and modify classes and properties at design time.
-
-     Let's take an example setting up Redux without and with a decorator.
-
-     * **Without decorator:**
-
-         ```javascript
-         import React from 'react'
-         import * as actionCreators from './actionCreators'
-         import { bindActionCreators } from 'redux'
-         import { connect } from 'react-redux'
-
-         function mapStateToProps(state) {
-           return { todos: state.todos }
-         }
-
-         function mapDispatchToProps(dispatch) {
-           return { actions: bindActionCreators(actionCreators, dispatch) }
-         }
-
-         class MyApp extends React.Component {
-           // ...define your main app here
-         }
-
-         export default connect(mapStateToProps, mapDispatchToProps)(MyApp)
-         ```
-
-     * **With decorator:**
-
-         ```javascript
-         import React from 'react'
-         import * as actionCreators from './actionCreators'
-         import { bindActionCreators } from 'redux'
-         import { connect } from 'react-redux'
-
-         function mapStateToProps(state) {
-           return { todos: state.todos }
-         }
-
-         function mapDispatchToProps(dispatch) {
-           return { actions: bindActionCreators(actionCreators, dispatch) }
-         }
-
-         @connect(mapStateToProps, mapDispatchToProps)
-         export default class MyApp extends React.Component {
-           // ...define your main app here
-         }
-         ```
-
-     The above examples are almost similar except the usage of decorator. The decorator syntax isn't built into any JavaScript runtimes yet, and is still experimental and subject to change. You can use babel for the decorators support.
+     ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 165. ### How we can upload files in laravel?
 
-     You can use **Context** in your application directly and is going to be great for passing down data to deeply nested components which what it was designed for. Whereas **Redux** is much more powerful and provides a large number of features that the Context API doesn't provide. Also, React Redux uses context internally but it doesn't expose this fact in the public API.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 166. ### Why are Redux state functions c166. ### How to create real time sitemap.xml file in Laravel?
 
-
-     Reducers always return the accumulation of the state (based on all previous and current actions). Therefore, they act as a reducer of state. Each time a Redux reducer is called, the state and action are passed as parameters. This state is then reduced (or accumulated) based on the action, and then the next state is returned. You could *reduce* a collection of actions and an initial state (of the store) on which to perform these actions to get the resulting final state.
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 167. ### How to use skip() and take() in Laravel Query?
 
-
-     You can use `redux-thunk` middleware which allows you to define async actions.
-
-     Let's take an example of fetching specific account as an AJAX call using *fetch API*:
-
-     ```javascript
-     export function fetchAccount(id) {
-       return dispatch => {
-         dispatch(setLoadingAccountState()) // Show a loading spinner
-         fetch(`/account/${id}`, (response) => {
-           dispatch(doneFetchingAccount()) // Hide loading spinner
-           if (response.status === 200) {
-             dispatch(setAccount(response.json)) // Use a normal function to set the received state
-           } else {
-             dispatch(someError)
-           }
-         })
-       }
-     }
-
-     function setAccount(data) {
-      return { type: 'SET_Account', data: data }
-     }
-     ```
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 168. ### What is tinker in laravel?
 
-Tinker is command line code functionality where you can write Laravel code in CLI.
+    Tinker is command line code functionality where you can write Laravel code in CLI.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 169. ### What is a REPL?
 
-...
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 170. ### How to use multiple 'OR' condition in Laravel Query?
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 171. ### Please write some additional where Clauses in Laravel?
     
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 172. ### How to check column is exists or not in a table using Laravel?
 
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 173. ### What is eager loading in Laravel?
    
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 174. ### How to generate application key in laravel?
 
-
   ...
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 175. ### What is LTS version of Laravel?
 
-
     LTS version is a version where the support is longer i.e it gets longer fixes and support and is a stable version.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 176. ### How to use GROUP_CONCAT() with JOIN in Laravel?
 
-...
-
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 177. ### How to extend login expire time in Auth?
 
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 178. ### How to extend a layout file in laravel view?
 
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 179. ### How do you use yield()?
 
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 182. ### What is ACL in laravel?
 
-...
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 183. ### How to check Ajax request in Laravel?
 
-...
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 184. ### How to check if value is sent in request?
 
-...
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 185. ### Laravel String Helper functions?
 
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 186. ### Laravel Array Helper functions?
 
-...
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 187. ### How to exclude a route with parameters from CSRF verification?
 
-...
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 188. ### What are policies classes?
 
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 189. ### How to rollback last migration?
 
-
-...
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 190. ### What do you mean by Laravel Dusk?
 
-...
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 191. ### Explain Laravel echo
 
-Used with broadcasting and sockets.
+    Used with broadcasting and sockets.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 192. ### What is namespace in Laravel?
 
-...
+    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
