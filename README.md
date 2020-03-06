@@ -1478,155 +1478,52 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
 93. ### Create a project with CRUD, one algorithm logic and insert data in db for testing.
 
 
-    React (or JSX) doesn't support variable interpolation inside an attribute value. The below representation won't work:
-
-    ```jsx harmony
-    <img className='image' src='images/{this.props.image}' />
-    ```
-
-    But you can put any JS expression inside curly braces as the entire attribute value. So the below expression works:
-
-    ```jsx harmony
-    <img className='image' src={'images/' + this.props.image} />
-    ```
-
-    Using *template strings* will also work:
-
-    ```jsx harmony
-    <img className='image' src={`images/${this.props.image}`} />
-    ```
-
-
-   **[⬆ Back to Top](#table-of-contents)**
-    
-94. ### Explain CURL and SOAP?
-
-
-    If you want to pass an array of objects to a component with a particular shape then use `React.PropTypes.shape()` as an argument to `React.PropTypes.arrayOf()`.
-
-    ```javascript
-    ReactComponent.propTypes = {
-      arrayWithShape: React.PropTypes.arrayOf(React.PropTypes.shape({
-        color: React.PropTypes.string.isRequired,
-        fontSize: React.PropTypes.number.isRequired
-      })).isRequired
-    }
-    ```
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 95. ### In MySql we use many types of engines which one is faster and why?
 
-
-    You shouldn't use curly braces inside quotes because it is going to be evaluated as a string.
-
-    ```jsx harmony
-    <div className="btn-panel {this.props.visible ? 'show' : 'hidden'}">
-    ```
-
-    Instead you need to move curly braces outside (don't forget to include spaces between class names):
-
-    ```jsx harmony
-    <div className={'btn-panel ' + (this.props.visible ? 'show' : 'hidden')}>
-    ```
-
-    *Template strings* will also work:
-
-    ```jsx harmony
-    <div className={`btn-panel ${this.props.visible ? 'show' : 'hidden'}`}>
-    ```
-
+There are two main types of engines,
+1.InnoDB
+2.MyISAM
+InnoDB is faster.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 96. ### What are Triggers?
 
 
-    The `react` package contains `React.createElement()`, `React.Component`, `React.Children`, and other helpers related to elements and component classes. You can think of these as the isomorphic or universal helpers that you need to build components. The `react-dom` package contains `ReactDOM.render()`, and in `react-dom/server` we have *server-side rendering* support with `ReactDOMServer.renderToString()` and `ReactDOMServer.renderToStaticMarkup()`.
+...
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 97. ### What are Procedures
 
-
-    The React team worked on extracting all DOM-related features into a separate library called *ReactDOM*. React v0.14 is the first release in which the libraries are split. By looking at some of the packages, `react-native`, `react-art`, `react-canvas`, and `react-three`, it has become clear that the beauty and essence of React has nothing to do with browsers or the DOM. To build more environments that React can render to, React team planned to split the main React package into two: `react` and `react-dom`. This paves the way to writing components that can be shared between the web version of React and React Native.
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 98. ### What are some new feaatures of Laravel X?
 
-
-    If you try to render a `<label>` element bound to a text input using the standard `for` attribute, then it produces HTML missing that attribute and prints a warning to the console.
-
-    ```jsx harmony
-    <label for={'user'}>{'User'}</label>
-    <input type={'text'} id={'user'} />
-    ```
-
-    Since `for` is a reserved keyword in JavaScript, use `htmlFor` instead.
-
-    ```jsx harmony
-    <label htmlFor={'user'}>{'User'}</label>
-    <input type={'text'} id={'user'} />
-    ```
-
+...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 99. ### What are some new features of PHP X?
 
-
-    You can use *spread operator* in regular React:
-
-    ```jsx harmony
-     <button style={{...styles.panel.button, ...styles.panel.submitButton}}>{'Submit'}</button>
-    ```
-
-    If you're using React Native then you can use the array notation:
-
-    ```jsx harmony
-    <button style={[styles.panel.button, styles.panel.submitButton]}>{'Submit'}</button>
-    ```
+PHP 7.4 brings,
+1. 
+2.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 100. ### Explain Difference between session and cookies?
 
-     You can listen to the `resize` event in `componentDidMount()` and then update the dimensions (`width` and `height`). You should remove the listener in `componentWillUnmount()` method.
-
-     ```javascript
-     class WindowDimensions extends React.Component {
-       constructor(props){
-         super(props);
-         this.updateDimensions = this.updateDimensions.bind(this);
-       }
-        
-       componentWillMount() {
-         this.updateDimensions()
-       }
-
-       componentDidMount() {
-         window.addEventListener('resize', this.updateDimensions)
-       }
-
-       componentWillUnmount() {
-         window.removeEventListener('resize', this.updateDimensions)
-       }
-
-       updateDimensions() {
-         this.setState({width: window.innerWidth, height: window.innerHeight})
-       }
-
-       render() {
-         return <span>{this.state.width} x {this.state.height}</span>
-       }
-     }
-     ```
-
+  Cookies is data sent with every request. It is usually generalized for all.
+  Session is data related to a specific user.
 
    **[⬆ Back to Top](#table-of-contents)**
     
