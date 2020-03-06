@@ -489,20 +489,17 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
 
     Payment processing is difficult. Cashier is a package which makes it easy. Its installed using composer.
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
 26. ### What is Test Driven Development?
 
     Test is written first and then the function is written.
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
 27. ### What is Package development?
 
     Larvel uses composer which gets packages. You can develop your own package and submit.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -514,8 +511,8 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
     
 29. ### Socialie and Auth?
 
-    Socialite = Social login for Laravel.
-
+    Socialite is Social login for Laravel.
+    Auth is Laravel's authentication.
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -544,6 +541,7 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
    **[⬆ Back to Top](#table-of-contents)**
     
 34. ### What is Redis?
+    
     Key-value database making query faster.
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -625,6 +623,9 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
    **[⬆ Back to Top](#table-of-contents)**
     
 49. ### What is Dependency injection in Laravel?
+
+Laravel injects dependencies as function parameters.
+Read more: https://medium.com/a-young-devoloper/how-laravel-injects-our-dependencies-14e1b1a044e
 
 
    **[⬆ Back to Top](#table-of-contents)**
