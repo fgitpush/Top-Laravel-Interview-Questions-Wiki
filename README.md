@@ -721,7 +721,10 @@ Session is data related to a specific user.
     
 63.	### What is Current version of PHP, MySQL, Laravel, MongoDB etc?
 
-    ...
+    PHP: PHP 7.4
+    MySQL: 7
+    Laravel: 6
+    MongoDB: 4
 
    **[⬆ Back to Top](#table-of-contents)**
     
