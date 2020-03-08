@@ -1665,7 +1665,6 @@ Session is data related to a specific user.
 210. ### What does PHP compact function do?alled reducers?
 
    ...
-211. ### What does PHP compact function do?alled reducers?
-    `APP_KEY` is used for encryption of cookies.
+
 
    **[⬆ Back to Top](#table-of-contents)**
