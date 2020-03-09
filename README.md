@@ -1645,8 +1645,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 204. ### I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?
 
-
-..
+    You might see the white screen of death because of not enough permissions in folders. Try changing permissions of `/public`, `/vendor`, `/storage` folders.
 
    **[⬆ Back to Top](#table-of-contents)**
     
