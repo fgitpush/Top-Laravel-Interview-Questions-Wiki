@@ -1339,7 +1339,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 153. ### What are active records?
 
-    ...
+    A design pattern which masks SQL queries to make database CRUD operations easy.
 
    **[⬆ Back to Top](#table-of-contents)**
     
