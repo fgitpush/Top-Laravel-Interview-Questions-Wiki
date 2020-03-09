@@ -1656,18 +1656,17 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 206. ### How to make a constant and use globally?
 
-..
+Create it in the .env file
 
 207. ### How to check current installed version of Laravel?
 
-...
+    See `composer.json` file.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 208. ### What does "composer dump-autoload" do?
 
-..
-
+It just regenerates the list of all classes that need to be included in the project (autoload_classmap.php).
 
    **[⬆ Back to Top](#table-of-contents)**
     
