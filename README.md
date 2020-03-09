@@ -1673,7 +1673,8 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 209. ### What is Kept in vendor directory of Laravel?
 
-   ...
+   Laravel dependencies. Their code.
+   
 
    **[⬆ Back to Top](#table-of-contents)**
     
