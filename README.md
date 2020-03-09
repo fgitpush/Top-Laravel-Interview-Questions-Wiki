@@ -1320,14 +1320,16 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
 151. ### How can we get the user's IP address in Laravel?
 
-   ...
+   ```
+   Request::ip();
+   ```
 
    **[⬆ Back to Top](#table-of-contents)**
     
 152. ### What is faker in Laravel?
 
    
-     ...
+     Used to generate dummy data
 
 
    **[⬆ Back to Top](#table-of-contents)**
