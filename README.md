@@ -689,7 +689,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 59.	### How to get the data from more than 3 table without use join ?
 
- Answer: Subquery, union.
+    Answer: Subquery, union.
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -709,13 +709,13 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 61.	### What are Sessisons?
 
-Session is data related to a specific user.
+    Session is data related to a specific user.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 62.	### What are Cookies?
 
-  Cookies is generalized data.
+    Cookies is generalized data.
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -737,7 +737,7 @@ Session is data related to a specific user.
     
 65.	### What are SQL Injections?
 
-    Its a trick to complete a SQL query by filling a form content and placing query parts inside the form.
+    Its a hacking trick used to complete a SQL query by filling a form content and placing query parts inside the form.
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -769,7 +769,11 @@ Session is data related to a specific user.
     
 70.	### Explain Joins
 
-    ...
+    There are 4 types of joins,
+    1. Inner Join
+    2. Outer Join
+    3. Left Join
+    4. Right Join
 
    **[⬆ Back to Top](#table-of-contents)**
     
