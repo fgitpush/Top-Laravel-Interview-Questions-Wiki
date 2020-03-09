@@ -1046,7 +1046,9 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 111. ### How to enable maintenance mode in Laravel?
 
-    ...
+    ```
+    php artisan down
+    ```
 
    **[⬆ Back to Top](#table-of-contents)**
     
