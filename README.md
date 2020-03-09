@@ -1142,7 +1142,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 124. ### How to use custom table in Laravel Model?
 
-    ...
+    By mentoning the name of the table in `$table` variable
 
    **[⬆ Back to Top](#table-of-contents)**
     
