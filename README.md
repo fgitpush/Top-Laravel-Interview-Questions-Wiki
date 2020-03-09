@@ -883,7 +883,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 86. ### How to add AWS plugin in PHP?
 
-    ...
+    Using AWS SDK.
 
    **[⬆ Back to Top](#table-of-contents)**
     
