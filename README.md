@@ -812,7 +812,8 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 76.	### What is csrf token and xss attack?
 
-   ...
+   CSRF and JWT tokens are used to make sure the action is performed by the user. If there is no token, someone can give a link to user to click or hide it behind some action and him do what the hacker wants.
+
 
    **[⬆ Back to Top](#table-of-contents)**
     
