@@ -644,6 +644,7 @@ Read more: https://medium.com/a-young-devoloper/how-laravel-injects-our-dependen
     
 52. ### What are Laravel Traits?
 
+    They solve diamond problem which is when you have to inherit from two classes.
 
    **[⬆ Back to Top](#table-of-contents)**
     
