@@ -1060,13 +1060,21 @@ Session is data related to a specific user.
     
 113. ### How do you register a Service Provider?
     
-    ...
+    Inside `config/app.php`
+    ```
+    'providers' => [
+  
+        /*
+         * Laravel Framework Service Providers...
+         */
+        Illuminate\Auth\AuthServiceProvider::class,
+        Illuminate\Broadcasting\BroadcastServiceProvider::class,
+        ...
+    ```
 
    **[⬆ Back to Top](#table-of-contents)**
     
-114. ### How to add Google Analytics for react-router?
-    
-    ...
+114. ### X
 
    **[⬆ Back to Top](#table-of-contents)**
     
