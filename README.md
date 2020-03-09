@@ -1680,7 +1680,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 210. ### What does PHP compact function do?
 
-   ...
+   Convert variables to array.
 
 
    **[⬆ Back to Top](#table-of-contents)**
