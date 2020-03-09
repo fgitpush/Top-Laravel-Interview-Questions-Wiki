@@ -731,7 +731,10 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 64.	### Describe design architecture of an app?
 
-    ...
+    There are three layers
+    1. Presentation layer: Front end
+    2. Business layer: Backend and logic
+    3. Data layer: Model and database 
   
    **[⬆ Back to Top](#table-of-contents)**
     
