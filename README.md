@@ -678,7 +678,8 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 57.	### What is Reverse routing?
 
-    ...
+   To generate the process of generating the URL which leads to a route. Its used in MVC apps. You can use it using named routes in laravel.
+   
    **[⬆ Back to Top](#table-of-contents)**
     
 58.	### What are Popular composer packages?
