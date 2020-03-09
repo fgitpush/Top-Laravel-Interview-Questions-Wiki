@@ -819,7 +819,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-78.	### Write a join
+78.	### Write the 4 joins
 
 ...
 
