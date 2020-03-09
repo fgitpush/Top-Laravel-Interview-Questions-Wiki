@@ -970,7 +970,10 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 101. ### Merge 2 arrays with duplicate
 
-    ...
+    ```
+    array_unique(array_merge($array1,$array2), SORT_REGULAR);
+
+    ```
 
    **[⬆ Back to Top](#table-of-contents)**
     
