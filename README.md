@@ -1078,7 +1078,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 115. ### Helper Functions
     
-    ...
+    Common function which you can use in many classes are stored in helper functions.
 
    **[⬆ Back to Top](#table-of-contents)**
     
