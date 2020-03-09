@@ -1650,7 +1650,26 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 205. ### How to assign a variable value for all view file?
 
-...
+    ```
+            public function __construct() {       
+
+                $this->middleware(function ($request, $next) {              
+
+                    $name = session()->get('businessinfo.name');  // get value from session
+
+                    View::share('user_name', $name);                   // set value for all View
+
+                    View::share('user_email', session()->get('businessinfo.email'));            
+
+                    return $next($request);
+
+                });
+
+                 }
+
+
+         
+    ```
 
    **[⬆ Back to Top](#table-of-contents)**
     
