@@ -1678,7 +1678,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-210. ### What does PHP compact function do?alled reducers?
+210. ### What does PHP compact function do?
 
    ...
 
