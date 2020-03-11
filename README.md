@@ -924,7 +924,10 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 92. ### What is MVC Framework?
 
-    ...
+    It provides separation of concerns by separating the code into 3 parts,
+    1. Model: Database logic
+    2. View: Frontend logic
+    3. Controller: Backend logic
 
    **[⬆ Back to Top](#table-of-contents)**
     
