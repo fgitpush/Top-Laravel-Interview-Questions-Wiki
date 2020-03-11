@@ -1059,7 +1059,16 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
    
 110. ### List types of relationships available in Laravel Eloquent?
 
-    ...
+    One To One
+    One To Many
+    One To Many (Inverse)
+    Many To Many
+    Has Many Through
+    Polymorphic Relationships
+    One To One
+    One To Many
+    Many To Many
+    Custom Polymorphic Types
 
 
    **[⬆ Back to Top](#table-of-contents)**
