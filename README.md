@@ -1159,7 +1159,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-123. ### What are the common folder structures for React?
+123. ### X
 
      ...
 
