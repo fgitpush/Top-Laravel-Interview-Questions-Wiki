@@ -1050,7 +1050,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 109. ### Which ORM are being used by laravel?
 
-    ...
+    Eloquent
 
    **[⬆ Back to Top](#table-of-contents)**
    
