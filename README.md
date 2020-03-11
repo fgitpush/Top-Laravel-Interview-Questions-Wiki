@@ -832,7 +832,15 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 79. ### Write a union
 
-...
+    ```
+    SELECT expression1, expression2, ... expression_n
+    FROM tables
+    [WHERE conditions]
+    UNION [DISTINCT]
+    SELECT expression1, expression2, ... expression_n
+    FROM tables
+    [WHERE conditions];
+    ```
 
    **[⬆ Back to Top](#table-of-contents)**
     
