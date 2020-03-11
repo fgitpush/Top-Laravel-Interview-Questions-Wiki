@@ -1710,3 +1710,10 @@ It just regenerates the list of all classes that need to be included in the proj
 
 
    **[⬆ Back to Top](#table-of-contents)**
+   
+211. ### What are Laravel facades?
+
+   ...
+
+
+   **[⬆ Back to Top](#table-of-contents)**
