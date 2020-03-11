@@ -783,7 +783,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 71.	### Explain Unions
 
-    ...
+    Union horizontally joins tables together i.e the records are added into the same columns.
 
    **[⬆ Back to Top](#table-of-contents)**
     
