@@ -1134,7 +1134,10 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 119. ### How to get Logged in user info in Laravel?
 
-    ...
+    ```
+    $user = auth()->user();
+    print_r($user);
+    ```
 
    **[⬆ Back to Top](#table-of-contents)**
     
