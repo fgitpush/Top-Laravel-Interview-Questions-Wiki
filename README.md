@@ -946,7 +946,11 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 96. ### What are Triggers?
 
-    ...
+    `DB::unprepared()` is used for it.
+    
+    ```
+    php artisan make:migration create_trigger    
+    ```
 
 
    **[⬆ Back to Top](#table-of-contents)**
