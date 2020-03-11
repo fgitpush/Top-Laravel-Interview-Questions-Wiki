@@ -852,7 +852,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-81. ### What is a switching component?
+81. ### X
 
 
    ...
