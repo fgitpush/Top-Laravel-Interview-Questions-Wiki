@@ -1149,7 +1149,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 121. ### What is Laravel Mix?
 
-    ...
+    Used for compiling JS.
 
    **[⬆ Back to Top](#table-of-contents)**
     
