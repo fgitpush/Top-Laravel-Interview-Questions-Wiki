@@ -1273,7 +1273,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 137. ### What is Binding?
 
-    ...
+    https://stackoverflow.com/questions/49348681/what-is-a-usage-and-purpose-of-laravels-binding
 
 
    **[⬆ Back to Top](#table-of-contents)**
