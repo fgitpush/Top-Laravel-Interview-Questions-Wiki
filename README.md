@@ -632,7 +632,7 @@ Read more: https://medium.com/a-young-devoloper/how-laravel-injects-our-dependen
     
 50. ### What are Laravel contracts?
 
- ...
+ https://laravel.com/docs/7.x/contracts
 
    **[⬆ Back to Top](#table-of-contents)**
     
