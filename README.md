@@ -807,7 +807,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 75.	### How to create hooks in Laravel?
     
-    ...
+    https://stackoverflow.com/questions/36226021/hooks-in-laravel-5
 
    **[⬆ Back to Top](#table-of-contents)**
     
