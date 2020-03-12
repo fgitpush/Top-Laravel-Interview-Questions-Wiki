@@ -1005,8 +1005,19 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 102. ### Find the count of vowel and consonants
 
-    ...
-
+    $str="Find the count of vowel and consonants"
+    $i=0; $vowel=0; $const=0;
+    foreach ($char in $str)
+    {
+        if(($char==" ") || ($i==0))
+            {
+               if(($str[$i+1]==a) || ($str[$i+1]==e) || ($str[$i+1]==i) || ($str[$i+1]==o) || ($str[$i+1]==u))
+               $vowel++;
+               else
+               $const++;
+            }
+            $i++;
+    }
 
    **[⬆ Back to Top](#table-of-contents)**
     
