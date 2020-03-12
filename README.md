@@ -969,13 +969,13 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 97. ### What are Procedures
 
-    ...
+    Stored procedures are SQL code in tables. It is called and executed inside tables.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 98. ### What are some new feaatures of Laravel X?
 
-    ...
+   https://medium.com/@samwatsonets/difference-between-laravel-6-0-and-its-previous-versions-efb2829d0f55
 
    **[⬆ Back to Top](#table-of-contents)**
     
