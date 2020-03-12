@@ -927,7 +927,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 91. ### What is diference between abstract class and interface?
 
-    ```
+   https://javapapers.com/core-java/abstract-and-interface-core-java-2/difference-between-a-java-interface-and-a-java-abstract-class/
 
    **[⬆ Back to Top](#table-of-contents)**
     
