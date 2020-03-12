@@ -1137,7 +1137,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 118. ### What are Closures in Laravel?
 
-    ...
+    a closure gives you access to an outer function's scope from an inner function
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1152,7 +1152,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 120. ### What is Laravel Elixir?
 
-    ...
+   Used for compiling JS.
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1164,7 +1164,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 122. ### How can you display HTML with Blade in Laravel?
 
-     ...
+     {!! $text !!}
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1176,8 +1176,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 124. ### List out databases that laravel supports?
 
-
-    ...
+ Laravel supports four database systems: MySQL, Postgres, SQLite, and SQL Server.
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1189,17 +1188,18 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 125. ### How To Use Select Query In Laravel? Eloquent and QB?
 
-    ...
+    QB: $users = DB::table('users')->select('name', 'email as user_email')->get();
+    Eloquent: $users = User::all();
     
 126. ### What are Accessors and Mutators in Eloquent and why should you use them?
 
-    ...
+    https://laravel.com/docs/4.2/eloquent#accessors-and-mutators
 
    **[⬆ Back to Top](#table-of-contents)**
     
 127. ### How do I log an error?
 
-    ...
+    
 
    **[⬆ Back to Top](#table-of-contents)**
     
