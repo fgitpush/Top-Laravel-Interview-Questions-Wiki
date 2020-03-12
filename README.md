@@ -1222,19 +1222,19 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 129. ### Exceptions are handled by which class in Laravel?
 
-    ...
+     App\Exceptions\Handler class.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 130. ### What is Serialization in Laravel?
 
-    ...
+    https://laravel.com/docs/5.8/eloquent-serialization
 
    **[⬆ Back to Top](#table-of-contents)**
     
 131. ### What is Response in Laravel?
 
-    ...
+    When we make a request , we get a responsse.
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1260,14 +1260,14 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 135. ### How to get current environment in Laravel?
 
-    ...
+   When we make a request, we get a response.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 136. ### How to use custom table in Laravel Model ?
 
-    ...
+    $table=""
 
    **[⬆ Back to Top](#table-of-contents)**
     
