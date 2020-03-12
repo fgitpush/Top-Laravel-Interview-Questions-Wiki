@@ -1321,26 +1321,26 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 144. ### What is the make Method?
 
-    ...
+    Makes controller, view, route, group and other items in artisan.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 145. ### How to clear cache in Laravel?
 
-    ...
+    php artisan cache:cleaer
 
    **[⬆ Back to Top](#table-of-contents)**
     
 146. ### What is CSRF token?
 
-     ...
+     Protects against cross site attack
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 147. ### How will you explain homestead in Laravel?
 
-    ...
+    Virtual box for vagrant
 
    **[⬆ Back to Top](#table-of-contents)**
     
