@@ -1205,8 +1205,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 128. ### What is Monolog library in Laravel?
 
-    ...
-
+   Helps with logging.
 
    **[⬆ Back to Top](#table-of-contents)**
     
