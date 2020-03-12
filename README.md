@@ -1124,14 +1124,14 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 116. ### What is Fillable Attribute in a Laravel Model?
 
-    ...
+   Which can be mass assigned.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 117. ### What is Guarded Attribute in a Laravel Model?
 
-    ...
+    Which can't be mass assigned.
 
    **[⬆ Back to Top](#table-of-contents)**
     
