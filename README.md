@@ -1240,27 +1240,27 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 132. ### What is Response Macros in Laravel?
 
-    ...
+    https://laravel.com/docs/5.8/responses#response-macros
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 133. ### What is Rate Limiting OR Throttle in Laravel?
 
-    ...
+    https://www.cloudways.com/blog/laravel-and-api-rate-limiting/
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 134. ### What is Lazy vs Eager Loading in Laravel?
 
-    ...
+    https://laravel.com/docs/5.8/eloquent-relationships
 
    **[⬆ Back to Top](#table-of-contents)**
     
 135. ### How to get current environment in Laravel?
 
-   When we make a request, we get a response.
+   ?
 
 
    **[⬆ Back to Top](#table-of-contents)**
