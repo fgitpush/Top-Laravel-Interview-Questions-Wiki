@@ -819,14 +819,23 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
    **[⬆ Back to Top](#table-of-contents)**
     
 77.	### Select highest/nth highest salary from DB
-
-    ...
+    
+    ```
+    SELECT name, salary 
+    FROM #Employee e1
+    WHERE N-1 = (SELECT COUNT(DISTINCT salary) FROM #Employee e2
+    WHERE e2.salary > e1.salary)
+    ```
+    https://javarevisited.blogspot.com/2016/01/4-ways-to-find-nth-highest-salary-in.html
 
    **[⬆ Back to Top](#table-of-contents)**
     
 78.	### Write the 4 joins
-
-...
+    
+    1. Inner join
+    2. Outer join
+    3. Left join
+    4. Right join
 
    **[⬆ Back to Top](#table-of-contents)**
     
