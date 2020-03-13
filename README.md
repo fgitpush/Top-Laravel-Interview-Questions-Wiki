@@ -81,20 +81,20 @@
 |68 | [What is Abstract class?](#what-is-Abstract-class) |
 |69 | [What are Default ports for MySQL, Email, etc?) | (#what-are-Default-ports-for-MySQL-Email-etc)
 |70 | [Explain Joins](#Explain-Joins) |
-|71 | [Explain Unions](#how-you-implement-server-side-rendering-or-ssr) |
-|72 | [How mongodb is better than relational databases?](#how-to-enable-production-mode-in-react) |
-|73 | [What is  mongodb?](#what-is-cra-and-its-benefits) |
-|74 | [What is default session time?](#what-is-the-lifecycle-methods-order-in-mounting) |
-|75 | [How to create hooks in Laravel?](#what-are-the-lifecycle-methods-going-to-be-deprecated-in-react-v16) |
-|76 | [What is csrf token and xss attack?](#what-is-the-purpose-of-getderivedstatefromprops-lifecycle-method) |
-|77 | [Select highest/nth highest salary from DB](#what-is-the-purpose-of-getsnapshotbeforeupdate-lifecycle-method) |
-|78 | [Write a join](#do-hooks-replace-render-props-and-higher-order-components) |
-|79 | [Write a union](#what-is-the-recommended-way-for-naming-components) |
-|80 | [Write a complex query?](#what-is-the-recommended-ordering-of-methods-in-component-class) |
-|81 | [What is a switching component?](#what-is-a-switching-component) |
-|82 | [What is Difference between PHP 5 and 4?](#why-we-need-to-pass-a-function-to-setstate) |
-|83 | [What is the difference among various php versions?](#what-is-strict-mode-in-react) |
-|84 | [What is the difference among various mysql versions?](#what-are-react-mixins) |
+|71 | [Explain Unions](#Explain-Unions) |
+|72 | [How mongodb is better than relational databases?](#How-mongodb-is-better-than-relational-databases) |
+|73 | [What is  mongodb?](#What-is-mongodb) |
+|74 | [What is default session time?](#What-is-default-session-time)
+|75 | [How to create hooks in Laravel?](#How-to-create-hooks-in-Laravel) |
+|76 | [What is csrf token and xss attack?](#What-is-csrf-token-and-xss-attack) |
+|77 | [Select highest/nth highest salary from DB](#Select-highest/nth-highest-salary-from DB) |
+|78 | [Write a join](#Write-a-join) |
+|79 | [Write a union](#Write-a-union) |
+|80 | [Write a complex query?](#Write-a-complex-query) |
+|81 | [What is a switching component?](#What-is-a-switching-component) |
+|82 | [What is Difference between PHP 5 and 4?](#What-is-Difference-between-PHP-5-and-4) |
+|83 | [What is the difference among various php versions?](#What-is-the-difference-among-various-php-versions) |
+|84 | [What is the difference among various mysql versions?](#What-is-the-difference-among-various-mysql-versions) |
 |85 | [What is the difference among various Laravel versions?](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
 |86 | [How to add AWS plugin in PHP?](#what-are-the-pointer-events-supported-in-react) |
 |87 | [What are design patterns?](#why-should-component-names-start-with-capital-letter) |
