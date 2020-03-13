@@ -111,20 +111,20 @@
 |98 | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
 |99 | [What are some new features of PHP X?](#how-to-combine-multiple-inline-style-objects) |
 |100| [Explain Difference between session and cookies?](#Explain-Difference-between-session-and-cookies)
-|101| [Merge 2 arrays with duplicate](#what-is-the-difference-between-setstate-and-replacestate-methods) |
-|102| [Find the count of vowel and consonants](#how-to-listen-to-state-changes) |
-|103| [Explain AWS Services](#what-is-the-recommended-approach-of-removing-an-array-element-in-react-state) |
-|104| [How to do Web scraping?](#is-it-possible-to-use-react-without-rendering-html) |
-|105| [Explain require and require once difference](#how-to-pretty-print-json-with-react) |
-|106| [Explain include and require diffrence](#why-you-cant-update-props-in-react) |
-|107| [Directory structure of Laravel](#how-to-focus-an-input-element-on-page-load) |
-|108| [How to install Laravel via composer?](#what-are-the-possible-ways-of-updating-objects-in-state) |
-|109| [Which ORM are being used by laravel?](#why-function-is-preferred-over-object-for-setstate) |
-|110| [List types of relationships available in Laravel Eloquent?](#how-can-we-find-the-version-of-react-at-runtime-in-the-browser) |
-|111| [How to enable maintenance mode in Laravel?](#what-are-the-approaches-to-include-polyfills-in-your-create-react-app) |
-|112| [What is the purpose of using dd() function in laravel?](#how-to-use-https-instead-of-http-in-create-react-app) |
-|113| [How do you register a Service Provider?](#how-to-avoid-using-relative-path-imports-in-create-react-app) |
-|114| [How to add Google Analytics for react-router?](#how-to-add-google-analytics-for-react-router) |
+|101| [Merge 2 arrays with duplicate](#Merge-2-arrays-with-duplicate) |
+|102| [Find the count of vowel and consonants](#Find-the-count-of-vowel-and-consonants) |
+|103| [Explain AWS Services](#Explain-AWS-Services) |
+|104| [How to do Web scraping?](#How-to-do-Web-scraping) |
+|105| [Explain require and require once difference](#Explain-require-and-require-once-difference) |
+|106| [Explain include and require diffrence](#Explain-include-and-require-diffrence) |
+|107| [Directory structure of Laravel](#Directory-structure-of-Laravel) |
+|108| [How to install Laravel via composer?](#How-to-install-Laravel-via-composer) |
+|109| [Which ORM are being used by laravel?](#Which-ORM-are-being-used-by-laravel) |
+|110| [List types of relationships available in Laravel Eloquent?](#List-types-of-relationships-available-in-Laravel-Eloquent) |
+|111| [How to enable maintenance mode in Laravel?](#How-to-enable-maintenance-mode-in-Laravel) |
+|112| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
+|113| [How do you register a Service Provider?](#How-do-you-register-a-Service-Provider) |
+|114| [How to add Google Analytics for react-router?](#How-to-add-Google-Analytics-for-react-router) |
 |115| [Helper Functions](#how-to-update-a-component-every-second) |
 |116| [What is Fillable Attribute in a Laravel Model?](#how-do-you-apply-vendor-prefixes-to-inline-styles-in-react) |
 |117| [What is Guarded Attribute in a Laravel Model?](#how-to-import-and-export-components-using-react-and-es6) |
