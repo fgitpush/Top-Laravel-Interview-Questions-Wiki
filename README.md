@@ -62,13 +62,13 @@
 |49 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
 |50 | [What are Laravel contracts?](#what-are-contracts) |
 |51 | [What is Query log?](#what-is-query-log) |
-|52 | [What are Laravel Traits?](#what-are-traits) |
+|52 | [What are Laravel Traits?](#what-are-laravel-traits) |
 |53 | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
-|54 | [What are System requirements for Laravel?](#system-requirements) |
-|55 | [What are Aggregate methods in query builder?](#how-error-boundaries-handled-in-react-v15) |
-|56 | [What is Singelton design pattern?](#what-are-the-recommended-ways-for-static-type-checking) |
-|57 | [What is Reverse routing?](#what-is-the-use-of-react-dom-package) | 
-|58 | [What are Popular composer packages?](#what-is-the-purpose-of-render-method-of-react-dom) |
+|54 | [What are System requirements for Laravel?](#what-are-system-requirements-for-laravel) |
+|55 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query builder) |
+|56 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
+|57 | [What is Reverse routing?](#what-is-reverse-routing) | 
+|58 | [What are Popular composer packages?](#what are Popular composer packages) |
 |59 | [How to get the data from more than 3 table without use join ? Answer: Subquery, union.](#what-is-reactdomserver) |
 |60 | [List some artisan commands](#how-to-use-innerhtml-in-react) |
 |61 | [What are Sessisons?](#how-to-use-styles-in-react) |
