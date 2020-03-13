@@ -95,22 +95,22 @@
 |82 | [What is Difference between PHP 5 and 4?](#What-is-Difference-between-PHP-5-and-4) |
 |83 | [What is the difference among various php versions?](#What-is-the-difference-among-various-php-versions) |
 |84 | [What is the difference among various mysql versions?](#What-is-the-difference-among-various-mysql-versions) |
-|85 | [What is the difference among various Laravel versions?](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
-|86 | [How to add AWS plugin in PHP?](#what-are-the-pointer-events-supported-in-react) |
-|87 | [What are design patterns?](#why-should-component-names-start-with-capital-letter) |
-|88 | [What is the difference between GET and POST](#are-custom-dom-attributes-supported-in-react-v16) |
-|89 | [Which is fast between GET and POST?](#what-is-the-difference-between-constructor-and-getinitialstate) |
-|90 | [Explain 4 basics of OOP](#can-you-force-a-component-to-re-render-without-calling-setstate) |
-|91 | [What is diference between abstract class and interface?](#what-is-the-difference-between-super-and-superprops-in-react-using-es6-classes) |
-|92 | [What is MVC Framework?](#how-to-loop-inside-jsx) |
-|93 | [Create a project with CRUD, one algorithm logic and insert data in db for testing.](#how-do-you-access-props-in-attribute-quotes) |
-|94 | [Explain CURL and SOAP?](#what-is-react-proptype-array-with-shape) |
-|95 | [In MySql we use many types of engines which one is faster and why?](#how-to-conditionally-apply-class-attributes) |
-|96 | [What are Triggers?](#what-is-the-difference-between-react-and-reactdom) |
-|97 | [What are Procedures](#why-reactdom-is-separated-from-react) |
-|98 | [What are some new feaatures of Laravel X?](#how-to-use-react-label-element) |
+|85 | [What is the difference among various Laravel versions?](#What-is-the-difference-among-various-Laravel-versions) |
+|86 | [How to add AWS plugin in PHP?](#How-to-add-AWS-plugin-in-PHP) |
+|87 | [What are design patterns?](#What-are-design patterns) |
+|88 | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
+|89 | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
+|90 | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
+|91 | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
+|92 | [What is MVC Framework?](#What-is-MVC-Framework) |
+|93 | X
+|94 | [Explain CURL and SOAP?](#Explain-CURL-and-SOAP) |
+|95 | [In MySql we use many types of engines which one is faster and why?](#In-MySql-we-use-many-types-of-engines-which-one-is-faster-and-why) |
+|96 | [What are Triggers?](#What-are-Triggers) |
+|97 | [What are Procedures](#What-are-Procedures) |
+|98 | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
 |99 | [What are some new features of PHP X?](#how-to-combine-multiple-inline-style-objects) |
-|100| [Explain Difference between session and cookies?](#how-to-re-render-the-view-when-the-browser-is-resized)
+|100| [Explain Difference between session and cookies?](#Explain-Difference-between-session-and-cookies)
 |101| [Merge 2 arrays with duplicate](#what-is-the-difference-between-setstate-and-replacestate-methods) |
 |102| [Find the count of vowel and consonants](#how-to-listen-to-state-changes) |
 |103| [Explain AWS Services](#what-is-the-recommended-approach-of-removing-an-array-element-in-react-state) |
