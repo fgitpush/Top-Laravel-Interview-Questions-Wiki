@@ -69,10 +69,10 @@
 |56 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
 |57 | [What is Reverse routing?](#what-is-reverse-routing) | 
 |58 | [What are Popular composer packages?](#what are Popular composer packages) |
-|59 | [How to get the data from more than 3 table without use join ? Answer: Subquery, union.](#what-is-reactdomserver) |
-|60 | [List some artisan commands](#how-to-use-innerhtml-in-react) |
-|61 | [What are Sessisons?](#how-to-use-styles-in-react) |
-|62 | [What are Cookies?](#how-events-are-different-in-react) |
+|59 | [How to get the data from more than 3 table without use join?](#how-to-get-the-data-from-more-than-3-table-without-use-join) |
+|60 | [List some artisan commands](#list-some-artisan-commands) |
+|61 | [What are Sessions?](#what-are-sessions) |
+|62 | [What are Cookies?](#what-are-cookies) |
 |63 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-will-happen-if-you-use-setstate-in-constructor) |
 |64 | [Describe design architecture of an app?](#what-is-the-impact-of-indexes-as-keys) |
 |65 | [What are SQL Injections?](#is-it-good-to-use-setstate-in-componentwillmount-method) |
