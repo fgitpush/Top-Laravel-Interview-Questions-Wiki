@@ -73,14 +73,14 @@
 |60 | [List some artisan commands](#list-some-artisan-commands) |
 |61 | [What are Sessions?](#what-are-sessions) |
 |62 | [What are Cookies?](#what-are-cookies) |
-|63 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-will-happen-if-you-use-setstate-in-constructor) |
-|64 | [Describe design architecture of an app?](#what-is-the-impact-of-indexes-as-keys) |
-|65 | [What are SQL Injections?](#is-it-good-to-use-setstate-in-componentwillmount-method) |
-|66 | [How to call static methods?](#what-will-happen-if-you-use-props-in-initial-state) |
-|67 | [How to achieve multiple DB hosts?](#how-do-you-conditionally-render-components)
-|68 | [What is Abstract class?](#why-we-need-to-be-careful-when-spreading-props-on-dom-elements) |
-|69 | [What are Default ports for MySQL, Email, etc?](#how-you-use-decorators-in-react) |
-|70 | [Explain Joins](#how-do-you-memoize-a-component) |
+|63 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB etc?) |
+|64 | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
+|65 | [What are SQL Injections?](#What-are-SQL-Injections) |
+|66 | [How to call static methods?](#How-to-call-static-methods) |
+|67 | [How to achieve multiple DB hosts?](#How-to-achieve-multiple-DB-hosts)
+|68 | [What is Abstract class?](#what-is-Abstract-class) |
+|69 | [What are Default ports for MySQL, Email, etc?) | (#what-are-Default-ports-for-MySQL-Email-etc)
+|70 | [Explain Joins](#Explain-Joins) |
 |71 | [Explain Unions](#how-you-implement-server-side-rendering-or-ssr) |
 |72 | [How mongodb is better than relational databases?](#how-to-enable-production-mode-in-react) |
 |73 | [What is  mongodb?](#what-is-cra-and-its-benefits) |
