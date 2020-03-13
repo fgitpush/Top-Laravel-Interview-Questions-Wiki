@@ -65,10 +65,10 @@
 |52 | [What are Laravel Traits?](#what-are-laravel-traits) |
 |53 | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
 |54 | [What are System requirements for Laravel?](#what-are-system-requirements-for-laravel) |
-|55 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query builder) |
+|55 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query-builder) |
 |56 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
 |57 | [What is Reverse routing?](#what-is-reverse-routing) | 
-|58 | [What are Popular composer packages?](#what are Popular composer packages) |
+|58 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
 |59 | [How to get the data from more than 3 table without use join?](#how-to-get-the-data-from-more-than-3-table-without-use-join) |
 |60 | [List some artisan commands](#list-some-artisan-commands) |
 |61 | [What are Sessions?](#what-are-sessions) |
