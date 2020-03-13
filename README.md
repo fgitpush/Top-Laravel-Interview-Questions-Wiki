@@ -886,7 +886,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 85. ### What is the difference among various Laravel versions?
 
-    ...
+    directory structure
 
    **[⬆ Back to Top](#table-of-contents)**
     
