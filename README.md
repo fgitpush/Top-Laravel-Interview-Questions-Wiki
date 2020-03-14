@@ -124,17 +124,17 @@
 |111| [How to enable maintenance mode in Laravel?](#How-to-enable-maintenance-mode-in-Laravel) |
 |112| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
 |113| [How do you register a Service Provider?](#How-do-you-register-a-Service-Provider) |
-|114| [How to add Google Analytics for react-router?](#How-to-add-Google-Analytics-for-react-router) |
-|115| [Helper Functions](#how-to-update-a-component-every-second) |
-|116| [What is Fillable Attribute in a Laravel Model?](#how-do-you-apply-vendor-prefixes-to-inline-styles-in-react) |
-|117| [What is Guarded Attribute in a Laravel Model?](#how-to-import-and-export-components-using-react-and-es6) |
-|118| [What are Closures in Laravel?](#why-react-component-names-must-begin-with-a-capital-letter) |
-|119| [How to get Logged in user info in Laravel?](#why-is-a-component-constructor-called-only-once) |
-|120| [What is Laravel Elixir?](#how-to-define-constants-in-react) |
-|121| [What is Laravel Mix?](#how-to-programmatically-trigger-click-event-in-react) |
-|122| [How can you display HTML with Blade in Laravel?](#is-it-possible-to-use-asyncawait-in-plain-react) |
-|123| [List out databases that laravel supports?](#what-are-the-common-folder-structures-for-react) |
-|124| [How to use custom table in Laravel Model?](#what-are-the-popular-packages-for-animation) |
+|114| X
+|115| [Helper Functions](#Helper-Functions) |
+|116| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute in-a-Laravel-Model) |
+|117| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel Model) |
+|118| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
+|119| [How to get Logged in user info in Laravel?](#How-to-get-Logged-in-user-info-in-Laravel) |
+|120| [What is Laravel Elixir?](#What-is-Laravel--Elixir) |
+|121| [What is Laravel Mix?](#What-is-Laravel-Mix) |
+|122| [How can you display HTML with Blade in Laravel?](#How-can-you-display-HTML-with-Blade-in-Laravel) |
+|123| [List out databases that laravel supports?](#List-out-databases-that-laravel-supports) |
+|124| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
 |125| [How To Use Select Query In Laravel? Eloquent and QB?](#what-is-the-benefit-of-styles-modules) |
 |126| [What are Accessors and Mutators in Eloquent and why should you use them?](#what-are-the-popular-react-specific-linters) |
 |127| [How do I log an error?](#how-to-make-ajax-call-and-in-which-component-lifecycle-methods-should-i-make-an-ajax-call) |
