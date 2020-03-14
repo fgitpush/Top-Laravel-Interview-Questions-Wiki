@@ -215,13 +215,13 @@
 |202| [How to share data with views?](#what-are-styled-components) |
 |203| [How to generate a request in Laravel?](#give-an-example-of-styled-components) |
 |204| [I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?](#what-is-relay) |
-|205| [How to assign a variable value for all view file?](#how-to-use-typescript-in-create-react-app-application) |
-|206| [How to make a constant and use globally?](#what-are-the-main-features-of-reselect-library) |
-|207| [How to check current installed version of Laravel?](#give-an-example-of-reselect-usage) |
-|208| [What does "composer dump-autoload" do?](#what-is-an-action-in-redux) |
-|209| [What is Kept in vendor directory of Laravel?](#does-the-statics-object-work-with-es6-classes-in-react) |
-|210| [What does PHP compact function do?](#can-redux-only-be-used-with-react) |
-|210| [What is APP_KEY used for?](#can-redux-only-be-used-with-react) |
+|205| [How to assign a variable value for all view file?](#How-to-assign-a-variable-value-for-all-view-file) |
+|206| [How to make a constant and use globally?](#How-to-make-a-constant-and-use-globally) |
+|207| [How to check current installed version of Laravel?](#How-to-check-current-installed-version-of-Laravel) |
+|208| [What does "composer dump-autoload" do?](#What-does-composer-dump-autoload-do) |
+|209| [What is Kept in vendor directory of Laravel?](#What-is-Kept-in-vendor-directory-of-Laravel) |
+|210| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
+|210| [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
 ## Core Laravel
 
 
