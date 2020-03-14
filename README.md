@@ -135,8 +135,8 @@
 |122| [How can you display HTML with Blade in Laravel?](#How-can-you-display-HTML-with-Blade-in-Laravel) |
 |123| [List out databases that laravel supports?](#List-out-databases-that-laravel-supports) |
 |124| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
-|125| [How To Use Select Query In Laravel? Eloquent and QB?](#what-is-the-benefit-of-styles-modules) |
-|126| [What are Accessors and Mutators in Eloquent and why should you use them?](#what-are-the-popular-react-specific-linters) |
+|125| [How To Use Select Query In Laravel? Eloquent and QB?](#How-To-Use-Select-Query-In-Laravel-Eloquent-and-QB) |
+|126| [What are Accessors and Mutators in Eloquent and why should you use them?](#What-are-Accessors-and-Mutators-in-Eloquent-and-why-should-you-use-them) |
 |127| [How do I log an error?](#how-to-make-ajax-call-and-in-which-component-lifecycle-methods-should-i-make-an-ajax-call) |
 |128| [What is Monolog library in Laravel?](#what-are-render-props) |
 |129| [Exceptions are handled by which class in Laravel?](#what-is-react-router) |
