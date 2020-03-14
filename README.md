@@ -137,23 +137,23 @@
 |124| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
 |125| [How To Use Select Query In Laravel? Eloquent and QB?](#How-To-Use-Select-Query-In-Laravel-Eloquent-and-QB) |
 |126| [What are Accessors and Mutators in Eloquent and why should you use them?](#What-are-Accessors-and-Mutators-in-Eloquent-and-why-should-you-use-them) |
-|127| [How do I log an error?](#how-to-make-ajax-call-and-in-which-component-lifecycle-methods-should-i-make-an-ajax-call) |
-|128| [What is Monolog library in Laravel?](#what-are-render-props) |
-|129| [Exceptions are handled by which class in Laravel?](#what-is-react-router) |
-|130| [What is Serialization in Laravel?](#how-react-router-is-different-from-history-library) |
-|131| [What is Response in Laravel?](#what-are-the-router-components-of-react-router-v4) |
-|132| [What is Response Macros in Laravel?](#what-is-the-purpose-of-push-and-replace-methods-of-history) |
-|133| [What is Rate Limiting OR Throttle in Laravel?](#how-do-you-programmatically-navigate-using-react-router-v4) |
-|134| [What is Lazy vs Eager Loading in Laravel?](#how-to-get-query-parameters-in-react-router-v4) |
-|135| [How to get current environment in Laravel?](#why-you-get-router-may-have-only-one-child-element-warning) |
-|136| [How to use custom table in Laravel Model ?](#how-to-pass-params-to-historypush-method-in-react-router-v4) |
-|137| [What is Binding?](#how-to-implement-default-or-notfound-page) |
-|138| [Explain Binding A Singleton?](#how-to-get-history-on-react-router-v4) |
-|139| [Explain Binding Instances?](#how-to-perform-automatic-redirect-after-login) |
-|140| [Explain Binding Primitives?](#what-is-react-intl) |
-|141| [Explain Contextual Binding and how does it work?](#what-are-the-main-features-of-react-intl) |
-|142| [What is Tagging?](#what-are-the-two-ways-of-formatting-in-react-intl) |
-|143| [Explain Extending Bindings?](#how-to-use-formattedmessage-as-placeholder-using-react-intl) |
+|127| [How do I log an error?](#How-do-I-log-an-error) |
+|128| [What is Monolog library in Laravel?](#What-is-Monolog-library-in-Laravel) |
+|129| [Exceptions are handled by which class in Laravel?](#Exceptions-are-handled-by-which-class-in-Laravel) |
+|130| [What is Serialization in Laravel?](#What-is-Serialization-in-Laravel) |
+|131| [What is Response in Laravel?](#What-is-Response-in-Laravel) |
+|132| [What is Response Macros in Laravel?](#What-is-Response-Macros-in-Laravel) |
+|133| [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
+|134| [What is Lazy vs Eager Loading in Laravel?](#What-is-Lazy-vs-Eager-Loading-in-Laravel) |
+|135| [How to get current environment in Laravel?](#How-to-get-current-environment-in-Laravel) |
+|136| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
+|137| [What is Binding?](#What-is-Binding) |
+|138| [Explain Binding A Singleton?](#Explain-Binding-A-Singleton) |
+|139| [Explain Binding Instances?](#Explain-Binding-Instances) |
+|140| [Explain Binding Primitives?](#Explain-Binding-Primitives) |
+|141| [Explain Contextual Binding and how does it work?](#Explain-Contextual-Binding-and-how-does-it-work) |
+|142| [What is Tagging?](#What-is-Tagging) |
+|143| [Explain Extending Bindings?](#Explain-Extending-Bindings) |
 |144| [What is the make Method?](#how-to-access-current-locale-with-react-intl) |
 |145| [How to clear cache in Laravel?](#how-to-format-date-using-react-intl) |
 |146| [What is CSRF token?](#what-is-shallow-renderer-in-react-testing) |
