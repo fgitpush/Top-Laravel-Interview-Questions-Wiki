@@ -154,13 +154,13 @@
 |141| [Explain Contextual Binding and how does it work?](#Explain-Contextual-Binding-and-how-does-it-work) |
 |142| [What is Tagging?](#What-is-Tagging) |
 |143| [Explain Extending Bindings?](#Explain-Extending-Bindings) |
-|144| [What is the make Method?](#how-to-access-current-locale-with-react-intl) |
-|145| [How to clear cache in Laravel?](#how-to-format-date-using-react-intl) |
-|146| [What is CSRF token?](#what-is-shallow-renderer-in-react-testing) |
-|147| [How will you explain homestead in Laravel?](#what-is-testrenderer-package-in-react) |
-|148| [How can we get the user's IP address in Laravel?](#what-is-the-purpose-of-reacttestutils-package) |
-|149| [How will you create a helper file in Laravel?](#what-is-jest) |
-|150| [How can we create a record in Laravel using eloquent?](#what-are-the-advantages-of-jest-over-jasmine) |
+|144| [What is the make Method?](#What-is-the-make-Method) |
+|145| [How to clear cache in Laravel?](#How-to-clear-cache-in-Laravel) |
+|146| [What is CSRF token?](#What-is-CSRF-token) |
+|147| [How will you explain homestead in Laravel?](#How-will-you-explain-homestead-in-Laravel) |
+|148| [How can we get the user's IP address in Laravel?](#How-can-we-get-the-user's-IP-address-in-Laravel) |
+|149| [How will you create a helper file in Laravel?](#How-will-you-create-a-helper-file-in-Laravel) |
+|150| [How can we create a record in Laravel using eloquent?](#How-can-we-create-a-record-in-Laravel-using-eloquent) |
 |151| [How can we get the user's IP address in Laravel?](#give-a-simple-example-of-jest-test-case) |
 |152| [What is faker in Laravel?](#what-is-flux) |
 |153| [What are active records?](#what-is-redux) |
