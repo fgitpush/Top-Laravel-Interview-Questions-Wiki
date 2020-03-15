@@ -97,7 +97,7 @@
 |84 | [What is the difference among various mysql versions?](#What-is-the-difference-among-various-mysql-versions) |
 |85 | [What is the difference among various Laravel versions?](#What-is-the-difference-among-various-Laravel-versions) |
 |86 | [How to add AWS plugin in PHP?](#How-to-add-AWS-plugin-in-PHP) |
-|87 | [What are design patterns?](#What-are-design patterns) |
+|87 | [What are design patterns?](#What-are-design-patterns) |
 |88 | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
 |89 | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
 |90 | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
