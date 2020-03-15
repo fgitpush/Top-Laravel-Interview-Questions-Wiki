@@ -1634,7 +1634,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 194. ### State the difference between CodeIgniter and Laravel.
 
-...
+    CodeIgniter is an older framework and Laravel is a much advanced framework.
 
    **[⬆ Back to Top](#table-of-contents)**
     
