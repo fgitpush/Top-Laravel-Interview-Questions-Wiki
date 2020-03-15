@@ -1755,3 +1755,12 @@ It just regenerates the list of all classes that need to be included in the proj
 
 
    **[⬆ Back to Top](#table-of-contents)**
+   
+212. ### What directories that need to be writable laravel installation?
+
+   ...
+
+
+   **[⬆ Back to Top](#table-of-contents)**
+
+
