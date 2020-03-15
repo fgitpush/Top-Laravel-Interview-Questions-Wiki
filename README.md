@@ -69,7 +69,7 @@
 |56 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
 |57 | [What is Reverse routing?](#what-is-reverse-routing) | 
 |58 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
-|59 | [How to get the data from more than 3 table without use join?](#how-to-get-the-data-from-more-than-3-table-without-use-join) |
+|59 | [How to get the data from more than 3 table without using a join?](#how-to-get-the-data-from-more-than-3-table-without-using-a-join) |
 |60 | [List some artisan commands](#list-some-artisan-commands) |
 |61 | [What are Sessions?](#what-are-sessions) |
 |62 | [What are Cookies?](#what-are-cookies) |
@@ -685,7 +685,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-59.	### How to get the data from more than 3 table without use join ?
+59.	### How to get the data from more than 3 table without using a join ?
 
     Answer: Subquery, union.
 
