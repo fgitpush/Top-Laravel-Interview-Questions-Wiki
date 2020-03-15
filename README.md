@@ -73,7 +73,7 @@
 |60 | [List some artisan commands](#list-some-artisan-commands) |
 |61 | [What are Sessions?](#what-are-sessions) |
 |62 | [What are Cookies?](#what-are-cookies) |
-|63 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc?) |
+|63 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
 |64 | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
 |65 | [What are SQL Injections?](#What-are-SQL-Injections) |
 |66 | [How to call static methods?](#How-to-call-static-methods) |
