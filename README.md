@@ -124,7 +124,7 @@
 |111| [How to enable maintenance mode in Laravel?](#How-to-enable-maintenance-mode-in-Laravel) |
 |112| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
 |113| [How do you register a Service Provider?](#How-do-you-register-a-Service-Provider) |
-|114| [Write CRUD in Laravel Query Builder] (#Write-CRUD-in-Laravel-Query-Builder)
+|114| [Write CRUD in Laravel Query Builder] (#Write-CRUD-in-Laravel-Query-Builder) |
 |115| [Helper Functions](#Helper-Functions) |
 |116| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
 |117| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
