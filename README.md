@@ -1460,8 +1460,21 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 165. ### How we can upload files in laravel?
 
-    ...
-
+    Using `Form` class.
+    ```
+    <html>
+       <body>
+          <?php
+             echo Form::open(array('url' => '/uploadfile','files'=>'true'));
+             echo 'Select the file to upload.';
+             echo Form::file('image');
+             echo Form::submit('Upload File');
+             echo Form::close();
+          ?>
+       </body>
+    </html>
+    ```
+    
    **[⬆ Back to Top](#table-of-contents)**
     
 166. ### Why are Redux state functions c166. ### How to create real time sitemap.xml file in Laravel?
