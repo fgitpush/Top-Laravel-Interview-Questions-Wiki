@@ -162,31 +162,31 @@
 |149| [How will you create a helper file in Laravel?](#How-will-you-create-a-helper-file-in-Laravel) |
 |150| [How can we create a record in Laravel using eloquent?](#How-can-we-create-a-record-in-Laravel-using-eloquent) |
 |151| [How can we get the user's IP address in Laravel?](#give-a-simple-example-of-jest-test-case) |
-|152| [What is faker in Laravel?](#what-is-flux) |
-|153| [What are active records?](#what-is-redux) |
-|154| [What are the difference between insert() and insertGetId() in laravel?](#what-are-the-core-principles-of-redux) |
-|155| [Talk about Laravel Vapor Compatibility](#what-are-the-downsides-of-redux-compared-to-flux) |
-|156| [What is Semantic Versioning?](#what-is-the-difference-between-mapstatetoprops-and-mapdispatchtoprops) |
-|157| [What are Jobs and Middleware?](#can-i-dispatch-an-action-in-reducer) |
-|158| [Talk about Laravel User Interface (UI)](#how-to-access-redux-store-outside-a-component) |
-|159| [Talk about Eloquent Subquery Enhancements?](#what-are-the-drawbacks-of-mvw-pattern) |
-|160| [What are improved Authorization Responses?](#are-there-any-similarities-between-redux-and-rxjs) |
-|161| [What are lazy collections?](#how-to-dispatch-an-action-on-load) |
-|162| [How to make a constant and use globally?](#how-to-use-connect-from-react-redux) |
-|163| [How to remove /public from URL in laravel?](#how-to-reset-state-in-redux) |
-|164| [What are the difference between soft delete & delete in Laravel?](#whats-the-purpose-of-at-symbol-in-the-redux-connect-decorator) |
-|165| [How we can upload files in laravel?](#what-is-the-difference-between-react-context-and-react-redux) |
-|166| [How to create real time sitemap.xml file in Laravel?](#why-are-redux-state-functions-called-reducers) |
-|167| [How to use skip() and take() in Laravel Query?](#how-to-make-ajax-request-in-redux) |
-|168| [What is tinker in laravel?](#should-i-keep-all-components-state-in-redux-store) |
-|169| [What is a REPL?](#what-is-the-proper-way-to-access-redux-store) |
-|170| [How to use multiple 'OR' condition in Laravel Query?](#what-is-the-difference-between-component-and-container-in-react-redux) |
-|171| [Please write some additional where Clauses in Laravel?](#what-is-the-purpose-of-the-constants-in-redux) |
-|172| [How to check column is exists or not in a table using Laravel?](#what-are-the-different-ways-to-write-mapdispatchtoprops) |
-|173| [What is eager loading in Laravel?](#what-is-the-use-of-the-ownprops-parameter-in-mapstatetoprops-and-mapdispatchtoprops) |
-|174| [How to generate application key in laravel?](#how-to-structure-redux-top-level-directories) |
-|175| [What is LTS version of Laravel?](#what-is-redux-saga) |
-|176| [How to use GROUP_CONCAT() with JOIN in Laravel?](#what-is-the-mental-model-of-redux-saga) |
+|152| [What is faker in Laravel?](#What-is-faker-in-Laravel) |
+|153| [What are active records?](#What-are-active-records) |
+|154| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert()-and insertGetId()-in-laravel) |
+|155| [Talk about Laravel Vapor Compatibility](#Talk-about-Laravel-Vapor-Compatibility) |
+|156| [What is Semantic Versioning?](#What-is-Semantic-Versioning) |
+|157| [What are Jobs and Middleware?](#What-are-Jobs-and-Middleware) |
+|158| [Talk about Laravel User Interface (UI)](#talk-about-Laravel-User-Interface-(UI)) |
+|159| [Talk about Eloquent Subquery Enhancements?](#Talk-about-Eloquent-Subquery-Enhancements) |
+|160| [What are improved Authorization Responses?](#What-are-improved-Authorization-Responses) |
+|161| [What are lazy collections?](#What-are-lazy-collections) |
+|162| [How to make a constant and use globally?](#How-to-make-a-constant-and-use-globally) |
+|163| [How to remove /public from URL in laravel?](#How-to-remove-public-from-URL-in-laravel) |
+|164| [What are the difference between soft delete & delete in Laravel?](#What-are-the-difference-between-soft-delete-&-delete-in-Laravel) |
+|165| [How we can upload files in laravel?](#How-we-can-upload-files-in-laravel) |
+|166| [How to create real time sitemap.xml file in Laravel?](#How-to-create-real-time-sitemap.xml-file-in-Laravel) |
+|167| [How to use skip() and take() in Laravel Query?](#How-to-use-skip()-and-take()-in Laravel-Query) |
+|168| [What is tinker in laravel?](#What-is-tinker-in-laravel) |
+|169| [What is a REPL?](#What-is-a-REPL) |
+|170| [How to use multiple 'OR' condition in Laravel Query?](#How-to-use-multiple-'OR'-condition-in-Laravel-Query) |
+|171| [Please write some additional where Clauses in Laravel?](#Please-write-some-additional-where-Clauses-in-Laravel) |
+|172| [How to check column is exists or not in a table using Laravel?](#How-to-check-column-is-exists-or-not-in-a-tabl-using-Laravel) |
+|173| [What is eager loading in Laravel?](#What-is-eager-loading-in-Laravel) |
+|174| [How to generate application key in laravel?](#How-to-generate-application-key-in-laravel) |
+|175| [What is LTS version of Laravel?](#What-is-LTS-version-of-Laravel) |
+|176| [How to use GROUP_CONCAT() with JOIN in Laravel?](#How-to-use-GROUP_CONCAT()-with-JOIN-in-Laravel) |
 |177| [How to extend login expire time in Auth?](#what-are-the-differences-between-call-and-put-in-redux-saga) |
 |178| [How to extend a layout file in laravel view?](#what-is-redux-thunk) |
 |179| [How do you use yield()?](#what-are-the-differences-between-redux-saga-and-redux-thunk) |
