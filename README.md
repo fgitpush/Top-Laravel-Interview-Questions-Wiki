@@ -164,7 +164,7 @@
 |151| [How can we get the user's IP address in Laravel?](#give-a-simple-example-of-jest-test-case) |
 |152| [What is faker in Laravel?](#What-is-faker-in-Laravel) |
 |153| [What are active records?](#What-are-active-records) |
-|154| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert-and insertGetId-in-laravel) |
+|154| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert-and-insertGetId-in-laravel) |
 |155| [Talk about Laravel Vapor Compatibility](#Talk-about-Laravel-Vapor-Compatibility) |
 |156| [What is Semantic Versioning?](#What-is-Semantic-Versioning) |
 |157| [What are Jobs and Middleware?](#What-are-Jobs-and-Middleware) |
