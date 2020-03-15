@@ -1770,12 +1770,41 @@ It just regenerates the list of all classes that need to be included in the proj
 
    **[⬆ Back to Top](#table-of-contents)**
    
-213. ### Why prefer Laravel over other frameworks?
+214. ### Why prefer Laravel over other frameworks?
 
    --
 
 
    **[⬆ Back to Top](#table-of-contents)**
+215. ### What are service containers?
+
+   --
 
 
+   **[⬆ Back to Top](#table-of-contents)**
+   
+   
+   
+ 216. ### Write CRUD in Laravel Eloquent
 
+   --
+
+   **[⬆ Back to Top](#table-of-contents)**
+   
+ 217. ### Write CRUD in Laravel Query Builder
+
+   --
+
+   **[⬆ Back to Top](#table-of-contents)**
+
+ 219. ### Write CRUD in Laravel Query Builder
+
+   --
+
+   **[⬆ Back to Top](#table-of-contents)**
+
+ 220. ### Write CRUD in Laravel Query Builder
+
+   --
+
+   **[⬆ Back to Top](#table-of-contents)**
