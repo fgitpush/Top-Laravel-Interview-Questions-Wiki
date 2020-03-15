@@ -718,7 +718,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-63.	### What is Current version of PHP, MySQL, Laravel, MongoDB etc?
+63.	### What is Current version of PHP MySQL Laravel MongoDB etc?
 
     PHP: PHP 7.4
     MySQL: 7
