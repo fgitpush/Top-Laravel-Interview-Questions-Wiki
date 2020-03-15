@@ -177,7 +177,7 @@
 |164| [What are the difference between soft delete & delete in Laravel?](#What-are-the-difference-between-soft-delete-&-delete-in-Laravel) |
 |165| [How we can upload files in laravel?](#How-we-can-upload-files-in-laravel) |
 |166| [How to create real time sitemap.xml file in Laravel?](#How-to-create-real-time-sitemap.xml-file-in-Laravel) |
-|167| [How to use skip() and take() in Laravel Query?](#How-to-use-skip()-and-take()-in Laravel-Query) |
+|167| [How to use skip() and take() in Laravel Query?](#How-to-use-skip()-and-take()-in-Laravel-Query) |
 |168| [What is tinker in laravel?](#What-is-tinker-in-laravel) |
 |169| [What is a REPL?](#What-is-a-REPL) |
 |170| [How to use multiple 'OR' condition in Laravel Query?](#How-to-use-multiple-'OR'-condition-in-Laravel-Query) |
@@ -200,7 +200,7 @@
 |187| [How to exclude a route with parameters from CSRF verification?](#How-to-exclude-a-route-with-parameters-from-CSRF-verification) |
 |188| [What are policies classes?](#What-are-policies-classes) |
 |189| [How to rollback last migration?](#How-to-rollback-last-migration) |
-|190| [What do you mean by Laravel Dusk?](#What-do-you-mean-by-Laravel Dusk) |
+|190| [What do you mean by Laravel Dusk?](#What-do-you-mean-by-Laravel-Dusk) |
 |191| [Explain Laravel echo](#Explain-Laravel-echo) |
 |192| [What is namespace in Laravel?](#What-is-namespace-in-Laravel) |
 |193| [What is Laravel Forge?](#What-is-Laravel-Forge) |
@@ -215,7 +215,7 @@
 |202| [How to share data with views?](#How-to-share-data-with-views) |
 |203| [How to generate a request in Laravel?](#How-to-generate-a-request-in-Laravel) |
 |204| [I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?](#I-just-have-installed-a-fresh-version-of-Laravel-5-and-I-have-the-white-screen-of-death-What’s-wrong) |
-|205| [How to assign a variable value for all view file?](#How-to-assign-a-variable-value-for-all-view file) |
+|205| [How to assign a variable value for all view file?](#How-to-assign-a-variable-value-for-all-view-file) |
 |206| [How to make a constant and use globally?](#How-to-make-a-constant-and-use-globally) |
 |207| [How to check current installed version of Laravel?](#How-to-check-current-installed-version-of-Laravel) |
 |208| [What does "composer dump-autoload" do?](#What-does-composer-dump-autoload-do) |
