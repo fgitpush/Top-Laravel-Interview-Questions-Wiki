@@ -187,35 +187,35 @@
 |174| [How to generate application key in laravel?](#How-to-generate-application-key-in-laravel) |
 |175| [What is LTS version of Laravel?](#What-is-LTS-version-of-Laravel) |
 |176| [How to use GROUP_CONCAT() with JOIN in Laravel?](#How-to-use-GROUP_CONCAT()-with-JOIN-in-Laravel) |
-|177| [How to extend login expire time in Auth?](#what-are-the-differences-between-call-and-put-in-redux-saga) |
-|178| [How to extend a layout file in laravel view?](#what-is-redux-thunk) |
-|179| [How do you use yield()?](#what-are-the-differences-between-redux-saga-and-redux-thunk) |
-|180| [How to redirect form controller to view file in laravel?](#what-is-redux-devtools) |
-|181| [How to get current route name?](#what-are-the-features-of-redux-devtools) |
-|182| [What is ACL in laravel?](#what-are-redux-selectors-and-why-to-use-them) |
-|183| [How to check Ajax request in Laravel?](#what-is-redux-form) |
-|184| [How to check if value is sent in request?](#what-are-the-main-features-of-redux-form) |
-|185| [Laravel String Helper functions?](#how-to-add-multiple-middlewares-to-redux) |
-|186| [Laravel Array Helper functions?](#how-to-set-initial-state-in-redux) |
-|187| [How to exclude a route with parameters from CSRF verification?](#how-relay-is-different-from-redux) |
-|188| [What are policies classes?](#what-is-the-difference-between-react-native-and-react) |
-|189| [How to rollback last migration?](#how-to-test-react-native-apps) |
-|190| [What do you mean by Laravel Dusk?](#how-to-do-logging-in-react-native) |
-|191| [Explain Laravel echo](#how-to-debug-your-react-native) |
-|192| [What is namespace in Laravel?](#what-is-reselect-and-how-it-works) |
-|193| [What is Laravel Forge?](#what-is-flow) |
-|194| [State the difference between CodeIgniter and Laravel.](#what-is-the-difference-between-flow-and-proptypes) |
-|195| [What is an Observer?](#how-to-use-font-awesome-icons-in-react) |
-|196| [What is the use of the bootstrap directory?](#what-is-react-dev-tools) |
-|197| [What is the default session timeout duration?](#why-is-devtools-not-loading-in-chrome-for-local-files) |
-|198| [Explain API.PHP route](#how-to-use-polymer-in-react) |
-|199| [Define hashing in Laravel](#what-are-the-advantages-of-react-over-vuejs) |
-|200| [What is Localization?](#what-is-the-difference-between-react-and-angular) |
-|201| [Explain the concept of encryption and decryption in Laravel.](#why-react-tab-is-not-showing-up-in-devtools) |
-|202| [How to share data with views?](#what-are-styled-components) |
-|203| [How to generate a request in Laravel?](#give-an-example-of-styled-components) |
-|204| [I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?](#what-is-relay) |
-|205| [How to assign a variable value for all view file?](#How-to-assign-a-variable-value-for-all-view-file) |
+|177| [How to extend login expire time in Auth?](#How-to-extend-login-expire-time-in-Auth) |
+|178| [How to extend a layout file in laravel view?](#How-to-extend-a-layout-file-in-laravel-view) |
+|179| [How do you use yield()?](#How-do-you-use-yield()) |
+|180| [How to redirect form controller to view file in laravel?](#How-to-redirect-form-controller-to-view-file-in-laravel) |
+|181| [How to get current route name?](#How-to-get-current-route-name) |
+|182| [What is ACL in laravel?](#What-is-ACL-in-laravel) |
+|183| [How to check Ajax request in Laravel?](#How-to-check-Ajax-request-in-Laravel) |
+|184| [How to check if value is sent in request?](#How-to-check-if-value-is-sent-in-request) |
+|185| [Laravel String Helper functions?](#Laravel-String-Helper-functions) |
+|186| [Laravel Array Helper functions?](#Laravel-Array-Helper-functions) |
+|187| [How to exclude a route with parameters from CSRF verification?](#How-to-exclude-a-route-with-parameters-from-CSRF-verification) |
+|188| [What are policies classes?](#What-are-policies-classes) |
+|189| [How to rollback last migration?](#How-to-rollback-last-migration) |
+|190| [What do you mean by Laravel Dusk?](#What-do-you-mean-by-Laravel Dusk) |
+|191| [Explain Laravel echo](#Explain-Laravel-echo) |
+|192| [What is namespace in Laravel?](#What-is-namespace-in-Laravel) |
+|193| [What is Laravel Forge?](#What-is-Laravel-Forge) |
+|194| [State the difference between CodeIgniter and Laravel.](#State-the-difference-between-CodeIgniter-and-Laravel) |
+|195| [What is an Observer?](#What-is-an-Observer) |
+|196| [What is the use of the bootstrap directory?](#What-is-the-use-of-the-bootstrap-directory) |
+|197| [What is the default session timeout duration?](#What-is-the-default-session-timeout-duration) |
+|198| [Explain API.PHP route](#Explain-API.PHP-route) |
+|199| [Define hashing in Laravel](#Define-hashing-in-Laravel) |
+|200| [What is Localization?](#What-is-Localization) |
+|201| [Explain the concept of encryption and decryption in Laravel.](#Explain-the-concept-of-encryption-and-decryption-in-Laravel) |
+|202| [How to share data with views?](#How-to-share-data-with-views) |
+|203| [How to generate a request in Laravel?](#How-to-generate-a-request-in-Laravel) |
+|204| [I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?](#I-just-have-installed-a-fresh-version-of-Laravel-5-and-I-have-the-white-screen-of-death-What’s-wrong) |
+|205| [How to assign a variable value for all view file?](#How-to-assign-a-variable-value-for-all-view file) |
 |206| [How to make a constant and use globally?](#How-to-make-a-constant-and-use-globally) |
 |207| [How to check current installed version of Laravel?](#How-to-check-current-installed-version-of-Laravel) |
 |208| [What does "composer dump-autoload" do?](#What-does-composer-dump-autoload-do) |
