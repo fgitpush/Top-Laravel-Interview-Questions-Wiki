@@ -103,7 +103,7 @@
 |90 | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
 |91 | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
 |92 | [What is MVC Framework?](#What-is-MVC-Framework) |
-|93 | X
+|93 | [Write CRUD in Laravel Eloquent](#Write-CRUD-in-Laravel-Eloquent) |
 |94 | [Explain CURL and SOAP?](#Explain-CURL-and-SOAP) |
 |95 | [In MySql we use many types of engines which one is faster and why?](#In-MySql-we-use-many-types-of-engines-which-one-is-faster-and-why) |
 |96 | [What are Triggers?](#What-are-Triggers) |
@@ -124,7 +124,7 @@
 |111| [How to enable maintenance mode in Laravel?](#How-to-enable-maintenance-mode-in-Laravel) |
 |112| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
 |113| [How do you register a Service Provider?](#How-do-you-register-a-Service-Provider) |
-|114| X
+|114| [Write CRUD in Laravel Query Builder] (#Write-CRUD-in-Laravel-Query-Builder)
 |115| [Helper Functions](#Helper-Functions) |
 |116| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
 |117| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
@@ -1801,6 +1801,7 @@ It just regenerates the list of all classes that need to be included in the proj
    **[⬆ Back to Top](#table-of-contents)**
 
  220. ### Write CRUD in Laravel Query Builder
+
 
    --
 
