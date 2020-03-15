@@ -1763,4 +1763,19 @@ It just regenerates the list of all classes that need to be included in the proj
 
    **[⬆ Back to Top](#table-of-contents)**
 
+213. ### How to check current Laravel version using CLI?
+
+   php artisan --version
+
+
+   **[⬆ Back to Top](#table-of-contents)**
+   
+213. ### Why prefer Laravel over other frameworks?
+
+   --
+
+
+   **[⬆ Back to Top](#table-of-contents)**
+
+
 
