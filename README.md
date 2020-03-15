@@ -1479,7 +1479,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 166. ### Why are Redux state functions c166. ### How to create real time sitemap.xml file in Laravel?
 
-    ...
+    Make a controller to loop through all pages and list them. Make a route to it.
 
    **[⬆ Back to Top](#table-of-contents)**
     
