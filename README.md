@@ -126,8 +126,8 @@
 |113| [How do you register a Service Provider?](#How-do-you-register-a-Service-Provider) |
 |114| X
 |115| [Helper Functions](#Helper-Functions) |
-|116| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute in-a-Laravel-Model) |
-|117| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel Model) |
+|116| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
+|117| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
 |118| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
 |119| [How to get Logged in user info in Laravel?](#How-to-get-Logged-in-user-info-in-Laravel) |
 |120| [What is Laravel Elixir?](#What-is-Laravel--Elixir) |
@@ -164,7 +164,7 @@
 |151| [How can we get the user's IP address in Laravel?](#give-a-simple-example-of-jest-test-case) |
 |152| [What is faker in Laravel?](#What-is-faker-in-Laravel) |
 |153| [What are active records?](#What-are-active-records) |
-|154| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert()-and insertGetId()-in-laravel) |
+|154| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert-and insertGetId-in-laravel) |
 |155| [Talk about Laravel Vapor Compatibility](#Talk-about-Laravel-Vapor-Compatibility) |
 |156| [What is Semantic Versioning?](#What-is-Semantic-Versioning) |
 |157| [What are Jobs and Middleware?](#What-are-Jobs-and-Middleware) |
