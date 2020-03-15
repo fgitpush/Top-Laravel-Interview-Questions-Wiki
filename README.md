@@ -87,7 +87,7 @@
 |74 | [What is default session time?](#What-is-default-session-time)
 |75 | [How to create hooks in Laravel?](#How-to-create-hooks-in-Laravel) |
 |76 | [What is csrf token and xss attack?](#What-is-csrf-token-and-xss-attack) |
-|77 | [Select highest/nth highest salary from DB](#Select-highest/nth-highest-salary-from DB) |
+|77 | [Select highest and nth highest salary from DB](#Select-highest-and-nth-highest-salary-from DB) |
 |78 | [Write a join](#Write-a-join) |
 |79 | [Write a union](#Write-a-union) |
 |80 | [Write a complex query?](#Write-a-complex-query) |
@@ -815,7 +815,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-77.	### Select highest/nth highest salary from DB
+77.	### Select highest and nth highest salary from DB
     
     ```
     SELECT name, salary 
