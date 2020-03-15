@@ -79,7 +79,7 @@
 |66 | [How to call static methods?](#How-to-call-static-methods) |
 |67 | [How to achieve multiple DB hosts?](#How-to-achieve-multiple-DB-hosts)
 |68 | [What is Abstract class?](#what-is-Abstract-class) |
-|69 | [What are Default ports for MySQL Email etc?)(#what-are-Default-ports-for-MySQL-Email-etc) |
+|69 | [What are Default ports for MySQL Email etc?](#what-are-Default-ports-for-MySQL-Email-etc) |
 |70 | [Explain Joins](#Explain-Joins) |
 |71 | [Explain Unions](#Explain-Unions) |
 |72 | [How mongodb is better than relational databases?](#How-mongodb-is-better-than-relational-databases) |
