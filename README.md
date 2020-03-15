@@ -222,9 +222,6 @@
 |209| [What is Kept in vendor directory of Laravel?](#What-is-Kept-in-vendor-directory-of-Laravel) |
 |210| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
 |210| [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
-## Core Laravel
-
-
     
 1. ### What is Routing?
 
