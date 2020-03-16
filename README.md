@@ -1207,7 +1207,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 127. ### How do I log an error?
 
-    
+    https://laravel.com/docs/5.2/errors
 
    **[⬆ Back to Top](#table-of-contents)**
     
