@@ -1451,7 +1451,8 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 163. ### How to remove /public from URL in laravel?
 
 
-     ...
+     Rename server.php in your Laravel root folder to index.php
+     Copy the .htaccess file from /public directory to your Laravel root folder.
 
 
    **[⬆ Back to Top](#table-of-contents)**
