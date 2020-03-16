@@ -1276,41 +1276,40 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 138. ### Explain Binding A Singleton?
 
-    ...
+    https://stackoverflow.com/questions/25229064/laravel-difference-appbind-and-appsingleton
 
    **[⬆ Back to Top](#table-of-contents)**
     
 139. ### Explain Binding Instances?
 
-    ...
+    https://stackoverflow.com/questions/40767040/how-laravels-container-binding-mechanisms-differ
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 140. ### Explain Binding Primitives?
 
-
-    ...
+    https://stackoverflow.com/questions/40767040/how-laravels-container-binding-mechanisms-differ
 
    **[⬆ Back to Top](#table-of-contents)**
     
 141. ### Explain Contextual Binding and how does it work?
 
-    ...
+    https://stackoverflow.com/questions/40767040/how-laravels-container-binding-mechanisms-differ
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 142. ### What is Tagging?
 
-    ...
+    https://laravel-news.com/how-to-add-tagging-to-your-laravel-app
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 143. ### Explain Extending Bindings?
 
-    ...
+        https://stackoverflow.com/questions/40767040/how-laravels-container-binding-mechanisms-differ
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1342,19 +1341,23 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 148. ### How can we get the user's IP address in Laravel?
 
-    ...
+    Request::ip();
 
    **[⬆ Back to Top](#table-of-contents)**
     
 149. ### How will you create a helper file in Laravel?
 
-    ...
+    https://tutsforweb.com/creating-helpers-laravel/
 
    **[⬆ Back to Top](#table-of-contents)**
     
 150. ### How can we create a record in Laravel using eloquent?
 
-    ...
+        $flight = new Flight;
+
+        $flight->name = $request->name;
+
+        $flight->save();
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1384,13 +1387,14 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 154. ### What are the difference between insert() and insertGetId() in laravel?
 
-    ...
+    insert() only inserts
+    insertGetId() inserts and returns id of last added item
 
    **[⬆ Back to Top](#table-of-contents)**
     
 155. ### Talk about Laravel Vapor Compatibility
 
-    ...
+    https://vapor.laravel.com/
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1404,7 +1408,8 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 157. ### What are Jobs and Middleware?
 
-    ...
+    Jobs:
+    Middleware:
 
    **[⬆ Back to Top](#table-of-contents)**
     
