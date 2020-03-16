@@ -91,7 +91,7 @@
 |78 | [Write a join](#Write-a-join) |
 |79 | [Write a union](#Write-a-union) |
 |80 | [Write a complex query?](#Write-a-complex-query) |
-|81 | [What is a switching component?](#What-is-a-switching-component) |
+|81 | [Explain an apps DB architecture ?](#Explain-an-apps-DB-architecture) |
 |82 | [What is Difference between PHP 5 and 4?](#What-is-Difference-between-PHP-5-and-4) |
 |83 | [What is the difference among various php versions?](#What-is-the-difference-among-various-php-versions) |
 |84 | [What is the difference among various mysql versions?](#What-is-the-difference-among-various-mysql-versions) |
@@ -858,7 +858,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-81. ### X
+81. ### Explain an apps DB architecture 
 
 
    ...
@@ -1838,13 +1838,4 @@ It just regenerates the list of all classes that need to be included in the proj
    --
 
    **[⬆ Back to Top](#table-of-contents)**
-   
-   
-  223. ###  Explain an apps DB architecture ?
-
-
-   --
-
-   **[⬆ Back to Top](#table-of-contents)**
-  
 
