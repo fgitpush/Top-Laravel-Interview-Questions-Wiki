@@ -1696,7 +1696,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-203	How to generate a request in Laravel?
+203. ### How to generate a request in Laravel?
 
    Enter a route. It will go to the routes file to match the route and return a response.
 
