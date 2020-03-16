@@ -1257,8 +1257,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 135. ### How to get current environment in Laravel?
 
-   ?
-
+   https://stackoverflow.com/questions/14935846/laravel-4-how-can-i-get-the-environment-value
 
    **[⬆ Back to Top](#table-of-contents)**
     
