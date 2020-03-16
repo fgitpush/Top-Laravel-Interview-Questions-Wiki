@@ -1814,9 +1814,33 @@ It just regenerates the list of all classes that need to be included in the proj
 
    **[⬆ Back to Top](#table-of-contents)**
 
- 220. ### Write CRUD in Laravel Query Builder
+ 220. ### Build a to-do application with Laravel backend and a frontend framework  
 
 
    --
 
    **[⬆ Back to Top](#table-of-contents)**
+   
+ 221. ### Explain Laravel framework Architecture
+
+
+   --
+
+   **[⬆ Back to Top](#table-of-contents)**
+   
+  222. ###  How to install laravel via composer ?
+
+
+   --
+
+   **[⬆ Back to Top](#table-of-contents)**
+   
+   
+  223. ###  Explain an apps DB architecture ?
+
+
+   --
+
+   **[⬆ Back to Top](#table-of-contents)**
+  
+
