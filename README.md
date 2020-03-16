@@ -222,6 +222,8 @@
 |209| [What is Kept in vendor directory of Laravel?](#What-is-Kept-in-vendor-directory-of-Laravel) |
 |210| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
 |210| [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
+|211| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+
     
 1. ### What is Routing?
 
@@ -1176,7 +1178,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-123. ### X
+123. ### How to install laravel via composer ?
 
      ...
 
@@ -1826,13 +1828,6 @@ It just regenerates the list of all classes that need to be included in the proj
    **[⬆ Back to Top](#table-of-contents)**
    
  221. ### Explain Laravel framework Architecture
-
-
-   --
-
-   **[⬆ Back to Top](#table-of-contents)**
-   
-  222. ###  How to install laravel via composer ?
 
 
    --
