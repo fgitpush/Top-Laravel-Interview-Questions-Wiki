@@ -124,7 +124,7 @@
 |111| [How to enable maintenance mode in Laravel?](#How-to-enable-maintenance-mode-in-Laravel) |
 |112| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
 |113| [How do you register a Service Provider?](#How-do-you-register-a-Service-Provider) |
-|114| [Write CRUD in Laravel Query Builder](#Write-CRUD-in-Laravel-Query-Builder) |
+|114| [Explain Laravel framework Architecture](#Explain-Laravel-framework-Architecture) |
 |115| [Helper Functions](#Helper-Functions) |
 |116| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
 |117| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
@@ -1122,7 +1122,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-114. ### X
+114. ### Explain Laravel framework Architecture
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1827,7 +1827,7 @@ It just regenerates the list of all classes that need to be included in the proj
 
    **[⬆ Back to Top](#table-of-contents)**
    
- 221. ### Explain Laravel framework Architecture
+ 221. ### 
 
 
    --
