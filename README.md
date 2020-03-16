@@ -1100,7 +1100,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 112. ### What is the purpose of using dd() function in laravel?
 
-    ...
+    dd() is dump and die. It prints the variable/array and exits the script.
 
    **[⬆ Back to Top](#table-of-contents)**
     
