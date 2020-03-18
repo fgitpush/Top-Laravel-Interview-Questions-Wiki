@@ -1675,7 +1675,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-198	Explain API.PHP route
+198. ### Explain API.PHP route
 
 ...
 
