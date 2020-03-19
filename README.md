@@ -1828,9 +1828,19 @@ It just regenerates the list of all classes that need to be included in the proj
 
    **[⬆ Back to Top](#table-of-contents)**
    
- 221. ### 
-
-
+ 221. ### What are the day to day tasks of a Laravel developer?
+1. Creating APIs
+2. Write queries using Eloquent
+3. Write helper functions
+4. Installing required extensions for setting up Laravel
+5. Setting up docker
+6. Setting up homestead
+7. Vue
+8. Writing complex queries using eloquent
+9. Using design patterns to build scaleable solutions
+10. Tweak blade template.
+11. Create SPA
+12. Seed data into the database
    --
 
    **[⬆ Back to Top](#table-of-contents)**
