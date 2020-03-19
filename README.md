@@ -1775,7 +1775,9 @@ It just regenerates the list of all classes that need to be included in the proj
    
 212. ### What directories that need to be writable laravel installation?
 
-   ...
+   /public
+   /bootstrap/cache
+   /vendor
 
 
    **[⬆ Back to Top](#table-of-contents)**
