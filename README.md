@@ -231,8 +231,8 @@
 |217| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |218| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |219| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
-|220| [Output a raw query using eloquent/query builder. ](#Output-a-raw-query-using-eloquent-or-query-builder) |
-
+|220| [Output a raw query using eloquent/query builder ](#Output-a-raw-query-using-eloquent-or-query-builder) |
+|221| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
  
 1. ### What is Routing?
 
@@ -1848,5 +1848,14 @@ It just regenerates the list of all classes that need to be included in the proj
    Two ways,
    1. Turn the DB logs on and check the last query run in it.
    2. add ->ToSQL() function after the query.
+   
+   **[⬆ Back to Top](#table-of-contents)**
+
+ 220. ### How to create custom helper functions?
+
+   1. Create a helper.php file anywhere and place the functions in it
+   2. Add its location in the composer.json `files` area.
+   3. Run composer dump autoload
+   Answer here: https://stackoverflow.com/questions/28290332/best-practices-for-custom-helpers-in-laravel-5
    
    **[⬆ Back to Top](#table-of-contents)**
