@@ -1423,19 +1423,19 @@ web.php used for web routes. Like example.com/test
     
 159. ### Talk about Eloquent Subquery Enhancements?
 
-    ...
+    https://laravel-news.com/eloquent-subquery-enhancements
 
    **[⬆ Back to Top](#table-of-contents)**
     
 160. ### What are improved Authorization Responses?
 
-    ...
+    https://fullstackworld.com/post/what-is-new-to-laravel-6
 
    **[⬆ Back to Top](#table-of-contents)**
     
 161. ### What are lazy collections?
 
-    ...
+    https://laravel.com/docs/6.x/collections#lazy-collection-introduction
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1457,7 +1457,7 @@ web.php used for web routes. Like example.com/test
 164. ### What are the difference between soft delete & delete in Laravel?
 
 
-     ...
+     https://blog.hashvel.com/posts/eloquent-orm-soft-delete-permanent-delete-in-laravel/
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -1502,37 +1502,37 @@ web.php used for web routes. Like example.com/test
     
 169. ### What is a REPL?
 
-    ...
-
+    https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop
 
    **[⬆ Back to Top](#table-of-contents)**
     
 170. ### How to use multiple 'OR' condition in Laravel Query?
-    ...
+    
+    Use it as an array in a single or function.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 171. ### Please write some additional where Clauses in Laravel?
     
-    ...
+    Use it as an array inside where function.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 172. ### How to check column is exists or not in a table using Laravel?
 
-    ...
+    SELECT that column and chekc if result is not null
 
    **[⬆ Back to Top](#table-of-contents)**
     
 173. ### What is eager loading in Laravel?
    
-    ...
+    https://medium.com/@sdkcodes/laravel-eloquent-eager-loading-9596b15e8b5d
 
    **[⬆ Back to Top](#table-of-contents)**
     
 174. ### How to generate application key in laravel?
 
-  ...
+  php artisan key:generate
 
    **[⬆ Back to Top](#table-of-contents)**
     
