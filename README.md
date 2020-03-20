@@ -1618,8 +1618,7 @@ web.php used for web routes. Like example.com/test
     
 190. ### What do you mean by Laravel Dusk?
 
-    ...
-
+    https://laravel.com/docs/5.8/dusk
 
    **[⬆ Back to Top](#table-of-contents)**
     
