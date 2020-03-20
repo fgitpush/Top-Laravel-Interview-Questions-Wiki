@@ -1632,14 +1632,13 @@ web.php used for web routes. Like example.com/test
     
 192. ### What is namespace in Laravel?
 
-    ...
-
+    Identifies a code block and treats it separate fropm the rest so same name confusions don't occur.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 193. ### What is Laravel Forge?
 
-...
+   Laravel managed cloud hosting
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1651,14 +1650,13 @@ web.php used for web routes. Like example.com/test
     
 195. ### What is an Observer?
 
-...
+    https://codebriefly.com/brief-understanding-on-laravel-observers/
 
    **[⬆ Back to Top](#table-of-contents)**
     
 196. ### What is the use of the bootstrap directory?
 
-...
-
+   Laravel starts from there.
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1672,24 +1670,23 @@ web.php used for web routes. Like example.com/test
 
    It is used for creating API. Its url is /api/slug
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
 199. ### Define hashing in Laravel
 
-   ...
+   https://laravel.com/docs/5.7/hashing
 
    **[⬆ Back to Top](#table-of-contents)**
     
 200. ### What is Localization?
 
-   ...
+   https://medium.com/@nedsoft/laravel-localization-made-simple-8ee4a34731e7
 
    **[⬆ Back to Top](#table-of-contents)**
     
 202. ### How to share data with views?
 
-   ...
+   Pass it from the routes. To add for all views: https://laravel.com/docs/5.7/views#sharing-data-with-all-views
 
    **[⬆ Back to Top](#table-of-contents)**
     
