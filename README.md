@@ -234,7 +234,7 @@
 |220| [Output a raw query using eloquent/query builder ](#Output-a-raw-query-using-eloquent-or-query-builder) |
 |221| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
 |222| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
-|223| [How to create multiple where clause in eloquent?](#How-to-create-multiple-where-clause-in-eloquent?) |
+|223| [How to create multiple where clause in eloquent?](#How-to-create-multiple-where-clause-in-eloquent) |
 
  
 1. ### What is Routing?
