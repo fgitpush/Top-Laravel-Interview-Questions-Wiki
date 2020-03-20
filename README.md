@@ -1489,8 +1489,7 @@ web.php used for web routes. Like example.com/test
     
 167. ### How to use skip() and take() in Laravel Query?
 
-    ...
-
+    https://www.bestinterviewquestion.com/question/how-to-use-skip-take-in-laravel-query-kcle83908l2
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1575,27 +1574,25 @@ web.php used for web routes. Like example.com/test
     
 183. ### How to check Ajax request in Laravel?
 
-    ...
-
+    https://stackoverflow.com/questions/29231587/laravel-check-if-ajax-request
 
    **[⬆ Back to Top](#table-of-contents)**
     
 184. ### How to check if value is sent in request?
 
-    ...
-
+    dd($Request)
 
    **[⬆ Back to Top](#table-of-contents)**
     
 185. ### Laravel String Helper functions?
 
-    ...
+    https://laravel.com/docs/5.8/helpers
 
    **[⬆ Back to Top](#table-of-contents)**
     
 186. ### Laravel Array Helper functions?
 
-    ...
+    https://laravel.com/docs/5.8/helpers
 
 
    **[⬆ Back to Top](#table-of-contents)**
