@@ -1599,20 +1599,20 @@ web.php used for web routes. Like example.com/test
     
 187. ### How to exclude a route with parameters from CSRF verification?
 
-    ...
-
+    https://stackoverflow.com/questions/48062083/laravel-5-4-exclude-a-route-with-parameters-from-csrf-verification
+    
 
    **[⬆ Back to Top](#table-of-contents)**
     
 188. ### What are policies classes?
 
-    ...
+    https://laravel.com/docs/5.7/authorization#policy-methods
 
    **[⬆ Back to Top](#table-of-contents)**
     
 189. ### How to rollback last migration?
 
-    ...
+    Run migration rollback. If you want to rollback more than one steps, give the steps count.
 
    **[⬆ Back to Top](#table-of-contents)**
     
