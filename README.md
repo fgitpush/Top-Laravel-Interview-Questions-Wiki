@@ -278,13 +278,13 @@ web.php used for web routes. Like example.com/test
     
 7. ### What is channels php?
 
-...
+    ...
 
  **[⬆ Back to Top](#what-is-api-php)**
 
 8. ### What is console php?
 
-Update here.
+    Update here.
 
    **[⬆ Back to Top](#what-is-api-php)**
    
@@ -357,21 +357,20 @@ Update here.
     
 6. ### What are Migrations?
 
-Migrations help us keep SQL tables in code. When we have to setup the DB, we just run the migration.
+    Migrations help us keep SQL tables in code. When we have to setup the DB, we just run the migration.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 7. ### What are Service Providers?
 
-  Service providers are responsible for booting and configuration (binding all resources.)
-
-
+    Service providers are responsible for booting and configuration (binding all resources.)
+    
    **[⬆ Back to Top](#table-of-contents)**
     
 8. ### What is Middleware?
 
-  Middleware checks for authentication.
+    Middleware checks for authentication.
 
 
    **[⬆ Back to Top](#table-of-contents)**
@@ -623,15 +622,15 @@ Migrations help us keep SQL tables in code. When we have to setup the DB, we jus
     
 49. ### What is Dependency injection in Laravel?
 
-Laravel injects dependencies as function parameters.
-Read more: https://medium.com/a-young-devoloper/how-laravel-injects-our-dependencies-14e1b1a044e
+    Laravel injects dependencies as function parameters.
+    Read more: https://medium.com/a-young-devoloper/how-laravel-injects-our-dependencies-14e1b1a044e
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 50. ### What are Laravel contracts?
 
- https://laravel.com/docs/7.x/contracts
+    https://laravel.com/docs/7.x/contracts
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -655,7 +654,7 @@ Read more: https://medium.com/a-young-devoloper/how-laravel-injects-our-dependen
     
 54. ### What are System requirements for Laravel?
 
-PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
+    PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -716,7 +715,6 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 62.	### What are Cookies?
 
     Cookies is generalized data.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -854,24 +852,19 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 80. ### Write a complex query?
 
-
    Like a 3 tables joined.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 81. ### Explain an apps DB architecture 
-
-
+   
    ...
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
 82. ### What is Difference between PHP 5 and 4?
 
     PHP 5 has OOP.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -885,7 +878,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 85. ### What is the difference among various Laravel versions?
 
-    directory structure
+    Directory structure
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -905,7 +898,6 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
     GET is used for retriving data
     POST is used to perform a change i.e action
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -943,7 +935,6 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
     ...
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
 95. ### In MySql we use many types of engines which one is faster and why?
@@ -962,7 +953,6 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     ```
     php artisan make:migration create_trigger    
     ```
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1022,9 +1012,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 103. ### Explain AWS Services
 
-
     AWS has 20 main categories and 150 sub-categories of items. For hosting, EC2 is a well known server type.
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1088,7 +1076,6 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     One To Many
     Many To Many
     Custom Polymorphic Types
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1186,7 +1173,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 124. ### List out databases that laravel supports?
 
- Laravel supports four database systems: MySQL, Postgres, SQLite, and SQL Server.
+     Laravel supports four database systems: MySQL, Postgres, SQLite, and SQL Server.
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1215,7 +1202,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 128. ### What is Monolog library in Laravel?
 
-   Helps with logging.
+    Helps with logging.
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1259,7 +1246,7 @@ PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
     
 135. ### How to get current environment in Laravel?
 
-   https://stackoverflow.com/questions/14935846/laravel-4-how-can-i-get-the-environment-value
+    https://stackoverflow.com/questions/14935846/laravel-4-how-can-i-get-the-environment-value
 
    **[⬆ Back to Top](#table-of-contents)**
     
