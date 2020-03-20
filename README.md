@@ -234,7 +234,8 @@
 |220| [Output a raw query using eloquent/query builder ](#Output-a-raw-query-using-eloquent-or-query-builder) |
 |221| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
 |222| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
- 
+|223| [How to create multiple where clause in eloquent?](#How-to-create-multiple-where-clause-in-eloquent?) |
+
  
 1. ### What is Routing?
 
@@ -1873,7 +1874,7 @@ It just regenerates the list of all classes that need to be included in the proj
       
    **[⬆ Back to Top](#table-of-contents)**
    
- 222. ### Howto create multiple where clause in eloquent?
+ 222. ### How to create multiple where clause in eloquent?
 
    Use a single where clause and give the parameters as array
    ```
