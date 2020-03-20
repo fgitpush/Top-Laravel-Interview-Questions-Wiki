@@ -1843,7 +1843,7 @@ It just regenerates the list of all classes that need to be included in the proj
 
    **[⬆ Back to Top](#table-of-contents)**
 
- 220. ### Output a raw query using eloquent/query builder. 
+ 220. ### Output a raw query using eloquent query builder. 
 
    Two ways,
    1. Turn the DB logs on and check the last query run in it.
