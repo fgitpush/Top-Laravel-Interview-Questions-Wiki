@@ -231,7 +231,7 @@
 |217| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |218| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |219| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
-|220| [Output a raw query using eloquent/query builder. ](#Output-a-raw-query-using-eloquent-query-builder) |
+|220| [Output a raw query using eloquent/query builder. ](#Output-a-raw-query-using-eloquent-or-query-builder) |
 
  
 1. ### What is Routing?
@@ -1843,7 +1843,7 @@ It just regenerates the list of all classes that need to be included in the proj
 
    **[⬆ Back to Top](#table-of-contents)**
 
- 220. ### Output a raw query using eloquent query builder. 
+ 220. ### Output a raw query using eloquent or query builder. 
 
    Two ways,
    1. Turn the DB logs on and check the last query run in it.
