@@ -1872,3 +1872,13 @@ It just regenerates the list of all classes that need to be included in the proj
    cli: php -m
       
    **[⬆ Back to Top](#table-of-contents)**
+   
+ 222. ### Howto create multiple where clause in eloquent?
+
+   Use a single where clause and give the parameters as array
+    $query->where([
+     ['column_1', '=', 'value_1'],
+     ['column_2', '<>', 'value_2'],
+     [COLUMN, OPERATOR, VALUE],
+     ...
+    ])
