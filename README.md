@@ -225,7 +225,7 @@
 |211| [What are Laravel facades?](#What-are-Laravel-facades) |
 |212| [What directories that need to be writable laravel installation?](#What-directories-that-need-to-be-writable-laravel-installation?) |
 |213| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
-|214| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|214| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
 |215| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |216| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |217| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
