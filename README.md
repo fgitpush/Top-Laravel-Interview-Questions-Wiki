@@ -224,7 +224,7 @@
 |210| [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
 |211| [What are Laravel facades?](#What-are-Laravel-facades) |
 |212| [What directories that need to be writable laravel installation?](#What-directories-that-need-to-be-writable-laravel-installation?) |
-|213| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|213| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
 |214| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |215| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |216| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
