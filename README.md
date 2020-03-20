@@ -1667,32 +1667,32 @@ web.php used for web routes. Like example.com/test
     
 197. ### What is the default session timeout duration?
 
-
-...
+  120 minutes
 
    **[⬆ Back to Top](#table-of-contents)**
     
 198. ### Explain API.PHP route
 
-...
+   It is used for creating API. Its url is /api/slug
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 199. ### Define hashing in Laravel
 
-...
+   ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 200. ### What is Localization?
-...
+
+   ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 202. ### How to share data with views?
 
-...
+   ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
