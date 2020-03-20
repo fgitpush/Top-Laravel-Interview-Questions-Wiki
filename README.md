@@ -222,8 +222,8 @@
 |209| [What is Kept in vendor directory of Laravel?](#What-is-Kept-in-vendor-directory-of-Laravel) |
 |210| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
 |210| [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
-|211| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
-|212| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|211| [What are Laravel facades?](#What-are-Laravel-facades) |
+|212| [What directories that need to be writable laravel installation?](#What-directories-that-need-to-be-writable-laravel-installation?) |
 |213| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |214| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |215| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
