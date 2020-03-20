@@ -1544,31 +1544,31 @@ web.php used for web routes. Like example.com/test
     
 176. ### How to use GROUP_CONCAT() with JOIN in Laravel?
 
-    ...
+    https://www.bestinterviewquestion.com/question/how-to-use-group-concat-with-join-in-laravel-cht1n5023bz
 
    **[⬆ Back to Top](#table-of-contents)**
     
 177. ### How to extend login expire time in Auth?
 
-    ...
+    Change the minutes in config\session.php file.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 178. ### How to extend a layout file in laravel view?
 
-    ...
+    @extends('name.app')
 
    **[⬆ Back to Top](#table-of-contents)**
     
 179. ### How do you use yield()?
 
-    ...
+     @yield('navigation')
 
    **[⬆ Back to Top](#table-of-contents)**
     
 182. ### What is ACL in laravel?
 
-    ...
+    Package that manages user permissions
 
 
    **[⬆ Back to Top](#table-of-contents)**
