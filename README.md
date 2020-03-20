@@ -227,7 +227,7 @@
 |213| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
 |214| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
 |215| [What are service containers?](#What-are-service-containers) |
-|216| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|216| [Write CRUD in Laravel Eloquent?](#Write-CRUD-in-Laravel-Eloquent) |
 |217| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |218| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |219| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
