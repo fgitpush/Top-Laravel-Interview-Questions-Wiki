@@ -223,8 +223,17 @@
 |210| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
 |210| [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
 |211| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|212| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|213| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|214| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|215| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|216| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|217| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|218| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|219| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|220| [Output a raw query using eloquent/query builder. ](#Output-a-raw-query-using-eloquent-query-builder) |
 
-    
+ 
 1. ### What is Routing?
 
   When a user enters a URL, it gets send to a routes file. Laravel contains a routes.php file where it matches it with the right controller/view.
@@ -1834,3 +1843,10 @@ It just regenerates the list of all classes that need to be included in the proj
 
    **[⬆ Back to Top](#table-of-contents)**
 
+ 220. ### Output a raw query using eloquent/query builder. 
+
+   Two ways,
+   1. Turn the DB logs on and check the last query run in it.
+   2. add ->ToSQL() function after the query.
+   
+   **[⬆ Back to Top](#table-of-contents)**
