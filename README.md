@@ -1853,9 +1853,12 @@ It just regenerates the list of all classes that need to be included in the proj
 
  220. ### How to create custom helper functions?
 
-   1. Create a helper.php file anywhere and place the functions in it
-   2. Add its location in the composer.json `files` area.
-   3. Run composer dump autoload
+   Create a helper.php file anywhere and place the functions in it
+   
+   Add its location in the composer.json `files` area.
+   
+   Run composer dump autoload
+   
    Answer here: https://stackoverflow.com/questions/28290332/best-practices-for-custom-helpers-in-laravel-5
    
    **[⬆ Back to Top](#table-of-contents)**
