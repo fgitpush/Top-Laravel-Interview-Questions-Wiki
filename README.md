@@ -1180,7 +1180,7 @@ web.php used for web routes. Like example.com/test
     
 123. ### How to install laravel via composer ?
 
-     ...
+     composer create-project laravel/laravel name
 
    **[⬆ Back to Top](#table-of-contents)**
     
