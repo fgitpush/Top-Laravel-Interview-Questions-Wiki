@@ -1417,8 +1417,7 @@ web.php used for web routes. Like example.com/test
     
 158. ### Talk about Laravel User Interface (UI)
 
-    ...
-
+    It uses Blade Templating Engine
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1426,13 +1425,11 @@ web.php used for web routes. Like example.com/test
 
     ...
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
 160. ### What are improved Authorization Responses?
 
     ...
-
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -1444,7 +1441,7 @@ web.php used for web routes. Like example.com/test
     
 162. ### How to make a constant and use globally?
 
-    ...
+    https://medium.com/@panjeh/laravel-define-global-constants-config-php-file-5d6a9900bb6e
 
    **[⬆ Back to Top](#table-of-contents)**
     
