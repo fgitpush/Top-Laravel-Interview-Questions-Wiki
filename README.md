@@ -233,6 +233,8 @@
 |219| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |220| [Output a raw query using eloquent/query builder ](#Output-a-raw-query-using-eloquent-or-query-builder) |
 |221| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
+|222| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
+ 
  
 1. ### What is Routing?
 
@@ -1861,4 +1863,11 @@ It just regenerates the list of all classes that need to be included in the proj
    
    Answer here: https://stackoverflow.com/questions/28290332/best-practices-for-custom-helpers-in-laravel-5
    
+   **[⬆ Back to Top](#table-of-contents)**
+   
+    221. ### How to check installed extensions in CLI and web for PHP?
+
+   web: run phpinfo() function
+   cli: php -m
+      
    **[⬆ Back to Top](#table-of-contents)**
