@@ -1797,7 +1797,29 @@ It just regenerates the list of all classes that need to be included in the proj
    
  216. ### Write CRUD in Laravel Eloquent
 
-   --
+   CREATE:
+   
+         $flight = new Flight;
+   
+   READ:
+   
+    $flights = App\Flight::all();
+    foreach ($flights as $flight) {
+        echo $flight->name;
+    }
+   
+   UPDATE:
+   
+        $flight = new Flight;
+
+        $flight->name = $request->name;
+
+        $flight->save();
+        
+   DELETE:
+   
+   $flight->delete();
+   
 
    **[⬆ Back to Top](#table-of-contents)**
    
