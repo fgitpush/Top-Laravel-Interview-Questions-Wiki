@@ -291,13 +291,13 @@ web.php used for web routes. Like example.com/test
     
 7. ### What is channels php?
 
-    ...
+    https://laravel.com/docs/5.6/broadcasting#authorizing-channels
 
  **[⬆ Back to Top](#what-is-api-php)**
 
 8. ### What is console php?
 
-    Update here.
+    https://laravel.com/docs/master/structure#the-routes-directory
 
    **[⬆ Back to Top](#what-is-api-php)**
    
