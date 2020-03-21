@@ -1781,14 +1781,14 @@ It just regenerates the list of all classes that need to be included in the proj
    
 214. ### Why prefer Laravel over other frameworks?
 
-   --
+   https://blog.vanila.io/why-laravel-is-best-php-framework-98a2784d76dc?gi=a81f8fa92a65
 
 
    **[⬆ Back to Top](#table-of-contents)**
    
 215. ### What are service containers?
 
-   --
+   https://laravel.com/docs/6.x/container
 
 
    **[⬆ Back to Top](#table-of-contents)**
