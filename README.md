@@ -1808,13 +1808,17 @@ It just regenerates the list of all classes that need to be included in the proj
         ['email' => 'john@example.com', 'votes' => 0]
    );
    
+   
    READ: 
    $users = DB::table('users')->get();
+   
    
    UPDATE:
    DB::table('users')
             ->where('id', 1)
             ->update(['votes' => 1]);
+            
+            
    DELETE:
    DB::table('users')->where('votes', '>', 100)->delete();
    
