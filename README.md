@@ -228,7 +228,7 @@
 |214| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
 |215| [What are service containers?](#What-are-service-containers) |
 |216| [Write CRUD in Laravel Eloquent?](#Write-CRUD-in-Laravel-Eloquent) |
-|217| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|217| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
 |218| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |219| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |220| [Output a raw query using eloquent/query builder ](#Output-a-raw-query-using-eloquent-or-query-builder) |
