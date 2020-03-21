@@ -230,12 +230,11 @@
 |216| [Write CRUD in Laravel Eloquent?](#Write-CRUD-in-Laravel-Eloquent) |
 |217| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
 |218| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
-|219| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|219| [What are Eloquent collections?](#What-are-Eloquent-collections) |
 |220| [Output a raw query using eloquent/query builder ](#Output-a-raw-query-using-eloquent-or-query-builder) |
 |221| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
 |222| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
 |223| [How to create multiple where clause in eloquent?](#How-to-create-multiple-where-clause-in-eloquent) |
-|223| [What are Eloquent collections?](#What-are-Eloquent-collections) |
 
  
 1. ### What is Routing?
@@ -1848,7 +1847,7 @@ It just regenerates the list of all classes that need to be included in the proj
    
    **[⬆ Back to Top](#table-of-contents)**
 
- 219. ### Write CRUD in Laravel Query Builder
+ 219. ###  What are Eloquent collections?
 
    --
 
@@ -1917,7 +1916,5 @@ It just regenerates the list of all classes that need to be included in the proj
       ...
      ])
    ```
-    223. ###  What are Eloquent collections?
-   ...
    
   
