@@ -589,6 +589,7 @@ web.php used for web routes. Like example.com/test
     
 41. ### What is CSRF and JWT token?
     CSRF and JWT tokens are used to make sure the action is performed by the user. If there is no token, someone can give a link to user to click or hide it behind some action and him do what the hacker wants.
+    A JWT token is hidden in the request while CSRF token is not.
 
    **[⬆ Back to Top](#table-of-contents)**
     
