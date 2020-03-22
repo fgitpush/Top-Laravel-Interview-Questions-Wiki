@@ -1920,6 +1920,7 @@ It just regenerates the list of all classes that need to be included in the proj
  223. ### How to clear all cache?
  
  There are 4 cache in Laravel. Clear them all.
+ 
      php artisan key:generate
      
      php artisan config:cache
