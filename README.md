@@ -643,6 +643,8 @@ web.php used for web routes. Like example.com/test
     
 50. ### What are Laravel contracts?
 
+   They provide insstructions to interact with a facade. 
+
     https://laravel.com/docs/7.x/contracts
 
    **[⬆ Back to Top](#table-of-contents)**
