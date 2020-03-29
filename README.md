@@ -243,11 +243,11 @@
 
 Below is an example route from `routes/web.php`. You can can call site.exension/foo and it will bring the result.
 
-```
+
 Route::get('foo', function () {
     return 'Hello World';
 });
-```
+
    **[⬆ Back to Top](#types-of-routes)**
     
 2. ### How many types of routes are there?
@@ -268,12 +268,12 @@ There are four types of routes in routes.php file,
 
 web.php used for web routes. Like example.com/test
 
-    ```
+    
     Route::get('/test', function () {
         $path = storage_path() . "/app/json/options/docs.json";
         return view('skin/dev-wireframe', array('menu' => json_decode(file_get_contents($path), true)));
     });
-    ```
+    
     
     
    **[⬆ Back to Top](#types-of-routes)**
