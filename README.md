@@ -290,13 +290,13 @@ web.php used for web routes. Like example.com/test
     
 7. ### What is channels php?
 
-    https://laravel.com/docs/5.6/broadcasting#authorizing-channels
+    It is used for broadcasting
 
  **[⬆ Back to Top](#what-is-api-php)**
 
 8. ### What is console php?
 
-    https://laravel.com/docs/master/structure#the-routes-directory
+    Used as routes for commands
 
    **[⬆ Back to Top](#what-is-api-php)**
    
@@ -305,7 +305,7 @@ web.php used for web routes. Like example.com/test
 
     Controller is the place where we write the logic of the program. Placed in app/Http/Conrollers
 
-    ```
+    
     <?php namespace App\Http\Controllers;
 
     use App\Http\Controllers\Controller;
@@ -324,7 +324,7 @@ web.php used for web routes. Like example.com/test
         }
 
     }
-    ```
+    
 
 
    **[⬆ Back to Top](#table-of-contents)**
