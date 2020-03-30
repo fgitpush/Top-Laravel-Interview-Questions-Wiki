@@ -1306,8 +1306,7 @@ web.php used for web routes. Like example.com/test
     
 142. ### What is Tagging?
 
-    https://laravel-news.com/how-to-add-tagging-to-your-laravel-app
-
+    Giving your binding a name.
 
    **[⬆ Back to Top](#table-of-contents)**
     
