@@ -305,7 +305,7 @@ web.php used for web routes. Like example.com/test
 
     Controller is the place where we write the logic of the program. Placed in app/Http/Conrollers
 
-    
+    ```
     <?php namespace App\Http\Controllers;
 
     use App\Http\Controllers\Controller;
@@ -324,7 +324,7 @@ web.php used for web routes. Like example.com/test
         }
 
     }
-    
+    ```
 
 
    **[⬆ Back to Top](#table-of-contents)**
