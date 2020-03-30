@@ -873,7 +873,7 @@ web.php used for web routes. Like example.com/test
     
 81. ### Explain an apps DB architecture 
    
-   ...
+   Uber's DB arcitecture.
 
    **[⬆ Back to Top](#table-of-contents)**
     
