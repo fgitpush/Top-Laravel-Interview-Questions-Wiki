@@ -1848,12 +1848,11 @@ It just regenerates the list of all classes that need to be included in the proj
 
  219. ###  What are Eloquent collections?
 
-   --
+   A way to get all of the data of a one or more models which might be required.
 
    **[⬆ Back to Top](#table-of-contents)**
 
  220. ### Build a to-do application with Laravel backend and a frontend framework  
-
 
    --
 
