@@ -1897,10 +1897,12 @@ It just regenerates the list of all classes that need to be included in the proj
    
  221. ### How to check installed extensions in CLI and web for PHP?
 
+   ```
    web: run phpinfo() function
    
    cli: php -m
-      
+   
+   ```
    **[⬆ Back to Top](#table-of-contents)**
    
  222. ### How to create multiple where clause in eloquent?
