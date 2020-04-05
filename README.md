@@ -243,11 +243,11 @@
 
 Below is an example route from `routes/web.php`. You can can call site.exension/foo and it will bring the result.
 
-
-Route::get('foo', function () {
-    return 'Hello World';
-});
-
+  ```
+  Route::get('foo', function () {
+      return 'Hello World';
+  });
+  ```
    **[⬆ Back to Top](#types-of-routes)**
     
 2. ### How many types of routes are there?
