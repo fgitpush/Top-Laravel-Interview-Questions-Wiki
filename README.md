@@ -1824,24 +1824,28 @@ It just regenerates the list of all classes that need to be included in the proj
  217. ### Write CRUD in Laravel Query Builder
 
    CREATE:
-   DB::table('users')->insert(
-        ['email' => 'john@example.com', 'votes' => 0]
-   );
-   
+     ```
+     DB::table('users')->insert(
+          ['email' => 'john@example.com', 'votes' => 0]
+     );
+     ```
    
    READ: 
-   $users = DB::table('users')->get();
-   
+     ```
+     $users = DB::table('users')->get();
+     ```
    
    UPDATE:
-   DB::table('users')
+      ```
+      DB::table('users')
             ->where('id', 1)
             ->update(['votes' => 1]);
-            
+      ```      
             
    DELETE:
-   DB::table('users')->where('votes', '>', 100)->delete();
-   
+      ```
+      DB::table('users')->where('votes', '>', 100)->delete();
+      ```
    source: https://laravel.com/docs/5.8/queries
    
    **[⬆ Back to Top](#table-of-contents)**
