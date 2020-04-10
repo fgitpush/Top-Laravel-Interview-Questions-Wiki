@@ -1355,13 +1355,14 @@ web.php used for web routes. Like example.com/test
    **[⬆ Back to Top](#table-of-contents)**
     
 150. ### How can we create a record in Laravel using eloquent?
-
+        
+        ```
         $flight = new Flight;
 
         $flight->name = $request->name;
 
         $flight->save();
-
+        ```
 
    **[⬆ Back to Top](#table-of-contents)**
     
