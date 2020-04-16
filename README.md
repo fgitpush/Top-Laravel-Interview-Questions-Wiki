@@ -69,43 +69,43 @@
 |61 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
 |62 | [What is Reverse routing?](#what-is-reverse-routing) | 
 |63 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
-|59 | [How to get the data from more than 3 table without using a join?](#how-to-get-the-data-from-more-than-3-table-without-using-a-join) |
-|60 | [List some artisan commands](#list-some-artisan-commands) |
-|61 | [What are Sessions?](#what-are-sessions) |
-|62 | [What are Cookies?](#what-are-cookies) |
-|63 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
-|64 | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
-|65 | [What are SQL Injections?](#What-are-SQL-Injections) |
-|66 | [How to call static methods?](#How-to-call-static-methods) |
-|67 | [How to achieve multiple DB hosts?](#How-to-achieve-multiple-DB-hosts)
-|68 | [What is Abstract class?](#what-is-Abstract-class) |
-|69 | [What are Default ports for MySQL Email etc?](#what-are-Default-ports-for-MySQL-Email-etc) |
-|70 | [Explain Joins](#Explain-Joins) |
-|71 | [Explain Unions](#Explain-Unions) |
-|72 | [How mongodb is better than relational databases?](#How-mongodb-is-better-than-relational-databases) |
-|73 | [What is  mongodb?](#What-is-mongodb) |
-|74 | [What is default session time?](#What-is-default-session-time)
-|75 | [How to create hooks in Laravel?](#How-to-create-hooks-in-Laravel) |
-|76 | [What is csrf token and xss attack?](#What-is-csrf-token-and-xss-attack) |
-|77 | [Select highest and nth highest salary from DB](#Select-highest-and-nth-highest-salary-from-DB) |
-|78 | [Write a join](#Write-a-join) |
-|79 | [Write a union](#Write-a-union) |
-|80 | [Write a complex query?](#Write-a-complex-query) |
-|81 | [Explain an apps DB architecture ?](#Explain-an-apps-DB-architecture) |
-|82 | [What is Difference between PHP 5 and 4?](#What-is-Difference-between-PHP-5-and-4) |
-|83 | [What is the difference among various php versions?](#What-is-the-difference-among-various-php-versions) |
-|84 | [What is the difference among various mysql versions?](#What-is-the-difference-among-various-mysql-versions) |
-|85 | [What is the difference among various Laravel versions?](#What-is-the-difference-among-various-Laravel-versions) |
-|86 | [How to add AWS plugin in PHP?](#How-to-add-AWS-plugin-in-PHP) |
-|87 | [What are design patterns?](#What-are-design-patterns) |
-|88 | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
-|89 | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
-|90 | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
-|91 | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
-|92 | [What is MVC Framework?](#What-is-MVC-Framework) |
-|93 | [Write CRUD in Laravel Eloquent](#Write-CRUD-in-Laravel-Eloquent) |
-|94 | [Explain CURL and SOAP?](#Explain-CURL-and-SOAP) |
-|95 | [In MySql we use many types of engines which one is faster and why?](#In-MySql-we-use-many-types-of-engines-which-one-is-faster-and-why) |
+|64 | [How to get the data from more than 3 table without using a join?](#how-to-get-the-data-from-more-than-3-table-without-using-a-join) |
+|65 | [List some artisan commands](#list-some-artisan-commands) |
+|66 | [What are Sessions?](#what-are-sessions) |
+|67 | [What are Cookies?](#what-are-cookies) |
+|68 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
+|69 | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
+|70 | [What are SQL Injections?](#What-are-SQL-Injections) |
+|71 | [How to call static methods?](#How-to-call-static-methods) |
+|72 | [How to achieve multiple DB hosts?](#How-to-achieve-multiple-DB-hosts)
+|73 | [What is Abstract class?](#what-is-Abstract-class) |
+|74 | [What are Default ports for MySQL Email etc?](#what-are-Default-ports-for-MySQL-Email-etc) |
+|75 | [Explain Joins](#Explain-Joins) |
+|76 | [Explain Unions](#Explain-Unions) |
+|77 | [How mongodb is better than relational databases?](#How-mongodb-is-better-than-relational-databases) |
+|78 | [What is  mongodb?](#What-is-mongodb) |
+|79 | [What is default session time?](#What-is-default-session-time)
+|80 | [How to create hooks in Laravel?](#How-to-create-hooks-in-Laravel) |
+|81 | [What is csrf token and xss attack?](#What-is-csrf-token-and-xss-attack) |
+|82 | [Select highest and nth highest salary from DB](#Select-highest-and-nth-highest-salary-from-DB) |
+|83 | [Write a join](#Write-a-join) |
+|84 | [Write a union](#Write-a-union) |
+|85 | [Write a complex query?](#Write-a-complex-query) |
+|86 | [Explain an apps DB architecture ?](#Explain-an-apps-DB-architecture) |
+|87 | [What is Difference between PHP 5 and 4?](#What-is-Difference-between-PHP-5-and-4) |
+|88 | [What is the difference among various php versions?](#What-is-the-difference-among-various-php-versions) |
+|89 | [What is the difference among various mysql versions?](#What-is-the-difference-among-various-mysql-versions) |
+|90 | [What is the difference among various Laravel versions?](#What-is-the-difference-among-various-Laravel-versions) |
+|91 | [How to add AWS plugin in PHP?](#How-to-add-AWS-plugin-in-PHP) |
+|92 | [What are design patterns?](#What-are-design-patterns) |
+|93 | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
+|94 | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
+|95 | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
+|96 | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
+|97 | [What is MVC Framework?](#What-is-MVC-Framework) |
+|98 | [Write CRUD in Laravel Eloquent](#Write-CRUD-in-Laravel-Eloquent) |
+|99 | [Explain CURL and SOAP?](#Explain-CURL-and-SOAP) |
+|100 | [In MySql we use many types of engines which one is faster and why?](#In-MySql-we-use-many-types-of-engines-which-one-is-faster-and-why) |
 |96 | [What are Triggers?](#What-are-Triggers) |
 |97 | [What are Procedures](#What-are-Procedures) |
 |98 | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
