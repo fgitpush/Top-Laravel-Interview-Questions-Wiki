@@ -106,135 +106,135 @@
 |98 | [Write CRUD in Laravel Eloquent](#Write-CRUD-in-Laravel-Eloquent) |
 |99 | [Explain CURL and SOAP?](#Explain-CURL-and-SOAP) |
 |100 | [In MySql we use many types of engines which one is faster and why?](#In-MySql-we-use-many-types-of-engines-which-one-is-faster-and-why) |
-|96 | [What are Triggers?](#What-are-Triggers) |
-|97 | [What are Procedures](#What-are-Procedures) |
-|98 | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
-|99 | [What are some new features of PHP X?](#how-to-combine-multiple-inline-style-objects) |
-|100| [Explain Difference between session and cookies?](#Explain-Difference-between-session-and-cookies)
-|101| [Merge 2 arrays with duplicate](#Merge-2-arrays-with-duplicate) |
-|102| [Find the count of vowel and consonants](#Find-the-count-of-vowel-and-consonants) |
-|103| [Explain AWS Services](#Explain-AWS-Services) |
-|104| [How to do Web scraping?](#How-to-do-Web-scraping) |
-|105| [Explain require and require once difference](#Explain-require-and-require-once-difference) |
-|106| [Explain include and require diffrence](#Explain-include-and-require-diffrence) |
-|107| [Directory structure of Laravel](#Directory-structure-of-Laravel) |
-|108| [How to install Laravel via composer?](#How-to-install-Laravel-via-composer) |
-|109| [Which ORM are being used by laravel?](#Which-ORM-are-being-used-by-laravel) |
-|110| [List types of relationships available in Laravel Eloquent?](#List-types-of-relationships-available-in-Laravel-Eloquent) |
-|111| [How to enable maintenance mode in Laravel?](#How-to-enable-maintenance-mode-in-Laravel) |
-|112| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
-|113| [How do you register a Service Provider?](#How-do-you-register-a-Service-Provider) |
-|114| [Explain Laravel framework Architecture](#Explain-Laravel-framework-Architecture) |
-|115| [Helper Functions](#Helper-Functions) |
-|116| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
-|117| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
-|118| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
-|119| [How to get Logged in user info in Laravel?](#How-to-get-Logged-in-user-info-in-Laravel) |
-|120| [What is Laravel Elixir?](#What-is-Laravel--Elixir) |
-|121| [What is Laravel Mix?](#What-is-Laravel-Mix) |
-|122| [How can you display HTML with Blade in Laravel?](#How-can-you-display-HTML-with-Blade-in-Laravel) |
-|123| [List out databases that laravel supports?](#List-out-databases-that-laravel-supports) |
-|124| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
-|125| [How To Use Select Query In Laravel? Eloquent and QB?](#How-To-Use-Select-Query-In-Laravel-Eloquent-and-QB) |
-|126| [What are Accessors and Mutators in Eloquent and why should you use them?](#What-are-Accessors-and-Mutators-in-Eloquent-and-why-should-you-use-them) |
-|127| [How do I log an error?](#How-do-I-log-an-error) |
-|128| [What is Monolog library in Laravel?](#What-is-Monolog-library-in-Laravel) |
-|129| [Exceptions are handled by which class in Laravel?](#Exceptions-are-handled-by-which-class-in-Laravel) |
-|130| [What is Serialization in Laravel?](#What-is-Serialization-in-Laravel) |
-|131| [What is Response in Laravel?](#What-is-Response-in-Laravel) |
-|132| [What is Response Macros in Laravel?](#What-is-Response-Macros-in-Laravel) |
-|133| [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
-|134| [What is Lazy vs Eager Loading in Laravel?](#What-is-Lazy-vs-Eager-Loading-in-Laravel) |
-|135| [How to get current environment in Laravel?](#How-to-get-current-environment-in-Laravel) |
-|136| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
-|137| [What is Binding?](#What-is-Binding) |
-|138| [Explain Binding A Singleton?](#Explain-Binding-A-Singleton) |
-|139| [Explain Binding Instances?](#Explain-Binding-Instances) |
-|140| [Explain Binding Primitives?](#Explain-Binding-Primitives) |
-|141| [Explain Contextual Binding and how does it work?](#Explain-Contextual-Binding-and-how-does-it-work) |
-|142| [What is Tagging?](#What-is-Tagging) |
-|143| [Explain Extending Bindings?](#Explain-Extending-Bindings) |
-|144| [What is the make Method?](#What-is-the-make-Method) |
-|145| [How to clear cache in Laravel?](#How-to-clear-cache-in-Laravel) |
-|146| [What is CSRF token?](#What-is-CSRF-token) |
-|147| [How will you explain homestead in Laravel?](#How-will-you-explain-homestead-in-Laravel) |
-|148| [How can we get the user's IP address in Laravel?](#How-can-we-get-the-user's-IP-address-in-Laravel) |
-|149| [How will you create a helper file in Laravel?](#How-will-you-create-a-helper-file-in-Laravel) |
-|150| [How can we create a record in Laravel using eloquent?](#How-can-we-create-a-record-in-Laravel-using-eloquent) |
-|151| [How can we get the user's IP address in Laravel?](#give-a-simple-example-of-jest-test-case) |
-|152| [What is faker in Laravel?](#What-is-faker-in-Laravel) |
-|153| [What are active records?](#What-are-active-records) |
-|154| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert-and-insertGetId-in-laravel) |
-|155| [Talk about Laravel Vapor Compatibility](#Talk-about-Laravel-Vapor-Compatibility) |
-|156| [What is Semantic Versioning?](#What-is-Semantic-Versioning) |
-|157| [What are Jobs and Middleware?](#What-are-Jobs-and-Middleware) |
-|158| [Talk about Laravel User Interface (UI)](#talk-about-Laravel-User-Interface-(UI)) |
-|159| [Talk about Eloquent Subquery Enhancements?](#Talk-about-Eloquent-Subquery-Enhancements) |
-|160| [What are improved Authorization Responses?](#What-are-improved-Authorization-Responses) |
-|161| [What are lazy collections?](#What-are-lazy-collections) |
-|162| [How to make a constant and use globally?](#How-to-make-a-constant-and-use-globally) |
-|163| [How to remove /public from URL in laravel?](#How-to-remove-public-from-URL-in-laravel) |
-|164| [What are the difference between soft delete & delete in Laravel?](#What-are-the-difference-between-soft-delete-&-delete-in-Laravel) |
-|165| [How we can upload files in laravel?](#How-we-can-upload-files-in-laravel) |
-|166| [How to create real time sitemap.xml file in Laravel?](#How-to-create-real-time-sitemap.xml-file-in-Laravel) |
-|167| [How to use skip() and take() in Laravel Query?](#How-to-use-skip()-and-take()-in-Laravel-Query) |
-|168| [What is tinker in laravel?](#What-is-tinker-in-laravel) |
-|169| [What is a REPL?](#What-is-a-REPL) |
-|170| [How to use multiple 'OR' condition in Laravel Query?](#How-to-use-multiple-'OR'-condition-in-Laravel-Query) |
-|171| [Please write some additional where Clauses in Laravel?](#Please-write-some-additional-where-Clauses-in-Laravel) |
-|172| [How to check column is exists or not in a table using Laravel?](#How-to-check-column-is-exists-or-not-in-a-tabl-using-Laravel) |
-|173| [What is eager loading in Laravel?](#What-is-eager-loading-in-Laravel) |
-|174| [How to generate application key in laravel?](#How-to-generate-application-key-in-laravel) |
-|175| [What is LTS version of Laravel?](#What-is-LTS-version-of-Laravel) |
-|176| [How to use GROUP_CONCAT() with JOIN in Laravel?](#How-to-use-GROUP_CONCAT()-with-JOIN-in-Laravel) |
-|177| [How to extend login expire time in Auth?](#How-to-extend-login-expire-time-in-Auth) |
-|178| [How to extend a layout file in laravel view?](#How-to-extend-a-layout-file-in-laravel-view) |
-|179| [How do you use yield()?](#How-do-you-use-yield()) |
-|180| [How to redirect form controller to view file in laravel?](#How-to-redirect-form-controller-to-view-file-in-laravel) |
-|181| [How to get current route name?](#How-to-get-current-route-name) |
-|182| [What is ACL in laravel?](#What-is-ACL-in-laravel) |
-|183| [How to check Ajax request in Laravel?](#How-to-check-Ajax-request-in-Laravel) |
-|184| [How to check if value is sent in request?](#How-to-check-if-value-is-sent-in-request) |
-|185| [Laravel String Helper functions?](#Laravel-String-Helper-functions) |
-|186| [Laravel Array Helper functions?](#Laravel-Array-Helper-functions) |
-|187| [How to exclude a route with parameters from CSRF verification?](#How-to-exclude-a-route-with-parameters-from-CSRF-verification) |
-|188| [What are policies classes?](#What-are-policies-classes) |
-|189| [How to rollback last migration?](#How-to-rollback-last-migration) |
-|190| [What do you mean by Laravel Dusk?](#What-do-you-mean-by-Laravel-Dusk) |
-|191| [Explain Laravel echo](#Explain-Laravel-echo) |
-|192| [What is namespace in Laravel?](#What-is-namespace-in-Laravel) |
-|193| [What is Laravel Forge?](#What-is-Laravel-Forge) |
-|194| [State the difference between CodeIgniter and Laravel.](#State-the-difference-between-CodeIgniter-and-Laravel) |
-|195| [What is an Observer?](#What-is-an-Observer) |
-|196| [What is the use of the bootstrap directory?](#What-is-the-use-of-the-bootstrap-directory) |
-|197| [What is the default session timeout duration?](#What-is-the-default-session-timeout-duration) |
-|198| [Explain API.PHP route](#Explain-API.PHP-route) |
-|199| [Define hashing in Laravel](#Define-hashing-in-Laravel) |
-|200| [What is Localization?](#What-is-Localization) |
-|201| [Explain the concept of encryption and decryption in Laravel.](#Explain-the-concept-of-encryption-and-decryption-in-Laravel) |
-|202| [How to share data with views?](#How-to-share-data-with-views) |
-|203| [How to generate a request in Laravel?](#How-to-generate-a-request-in-Laravel) |
-|204| [I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?](#I-just-have-installed-a-fresh-version-of-Laravel-5-and-I-have-the-white-screen-of-death-What’s-wrong) |
-|205| [How to assign a variable value for all view file?](#How-to-assign-a-variable-value-for-all-view-file) |
-|206| [How to make a constant and use globally?](#How-to-make-a-constant-and-use-globally) |
-|207| [How to check current installed version of Laravel?](#How-to-check-current-installed-version-of-Laravel) |
-|208| [What does "composer dump-autoload" do?](#What-does-composer-dump-autoload-do) |
-|209| [What is Kept in vendor directory of Laravel?](#What-is-Kept-in-vendor-directory-of-Laravel) |
-|210| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
-|210| [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
-|211| [What are Laravel facades?](#What-are-Laravel-facades) |
-|212| [What directories that need to be writable laravel installation?](#What-directories-that-need-to-be-writable-laravel-installation?) |
-|213| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
-|214| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
-|215| [What are service containers?](#What-are-service-containers) |
-|216| [Write CRUD in Laravel Eloquent?](#Write-CRUD-in-Laravel-Eloquent) |
-|217| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
-|218| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
-|219| [What are Eloquent collections?](#What-are-Eloquent-collections) |
-|220| [Output a raw query using eloquent/query builder ](#Output-a-raw-query-using-eloquent-or-query-builder) |
-|221| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
-|222| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
-|223| [How to create multiple where clause in eloquent?](#How-to-create-multiple-where-clause-in-eloquent) |
+|101 | [What are Triggers?](#What-are-Triggers) |
+|102 | [What are Procedures](#What-are-Procedures) |
+|103 | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
+|104 | [What are some new features of PHP X?](#how-to-combine-multiple-inline-style-objects) |
+|105| [Explain Difference between session and cookies?](#Explain-Difference-between-session-and-cookies)
+|106| [Merge 2 arrays with duplicate](#Merge-2-arrays-with-duplicate) |
+|107| [Find the count of vowel and consonants](#Find-the-count-of-vowel-and-consonants) |
+|108| [Explain AWS Services](#Explain-AWS-Services) |
+|109| [How to do Web scraping?](#How-to-do-Web-scraping) |
+|110| [Explain require and require once difference](#Explain-require-and-require-once-difference) |
+|111| [Explain include and require diffrence](#Explain-include-and-require-diffrence) |
+|112| [Directory structure of Laravel](#Directory-structure-of-Laravel) |
+|113| [How to install Laravel via composer?](#How-to-install-Laravel-via-composer) |
+|114| [Which ORM are being used by laravel?](#Which-ORM-are-being-used-by-laravel) |
+|115| [List types of relationships available in Laravel Eloquent?](#List-types-of-relationships-available-in-Laravel-Eloquent) |
+|116| [How to enable maintenance mode in Laravel?](#How-to-enable-maintenance-mode-in-Laravel) |
+|117| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
+|118| [How do you register a Service Provider?](#How-do-you-register-a-Service-Provider) |
+|119| [Explain Laravel framework Architecture](#Explain-Laravel-framework-Architecture) |
+|120| [Helper Functions](#Helper-Functions) |
+|121| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
+|122| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
+|123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
+|124| [How to get Logged in user info in Laravel?](#How-to-get-Logged-in-user-info-in-Laravel) |
+|125| [What is Laravel Elixir?](#What-is-Laravel--Elixir) |
+|126| [What is Laravel Mix?](#What-is-Laravel-Mix) |
+|127| [How can you display HTML with Blade in Laravel?](#How-can-you-display-HTML-with-Blade-in-Laravel) |
+|128| [List out databases that laravel supports?](#List-out-databases-that-laravel-supports) |
+|129| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
+|130| [How To Use Select Query In Laravel? Eloquent and QB?](#How-To-Use-Select-Query-In-Laravel-Eloquent-and-QB) |
+|131| [What are Accessors and Mutators in Eloquent and why should you use them?](#What-are-Accessors-and-Mutators-in-Eloquent-and-why-should-you-use-them) |
+|132| [How do I log an error?](#How-do-I-log-an-error) |
+|133| [What is Monolog library in Laravel?](#What-is-Monolog-library-in-Laravel) |
+|134| [Exceptions are handled by which class in Laravel?](#Exceptions-are-handled-by-which-class-in-Laravel) |
+|135| [What is Serialization in Laravel?](#What-is-Serialization-in-Laravel) |
+|136| [What is Response in Laravel?](#What-is-Response-in-Laravel) |
+|137| [What is Response Macros in Laravel?](#What-is-Response-Macros-in-Laravel) |
+|138| [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
+|139| [What is Lazy vs Eager Loading in Laravel?](#What-is-Lazy-vs-Eager-Loading-in-Laravel) |
+|140| [How to get current environment in Laravel?](#How-to-get-current-environment-in-Laravel) |
+|141| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
+|142| [What is Binding?](#What-is-Binding) |
+|143| [Explain Binding A Singleton?](#Explain-Binding-A-Singleton) |
+|144| [Explain Binding Instances?](#Explain-Binding-Instances) |
+|145| [Explain Binding Primitives?](#Explain-Binding-Primitives) |
+|146| [Explain Contextual Binding and how does it work?](#Explain-Contextual-Binding-and-how-does-it-work) |
+|147| [What is Tagging?](#What-is-Tagging) |
+|148| [Explain Extending Bindings?](#Explain-Extending-Bindings) |
+|149| [What is the make Method?](#What-is-the-make-Method) |
+|150| [How to clear cache in Laravel?](#How-to-clear-cache-in-Laravel) |
+|151| [What is CSRF token?](#What-is-CSRF-token) |
+|153| [How will you explain homestead in Laravel?](#How-will-you-explain-homestead-in-Laravel) |
+|154| [How can we get the user's IP address in Laravel?](#How-can-we-get-the-user's-IP-address-in-Laravel) |
+|155| [How will you create a helper file in Laravel?](#How-will-you-create-a-helper-file-in-Laravel) |
+|156| [How can we create a record in Laravel using eloquent?](#How-can-we-create-a-record-in-Laravel-using-eloquent) |
+|157| [How can we get the user's IP address in Laravel?](#give-a-simple-example-of-jest-test-case) |
+|158| [What is faker in Laravel?](#What-is-faker-in-Laravel) |
+|159| [What are active records?](#What-are-active-records) |
+|160| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert-and-insertGetId-in-laravel) |
+|161| [Talk about Laravel Vapor Compatibility](#Talk-about-Laravel-Vapor-Compatibility) |
+|162| [What is Semantic Versioning?](#What-is-Semantic-Versioning) |
+|163| [What are Jobs and Middleware?](#What-are-Jobs-and-Middleware) |
+|164| [Talk about Laravel User Interface (UI)](#talk-about-Laravel-User-Interface-(UI)) |
+|165| [Talk about Eloquent Subquery Enhancements?](#Talk-about-Eloquent-Subquery-Enhancements) |
+|166| [What are improved Authorization Responses?](#What-are-improved-Authorization-Responses) |
+|167| [What are lazy collections?](#What-are-lazy-collections) |
+|168| [How to make a constant and use globally?](#How-to-make-a-constant-and-use-globally) |
+|169| [How to remove /public from URL in laravel?](#How-to-remove-public-from-URL-in-laravel) |
+|170| [What are the difference between soft delete & delete in Laravel?](#What-are-the-difference-between-soft-delete-&-delete-in-Laravel) |
+|171| [How we can upload files in laravel?](#How-we-can-upload-files-in-laravel) |
+|172| [How to create real time sitemap.xml file in Laravel?](#How-to-create-real-time-sitemap.xml-file-in-Laravel) |
+|173| [How to use skip() and take() in Laravel Query?](#How-to-use-skip()-and-take()-in-Laravel-Query) |
+|174| [What is tinker in laravel?](#What-is-tinker-in-laravel) |
+|175| [What is a REPL?](#What-is-a-REPL) |
+|176| [How to use multiple 'OR' condition in Laravel Query?](#How-to-use-multiple-'OR'-condition-in-Laravel-Query) |
+|177| [Please write some additional where Clauses in Laravel?](#Please-write-some-additional-where-Clauses-in-Laravel) |
+|178| [How to check column is exists or not in a table using Laravel?](#How-to-check-column-is-exists-or-not-in-a-tabl-using-Laravel) |
+|179| [What is eager loading in Laravel?](#What-is-eager-loading-in-Laravel) |
+|180| [How to generate application key in laravel?](#How-to-generate-application-key-in-laravel) |
+|181| [What is LTS version of Laravel?](#What-is-LTS-version-of-Laravel) |
+|182| [How to use GROUP_CONCAT() with JOIN in Laravel?](#How-to-use-GROUP_CONCAT()-with-JOIN-in-Laravel) |
+|183| [How to extend login expire time in Auth?](#How-to-extend-login-expire-time-in-Auth) |
+|184| [How to extend a layout file in laravel view?](#How-to-extend-a-layout-file-in-laravel-view) |
+|185| [How do you use yield()?](#How-do-you-use-yield()) |
+|186| [How to redirect form controller to view file in laravel?](#How-to-redirect-form-controller-to-view-file-in-laravel) |
+|187| [How to get current route name?](#How-to-get-current-route-name) |
+|188| [What is ACL in laravel?](#What-is-ACL-in-laravel) |
+|189| [How to check Ajax request in Laravel?](#How-to-check-Ajax-request-in-Laravel) |
+|190| [How to check if value is sent in request?](#How-to-check-if-value-is-sent-in-request) |
+|191| [Laravel String Helper functions?](#Laravel-String-Helper-functions) |
+|192| [Laravel Array Helper functions?](#Laravel-Array-Helper-functions) |
+|193| [How to exclude a route with parameters from CSRF verification?](#How-to-exclude-a-route-with-parameters-from-CSRF-verification) |
+|194| [What are policies classes?](#What-are-policies-classes) |
+|195| [How to rollback last migration?](#How-to-rollback-last-migration) |
+|196| [What do you mean by Laravel Dusk?](#What-do-you-mean-by-Laravel-Dusk) |
+|197| [Explain Laravel echo](#Explain-Laravel-echo) |
+|198| [What is namespace in Laravel?](#What-is-namespace-in-Laravel) |
+|199| [What is Laravel Forge?](#What-is-Laravel-Forge) |
+|200| [State the difference between CodeIgniter and Laravel.](#State-the-difference-between-CodeIgniter-and-Laravel) |
+|201| [What is an Observer?](#What-is-an-Observer) |
+|202| [What is the use of the bootstrap directory?](#What-is-the-use-of-the-bootstrap-directory) |
+|203| [What is the default session timeout duration?](#What-is-the-default-session-timeout-duration) |
+|204| [Explain API.PHP route](#Explain-API.PHP-route) |
+|205| [Define hashing in Laravel](#Define-hashing-in-Laravel) |
+|206| [What is Localization?](#What-is-Localization) |
+|207| [Explain the concept of encryption and decryption in Laravel.](#Explain-the-concept-of-encryption-and-decryption-in-Laravel) |
+|208| [How to share data with views?](#How-to-share-data-with-views) |
+|209| [How to generate a request in Laravel?](#How-to-generate-a-request-in-Laravel) |
+|210| [I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?](#I-just-have-installed-a-fresh-version-of-Laravel-5-and-I-have-the-white-screen-of-death-What’s-wrong) |
+|211| [How to assign a variable value for all view file?](#How-to-assign-a-variable-value-for-all-view-file) |
+|212| [How to make a constant and use globally?](#How-to-make-a-constant-and-use-globally) |
+|213| [How to check current installed version of Laravel?](#How-to-check-current-installed-version-of-Laravel) |
+|214| [What does "composer dump-autoload" do?](#What-does-composer-dump-autoload-do) |
+|215| [What is Kept in vendor directory of Laravel?](#What-is-Kept-in-vendor-directory-of-Laravel) |
+|216| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
+|217| [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
+|218| [What are Laravel facades?](#What-are-Laravel-facades) |
+|219| [What directories that need to be writable laravel installation?](#What-directories-that-need-to-be-writable-laravel-installation?) |
+|220| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
+|221| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
+|222| [What are service containers?](#What-are-service-containers) |
+|223| [Write CRUD in Laravel Eloquent?](#Write-CRUD-in-Laravel-Eloquent) |
+|224| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
+|225| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
+|226| [What are Eloquent collections?](#What-are-Eloquent-collections) |
+|227| [Output a raw query using eloquent/query builder ](#Output-a-raw-query-using-eloquent-or-query-builder) |
+|228| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
+|229| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
+|230| [How to create multiple where clause in eloquent?](#How-to-create-multiple-where-clause-in-eloquent) |
 
  
 1. ### What is Routing?
