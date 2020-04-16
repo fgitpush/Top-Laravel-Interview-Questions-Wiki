@@ -276,7 +276,7 @@ web.php used for web routes. Like example.com/test
     
     
     
-   **[⬆ Back to Top](#types-of-routes)**
+  **[⬆ Back to Top](#table-of-contents)**
     
 6. ### What is api php?
 
