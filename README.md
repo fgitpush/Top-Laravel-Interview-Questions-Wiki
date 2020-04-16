@@ -287,7 +287,8 @@ web.php used for web routes. Like example.com/test
         return view('skin/dev-wireframe', array('menu' => json_decode(file_get_contents($path), true)));
     });
     ```
-    
+     **[⬆ Back to Top](#table-of-contents)**
+     
 7. ### What is channels php?
 
     It is used for broadcasting
