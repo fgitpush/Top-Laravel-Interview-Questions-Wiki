@@ -12,63 +12,63 @@
 |4  | [What is api php?](#what-is-api-php) |
 |5  | [What is channels php?](#what-is-channels-php) |
 |6  | [What is console-php?](#what-is-console-php) |
-|2  | [What is Controller?](#what-is-controller) |
-|3  | [What are Views?](#what-are-views) |
-|4  | [What is a Model?](#what-is-a-model) |
-|5  | [What is Request-Response?](#what-is-request-response) |
-|6  | [When are Migrations?](#what-are-migrations) |
-|7  | [What are Seeders?](#what-are-seeders) |
-|8  | [What are Service Providers?](#what-are-service-providers) |
-|9  | [What is Middleware?](#what-is-middleware) |
-|10 | [What is ORM?](#what-is-orm) |
-|11 | [What is Eloquent?](#what-is-eloquent) |
-|12 | [What is Query Builder?](#what-is-query-builder)
-|13 | [What are Facades?](#what-are-facades) |
-|14 | [What is Repository Pattern?](#what-is-repository-pattern) |
-|15 | [What is Authentication using Passport CSRF XSRF?](#What-is-Authentication-using-Passport-CSRF-XSRF) |
-|16 | [What is Unit testing?](#what-is-unit-testing) |
-|17 | [What is Caching?](#what-is-caching) |
-|18 | [How to setup Emails?](#how-to-setup-emails) |
-|19 | [What are Queues?](#what-are-queues) |
-|20 | [What are Jobs?](#what-are-jobs)
-|21 | [What are Advanced Eloquent and Query Builder?](#what-are-advanced-eloquent-and-query-builder) |
-|22 | [Which is Error management?](#which-is-error-management) |
-|23 | [How to create an API?](#how-to-create-an-api) |
-|24 | [What are Events?](#what-are-events) |
-|25 | [What are Listeners?](#what-are-listeners) |
-|26 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
-|27 | [What is Test Driven Development?](#what-is-test-driven-development) |
-|28 | [What is Package development?](#what-is-package-development) |
-|29 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
-|30 | [What is Socialite and Auth?](#what-is-socialite-auth) |
-|31 | [What is Vue-js?](#what-is-vue-js) |
-|32 | [How to connect Laravel with other SQL databases?](#How-to-connect-Laravel-with-other-SQL-databases) |
-|33 | [How to connect Laravel with non-SQL databases?](#How-to-connect-Laravel-with-non-SQL-databases) |
-|34 | [What is Lumen?](#what-is-lumen) |
-|35 | [What is Redis?](#what-is-redis) |
-|36 | [What is Memcache?](#what-is-memcache) |
-|37 | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
-|38 | [What is Vertical scaling?](#What-is-Vertical-scaling) |
-|39 | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
-|40 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
-|41 | [What is CSRF and JWT token?](#what-is-CSRF-and-JWT-token) |
-|42 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
-|43 | [What are Validations and custom validations?](#what-are-validators) |
-|44 | [What is Composer?](#what-is-composer) |
-|45 | [What is Symfony?](#what-is-symfony) |
-|46 | [What is Route caching?](#what-is-route-caching) |
-|47 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
-|48 | [What are Named routes?](#what-are-named-routes) |
-|49 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
-|50 | [What are Laravel contracts?](#what-are-contracts) |
-|51 | [What is Query log?](#what-is-query-log) |
-|52 | [What are Laravel Traits?](#what-are-laravel-traits) |
-|53 | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
-|54 | [What are System requirements for Laravel?](#what-are-system-requirements-for-laravel) |
-|55 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query-builder) |
-|56 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
-|57 | [What is Reverse routing?](#what-is-reverse-routing) | 
-|58 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
+|7  | [What is Controller?](#what-is-controller) |
+|8  | [What are Views?](#what-are-views) |
+|9  | [What is a Model?](#what-is-a-model) |
+|10  | [What is Request-Response?](#what-is-request-response) |
+|11  | [When are Migrations?](#what-are-migrations) |
+|12  | [What are Seeders?](#what-are-seeders) |
+|13  | [What are Service Providers?](#what-are-service-providers) |
+|14  | [What is Middleware?](#what-is-middleware) |
+|15 | [What is ORM?](#what-is-orm) |
+|16 | [What is Eloquent?](#what-is-eloquent) |
+|17 | [What is Query Builder?](#what-is-query-builder)
+|18 | [What are Facades?](#what-are-facades) |
+|19 | [What is Repository Pattern?](#what-is-repository-pattern) |
+|20 | [What is Authentication using Passport CSRF XSRF?](#What-is-Authentication-using-Passport-CSRF-XSRF) |
+|21 | [What is Unit testing?](#what-is-unit-testing) |
+|22 | [What is Caching?](#what-is-caching) |
+|23 | [How to setup Emails?](#how-to-setup-emails) |
+|24 | [What are Queues?](#what-are-queues) |
+|25 | [What are Jobs?](#what-are-jobs)
+|26 | [What are Advanced Eloquent and Query Builder?](#what-are-advanced-eloquent-and-query-builder) |
+|27 | [Which is Error management?](#which-is-error-management) |
+|28 | [How to create an API?](#how-to-create-an-api) |
+|29 | [What are Events?](#what-are-events) |
+|30 | [What are Listeners?](#what-are-listeners) |
+|31 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
+|32 | [What is Test Driven Development?](#what-is-test-driven-development) |
+|33 | [What is Package development?](#what-is-package-development) |
+|34 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
+|35 | [What is Socialite and Auth?](#what-is-socialite-auth) |
+|36 | [What is Vue-js?](#what-is-vue-js) |
+|37 | [How to connect Laravel with other SQL databases?](#How-to-connect-Laravel-with-other-SQL-databases) |
+|38 | [How to connect Laravel with non-SQL databases?](#How-to-connect-Laravel-with-non-SQL-databases) |
+|39 | [What is Lumen?](#what-is-lumen) |
+|40 | [What is Redis?](#what-is-redis) |
+|41 | [What is Memcache?](#what-is-memcache) |
+|42 | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
+|43 | [What is Vertical scaling?](#What-is-Vertical-scaling) |
+|44 | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
+|45 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
+|46 | [What is CSRF and JWT token?](#what-is-CSRF-and-JWT-token) |
+|47 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
+|48 | [What are Validations and custom validations?](#what-are-validators) |
+|49 | [What is Composer?](#what-is-composer) |
+|50 | [What is Symfony?](#what-is-symfony) |
+|51 | [What is Route caching?](#what-is-route-caching) |
+|52 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
+|53 | [What are Named routes?](#what-are-named-routes) |
+|54 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
+|55 | [What are Laravel contracts?](#what-are-contracts) |
+|56 | [What is Query log?](#what-is-query-log) |
+|57 | [What are Laravel Traits?](#what-are-laravel-traits) |
+|58 | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
+|59 | [What are System requirements for Laravel?](#what-are-system-requirements-for-laravel) |
+|60 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query-builder) |
+|61 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
+|62 | [What is Reverse routing?](#what-is-reverse-routing) | 
+|63 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
 |59 | [How to get the data from more than 3 table without using a join?](#how-to-get-the-data-from-more-than-3-table-without-using-a-join) |
 |60 | [List some artisan commands](#list-some-artisan-commands) |
 |61 | [What are Sessions?](#what-are-sessions) |
