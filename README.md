@@ -814,7 +814,7 @@ web.php used for web routes. Like example.com/test
     
 74.	### What is default session time?
 
-   1 hour.
+   2 hours.
 
    **[⬆ Back to Top](#table-of-contents)**
     
