@@ -248,7 +248,7 @@ Below is an example route from `routes/web.php`. You can can call site.exension/
       return 'Hello World';
   });
   ```
-   **[⬆ Back to Top](#types-of-routes)**
+ **[⬆ Back to Top](#table-of-contents)**
     
 2. ### How many types of routes are there?
 
@@ -262,7 +262,7 @@ There are four types of routes in routes.php file,
     
     D. broadcast.php
 
-   **[⬆ Back to Top](#what-is-web-php)**
+  **[⬆ Back to Top](#table-of-contents)**
     
 5. ### What is web php?
 
@@ -292,13 +292,13 @@ web.php used for web routes. Like example.com/test
 
     It is used for broadcasting
 
- **[⬆ Back to Top](#what-is-api-php)**
+ **[⬆ Back to Top](#table-of-contents)**
 
 8. ### What is console php?
 
     Used as routes for commands
 
-   **[⬆ Back to Top](#what-is-api-php)**
+  **[⬆ Back to Top](#table-of-contents)**
    
     
 6. ### What is Controller?
