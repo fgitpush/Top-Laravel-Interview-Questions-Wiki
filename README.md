@@ -264,7 +264,7 @@ There are four types of routes in routes.php file,
 
   **[⬆ Back to Top](#table-of-contents)**
     
-5. ### What is web php?
+3. ### What is web php?
 
 web.php used for web routes. Like example.com/test
 
@@ -278,7 +278,7 @@ web.php used for web routes. Like example.com/test
     
   **[⬆ Back to Top](#table-of-contents)**
     
-6. ### What is api php?
+4. ### What is api php?
 
     The place where we write API route for mobile and API usage. Like http://localhost:8080/api/test
     ```
@@ -289,20 +289,20 @@ web.php used for web routes. Like example.com/test
     ```
      **[⬆ Back to Top](#table-of-contents)**
      
-7. ### What is channels php?
+5. ### What is channels php?
 
     It is used for broadcasting
 
  **[⬆ Back to Top](#table-of-contents)**
 
-8. ### What is console php?
+6. ### What is console php?
 
     Used as routes for commands
 
   **[⬆ Back to Top](#table-of-contents)**
    
     
-6. ### What is Controller?
+7. ### What is Controller?
 
     Controller is the place where we write the logic of the program. Placed in app/Http/Conrollers
 
@@ -330,7 +330,7 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-3. ### What are Views?
+8. ### What are Views?
 
   Views is the fornt end of Laravel. Stored in `resources/views`.
 
@@ -345,7 +345,7 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-4. ### 	What is a Model?
+9. ### 	What is a Model?
     A model is where you write the database logic. Stored in `/app`
 
     <?php
@@ -361,280 +361,280 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-5. ### What is Request-Response?
+10. ### What is Request-Response?
 
     When we type a URL, a request is sent to the server. The server goes from /public to bootstrap folder from which is goes to the routes file. The route files sends it the right controller/view.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-6. ### What are Migrations?
+11. ### What are Migrations?
 
     Migrations help us keep SQL tables in code. When we have to setup the DB, we just run the migration.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-7. ### What are Service Providers?
+12. ### What are Service Providers?
 
     Service providers are responsible for booting and configuration (binding all resources.)
     
    **[⬆ Back to Top](#table-of-contents)**
     
-8. ### What is Middleware?
+13. ### What is Middleware?
 
     Middleware acts as a bridge between a request and a response. It is a type of filtering mechanism.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-9. ### What is ORM?
+14. ### What is ORM?
 
     Object oriented and Model based way of DB query
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-10. ### What is Eloquent?
+15. ### What is Eloquent?
 
     The ORM wrapper Laravel uses is called Eloquent. Every table has a model associated with it.
     
    **[⬆ Back to Top](#table-of-contents)**
     
-11. ### What is Query Builder?
+16. ### What is Query Builder?
 
    A database wrapper that makes it easy to access DB.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-12. ### What are Facades?
+17. ### What are Facades?
 
     Facades are used to hide implementation details and complexities from end user making him/her feel like interacting with a black box.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-13. ### What is Repository Pattern?
+18. ### What is Repository Pattern?
 
     Repository pattern is used to create templates where implementation details are left to be implemented in child classes. It helps with further expansion of code and avoid bottlenecks in class updation.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-14. ### What is Authentication using Passport?
+19. ### What is Authentication using Passport?
     
     Passport provides a better way to create API.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-15. ### What Unit testing?
+20. ### What Unit testing?
     Testing every function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-16. ### What is Caching?
+21. ### What is Caching?
 
     Configured using `config/cache.php`. Used for database caching. Popular ways Redis and Memcache.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-17. ### What is Unit Testing?
+22. ### What is Unit Testing?
 
     Writing a test for every unit (function or class) you write.
 
    **[⬆ Back to Top](#table-of-contents)**
    
-18. ### How to setup Emails?
+23. ### How to setup Emails?
 
     Using PHP's `mail()` function amnd Laravel's `sendmail()` function. You can custoimize it using templates.
 
   **[⬆ Back to Top](#table-of-contents)**
   
-18. ### What are Queues?
+24. ### What are Queues?
 
     Queue is a line of jobs to be proccessed. You can create multiple queues which is multiple lines of jobs
    **[⬆ Back to Top](#table-of-contents)**
     
-19. ### What are Jobs?
+25. ### What are Jobs?
 
     Job is a task being performed in the background.
 
    **[⬆ Back to Top](#table-of-contents)**
    
    
-19. ### How to setup Emails?
+26. ### How to setup Emails?
 
    Use Laravel's sendmail() function and create a mail template.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-20. ### What are Advanced Eloquent and Query Builder?
+27. ### What are Advanced Eloquent and Query Builder?
 
     Complex eloquent queries are called advanced eloquent. Query builder is wrapper for database queries.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-21. ### Which is Error management?
+28. ### Which is Error management?
 
    Error handling is managing `exception` in a Laravel application.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-22. ### How to create an API?
+29. ### How to create an API?
 
   Use api.php. Link will be x.com/api/slug
 
    **[⬆ Back to Top](#table-of-contents)**
     
-23. ### What are Events?
+30. ### What are Events?
 
    You get notified when an action is triggered.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-24. ### What are Listeners?
+31. ### What are Listeners?
 
     Which listen to the events.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-25. ### What are Payments and cashier?
+32. ### What are Payments and cashier?
 
     Payment processing is difficult. Cashier is a package which makes it easy. Its installed using composer.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-26. ### What is Test Driven Development?
+33. ### What is Test Driven Development?
 
     Test is written first and then the function is written.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-27. ### What is Package development?
+34. ### What is Package development?
 
     Larvel uses composer which gets packages. You can develop your own package and submit.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-28. ### What are Laravel Scout search and Algolia?
+35. ### What are Laravel Scout search and Algolia?
 
    https://laravel.com/docs/5.8/scout
 
    **[⬆ Back to Top](#table-of-contents)**
     
-29. ### Socialie and Auth?
+36. ### Socialie and Auth?
 
     Socialite is Social login for Laravel.
     Auth is Laravel's authentication.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-30. ### What is Vue-js?
+37. ### What is Vue-js?
 
     In easy way to do SPA where you can change state.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-31. ### How to connect Laravel with other SQL databases?
+38. ### How to connect Laravel with other SQL databases?
 
     Go to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
-32. ### How to connect Laravel with non-SQL databases?
+39. ### How to connect Laravel with non-SQL databases?
 
    Add the entry to config/database.php
 
    **[⬆ Back to Top](#table-of-contents)**
     
-33. ### What is Lumen?
+40. ### What is Lumen?
 
     Lumen is the lightweight version of Laravel used usually for making microservices.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-34. ### What is Redis?
+41. ### What is Redis?
     
     Key-value database making query faster.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-35. ### What is Memcache?
+42. ### What is Memcache?
 
     Key-value database making query faster.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-36. ### What is Horizontal scaling?
+43. ### What is Horizontal scaling?
 
     By adding more servers we scale horizontally.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-37. ###	What is Vertical scaling?
+44. ###	What is Vertical scaling?
 
     By increasing the size of the same server we scale vertically.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-38. ### What is Single Page Application in Laravel?
+45. ### What is Single Page Application in Laravel?
 
     There is single URL. The assets are loaded once and only content keeps changing using JSON request. Its not great for SEO but there are workarounds to create virtual URL.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-40. ### What are Microservices in Laravel?
+46. ### What are Microservices in Laravel?
 
     There are many services which are similar sized. Each performs exactly one function and they talk to each other.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-41. ### What is CSRF and JWT token?
+47. ### What is CSRF and JWT token?
     CSRF and JWT tokens are used to make sure the action is performed by the user. If there is no token, someone can give a link to user to click or hide it behind some action and him do what the hacker wants.
     A JWT token is hidden in the request while CSRF token is not.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-42. ### What is Service Oriented Architecture in Laravel?
+48. ### What is Service Oriented Architecture in Laravel?
 
     There are many services which are similar sized. Each performs exactly one function and they talk to each other. 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-43. ### What are Validations and custom validations?
+49. ### What are Validations and custom validations?
 
     Validations are used to make sure input is of the kind function wanted. Custom validators are custom made valiators.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-44. ### What is Composer?
+50. ### What is Composer?
    
     Composer is PHP's package manager.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-45. ### What is Symfony?
+51. ### What is Symfony?
     Symfony is a framework Laravel is inspired from.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-46. ### What is Route caching?
+52. ### What is Route caching?
 
     Caching of routes to make going to routes faster. Command: `php artisan route:cache`
 
    **[⬆ Back to Top](#table-of-contents)**
     
-47. ### What are Default packages?
+53. ### What are Default packages?
     Cashier, Envoy, Passport, Scout, Socialite, Horizon etc
 
    **[⬆ Back to Top](#table-of-contents)**
     
-48. ### What are Named routes?
+54. ### What are Named routes?
 
     You can give route a name using a parameter.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-49. ### What is Dependency injection in Laravel?
+55. ### What is Dependency injection in Laravel?
 
     Laravel injects dependencies as function parameters.
     Read more: https://medium.com/a-young-devoloper/how-laravel-injects-our-dependencies-14e1b1a044e
@@ -642,7 +642,7 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-50. ### What are Laravel contracts?
+56. ### What are Laravel contracts?
 
    They provide insstructions to interact with a facade. 
 
@@ -650,31 +650,31 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-51. ### What is Query log?
+57. ### What is Query log?
 
    You can enable logging queries and Laravel will record the queries which were run.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-52. ### What are Laravel Traits?
+58. ### What are Laravel Traits?
 
     They solve diamond problem which is when you have to inherit from two classes.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-53. ### What are Bundles in Laravel?
+59. ### What are Bundles in Laravel?
 
     Used for grouping stuff like route groups (CRUD in one line.)
 
    **[⬆ Back to Top](#table-of-contents)**
     
-54. ### What are System requirements for Laravel?
+60. ### What are System requirements for Laravel?
 
     PHP version, MySQL, PHP packages mentioned on Laravel.com, apache server
 
    **[⬆ Back to Top](#table-of-contents)**
     
-55.	### What are Aggregate methods in query builder?
+61.	### What are Aggregate methods in query builder?
 
     Max, min, sum etc
    ```
@@ -684,32 +684,32 @@ web.php used for web routes. Like example.com/test
    **[⬆ Back to Top](#table-of-contents)**
   
     
-56.	### What is Singelton design pattern?
+62.	### What is Singelton design pattern?
 
     A single object of a class is created throughout the lifecycle.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-57.	### What is Reverse routing?
+63.	### What is Reverse routing?
 
    To generate the process of generating the URL which leads to a route. Its used in MVC apps. You can use it using named routes in laravel.
    
    **[⬆ Back to Top](#table-of-contents)**
     
-58.	### What are Popular composer packages?
+64.	### What are Popular composer packages?
 
     Guzzle
 
    **[⬆ Back to Top](#table-of-contents)**
     
-59.	### How to get the data from more than 3 table without using a join ?
+65.	### How to get the data from more than 3 table without using a join ?
 
     Answer: Subquery, union.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-60.	### List some artisan commands
+66.	### List some artisan commands
 
     ```
     php artisan list
@@ -722,19 +722,19 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-61.	### What are Sessisons?
+67.	### What are Sessisons?
 
     Session is data related to a specific user.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-62.	### What are Cookies?
+68.	### What are Cookies?
 
     Cookies is generalized data.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-63.	### What is Current version of PHP MySQL Laravel MongoDB etc?
+69.	### What is Current version of PHP MySQL Laravel MongoDB etc?
 
     PHP: PHP 7.4
     MySQL: 7
@@ -743,7 +743,7 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-64.	### Describe design architecture of an app?
+70.	### Describe design architecture of an app?
 
     There are three layers
     1. Presentation layer: Front end
@@ -752,31 +752,31 @@ web.php used for web routes. Like example.com/test
   
    **[⬆ Back to Top](#table-of-contents)**
     
-65.	### What are SQL Injections?
+71.	### What are SQL Injections?
 
     Its a hacking trick used to complete a SQL query by filling a form content and placing query parts inside the form.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-66.	### How to call static methods?
+72.	### How to call static methods?
 
     Using `::` before function name instead of `->`.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-67.	### How to achieve multiple DB hosts?
+73.	### How to achieve multiple DB hosts?
 
     Define the new DB in env or config/database.php and use it.
     
    **[⬆ Back to Top](#table-of-contents)**
     
-68.	### What is Abstract class?
+74.	### What is Abstract class?
 
     A class which is just a template i.e has no defination but just declaration.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-69.	### What are Default ports for MySQL, Email, etc?
+75.	### What are Default ports for MySQL, Email, etc?
 
     http: 80
     MYSQL: 3306
@@ -784,7 +784,7 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-70.	### Explain Joins
+76.	### Explain Joins
 
     There are 4 types of joins,
     1. Inner Join
@@ -794,44 +794,44 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-71.	### Explain Unions
+77.	### Explain Unions
 
     Union horizontally joins tables together i.e the records are added into the same columns.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-72.	### How mongodb is better than relational databases?
+78.	### How mongodb is better than relational databases?
 
     It is faster and it stores data in JSON form so you can enter multiple types of data without being dependent on the data being consistent in type.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-73.	### What is mongodb?
+79.	### What is mongodb?
 
    It is a NO SQL key value based database.
    
    **[⬆ Back to Top](#table-of-contents)**
     
-74.	### What is default session time?
+80.	### What is default session time?
 
    2 hours.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-75.	### How to create hooks in Laravel?
+81.	### How to create hooks in Laravel?
     
     https://stackoverflow.com/questions/36226021/hooks-in-laravel-5
 
    **[⬆ Back to Top](#table-of-contents)**
     
-76.	### What is csrf token and xss attack?
+82.	### What is csrf token and xss attack?
 
    CSRF and JWT tokens are used to make sure the action is performed by the user. If there is no token, someone can give a link to user to click or hide it behind some action and him do what the hacker wants.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-77.	### Select highest and nth highest salary from DB
+83.	### Select highest and nth highest salary from DB
     
     ```
     SELECT name, salary 
@@ -843,7 +843,7 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-78.	### Write the 4 joins
+84.	### Write the 4 joins
     
     1. Inner join
     2. Outer join
@@ -852,7 +852,7 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-79. ### Write a union
+85. ### Write a union
 
     ```
     SELECT expression1, expression2, ... expression_n
@@ -866,25 +866,25 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-80. ### Write a complex query?
+86. ### Write a complex query?
 
    Like a 3 tables joined.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-81. ### Explain an apps DB architecture 
+87. ### Explain an apps DB architecture 
    
    Uber's DB arcitecture.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-82. ### What is Difference between PHP 5 and 4?
+88. ### What is Difference between PHP 5 and 4?
 
     PHP 5 has OOP.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-83. ### What is the difference among various php versions?
+89. ### What is the difference among various php versions?
 
     PHP 4: No OOP
     PHP 5: OOP
@@ -892,53 +892,52 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-85. ### What is the difference among various Laravel versions?
+90. ### What is the difference among various Laravel versions?
 
     Directory structure
 
    **[⬆ Back to Top](#table-of-contents)**
     
-86. ### How to add AWS plugin in PHP?
+91. ### How to add AWS plugin in PHP?
 
     Using AWS SDK.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-87. ### What are design patterns?
+92. ### What are design patterns?
 
     They are well known solutions to common problems every developer faces.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-88. ### What is the difference between GET and POST
+93. ### What is the difference between GET and POST
 
     GET is used for retriving data
     POST is used to perform a change i.e action
 
    **[⬆ Back to Top](#table-of-contents)**
     
-89. ### Which is fast between GET and POST?
+94. ### Which is fast between GET and POST?
 
     GET is used for retriving data
     POST is used to perform a change i.e action
     
-90. ### Explain 4 basics of OOP
+95. ### Explain 4 basics of OOP
 
     Inheritance
     Polymorphism
     Encapsulation
     Abstraction
 
-
    **[⬆ Back to Top](#table-of-contents)**
     
-91. ### What is diference between abstract class and interface?
+96. ### What is diference between abstract class and interface?
 
    https://javapapers.com/core-java/abstract-and-interface-core-java-2/difference-between-a-java-interface-and-a-java-abstract-class/
 
    **[⬆ Back to Top](#table-of-contents)**
     
-92. ### What is MVC Framework?
+97. ### What is MVC Framework?
 
     It provides separation of concerns by separating the code into 3 parts,
     1. Model: Database logic
@@ -947,13 +946,13 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-93. ### Create a project with CRUD, one algorithm logic and insert data in db for testing.
+98. ### Create a project with CRUD, one algorithm logic and insert data in db for testing.
 
     ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
-95. ### In MySql we use many types of engines which one is faster and why?
+99. ### In MySql we use many types of engines which one is faster and why?
 
     There are two main types of engines,
     1.InnoDB
@@ -962,7 +961,7 @@ web.php used for web routes. Like example.com/test
 
    **[⬆ Back to Top](#table-of-contents)**
     
-96. ### What are Triggers?
+100. ### What are Triggers?
 
     `DB::unprepared()` is used for it.
     
