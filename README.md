@@ -383,7 +383,7 @@ web.php used for web routes. Like example.com/test
     
 8. ### What is Middleware?
 
-    Middleware checks for authentication.
+    Middleware acts as a bridge between a request and a response. It is a type of filtering mechanism.
 
 
    **[⬆ Back to Top](#table-of-contents)**
