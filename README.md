@@ -239,7 +239,7 @@
  
 1. ### What is Routing?
 
-  When a user enters a URL, it gets send to a routes file. Laravel contains a routes.php file where it matches it with the right controller/view.
+  When a user enters a URL, it gets send to a routes folder. Laravel contains a routes folder where it matches it with the right controller/view.
 
 Below is an example route from `routes/web.php`. You can can call site.exension/foo and it will bring the result.
 
