@@ -239,9 +239,9 @@
  
 1. ### What is Routing?
 
-  When a user enters a URL, it gets send to a routes folder. Laravel contains a routes folder where it matches it with the right controller/view.
+  When a user enters a URL, it gets send to a routes folder. For web we usually use web.php and api.php. web.php route is for web requests while api.php route is for API requests.
 
-Below is an example route from `routes/web.php`. You can can call site.exension/foo and it will bring the result.
+Below is an example get route from `routes/web.php`. You can can call website.com/foo and it will bring the result.
 
   ```
   Route::get('foo', function () {
