@@ -252,7 +252,7 @@ Below is an example get route from `routes/web.php`. You can can call website.co
     
 2. ### How many types of routes are there?
 
-There are four types of routes in routes.php file,
+There are four types of routes,
 
     A. web.php 
     
@@ -266,8 +266,7 @@ There are four types of routes in routes.php file,
     
 3. ### What is web php?
 
-web.php used for web routes. Like example.com/test
-
+    web.php used for web routes. Like example.com/test
     
     Route::get('/test', function () {
         $path = storage_path() . "/app/json/options/docs.json";
@@ -297,7 +296,7 @@ web.php used for web routes. Like example.com/test
 
 6. ### What is console php?
 
-    Used as routes for commands
+    Used to give a name to console routes.
 
   **[⬆ Back to Top](#table-of-contents)**
    
