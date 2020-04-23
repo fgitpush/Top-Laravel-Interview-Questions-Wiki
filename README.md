@@ -268,11 +268,12 @@ There are four types of routes,
 
     web.php used for web routes. Like example.com/test
     
+    ```
     Route::get('/test', function () {
         $path = storage_path() . "/app/json/options/docs.json";
         return view('skin/dev-wireframe', array('menu' => json_decode(file_get_contents($path), true)));
     });
-    
+    ```
     
     
   **[⬆ Back to Top](#table-of-contents)**
