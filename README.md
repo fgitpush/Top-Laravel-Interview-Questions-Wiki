@@ -796,7 +796,7 @@ There are four types of routes,
     
 77.	### Explain Unions
 
-    Union horizontally joins tables together i.e the records are added into the same columns.
+    Union vertically joins tables together i.e the records are added into the same columns.
 
    **[⬆ Back to Top](#table-of-contents)**
     
