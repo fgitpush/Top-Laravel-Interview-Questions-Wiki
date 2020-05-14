@@ -448,9 +448,11 @@ There are four types of routes,
 
   **[⬆ Back to Top](#table-of-contents)**
   
+  
 24. ### What are Queues?
 
     Queue is a line of jobs to be proccessed. You can create multiple queues which is multiple lines of jobs
+    
    **[⬆ Back to Top](#table-of-contents)**
     
 25. ### What are Jobs?
