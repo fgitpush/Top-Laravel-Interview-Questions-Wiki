@@ -722,7 +722,7 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-67.	### What are Sessisons?
+67.	### What are Sessions?
 
     Session is data related to a specific user.
 
