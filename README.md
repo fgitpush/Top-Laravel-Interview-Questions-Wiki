@@ -235,7 +235,7 @@
 |228| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
 |229| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
 |230| [How to create multiple where clause in eloquent?](#How-to-create-multiple-where-clause-in-eloquent) |
-
+|231| [What is the difference between where and having??](#what-is-the-difference-between-where-and-having) |
  
 1. ### What is Routing?
 
@@ -1936,3 +1936,13 @@ It just regenerates the list of all classes that need to be included in the proj
      php artisan view:clear
      
      php artisan route:clear
+     
+ **[⬆ Back to Top](#table-of-contents)**
+ 
+ 
+  223. ### What is the difference between where and having?
+ 
+
+ 
+ 
+
