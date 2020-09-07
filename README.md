@@ -235,7 +235,7 @@
 |228| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
 |229| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
 |230| [How to create multiple where clause in eloquent?](#How-to-create-multiple-where-clause-in-eloquent) |
-|231| [What is the difference between where and having??](#what-is-the-difference-between-where-and-having) |
+|231| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
  
 1. ### What is Routing?
 
