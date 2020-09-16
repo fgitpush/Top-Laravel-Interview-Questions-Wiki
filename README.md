@@ -273,19 +273,48 @@
 |266| [What is new in Laravel 8?](#what-is-the-difference-between-where-and-having) |
 |267| [What is Pusher in Laravel?](#what-is-the-difference-between-where-and-having) |
 |268| [How to create constants in laravel?](#what-is-the-difference-between-where-and-having) |
-|268| [List different where Clauses available Laravel?](#what-is-the-difference-between-where-and-having) |
-|268| [What is Homebrew?](#what-is-the-difference-between-where-and-having) |
-|268| [What is Valet?](#what-is-the-difference-between-where-and-having) |
-|268| [What is Laravel Homestead?](#what-is-the-difference-between-where-and-having) |
-|268| [What is Docker?](#what-is-the-difference-between-where-and-having) |
-|268| [How to launch Vagrant Box?](#what-is-the-difference-between-where-and-having) |
-|268| [What are Deferred Providers in laravel?](#what-is-the-difference-between-where-and-having) |
-|268| [What getFacadeAccessor method does?](#what-is-the-difference-between-where-and-having) |
-|268| [How to get current Url in Laravel?](#what-is-the-difference-between-where-and-having) |
-|268| [How to register a middleware in Laravel?](#what-is-the-difference-between-where-and-having) |
-|268| [What are Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
-|268| [How to create constants in laravel?](#what-is-the-difference-between-where-and-having) |
-|268| [How to create constants in laravel?](#what-is-the-difference-between-where-and-having) |
+|269| [List different where Clauses available Laravel?](#what-is-the-difference-between-where-and-having) |
+|270| [What is Homebrew?](#what-is-the-difference-between-where-and-having) |
+|271| [What is Valet?](#what-is-the-difference-between-where-and-having) |
+|272| [What is Laravel Homestead?](#what-is-the-difference-between-where-and-having) |
+|273| [What is Docker?](#what-is-the-difference-between-where-and-having) |
+|274| [How to launch Vagrant Box?](#what-is-the-difference-between-where-and-having) |
+|275| [What are Deferred Providers in laravel?](#what-is-the-difference-between-where-and-having) |
+|276| [What getFacadeAccessor method does?](#what-is-the-difference-between-where-and-having) |
+|277| [How to get current Url in Laravel?](#what-is-the-difference-between-where-and-having) |
+|278| [How to register a middleware in Laravel?](#what-is-the-difference-between-where-and-having) |
+|279| [What are Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
+|280| [What does yield mean in PHP? (#what-is-the-difference-between-where-and-having) |
+|281| [What does a $$$ mean in PHP? ](#what-is-the-difference-between-where-and-having) |
+|282| What is Vapor?](#what-is-the-difference-between-where-and-having) |
+|283| [What is Forge?](#what-is-the-difference-between-where-and-having) |
+|284| What is Envoyer?](#what-is-the-difference-between-where-and-having) |
+|285| [What is Horizon?](#what-is-the-difference-between-where-and-having) |
+|286| What is Nova?](#what-is-the-difference-between-where-and-having) |
+|287| [What is Echo?](#what-is-the-difference-between-where-and-having) |
+|288| [What is Lumen?](#what-is-the-difference-between-where-and-having) |
+|289| [What is Homestead?](#what-is-the-difference-between-where-and-having) |
+|290| [What is Spark?](#what-is-the-difference-between-where-and-having) |
+|291| [What is Valet?](#what-is-the-difference-between-where-and-having) |
+|292| [What is Mix?](#what-is-the-difference-between-where-and-having) |
+|293| [What is Cashier?](#what-is-the-difference-between-where-and-having) |
+|294| [What is Dusk?](#what-is-the-difference-between-where-and-having) |
+|295| [What is Passport?](#what-is-the-difference-between-where-and-having) |
+|296| [What is Scout?](#what-is-the-difference-between-where-and-having) |
+|297| [What is Socialite?](#what-is-the-difference-between-where-and-having) |
+|298| [What is Telescope?](#what-is-the-difference-between-where-and-having) |
+|299| [What is Tinker?](#what-is-the-difference-between-where-and-having) |
+
+
+
+
+
+
+
+
+
+
+
 
 
 
