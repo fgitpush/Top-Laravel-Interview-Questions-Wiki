@@ -251,10 +251,43 @@
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
 |245| [What is an Observer?](#what-is-the-difference-between-where-and-having) |
 |246| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
+|247| [What is the purpose of the Eloquent cursor() method in Laravel?](#what-is-the-difference-between-where-and-having) |
+|248| [List types of relationships available in Laravel Eloquent?](#what-is-the-difference-between-where-and-having) |
+|249| [What is Laravel Elixir?](#what-is-the-difference-between-where-and-having) |
+|250| [What is Laravel Mix?](#what-is-the-difference-between-where-and-having) |
+|251| [What are Accessors and Mutators in Eloquent and why should you use them?](#what-is-the-difference-between-where-and-having) |
+|252| [How do I perform dependency injection in Laravel?](#what-is-the-difference-between-where-and-having) |
+|253| [What is Serialization in Laravel?](#what-is-the-difference-between-where-and-having) |
+|254| [What are Response Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
+|255| [What is Rate Limiting OR Throttle in Laravel?](#what-is-the-difference-between-where-and-having) |
+|256| [What are Closures in Laravel?](#what-is-the-difference-between-where-and-having) |
+|257| [What does PHP compact function do?](#what-is-the-difference-between-where-and-having) |
+|258| [Does Laravel support caching?](#what-is-the-difference-between-where-and-having) |
+|259| [How to enable maintenance mode in Laravel 5?](#what-is-the-difference-between-where-and-having) |
+|260| [What is Method Spoofing in Laravel?](#what-is-the-difference-between-where-and-having) |
+|261| [How to assign multiple middleware to Laravel route ?](#what-is-the-difference-between-where-and-having) |
+|262| [What was new in Laravel 4?](#what-is-the-difference-between-where-and-having) |
+|263| [What was new in Laravel 5?](#what-is-the-difference-between-where-and-having) |
+|264| [What was new in Laravel 6?](#what-is-the-difference-between-where-and-having) |
+|265| [What was new in Laravel 7?](#what-is-the-difference-between-where-and-having) |
+|266| [What is new in Laravel 8?](#what-is-the-difference-between-where-and-having) |
+|267| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
+|268| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
 
 
-  
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. ### What is Routing?
 
   When a user enters a URL, it gets send to a routes folder. For web we usually use web.php and api.php. web.php route is for web requests while api.php route is for API requests.
