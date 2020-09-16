@@ -236,21 +236,21 @@
 |229| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
 |230| [How to create multiple where clause in eloquent?](#How-to-create-multiple-where-clause-in-eloquent) |
 |231| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
-|231| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
-|231| [How will you register service provider?](#what-is-the-difference-between-where-and-having) |
-|231| [How can you reduce memory usage in Laravel?](#what-is-the-difference-between-where-and-having) |
-|231| [Name databases supported by Laravel](#what-is-the-difference-between-where-and-having) |
-|231| [What are common HTTP error codes?](#what-is-the-difference-between-where-and-having) |
-|231| [What is the use of dd() function?](#what-is-the-difference-between-where-and-having) |
-|231| [How to configure a mail-in Laravel?](#what-is-the-difference-between-where-and-having) |
-|231| [Differentiate between delete() and softDeletes()?](#what-is-the-difference-between-where-and-having) |
-|231| [How will you check table is exists or in the database?](#what-is-the-difference-between-where-and-having) |
-|231| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
-|231| [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
-|231| [Define Laravel guard](#what-is-the-difference-between-where-and-having) |
-|231| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
-|231| [What is an Observer?](#what-is-the-difference-between-where-and-having) |
-|231| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
+|232| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
+|233| [How will you register service provider?](#what-is-the-difference-between-where-and-having) |
+|234| [How can you reduce memory usage in Laravel?](#what-is-the-difference-between-where-and-having) |
+|235| [Name databases supported by Laravel](#what-is-the-difference-between-where-and-having) |
+|236| [What are common HTTP error codes?](#what-is-the-difference-between-where-and-having) |
+|237| [What is the use of dd() function?](#what-is-the-difference-between-where-and-having) |
+|238| [How to configure a mail-in Laravel?](#what-is-the-difference-between-where-and-having) |
+|239| [Differentiate between delete() and softDeletes()?](#what-is-the-difference-between-where-and-having) |
+|240| [How will you check table is exists or in the database?](#what-is-the-difference-between-where-and-having) |
+|241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
+|242| [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
+|243| [Define Laravel guard](#what-is-the-difference-between-where-and-having) |
+|244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
+|245| [What is an Observer?](#what-is-the-difference-between-where-and-having) |
+|246| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
 
 
   
