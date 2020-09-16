@@ -305,6 +305,7 @@
 |298| [What is Telescope?](#what-is-the-difference-between-where-and-having) |
 |299| [What is Tinker?](#what-is-the-difference-between-where-and-having) |
 |300| [What is broadcasting in laravel?](#what-is-the-difference-between-where-and-having) |
+|300| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
 
 
 1. ### What is Routing?
