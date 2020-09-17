@@ -284,7 +284,7 @@
 |277| [How to get current Url in Laravel?](#what-is-the-difference-between-where-and-having) |
 |278| [How to register a middleware in Laravel?](#what-is-the-difference-between-where-and-having) |
 |279| [What are Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
-|280| [What does yield mean in PHP?] (#what-is-the-difference-between-where-and-having) |
+|280| [What does yield mean in PHP?](#what-is-the-difference-between-where-and-having) |
 |281| [What does a $$$ mean in PHP? ](#what-is-the-difference-between-where-and-having) |
 |282| [What is Vapor?](#what-is-the-difference-between-where-and-having) |
 |283| [What is Forge?](#what-is-the-difference-between-where-and-having) |
