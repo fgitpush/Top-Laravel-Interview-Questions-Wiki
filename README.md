@@ -306,7 +306,7 @@
 |299| [What is Tinker?](#what-is-the-difference-between-where-and-having) |
 |300| [What is broadcasting in laravel?](#what-is-the-difference-between-where-and-having) |
 |301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
-
+|302| [How can we protect site from SQL Injections?](#what-is-the-difference-between-where-and-having) |
 
 1. ### What is Routing?
 
@@ -2013,6 +2013,17 @@ It just regenerates the list of all classes that need to be included in the proj
  
   223. ### What is the difference between where and having?
  
+
+ 223. ### How can we protect site from SQL Injections?
+ 
+We can protect site from SQL injections by sanitizing inputs. Whenever you have to enter string, use PHP function mysqli_real_escape_string().
+
+For XSS protection i.e when you have to enter string in HTML use htmlspecialchars.
+
+You should always try to use use prepared statements.
+     
+ **[⬆ Back to Top](#table-of-contents)**
+
 
  
  
