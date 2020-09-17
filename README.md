@@ -2014,7 +2014,7 @@ It just regenerates the list of all classes that need to be included in the proj
   223. ### What is the difference between where and having?
  
 
- 223. ### How can we protect site from SQL Injections?
+ 302. ### How can we protect site from SQL Injections?
  
 We can protect site from SQL injections by sanitizing inputs. Whenever you have to enter string, use PHP function mysqli_real_escape_string().
 
