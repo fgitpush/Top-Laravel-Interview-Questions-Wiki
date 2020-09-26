@@ -307,7 +307,7 @@
 |300| [What is broadcasting in laravel?](#what-is-the-difference-between-where-and-having) |
 |301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
 |302| [How can we protect site from SQL Injections?](#what-is-the-difference-between-where-and-having) |
-
+|302| [What is Request Lifecycle?](#what-is-the-difference-between-where-and-having) |
 1. ### What is Routing?
 
   When a user enters a URL, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
