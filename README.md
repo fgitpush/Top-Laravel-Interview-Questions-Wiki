@@ -310,7 +310,7 @@
 
 1. ### What is Routing?
 
-  When a user enters a URL, it gets send to a routes folder. For web we usually use web.php and api.php. web.php route is for web requests while api.php route is for API requests.
+  When a user enters a URL, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
 
 Below is an example get route from `routes/web.php`. You can can call website.com/foo and it will bring the result.
 
