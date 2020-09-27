@@ -583,7 +583,7 @@ There are four types of routes,
     
 34. ### What is Package development?
 
-    Larvel uses composer which gets packages. You can develop your own package and submit.
+    Laravel uses composer which gets packages. You can develop your own package and submit.
 
    **[⬆ Back to Top](#table-of-contents)**
     
