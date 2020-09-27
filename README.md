@@ -515,7 +515,7 @@ There are four types of routes,
    
 23. ### How to setup Emails?
 
-    Using PHP's `mail()` function amnd Laravel's `sendmail()` function. You can custoimize it using templates.
+    Using PHP's `mail()` function and Laravel's `sendmail()` function. You can custoimize it using templates.
 
   **[⬆ Back to Top](#table-of-contents)**
   
