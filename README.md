@@ -64,6 +64,7 @@
 |   | **CONTROLLERS** |
 |7  | [What is Controller?](#what-is-controller) |
 |   | **HELPER METHOD** |
+|120| [Helper Functions](#Helper-Functions) |
 |   | **DATABASE** |
 |9  | [What is a Model?](#what-is-a-model) |
 |11  | [When are Migrations?](#what-are-migrations) |
@@ -207,7 +208,6 @@
 |117| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
 |118| [How do you register a Service Provider?](#How-do-you-register-a-Service-Provider) |
 |119| [Explain Laravel framework Architecture](#Explain-Laravel-framework-Architecture) |
-|120| [Helper Functions](#Helper-Functions) |
 |121| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
 |122| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
 |123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
