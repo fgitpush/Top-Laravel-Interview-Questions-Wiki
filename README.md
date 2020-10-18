@@ -128,7 +128,6 @@
 |297| [What is Socialite?](#what-is-the-difference-between-where-and-having) |
 |298| [What is Telescope?](#what-is-the-difference-between-where-and-having) |
 |299| [What is Tinker?](#what-is-the-difference-between-where-and-having) |
-
 |27 | [Which is Error management?](#which-is-error-management) |
 |28 | [How to create an API?](#how-to-create-an-api) |
 |31 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
@@ -143,7 +142,6 @@
 |47 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
 |48 | [What are Validations and custom validations?](#what-are-validators) |
 |50 | [What is Symfony?](#what-is-symfony) |
-
 |52 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
 |53 | [What are Named routes?](#what-are-named-routes) |
 |54 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
