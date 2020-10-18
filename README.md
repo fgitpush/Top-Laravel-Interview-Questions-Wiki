@@ -7,25 +7,47 @@
 | No. | Questions |
 | --- | --------- |
 |   | **ARCHITECTURE** |
+|10  | [What is Request-Response?](#what-is-request-response) |
+|13  | [What are Service Providers?](#what-are-service-providers) |
+|18 | [What are Facades?](#what-are-facades) |
+|19 | [What is Repository Pattern?](#what-is-repository-pattern) |
 |   | **ARTISAN CONSOLE** |
 |   | **CACHING** |
 |   | **COLLECTIONS** |
 |   | **DATABASE** |
+|17 | [What is Query Builder?](#what-is-query-builder)
+|15 | [What is ORM?](#what-is-orm) |
 |   | **ELOQUENT** |
+|16 | [What is Eloquent?](#what-is-eloquent) |
 |   | **EVENTS** |
 |   | **FILE STORAGE** |
 |   | **FRONT END** |
 |   | **CONTROLLERS** |
+|7  | [What is Controller?](#what-is-controller) |
 |   | **HELPER METHOD** |
 |   | **DATABASE** |
+|9  | [What is a Model?](#what-is-a-model) |
+|11  | [When are Migrations?](#what-are-migrations) |
+|12  | [What are Seeders?](#what-are-seeders) |
+|26 | [What are Advanced Eloquent and Query Builder?](#what-are-advanced-eloquent-and-query-builder) |
 |   | **LOGGING** |
 |   | **MAIL** |
 |   | **MIDDLEWARE** |
+|14  | [What is Middleware?](#what-is-middleware) |
 |   | **NOTIFICATION** |
 |   | **PHP** |
 |   | **PACKAGE DEVELOPMENT** |
+|33 | [What is Package development?](#what-is-package-development) |
 |   | **QUEUES** |
+|24 | [What are Queues?](#what-are-queues) |
+|25 | [What are Jobs?](#what-are-jobs)
 |   | **ROUTING** |
+|1  | [What is Routing?](#what-is-routing) |
+|2  | [How many types of routes are there?](#how-many-types-of-routes-are-there) |
+|3  | [What is web php?](#what-is-web-php) |
+|4  | [What is api php?](#what-is-api-php) |
+|5  | [What is channels php?](#what-is-channels-php) |
+|6  | [What is console-php?](#what-is-console-php) |
 |   | **SECURITY** |
 |   | **SESSION** |
 |   | **TASK SCHEDULING** |
@@ -33,41 +55,18 @@
 |   | **URL GENERATION** |
 |   | **VALIDATION** |
 |   | **VIEWS** |
-|   | **WEB SOCKETS** |
-
-|1  | [What is Routing?](#what-is-routing) |
-|2  | [How many types of routes are there?](#how-many-types-of-routes-are-there) |
-|3  | [What is web php?](#what-is-web-php) |
-|4  | [What is api php?](#what-is-api-php) |
-|5  | [What is channels php?](#what-is-channels-php) |
-|6  | [What is console-php?](#what-is-console-php) |
-|7  | [What is Controller?](#what-is-controller) |
 |8  | [What are Views?](#what-are-views) |
-|9  | [What is a Model?](#what-is-a-model) |
-|10  | [What is Request-Response?](#what-is-request-response) |
-|11  | [When are Migrations?](#what-are-migrations) |
-|12  | [What are Seeders?](#what-are-seeders) |
-|13  | [What are Service Providers?](#what-are-service-providers) |
-|14  | [What is Middleware?](#what-is-middleware) |
-|15 | [What is ORM?](#what-is-orm) |
-|16 | [What is Eloquent?](#what-is-eloquent) |
-|17 | [What is Query Builder?](#what-is-query-builder)
-|18 | [What are Facades?](#what-are-facades) |
-|19 | [What is Repository Pattern?](#what-is-repository-pattern) |
+|   | **WEB SOCKETS** |
 |20 | [What is Authentication using Passport CSRF XSRF?](#What-is-Authentication-using-Passport-CSRF-XSRF) |
 |21 | [What is Unit testing?](#what-is-unit-testing) |
 |22 | [What is Caching?](#what-is-caching) |
 |23 | [How to setup Emails?](#how-to-setup-emails) |
-|24 | [What are Queues?](#what-are-queues) |
-|25 | [What are Jobs?](#what-are-jobs)
-|26 | [What are Advanced Eloquent and Query Builder?](#what-are-advanced-eloquent-and-query-builder) |
 |27 | [Which is Error management?](#which-is-error-management) |
 |28 | [How to create an API?](#how-to-create-an-api) |
 |29 | [What are Events?](#what-are-events) |
 |30 | [What are Listeners?](#what-are-listeners) |
 |31 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
 |32 | [What is Test Driven Development?](#what-is-test-driven-development) |
-|33 | [What is Package development?](#what-is-package-development) |
 |34 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
 |35 | [What is Socialite and Auth?](#what-is-socialite-auth) |
 |36 | [What is Vue-js?](#what-is-vue-js) |
