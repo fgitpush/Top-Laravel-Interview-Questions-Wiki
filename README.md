@@ -6,6 +6,35 @@
 
 | No. | Questions |
 | --- | --------- |
+|   | **ARCHITECTURE** |
+|   | **ARTISAN CONSOLE** |
+|   | **CACHING** |
+|   | **COLLECTIONS** |
+|   | **DATABASE** |
+|   | **ELOQUENT** |
+|   | **EVENTS** |
+|   | **FILE STORAGE** |
+|   | **FRONT END** |
+|   | **CONTROLLERS** |
+|   | **HELPER METHOD** |
+|   | **DATABASE** |
+|   | **LOGGING** |
+|   | **MAIL** |
+|   | **MIDDLEWARE** |
+|   | **NOTIFICATION** |
+|   | **PHP** |
+|   | **PACKAGE DEVELOPMENT** |
+|   | **QUEUES** |
+|   | **ROUTING** |
+|   | **SECURITY** |
+|   | **SESSION** |
+|   | **TASK SCHEDULING** |
+|   | **TESTING** |
+|   | **URL GENERATION** |
+|   | **VALIDATION** |
+|   | **VIEWS** |
+|   | **WEB SOCKETS** |
+
 |1  | [What is Routing?](#what-is-routing) |
 |2  | [How many types of routes are there?](#how-many-types-of-routes-are-there) |
 |3  | [What is web php?](#what-is-web-php) |
