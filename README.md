@@ -14,10 +14,12 @@
 |   | **ARTISAN CONSOLE** |
 |174| [What is tinker in laravel?](#What-is-tinker-in-laravel) |
 |175| [What is a REPL?](#What-is-a-REPL) |
+|49 | [What is Composer?](#what-is-composer) |
 |   | **CACHING** |
 |22 | [What is Caching?](#what-is-caching) |
 |40 | [What is Redis?](#what-is-redis) |
 |41 | [What is Memcache?](#what-is-memcache) |
+|51 | [What is Route caching?](#what-is-route-caching) |
 |   | **COLLECTIONS** |
 |167| [What are lazy collections?](#What-are-lazy-collections) |
 |   | **DATABASE** |
@@ -69,6 +71,9 @@
 |23 | [How to setup Emails?](#how-to-setup-emails) |
 |   | **MIDDLEWARE** |
 |14  | [What is Middleware?](#what-is-middleware) |
+|278| [How to register a middleware in Laravel?](#what-is-the-difference-between-where-and-having) |
+|261| [How to assign multiple middleware to Laravel route ?](#what-is-the-difference-between-where-and-having) |
+|163| [What are Jobs and Middleware?](#What-are-Jobs-and-Middleware) |
 |   | **NOTIFICATION** |
 |   | **PHP** |
 |   | **PACKAGE DEVELOPMENT** |
@@ -87,6 +92,8 @@
 |302| [How can we protect site from SQL Injections?](#what-is-the-difference-between-where-and-having) |
 |46 | [What is CSRF and JWT token?](#what-is-CSRF-and-JWT-token) |
 |70 | [What are SQL Injections?](#What-are-SQL-Injections) |
+|81 | [What is csrf token and xss attack?](#What-is-csrf-token-and-xss-attack) |
+|20 | [What is Authentication using Passport CSRF XSRF?](#What-is-Authentication-using-Passport-CSRF-XSRF) |
 |   | **SESSION** |
 |66 | [What are Sessions?](#what-are-sessions) |
 |79 | [What is default session time?](#What-is-default-session-time)
@@ -96,7 +103,6 @@
 |   | **TESTING** |
 |21 | [What is Unit testing?](#what-is-unit-testing) |
 |32 | [What is Test Driven Development?](#what-is-test-driven-development) |
-
 |   | **URL GENERATION** |
 |302| [What is Request Lifecycle?](#what-is-the-difference-between-where-and-having) |
 |   | **VALIDATION** |
@@ -122,11 +128,10 @@
 |297| [What is Socialite?](#what-is-the-difference-between-where-and-having) |
 |298| [What is Telescope?](#what-is-the-difference-between-where-and-having) |
 |299| [What is Tinker?](#what-is-the-difference-between-where-and-having) |
-|20 | [What is Authentication using Passport CSRF XSRF?](#What-is-Authentication-using-Passport-CSRF-XSRF) |
+
 |27 | [Which is Error management?](#which-is-error-management) |
 |28 | [How to create an API?](#how-to-create-an-api) |
 |31 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
-
 |34 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
 |35 | [What is Socialite and Auth?](#what-is-socialite-auth) |
 |36 | [What is Vue-js?](#what-is-vue-js) |
@@ -135,12 +140,10 @@
 |43 | [What is Vertical scaling?](#What-is-Vertical-scaling) |
 |44 | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
 |45 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
-
 |47 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
 |48 | [What are Validations and custom validations?](#what-are-validators) |
-|49 | [What is Composer?](#what-is-composer) |
 |50 | [What is Symfony?](#what-is-symfony) |
-|51 | [What is Route caching?](#what-is-route-caching) |
+
 |52 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
 |53 | [What are Named routes?](#what-are-named-routes) |
 |54 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
@@ -158,11 +161,9 @@
 |67 | [What are Cookies?](#what-are-cookies) |
 |68 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
 |69 | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
-
 |71 | [How to call static methods?](#How-to-call-static-methods) |
 |73 | [What is Abstract class?](#what-is-Abstract-class) |
 |80 | [How to create hooks in Laravel?](#How-to-create-hooks-in-Laravel) |
-|81 | [What is csrf token and xss attack?](#What-is-csrf-token-and-xss-attack) |
 |86 | [Explain an apps DB architecture ?](#Explain-an-apps-DB-architecture) |
 |87 | [What is Difference between PHP 5 and 4?](#What-is-Difference-between-PHP-5-and-4) |
 |88 | [What is the difference among various php versions?](#What-is-the-difference-among-various-php-versions) |
@@ -233,17 +234,14 @@
 |160| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert-and-insertGetId-in-laravel) |
 |161| [Talk about Laravel Vapor Compatibility](#Talk-about-Laravel-Vapor-Compatibility) |
 |162| [What is Semantic Versioning?](#What-is-Semantic-Versioning) |
-|163| [What are Jobs and Middleware?](#What-are-Jobs-and-Middleware) |
 |164| [Talk about Laravel User Interface (UI)](#talk-about-Laravel-User-Interface-(UI)) |
 |166| [What are improved Authorization Responses?](#What-are-improved-Authorization-Responses) |
-
 |168| [How to make a constant and use globally?](#How-to-make-a-constant-and-use-globally) |
 |169| [How to remove /public from URL in laravel?](#How-to-remove-public-from-URL-in-laravel) |
 |170| [What are the difference between soft delete & delete in Laravel?](#What-are-the-difference-between-soft-delete-&-delete-in-Laravel) |
 |171| [How we can upload files in laravel?](#How-we-can-upload-files-in-laravel) |
 |172| [How to create real time sitemap.xml file in Laravel?](#How-to-create-real-time-sitemap.xml-file-in-Laravel) |
 |173| [How to use skip() and take() in Laravel Query?](#How-to-use-skip()-and-take()-in-Laravel-Query) |
-
 |176| [How to use multiple 'OR' condition in Laravel Query?](#How-to-use-multiple-'OR'-condition-in-Laravel-Query) |
 |177| [Please write some additional where Clauses in Laravel?](#Please-write-some-additional-where-Clauses-in-Laravel) |
 |178| [How to check column is exists or not in a table using Laravel?](#How-to-check-column-is-exists-or-not-in-a-tabl-using-Laravel) |
@@ -321,7 +319,6 @@
 |258| [Does Laravel support caching?](#what-is-the-difference-between-where-and-having) |
 |259| [How to enable maintenance mode in Laravel 5?](#what-is-the-difference-between-where-and-having) |
 |260| [What is Method Spoofing in Laravel?](#what-is-the-difference-between-where-and-having) |
-|261| [How to assign multiple middleware to Laravel route ?](#what-is-the-difference-between-where-and-having) |
 |262| [What was new in Laravel 4?](#what-is-the-difference-between-where-and-having) |
 |263| [What was new in Laravel 5?](#what-is-the-difference-between-where-and-having) |
 |264| [What was new in Laravel 6?](#what-is-the-difference-between-where-and-having) |
@@ -338,11 +335,8 @@
 |275| [What are Deferred Providers in laravel?](#what-is-the-difference-between-where-and-having) |
 |276| [What getFacadeAccessor method does?](#what-is-the-difference-between-where-and-having) |
 |277| [How to get current Url in Laravel?](#what-is-the-difference-between-where-and-having) |
-|278| [How to register a middleware in Laravel?](#what-is-the-difference-between-where-and-having) |
 |279| [What are Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
-
 |281| [What does a $$$ mean in PHP? ](#what-is-the-difference-between-where-and-having) |
-
 |300| [What is broadcasting in laravel?](#what-is-the-difference-between-where-and-having) |
 |301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
 
