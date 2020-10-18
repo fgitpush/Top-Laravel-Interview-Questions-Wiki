@@ -71,6 +71,8 @@
 |26 | [What are Advanced Eloquent and Query Builder?](#what-are-advanced-eloquent-and-query-builder) |
 |37 | [How to connect Laravel with other SQL databases?](#How-to-connect-Laravel-with-other-SQL-databases) |
 |38 | [How to connect Laravel with non-SQL databases?](#How-to-connect-Laravel-with-non-SQL-databases) |
+|128| [List out databases that laravel supports?](#List-out-databases-that-laravel-supports) |
+|129| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
 |   | **LOGGING** |
 |56 | [What is Query log?](#what-is-query-log) |
 |   | **MAIL** |
@@ -211,8 +213,6 @@
 |123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
 |124| [How to get Logged in user info in Laravel?](#How-to-get-Logged-in-user-info-in-Laravel) |
 |127| [How can you display HTML with Blade in Laravel?](#How-can-you-display-HTML-with-Blade-in-Laravel) |
-|128| [List out databases that laravel supports?](#List-out-databases-that-laravel-supports) |
-|129| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
 |132| [How do I log an error?](#How-do-I-log-an-error) |
 |133| [What is Monolog library in Laravel?](#What-is-Monolog-library-in-Laravel) |
 |134| [Exceptions are handled by which class in Laravel?](#Exceptions-are-handled-by-which-class-in-Laravel) |
