@@ -134,6 +134,8 @@
 |297| [What is Socialite?](#what-is-the-difference-between-where-and-having) |
 |298| [What is Telescope?](#what-is-the-difference-between-where-and-having) |
 |299| [What is Tinker?](#what-is-the-difference-between-where-and-having) |
+|249| [What is Laravel Elixir?](#what-is-the-difference-between-where-and-having) |
+|250| [What is Laravel Mix?](#what-is-the-difference-between-where-and-having) |
 |27 | [Which is Error management?](#which-is-error-management) |
 |28 | [How to create an API?](#how-to-create-an-api) |
 |31 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
@@ -309,8 +311,6 @@
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
 |245| [What is an Observer?](#what-is-the-difference-between-where-and-having) |
 |246| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
-|249| [What is Laravel Elixir?](#what-is-the-difference-between-where-and-having) |
-|250| [What is Laravel Mix?](#what-is-the-difference-between-where-and-having) |
 |252| [How do I perform dependency injection in Laravel?](#what-is-the-difference-between-where-and-having) |
 |253| [What is Serialization in Laravel?](#what-is-the-difference-between-where-and-having) |
 |254| [What are Response Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
