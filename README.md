@@ -15,11 +15,13 @@
 |174| [What is tinker in laravel?](#What-is-tinker-in-laravel) |
 |175| [What is a REPL?](#What-is-a-REPL) |
 |49 | [What is Composer?](#what-is-composer) |
+|65 | [List some artisan commands](#list-some-artisan-commands) |
 |   | **CACHING** |
 |22 | [What is Caching?](#what-is-caching) |
 |40 | [What is Redis?](#what-is-redis) |
 |41 | [What is Memcache?](#what-is-memcache) |
 |51 | [What is Route caching?](#what-is-route-caching) |
+|258| [Does Laravel support caching?](#what-is-the-difference-between-where-and-having) |
 |   | **COLLECTIONS** |
 |167| [What are lazy collections?](#What-are-lazy-collections) |
 |   | **DATABASE** |
@@ -155,7 +157,6 @@
 |62 | [What is Reverse routing?](#what-is-reverse-routing) | 
 |63 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
 |64 | [How to get the data from more than 3 table without using a join?](#how-to-get-the-data-from-more-than-3-table-without-using-a-join) |
-|65 | [List some artisan commands](#list-some-artisan-commands) |
 |67 | [What are Cookies?](#what-are-cookies) |
 |68 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
 |69 | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
@@ -314,7 +315,6 @@
 |255| [What is Rate Limiting OR Throttle in Laravel?](#what-is-the-difference-between-where-and-having) |
 |256| [What are Closures in Laravel?](#what-is-the-difference-between-where-and-having) |
 |257| [What does PHP compact function do?](#what-is-the-difference-between-where-and-having) |
-|258| [Does Laravel support caching?](#what-is-the-difference-between-where-and-having) |
 |259| [How to enable maintenance mode in Laravel 5?](#what-is-the-difference-between-where-and-having) |
 |260| [What is Method Spoofing in Laravel?](#what-is-the-difference-between-where-and-having) |
 |262| [What was new in Laravel 4?](#what-is-the-difference-between-where-and-having) |
