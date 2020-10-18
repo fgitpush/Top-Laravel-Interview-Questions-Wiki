@@ -95,6 +95,25 @@
 |   | **VIEWS** |
 |8  | [What are Views?](#what-are-views) |
 |   | **WEB SOCKETS** |
+|   | **ECOSYSTEM** |
+|282| [What is Vapor?](#what-is-the-difference-between-where-and-having) |
+|283| [What is Forge?](#what-is-the-difference-between-where-and-having) |
+|284| [What is Envoyer?](#what-is-the-difference-between-where-and-having) |
+|285| [What is Horizon?](#what-is-the-difference-between-where-and-having) |
+|286| [What is Nova?](#what-is-the-difference-between-where-and-having) |
+|287| [What is Echo?](#what-is-the-difference-between-where-and-having) |
+|288| [What is Lumen?](#what-is-the-difference-between-where-and-having) |
+|289| [What is Homestead?](#what-is-the-difference-between-where-and-having) |
+|290| [What is Spark?](#what-is-the-difference-between-where-and-having) |
+|291| [What is Valet?](#what-is-the-difference-between-where-and-having) |
+|292| [What is Mix?](#what-is-the-difference-between-where-and-having) |
+|293| [What is Cashier?](#what-is-the-difference-between-where-and-having) |
+|294| [What is Dusk?](#what-is-the-difference-between-where-and-having) |
+|295| [What is Passport?](#what-is-the-difference-between-where-and-having) |
+|296| [What is Scout?](#what-is-the-difference-between-where-and-having) |
+|297| [What is Socialite?](#what-is-the-difference-between-where-and-having) |
+|298| [What is Telescope?](#what-is-the-difference-between-where-and-having) |
+|299| [What is Tinker?](#what-is-the-difference-between-where-and-having) |
 |20 | [What is Authentication using Passport CSRF XSRF?](#What-is-Authentication-using-Passport-CSRF-XSRF) |
 |27 | [Which is Error management?](#which-is-error-management) |
 |28 | [How to create an API?](#how-to-create-an-api) |
@@ -316,24 +335,7 @@
 |279| [What are Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
 |280| [What does yield mean in PHP?](#what-is-the-difference-between-where-and-having) |
 |281| [What does a $$$ mean in PHP? ](#what-is-the-difference-between-where-and-having) |
-|282| [What is Vapor?](#what-is-the-difference-between-where-and-having) |
-|283| [What is Forge?](#what-is-the-difference-between-where-and-having) |
-|284| [What is Envoyer?](#what-is-the-difference-between-where-and-having) |
-|285| [What is Horizon?](#what-is-the-difference-between-where-and-having) |
-|286| [What is Nova?](#what-is-the-difference-between-where-and-having) |
-|287| [What is Echo?](#what-is-the-difference-between-where-and-having) |
-|288| [What is Lumen?](#what-is-the-difference-between-where-and-having) |
-|289| [What is Homestead?](#what-is-the-difference-between-where-and-having) |
-|290| [What is Spark?](#what-is-the-difference-between-where-and-having) |
-|291| [What is Valet?](#what-is-the-difference-between-where-and-having) |
-|292| [What is Mix?](#what-is-the-difference-between-where-and-having) |
-|293| [What is Cashier?](#what-is-the-difference-between-where-and-having) |
-|294| [What is Dusk?](#what-is-the-difference-between-where-and-having) |
-|295| [What is Passport?](#what-is-the-difference-between-where-and-having) |
-|296| [What is Scout?](#what-is-the-difference-between-where-and-having) |
-|297| [What is Socialite?](#what-is-the-difference-between-where-and-having) |
-|298| [What is Telescope?](#what-is-the-difference-between-where-and-having) |
-|299| [What is Tinker?](#what-is-the-difference-between-where-and-having) |
+
 |300| [What is broadcasting in laravel?](#what-is-the-difference-between-where-and-having) |
 |301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
 
