@@ -79,6 +79,12 @@
 |163| [What are Jobs and Middleware?](#What-are-Jobs-and-Middleware) |
 |   | **NOTIFICATION** |
 |   | **PHP** |
+|281| [What does a $$$ mean in PHP? ](#what-is-the-difference-between-where-and-having) |
+|257| [What does PHP compact function do?](#what-is-the-difference-between-where-and-having) |
+|229| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
+|216| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
+|104 | [What are some new features of PHP X?](#how-to-combine-multiple-inline-style-objects) |
+|87 | [What is Difference between PHP 5 and 4?](#What-is-Difference-between-PHP-5-and-4) |
 |   | **PACKAGE DEVELOPMENT** |
 |33 | [What is Package development?](#what-is-package-development) |
 |52 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
@@ -168,11 +174,9 @@
 |73 | [What is Abstract class?](#what-is-Abstract-class) |
 |80 | [How to create hooks in Laravel?](#How-to-create-hooks-in-Laravel) |
 |86 | [Explain an apps DB architecture ?](#Explain-an-apps-DB-architecture) |
-|87 | [What is Difference between PHP 5 and 4?](#What-is-Difference-between-PHP-5-and-4) |
 |88 | [What is the difference among various php versions?](#What-is-the-difference-among-various-php-versions) |
 |89 | [What is the difference among various mysql versions?](#What-is-the-difference-among-various-mysql-versions) |
 |90 | [What is the difference among various Laravel versions?](#What-is-the-difference-among-various-Laravel-versions) |
-|91 | [How to add AWS plugin in PHP?](#How-to-add-AWS-plugin-in-PHP) |
 |92 | [What are design patterns?](#What-are-design-patterns) |
 |93 | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
 |94 | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
@@ -184,7 +188,6 @@
 |101 | [What are Triggers?](#What-are-Triggers) |
 |102 | [What are Procedures](#What-are-Procedures) |
 |103 | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
-|104 | [What are some new features of PHP X?](#how-to-combine-multiple-inline-style-objects) |
 |106| [Merge 2 arrays with duplicate](#Merge-2-arrays-with-duplicate) |
 |107| [Find the count of vowel and consonants](#Find-the-count-of-vowel-and-consonants) |
 |108| [Explain AWS Services](#Explain-AWS-Services) |
@@ -284,7 +287,6 @@
 |213| [How to check current installed version of Laravel?](#How-to-check-current-installed-version-of-Laravel) |
 |214| [What does "composer dump-autoload" do?](#What-does-composer-dump-autoload-do) |
 |215| [What is Kept in vendor directory of Laravel?](#What-is-Kept-in-vendor-directory-of-Laravel) |
-|216| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
 |217| [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
 |218| [What are Laravel facades?](#What-are-Laravel-facades) |
 |219| [What directories that need to be writable laravel installation?](#What-directories-that-need-to-be-writable-laravel-installation?) |
@@ -294,7 +296,6 @@
 |224| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
 |225| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |228| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
-|229| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
 |231| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
 |232| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
 |233| [How will you register service provider?](#what-is-the-difference-between-where-and-having) |
@@ -316,7 +317,6 @@
 |254| [What are Response Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
 |255| [What is Rate Limiting OR Throttle in Laravel?](#what-is-the-difference-between-where-and-having) |
 |256| [What are Closures in Laravel?](#what-is-the-difference-between-where-and-having) |
-|257| [What does PHP compact function do?](#what-is-the-difference-between-where-and-having) |
 |259| [How to enable maintenance mode in Laravel 5?](#what-is-the-difference-between-where-and-having) |
 |260| [What is Method Spoofing in Laravel?](#what-is-the-difference-between-where-and-having) |
 |262| [What was new in Laravel 4?](#what-is-the-difference-between-where-and-having) |
@@ -335,7 +335,6 @@
 |276| [What getFacadeAccessor method does?](#what-is-the-difference-between-where-and-having) |
 |277| [How to get current Url in Laravel?](#what-is-the-difference-between-where-and-having) |
 |279| [What are Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
-|281| [What does a $$$ mean in PHP? ](#what-is-the-difference-between-where-and-having) |
 |301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
 
 
