@@ -69,6 +69,7 @@
 |37 | [How to connect Laravel with other SQL databases?](#How-to-connect-Laravel-with-other-SQL-databases) |
 |38 | [How to connect Laravel with non-SQL databases?](#How-to-connect-Laravel-with-non-SQL-databases) |
 |   | **LOGGING** |
+|56 | [What is Query log?](#what-is-query-log) |
 |   | **MAIL** |
 |23 | [How to setup Emails?](#how-to-setup-emails) |
 |   | **MIDDLEWARE** |
@@ -80,6 +81,7 @@
 |   | **PHP** |
 |   | **PACKAGE DEVELOPMENT** |
 |33 | [What is Package development?](#what-is-package-development) |
+|52 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
 |   | **QUEUES** |
 |24 | [What are Queues?](#what-are-queues) |
 |25 | [What are Jobs?](#what-are-jobs)
@@ -111,6 +113,8 @@
 |   | **VIEWS** |
 |8  | [What are Views?](#what-are-views) |
 |   | **WEB SOCKETS** |
+|300| [What is broadcasting in laravel?](#what-is-the-difference-between-where-and-having) |
+|267| [What is Pusher in Laravel?](#what-is-the-difference-between-where-and-having) |
 |   | **ECOSYSTEM** |
 |282| [What is Vapor?](#what-is-the-difference-between-where-and-having) |
 |283| [What is Forge?](#what-is-the-difference-between-where-and-having) |
@@ -144,11 +148,9 @@
 |47 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
 |48 | [What are Validations and custom validations?](#what-are-validators) |
 |50 | [What is Symfony?](#what-is-symfony) |
-|52 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
 |53 | [What are Named routes?](#what-are-named-routes) |
 |54 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
 |55 | [What are Laravel contracts?](#what-are-contracts) |
-|56 | [What is Query log?](#what-is-query-log) |
 |57 | [What are Laravel Traits?](#what-are-laravel-traits) |
 |58 | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
 |59 | [What are System requirements for Laravel?](#what-are-system-requirements-for-laravel) |
@@ -322,7 +324,6 @@
 |264| [What was new in Laravel 6?](#what-is-the-difference-between-where-and-having) |
 |265| [What was new in Laravel 7?](#what-is-the-difference-between-where-and-having) |
 |266| [What is new in Laravel 8?](#what-is-the-difference-between-where-and-having) |
-|267| [What is Pusher in Laravel?](#what-is-the-difference-between-where-and-having) |
 |268| [How to create constants in laravel?](#what-is-the-difference-between-where-and-having) |
 |269| [List different where Clauses available Laravel?](#what-is-the-difference-between-where-and-having) |
 |270| [What is Homebrew?](#what-is-the-difference-between-where-and-having) |
@@ -335,7 +336,6 @@
 |277| [How to get current Url in Laravel?](#what-is-the-difference-between-where-and-having) |
 |279| [What are Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
 |281| [What does a $$$ mean in PHP? ](#what-is-the-difference-between-where-and-having) |
-|300| [What is broadcasting in laravel?](#what-is-the-difference-between-where-and-having) |
 |301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
 
 
