@@ -13,6 +13,9 @@
 |19 | [What is Repository Pattern?](#what-is-repository-pattern) |
 |   | **ARTISAN CONSOLE** |
 |   | **CACHING** |
+|22 | [What is Caching?](#what-is-caching) |
+|40 | [What is Redis?](#what-is-redis) |
+|41 | [What is Memcache?](#what-is-memcache) |
 |   | **COLLECTIONS** |
 |   | **DATABASE** |
 |17 | [What is Query Builder?](#what-is-query-builder)
@@ -20,6 +23,8 @@
 |   | **ELOQUENT** |
 |16 | [What is Eloquent?](#what-is-eloquent) |
 |   | **EVENTS** |
+|29 | [What are Events?](#what-are-events) |
+|30 | [What are Listeners?](#what-are-listeners) |
 |   | **FILE STORAGE** |
 |   | **FRONT END** |
 |   | **CONTROLLERS** |
@@ -30,8 +35,11 @@
 |11  | [When are Migrations?](#what-are-migrations) |
 |12  | [What are Seeders?](#what-are-seeders) |
 |26 | [What are Advanced Eloquent and Query Builder?](#what-are-advanced-eloquent-and-query-builder) |
+|37 | [How to connect Laravel with other SQL databases?](#How-to-connect-Laravel-with-other-SQL-databases) |
+|38 | [How to connect Laravel with non-SQL databases?](#How-to-connect-Laravel-with-non-SQL-databases) |
 |   | **LOGGING** |
 |   | **MAIL** |
+|23 | [How to setup Emails?](#how-to-setup-emails) |
 |   | **MIDDLEWARE** |
 |14  | [What is Middleware?](#what-is-middleware) |
 |   | **NOTIFICATION** |
@@ -52,29 +60,27 @@
 |   | **SESSION** |
 |   | **TASK SCHEDULING** |
 |   | **TESTING** |
+|21 | [What is Unit testing?](#what-is-unit-testing) |
 |   | **URL GENERATION** |
 |   | **VALIDATION** |
 |   | **VIEWS** |
 |8  | [What are Views?](#what-are-views) |
 |   | **WEB SOCKETS** |
 |20 | [What is Authentication using Passport CSRF XSRF?](#What-is-Authentication-using-Passport-CSRF-XSRF) |
-|21 | [What is Unit testing?](#what-is-unit-testing) |
-|22 | [What is Caching?](#what-is-caching) |
-|23 | [How to setup Emails?](#how-to-setup-emails) |
+
+
+
 |27 | [Which is Error management?](#which-is-error-management) |
 |28 | [How to create an API?](#how-to-create-an-api) |
-|29 | [What are Events?](#what-are-events) |
-|30 | [What are Listeners?](#what-are-listeners) |
+
 |31 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
 |32 | [What is Test Driven Development?](#what-is-test-driven-development) |
 |34 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
 |35 | [What is Socialite and Auth?](#what-is-socialite-auth) |
 |36 | [What is Vue-js?](#what-is-vue-js) |
-|37 | [How to connect Laravel with other SQL databases?](#How-to-connect-Laravel-with-other-SQL-databases) |
-|38 | [How to connect Laravel with non-SQL databases?](#How-to-connect-Laravel-with-non-SQL-databases) |
+
 |39 | [What is Lumen?](#what-is-lumen) |
-|40 | [What is Redis?](#what-is-redis) |
-|41 | [What is Memcache?](#what-is-memcache) |
+
 |42 | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
 |43 | [What is Vertical scaling?](#What-is-Vertical-scaling) |
 |44 | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
