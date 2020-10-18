@@ -11,11 +11,13 @@
 |13  | [What are Service Providers?](#what-are-service-providers) |
 |18 | [What are Facades?](#what-are-facades) |
 |19 | [What is Repository Pattern?](#what-is-repository-pattern) |
+|50 | [What is Symfony?](#what-is-symfony) |
 |   | **ARTISAN CONSOLE** |
 |174| [What is tinker in laravel?](#What-is-tinker-in-laravel) |
 |175| [What is a REPL?](#What-is-a-REPL) |
 |49 | [What is Composer?](#what-is-composer) |
 |65 | [List some artisan commands](#list-some-artisan-commands) |
+|225| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |   | **CACHING** |
 |22 | [What is Caching?](#what-is-caching) |
 |40 | [What is Redis?](#what-is-redis) |
@@ -37,6 +39,7 @@
 |83 | [Write a join](#Write-a-join) |
 |84 | [Write a union](#Write-a-union) |
 |85 | [Write a complex query?](#Write-a-complex-query) |
+|235| [Name databases supported by Laravel](#what-is-the-difference-between-where-and-having) |
 |   | **ELOQUENT** |
 |16 | [What is Eloquent?](#what-is-eloquent) |
 |223| [Write CRUD in Laravel Eloquent?](#Write-CRUD-in-Laravel-Eloquent) |
@@ -142,6 +145,8 @@
 |299| [What is Tinker?](#what-is-the-difference-between-where-and-having) |
 |249| [What is Laravel Elixir?](#what-is-the-difference-between-where-and-having) |
 |250| [What is Laravel Mix?](#what-is-the-difference-between-where-and-having) |
+|125| [What is Laravel Elixir?](#What-is-Laravel--Elixir) |
+|126| [What is Laravel Mix?](#What-is-Laravel-Mix) |
 |27 | [Which is Error management?](#which-is-error-management) |
 |28 | [How to create an API?](#how-to-create-an-api) |
 |31 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
@@ -155,7 +160,6 @@
 |45 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
 |47 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
 |48 | [What are Validations and custom validations?](#what-are-validators) |
-|50 | [What is Symfony?](#what-is-symfony) |
 |53 | [What are Named routes?](#what-are-named-routes) |
 |54 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
 |55 | [What are Laravel contracts?](#what-are-contracts) |
@@ -206,8 +210,6 @@
 |122| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
 |123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
 |124| [How to get Logged in user info in Laravel?](#How-to-get-Logged-in-user-info-in-Laravel) |
-|125| [What is Laravel Elixir?](#What-is-Laravel--Elixir) |
-|126| [What is Laravel Mix?](#What-is-Laravel-Mix) |
 |127| [How can you display HTML with Blade in Laravel?](#How-can-you-display-HTML-with-Blade-in-Laravel) |
 |128| [List out databases that laravel supports?](#List-out-databases-that-laravel-supports) |
 |129| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
@@ -294,13 +296,11 @@
 |221| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
 |222| [What are service containers?](#What-are-service-containers) |
 |224| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
-|225| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |228| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
 |231| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
 |232| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
 |233| [How will you register service provider?](#what-is-the-difference-between-where-and-having) |
 |234| [How can you reduce memory usage in Laravel?](#what-is-the-difference-between-where-and-having) |
-|235| [Name databases supported by Laravel](#what-is-the-difference-between-where-and-having) |
 |236| [What are common HTTP error codes?](#what-is-the-difference-between-where-and-having) |
 |237| [What is the use of dd() function?](#what-is-the-difference-between-where-and-having) |
 |238| [How to configure a mail-in Laravel?](#what-is-the-difference-between-where-and-having) |
