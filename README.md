@@ -44,6 +44,7 @@
 |160| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert-and-insertGetId-in-laravel) |
 |161| [Talk about Laravel Vapor Compatibility](#Talk-about-Laravel-Vapor-Compatibility) |
 |162| [What is Semantic Versioning?](#What-is-Semantic-Versioning) |
+|181| [What is LTS version of Laravel?](#What-is-LTS-version-of-Laravel) |
 |   | **CONCEPTS** |
 |241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
@@ -308,7 +309,6 @@
 |195| [How to rollback last migration?](#How-to-rollback-last-migration) |
 |189| [How to check Ajax request in Laravel?](#How-to-check-Ajax-request-in-Laravel) |
 |190| [How to check if value is sent in request?](#How-to-check-if-value-is-sent-in-request) |
-|181| [What is LTS version of Laravel?](#What-is-LTS-version-of-Laravel) |
 |198| [What is namespace in Laravel?](#What-is-namespace-in-Laravel) |
 |200| [State the difference between CodeIgniter and Laravel.](#State-the-difference-between-CodeIgniter-and-Laravel) |
 |205| [Define hashing in Laravel](#Define-hashing-in-Laravel) |
