@@ -138,6 +138,11 @@
 |4  | [What is api php?](#what-is-api-php) |
 |5  | [What is channels php?](#what-is-channels-php) |
 |6  | [What is console-php?](#what-is-console-php) |
+|204| [Explain API.PHP route](#Explain-API.PHP-route) |
+|193| [How to exclude a route with parameters from CSRF verification?](#How-to-exclude-a-route-with-parameters-from-CSRF-verification) |
+|187| [How to get current route name?](#How-to-get-current-route-name) |
+|62 | [What is Reverse routing?](#what-is-reverse-routing) | 
+|53 | [What are Named routes?](#what-are-named-routes) |
 |   | **SECURITY** |
 |302| [How can we protect site from SQL Injections?](#what-is-the-difference-between-where-and-having) |
 |46 | [What is CSRF and JWT token?](#what-is-CSRF-and-JWT-token) |
@@ -218,12 +223,10 @@
 |45 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
 |47 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
 |48 | [What are Validations and custom validations?](#what-are-validators) |
-|53 | [What are Named routes?](#what-are-named-routes) |
 |54 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
 |55 | [What are Laravel contracts?](#what-are-contracts) |
 |60 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query-builder) |
 |61 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
-|62 | [What is Reverse routing?](#what-is-reverse-routing) | 
 |63 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
 |68 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
 |69 | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
@@ -296,17 +299,14 @@
 |184| [How to extend a layout file in laravel view?](#How-to-extend-a-layout-file-in-laravel-view) |
 |185| [How do you use yield()?](#How-do-you-use-yield()) |
 |186| [How to redirect form controller to view file in laravel?](#How-to-redirect-form-controller-to-view-file-in-laravel) |
-|187| [How to get current route name?](#How-to-get-current-route-name) |
 |188| [What is ACL in laravel?](#What-is-ACL-in-laravel) |
 |189| [How to check Ajax request in Laravel?](#How-to-check-Ajax-request-in-Laravel) |
 |190| [How to check if value is sent in request?](#How-to-check-if-value-is-sent-in-request) |
-|193| [How to exclude a route with parameters from CSRF verification?](#How-to-exclude-a-route-with-parameters-from-CSRF-verification) |
 |194| [What are policies classes?](#What-are-policies-classes) |
 |195| [How to rollback last migration?](#How-to-rollback-last-migration) |
 |198| [What is namespace in Laravel?](#What-is-namespace-in-Laravel) |
 |200| [State the difference between CodeIgniter and Laravel.](#State-the-difference-between-CodeIgniter-and-Laravel) |
 |202| [What is the use of the bootstrap directory?](#What-is-the-use-of-the-bootstrap-directory) |
-|204| [Explain API.PHP route](#Explain-API.PHP-route) |
 |205| [Define hashing in Laravel](#Define-hashing-in-Laravel) |
 |206| [What is Localization?](#What-is-Localization) |
 |207| [Explain the concept of encryption and decryption in Laravel.](#Explain-the-concept-of-encryption-and-decryption-in-Laravel) |
