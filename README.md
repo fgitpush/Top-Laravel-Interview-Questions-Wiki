@@ -25,6 +25,7 @@
 |57 | [What are Laravel Traits?](#what-are-laravel-traits) |
 |58 | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
 |222| [What are service containers?](#What-are-service-containers) |
+|246| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
 |   | **CONCEPTS** |
 |241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
@@ -125,6 +126,10 @@
 |111| [Explain include and require diffrence](#Explain-include-and-require-diffrence) |
 |67 | [What are Cookies?](#what-are-cookies) |
 |99 | [Explain CURL and SOAP?](#Explain-CURL-and-SOAP) |
+|93 | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
+|94 | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
+|95 | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
+|96 | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
 |   | **PACKAGE DEVELOPMENT** |
 |33 | [What is Package development?](#what-is-package-development) |
 |52 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
@@ -238,10 +243,6 @@
 |89 | [What is the difference among various mysql versions?](#What-is-the-difference-among-various-mysql-versions) |
 |90 | [What is the difference among various Laravel versions?](#What-is-the-difference-among-various-Laravel-versions) |
 |92 | [What are design patterns?](#What-are-design-patterns) |
-|93 | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
-|94 | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
-|95 | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
-|96 | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
 |97 | [What is MVC Framework?](#What-is-MVC-Framework) |
 |100 | [In MySql we use many types of engines which one is faster and why?](#In-MySql-we-use-many-types-of-engines-which-one-is-faster-and-why) |
 |103 | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
@@ -332,7 +333,6 @@
 |238| [How to configure a mail-in Laravel?](#what-is-the-difference-between-where-and-having) |
 |239| [Differentiate between delete() and softDeletes()?](#what-is-the-difference-between-where-and-having) |
 |240| [How will you check table is exists or in the database?](#what-is-the-difference-between-where-and-having) |
-|246| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
 |252| [How do I perform dependency injection in Laravel?](#what-is-the-difference-between-where-and-having) |
 |259| [How to enable maintenance mode in Laravel 5?](#what-is-the-difference-between-where-and-having) |
 |269| [List different where Clauses available Laravel?](#what-is-the-difference-between-where-and-having) |
