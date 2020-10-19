@@ -103,6 +103,9 @@
 |   | **FILE STORAGE** |
 |   | **FRONT END** |
 |280| [What does yield mean in PHP?](#what-is-the-difference-between-where-and-having) |
+|184| [How to extend a layout file in laravel view?](#How-to-extend-a-layout-file-in-laravel-view) |
+|185| [How do you use yield()?](#How-do-you-use-yield()) |
+|186| [How to redirect form controller to view file in laravel?](#How-to-redirect-form-controller-to-view-file-in-laravel) |
 |   | **CONTROLLERS** |
 |7  | [What is Controller?](#what-is-controller) |
 |   | **HELPER METHOD** |
@@ -129,6 +132,7 @@
 |231| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
 |232| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
 |179| [What is eager loading in Laravel?](#What-is-eager-loading-in-Laravel) |
+|114| [Which ORM are being used by laravel?](#Which-ORM-are-being-used-by-laravel) |
 |   | **LOGGING** |
 |56 | [What is Query log?](#what-is-query-log) |
 |132| [How do I log an error?](#How-do-I-log-an-error) |
@@ -256,9 +260,6 @@
 |209| [How to generate a request in Laravel?](#How-to-generate-a-request-in-Laravel) |
 |182| [How to use GROUP_CONCAT() with JOIN in Laravel?](#How-to-use-GROUP_CONCAT()-with-JOIN-in-Laravel) |
 |183| [How to extend login expire time in Auth?](#How-to-extend-login-expire-time-in-Auth) |
-|184| [How to extend a layout file in laravel view?](#How-to-extend-a-layout-file-in-laravel-view) |
-|185| [How do you use yield()?](#How-do-you-use-yield()) |
-|186| [How to redirect form controller to view file in laravel?](#How-to-redirect-form-controller-to-view-file-in-laravel) |
 |180| [How to generate application key in laravel?](#How-to-generate-application-key-in-laravel) |
 |178| [How to check column is exists or not in a table using Laravel?](#How-to-check-column-is-exists-or-not-in-a-tabl-using-Laravel) |
 |171| [How we can upload files in laravel?](#How-we-can-upload-files-in-laravel) |
@@ -296,7 +297,6 @@
 |107| [Find the count of vowel and consonants](#Find-the-count-of-vowel-and-consonants) |
 |108| [Explain AWS Services](#Explain-AWS-Services) |
 |112| [Directory structure of Laravel](#Directory-structure-of-Laravel) |
-|114| [Which ORM are being used by laravel?](#Which-ORM-are-being-used-by-laravel) |
 |117| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
 |119| [Explain Laravel framework Architecture](#Explain-Laravel-framework-Architecture) |
 |123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
