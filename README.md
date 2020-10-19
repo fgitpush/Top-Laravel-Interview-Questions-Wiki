@@ -46,6 +46,7 @@
 |41 | [What is Memcache?](#what-is-memcache) |
 |51 | [What is Route caching?](#what-is-route-caching) |
 |258| [Does Laravel support caching?](#what-is-the-difference-between-where-and-having) |
+|150| [How to clear cache in Laravel?](#How-to-clear-cache-in-Laravel) |
 |   | **COLLECTIONS** |
 |167| [What are lazy collections?](#What-are-lazy-collections) |
 |   | **DATABASE** |
@@ -266,7 +267,6 @@
 |140| [How to get current environment in Laravel?](#How-to-get-current-environment-in-Laravel) |
 |141| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
 |149| [What is the make Method?](#What-is-the-make-Method) |
-|150| [How to clear cache in Laravel?](#How-to-clear-cache-in-Laravel) |
 |151| [What is CSRF token?](#What-is-CSRF-token) |
 |153| [How will you explain homestead in Laravel?](#How-will-you-explain-homestead-in-Laravel) |
 |154| [How can we get the user's IP address in Laravel?](#How-can-we-get-the-user's-IP-address-in-Laravel) |
