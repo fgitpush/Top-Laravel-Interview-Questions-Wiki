@@ -32,6 +32,7 @@
 |237| [What is the use of dd() function?](#what-is-the-difference-between-where-and-having) |
 |214| [What does "composer dump-autoload" do?](#What-does-composer-dump-autoload-do) |
 |220| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
+|301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
 |   | **CONCEPTS** |
 |241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
@@ -320,7 +321,6 @@
 |275| [What are Deferred Providers in laravel?](#what-is-the-difference-between-where-and-having) |
 |276| [What getFacadeAccessor method does?](#what-is-the-difference-between-where-and-having) |
 |279| [What are Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
-|301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
 |   | **COMPOSER** |
 |49 | [What is Composer?](#what-is-composer) |
 |   | **What Is** |
