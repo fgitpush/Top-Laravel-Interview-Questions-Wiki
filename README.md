@@ -109,6 +109,13 @@
 |121| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
 |122| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
 |64 | [How to get the data from more than 3 table without using a join?](#how-to-get-the-data-from-more-than-3-table-without-using-a-join) |
+|159| [What are active records?](#What-are-active-records) |
+|170| [What are the difference between soft delete & delete in Laravel?](#What-are-the-difference-between-soft-delete-&-delete-in-Laravel) |
+|177| [Please write some additional where Clauses in Laravel?](#Please-write-some-additional-where-Clauses-in-Laravel) |
+|224| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
+|231| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
+|232| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
+|179| [What is eager loading in Laravel?](#What-is-eager-loading-in-Laravel) |
 |   | **LOGGING** |
 |56 | [What is Query log?](#what-is-query-log) |
 |132| [How do I log an error?](#How-do-I-log-an-error) |
@@ -289,15 +296,11 @@
 |149| [What is the make Method?](#What-is-the-make-Method) |
 |151| [What is CSRF token?](#What-is-CSRF-token) |
 |158| [What is faker in Laravel?](#What-is-faker-in-Laravel) |
-|159| [What are active records?](#What-are-active-records) |
 |160| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert-and-insertGetId-in-laravel) |
 |161| [Talk about Laravel Vapor Compatibility](#Talk-about-Laravel-Vapor-Compatibility) |
 |162| [What is Semantic Versioning?](#What-is-Semantic-Versioning) |
 |164| [Talk about Laravel User Interface (UI)](#talk-about-Laravel-User-Interface-(UI)) |
 |166| [What are improved Authorization Responses?](#What-are-improved-Authorization-Responses) |
-|170| [What are the difference between soft delete & delete in Laravel?](#What-are-the-difference-between-soft-delete-&-delete-in-Laravel) |
-|177| [Please write some additional where Clauses in Laravel?](#Please-write-some-additional-where-Clauses-in-Laravel) |
-|179| [What is eager loading in Laravel?](#What-is-eager-loading-in-Laravel) |
 |188| [What is ACL in laravel?](#What-is-ACL-in-laravel) |
 |194| [What are policies classes?](#What-are-policies-classes) |
 |195| [How to rollback last migration?](#How-to-rollback-last-migration) |
@@ -311,9 +314,6 @@
 |206| [What is Localization?](#What-is-Localization) |
 |207| [Explain the concept of encryption and decryption in Laravel.](#Explain-the-concept-of-encryption-and-decryption-in-Laravel) |
 |210| [I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?](#I-just-have-installed-a-fresh-version-of-Laravel-5-and-I-have-the-white-screen-of-death-What’s-wrong) |
-|224| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
-|231| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
-|232| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
 |236| [What are common HTTP error codes?](#what-is-the-difference-between-where-and-having) |
 |239| [Differentiate between delete() and softDeletes()?](#what-is-the-difference-between-where-and-having) |
 |269| [List different where Clauses available Laravel?](#what-is-the-difference-between-where-and-having) |
