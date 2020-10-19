@@ -35,6 +35,15 @@
 |301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
 |202| [What is the use of the bootstrap directory?](#What-is-the-use-of-the-bootstrap-directory) |
 |135| [What is Serialization in Laravel?](#What-is-Serialization-in-Laravel) |
+|158| [What is faker in Laravel?](#What-is-faker-in-Laravel) |
+|136| [What is Response in Laravel?](#What-is-Response-in-Laravel) |
+|137| [What is Response Macros in Laravel?](#What-is-Response-Macros-in-Laravel) |
+|138| [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
+|139| [What is Lazy vs Eager Loading in Laravel?](#What-is-Lazy-vs-Eager-Loading-in-Laravel) |
+|149| [What is the make Method?](#What-is-the-make-Method) |
+|160| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert-and-insertGetId-in-laravel) |
+|161| [Talk about Laravel Vapor Compatibility](#Talk-about-Laravel-Vapor-Compatibility) |
+|162| [What is Semantic Versioning?](#What-is-Semantic-Versioning) |
 |   | **CONCEPTS** |
 |241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
@@ -170,6 +179,7 @@
 |70 | [What are SQL Injections?](#What-are-SQL-Injections) |
 |81 | [What is csrf token and xss attack?](#What-is-csrf-token-and-xss-attack) |
 |20 | [What is Authentication using Passport CSRF XSRF?](#What-is-Authentication-using-Passport-CSRF-XSRF) |
+|151| [What is CSRF token?](#What-is-CSRF-token) |
 |   | **SESSION** |
 |66 | [What are Sessions?](#what-are-sessions) |
 |79 | [What is default session time?](#What-is-default-session-time)
@@ -291,17 +301,6 @@
 |123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
 |133| [What is Monolog library in Laravel?](#What-is-Monolog-library-in-Laravel) |
 |134| [Exceptions are handled by which class in Laravel?](#Exceptions-are-handled-by-which-class-in-Laravel) |
-
-|136| [What is Response in Laravel?](#What-is-Response-in-Laravel) |
-|137| [What is Response Macros in Laravel?](#What-is-Response-Macros-in-Laravel) |
-|138| [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
-|139| [What is Lazy vs Eager Loading in Laravel?](#What-is-Lazy-vs-Eager-Loading-in-Laravel) |
-|149| [What is the make Method?](#What-is-the-make-Method) |
-|151| [What is CSRF token?](#What-is-CSRF-token) |
-|158| [What is faker in Laravel?](#What-is-faker-in-Laravel) |
-|160| [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert-and-insertGetId-in-laravel) |
-|161| [Talk about Laravel Vapor Compatibility](#Talk-about-Laravel-Vapor-Compatibility) |
-|162| [What is Semantic Versioning?](#What-is-Semantic-Versioning) |
 |164| [Talk about Laravel User Interface (UI)](#talk-about-Laravel-User-Interface-(UI)) |
 |166| [What are improved Authorization Responses?](#What-are-improved-Authorization-Responses) |
 |188| [What is ACL in laravel?](#What-is-ACL-in-laravel) |
