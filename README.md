@@ -24,6 +24,7 @@
 |148| [Explain Extending Bindings?](#Explain-Extending-Bindings) |
 |57 | [What are Laravel Traits?](#what-are-laravel-traits) |
 |58 | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
+|222| [What are service containers?](#What-are-service-containers) |
 |   | **CONCEPTS** |
 |241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
@@ -321,7 +322,6 @@
 |219| [What directories that need to be writable laravel installation?](#What-directories-that-need-to-be-writable-laravel-installation?) |
 |220| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
 |221| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
-|222| [What are service containers?](#What-are-service-containers) |
 |224| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
 |231| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
 |232| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
