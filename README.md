@@ -108,6 +108,7 @@
 |132| [How do I log an error?](#How-do-I-log-an-error) |
 |   | **MAIL** |
 |23 | [How to setup Emails?](#how-to-setup-emails) |
+|238| [How to configure a mail-in Laravel?](#what-is-the-difference-between-where-and-having) |
 |   | **MIDDLEWARE** |
 |14  | [What is Middleware?](#what-is-middleware) |
 |278| [How to register a middleware in Laravel?](#what-is-the-difference-between-where-and-having) |
@@ -328,7 +329,6 @@
 |234| [How can you reduce memory usage in Laravel?](#what-is-the-difference-between-where-and-having) |
 |236| [What are common HTTP error codes?](#what-is-the-difference-between-where-and-having) |
 |237| [What is the use of dd() function?](#what-is-the-difference-between-where-and-having) |
-|238| [How to configure a mail-in Laravel?](#what-is-the-difference-between-where-and-having) |
 |239| [Differentiate between delete() and softDeletes()?](#what-is-the-difference-between-where-and-having) |
 |240| [How will you check table is exists or in the database?](#what-is-the-difference-between-where-and-having) |
 |252| [How do I perform dependency injection in Laravel?](#what-is-the-difference-between-where-and-having) |
