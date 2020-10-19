@@ -33,6 +33,8 @@
 |214| [What does "composer dump-autoload" do?](#What-does-composer-dump-autoload-do) |
 |220| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
 |301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
+|202| [What is the use of the bootstrap directory?](#What-is-the-use-of-the-bootstrap-directory) |
+|135| [What is Serialization in Laravel?](#What-is-Serialization-in-Laravel) |
 |   | **CONCEPTS** |
 |241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
@@ -289,7 +291,7 @@
 |123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
 |133| [What is Monolog library in Laravel?](#What-is-Monolog-library-in-Laravel) |
 |134| [Exceptions are handled by which class in Laravel?](#Exceptions-are-handled-by-which-class-in-Laravel) |
-|135| [What is Serialization in Laravel?](#What-is-Serialization-in-Laravel) |
+
 |136| [What is Response in Laravel?](#What-is-Response-in-Laravel) |
 |137| [What is Response Macros in Laravel?](#What-is-Response-Macros-in-Laravel) |
 |138| [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
@@ -310,7 +312,6 @@
 |181| [What is LTS version of Laravel?](#What-is-LTS-version-of-Laravel) |
 |198| [What is namespace in Laravel?](#What-is-namespace-in-Laravel) |
 |200| [State the difference between CodeIgniter and Laravel.](#State-the-difference-between-CodeIgniter-and-Laravel) |
-|202| [What is the use of the bootstrap directory?](#What-is-the-use-of-the-bootstrap-directory) |
 |205| [Define hashing in Laravel](#Define-hashing-in-Laravel) |
 |206| [What is Localization?](#What-is-Localization) |
 |207| [Explain the concept of encryption and decryption in Laravel.](#Explain-the-concept-of-encryption-and-decryption-in-Laravel) |
@@ -342,9 +343,10 @@
 |60 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query-builder) |
 |61 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
 |63 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
-|68 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
 |   | **Why** |
 |221| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
+|   | **Current Versions** |
+|68 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
 1. ### What is Routing?
 
   When a user enters a URL, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
