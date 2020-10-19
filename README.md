@@ -12,6 +12,17 @@
 |18 | [What are Facades?](#what-are-facades) |
 |19 | [What is Repository Pattern?](#what-is-repository-pattern) |
 |50 | [What is Symfony?](#what-is-symfony) |
+|101 | [What are Triggers?](#What-are-Triggers) |
+|102 | [What are Procedures](#What-are-Procedures) |
+|   | **CONCEPTS** |
+|241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
+|244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
+|253| [What is Serialization in Laravel?](#what-is-the-difference-between-where-and-having) |
+|254| [What are Response Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
+|255| [What is Rate Limiting OR Throttle in Laravel?](#what-is-the-difference-between-where-and-having) |
+|260| [What is Method Spoofing in Laravel?](#what-is-the-difference-between-where-and-having) |
+|256| [What are Closures in Laravel?](#what-is-the-difference-between-where-and-having) |
+|268| [How to create constants in laravel?](#what-is-the-difference-between-where-and-having) |
 |   | **ARTISAN CONSOLE** |
 |174| [What is tinker in laravel?](#What-is-tinker-in-laravel) |
 |175| [What is a REPL?](#What-is-a-REPL) |
@@ -40,6 +51,7 @@
 |84 | [Write a union](#Write-a-union) |
 |85 | [Write a complex query?](#Write-a-complex-query) |
 |235| [Name databases supported by Laravel](#what-is-the-difference-between-where-and-having) |
+|243| [Define Laravel guard](#what-is-the-difference-between-where-and-having) |
 |   | **ELOQUENT** |
 |16 | [What is Eloquent?](#what-is-eloquent) |
 |223| [Write CRUD in Laravel Eloquent?](#Write-CRUD-in-Laravel-Eloquent) |
@@ -74,6 +86,8 @@
 |38 | [How to connect Laravel with non-SQL databases?](#How-to-connect-Laravel-with-non-SQL-databases) |
 |128| [List out databases that laravel supports?](#List-out-databases-that-laravel-supports) |
 |129| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
+|121| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
+|122| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
 |   | **LOGGING** |
 |56 | [What is Query log?](#what-is-query-log) |
 |   | **MAIL** |
@@ -91,6 +105,10 @@
 |216| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
 |104 | [What are some new features of PHP X?](#how-to-combine-multiple-inline-style-objects) |
 |87 | [What is Difference between PHP 5 and 4?](#What-is-Difference-between-PHP-5-and-4) |
+|110| [Explain require and require once difference](#Explain-require-and-require-once-difference) |
+|111| [Explain include and require diffrence](#Explain-include-and-require-diffrence) |
+|67 | [What are Cookies?](#what-are-cookies) |
+|99 | [Explain CURL and SOAP?](#Explain-CURL-and-SOAP) |
 |   | **PACKAGE DEVELOPMENT** |
 |33 | [What is Package development?](#what-is-package-development) |
 |52 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
@@ -150,6 +168,19 @@
 |250| [What is Laravel Mix?](#what-is-the-difference-between-where-and-having) |
 |125| [What is Laravel Elixir?](#What-is-Laravel--Elixir) |
 |126| [What is Laravel Mix?](#What-is-Laravel-Mix) |
+|   | **SETUP** |
+|270| [What is Homebrew?](#what-is-the-difference-between-where-and-having) |
+|271| [What is Valet?](#what-is-the-difference-between-where-and-having) |
+|272| [What is Laravel Homestead?](#what-is-the-difference-between-where-and-having) |
+|273| [What is Docker?](#what-is-the-difference-between-where-and-having) |
+|274| [How to launch Vagrant Box?](#what-is-the-difference-between-where-and-having) |
+|   | **WHATS NEW?** |
+|262| [What was new in Laravel 4?](#what-is-the-difference-between-where-and-having) |
+|263| [What was new in Laravel 5?](#what-is-the-difference-between-where-and-having) |
+|264| [What was new in Laravel 6?](#what-is-the-difference-between-where-and-having) |
+|265| [What was new in Laravel 7?](#what-is-the-difference-between-where-and-having) |
+|266| [What is new in Laravel 8?](#what-is-the-difference-between-where-and-having) |
+|   | **OTHERS** |
 |27 | [Which is Error management?](#which-is-error-management) |
 |28 | [How to create an API?](#how-to-create-an-api) |
 |31 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
@@ -174,7 +205,6 @@
 |62 | [What is Reverse routing?](#what-is-reverse-routing) | 
 |63 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
 |64 | [How to get the data from more than 3 table without using a join?](#how-to-get-the-data-from-more-than-3-table-without-using-a-join) |
-|67 | [What are Cookies?](#what-are-cookies) |
 |68 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
 |69 | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
 |71 | [How to call static methods?](#How-to-call-static-methods) |
@@ -190,17 +220,12 @@
 |95 | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
 |96 | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
 |97 | [What is MVC Framework?](#What-is-MVC-Framework) |
-|99 | [Explain CURL and SOAP?](#Explain-CURL-and-SOAP) |
 |100 | [In MySql we use many types of engines which one is faster and why?](#In-MySql-we-use-many-types-of-engines-which-one-is-faster-and-why) |
-|101 | [What are Triggers?](#What-are-Triggers) |
-|102 | [What are Procedures](#What-are-Procedures) |
 |103 | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
 |106| [Merge 2 arrays with duplicate](#Merge-2-arrays-with-duplicate) |
 |107| [Find the count of vowel and consonants](#Find-the-count-of-vowel-and-consonants) |
 |108| [Explain AWS Services](#Explain-AWS-Services) |
 |109| [How to do Web scraping?](#How-to-do-Web-scraping) |
-|110| [Explain require and require once difference](#Explain-require-and-require-once-difference) |
-|111| [Explain include and require diffrence](#Explain-include-and-require-diffrence) |
 |112| [Directory structure of Laravel](#Directory-structure-of-Laravel) |
 |113| [How to install Laravel via composer?](#How-to-install-Laravel-via-composer) |
 |114| [Which ORM are being used by laravel?](#Which-ORM-are-being-used-by-laravel) |
@@ -208,8 +233,6 @@
 |117| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
 |118| [How do you register a Service Provider?](#How-do-you-register-a-Service-Provider) |
 |119| [Explain Laravel framework Architecture](#Explain-Laravel-framework-Architecture) |
-|121| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
-|122| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
 |123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
 |124| [How to get Logged in user info in Laravel?](#How-to-get-Logged-in-user-info-in-Laravel) |
 |127| [How can you display HTML with Blade in Laravel?](#How-can-you-display-HTML-with-Blade-in-Laravel) |
@@ -306,31 +329,12 @@
 |238| [How to configure a mail-in Laravel?](#what-is-the-difference-between-where-and-having) |
 |239| [Differentiate between delete() and softDeletes()?](#what-is-the-difference-between-where-and-having) |
 |240| [How will you check table is exists or in the database?](#what-is-the-difference-between-where-and-having) |
-|241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 |242| [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
-|243| [Define Laravel guard](#what-is-the-difference-between-where-and-having) |
-|244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
 |245| [What is an Observer?](#what-is-the-difference-between-where-and-having) |
 |246| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
 |252| [How do I perform dependency injection in Laravel?](#what-is-the-difference-between-where-and-having) |
-|253| [What is Serialization in Laravel?](#what-is-the-difference-between-where-and-having) |
-|254| [What are Response Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
-|255| [What is Rate Limiting OR Throttle in Laravel?](#what-is-the-difference-between-where-and-having) |
-|256| [What are Closures in Laravel?](#what-is-the-difference-between-where-and-having) |
 |259| [How to enable maintenance mode in Laravel 5?](#what-is-the-difference-between-where-and-having) |
-|260| [What is Method Spoofing in Laravel?](#what-is-the-difference-between-where-and-having) |
-|262| [What was new in Laravel 4?](#what-is-the-difference-between-where-and-having) |
-|263| [What was new in Laravel 5?](#what-is-the-difference-between-where-and-having) |
-|264| [What was new in Laravel 6?](#what-is-the-difference-between-where-and-having) |
-|265| [What was new in Laravel 7?](#what-is-the-difference-between-where-and-having) |
-|266| [What is new in Laravel 8?](#what-is-the-difference-between-where-and-having) |
-|268| [How to create constants in laravel?](#what-is-the-difference-between-where-and-having) |
 |269| [List different where Clauses available Laravel?](#what-is-the-difference-between-where-and-having) |
-|270| [What is Homebrew?](#what-is-the-difference-between-where-and-having) |
-|271| [What is Valet?](#what-is-the-difference-between-where-and-having) |
-|272| [What is Laravel Homestead?](#what-is-the-difference-between-where-and-having) |
-|273| [What is Docker?](#what-is-the-difference-between-where-and-having) |
-|274| [How to launch Vagrant Box?](#what-is-the-difference-between-where-and-having) |
 |275| [What are Deferred Providers in laravel?](#what-is-the-difference-between-where-and-having) |
 |276| [What getFacadeAccessor method does?](#what-is-the-difference-between-where-and-having) |
 |277| [How to get current Url in Laravel?](#what-is-the-difference-between-where-and-having) |
