@@ -38,9 +38,7 @@
 |   | **ARTISAN CONSOLE** |
 |174| [What is tinker in laravel?](#What-is-tinker-in-laravel) |
 |175| [What is a REPL?](#What-is-a-REPL) |
-|49 | [What is Composer?](#what-is-composer) |
 |65 | [List some artisan commands](#list-some-artisan-commands) |
-|225| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 |   | **CACHING** |
 |22 | [What is Caching?](#what-is-caching) |
 |40 | [What is Redis?](#what-is-redis) |
@@ -341,7 +339,9 @@
 |277| [How to get current Url in Laravel?](#what-is-the-difference-between-where-and-having) |
 |279| [What are Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
 |301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
-
+|   | **COMPOSER** |
+|49 | [What is Composer?](#what-is-composer) |
+|225| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
 
 1. ### What is Routing?
 
