@@ -105,6 +105,7 @@
 |64 | [How to get the data from more than 3 table without using a join?](#how-to-get-the-data-from-more-than-3-table-without-using-a-join) |
 |   | **LOGGING** |
 |56 | [What is Query log?](#what-is-query-log) |
+|132| [How do I log an error?](#How-do-I-log-an-error) |
 |   | **MAIL** |
 |23 | [How to setup Emails?](#how-to-setup-emails) |
 |   | **MIDDLEWARE** |
@@ -258,7 +259,6 @@
 |123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
 |124| [How to get Logged in user info in Laravel?](#How-to-get-Logged-in-user-info-in-Laravel) |
 |127| [How can you display HTML with Blade in Laravel?](#How-can-you-display-HTML-with-Blade-in-Laravel) |
-|132| [How do I log an error?](#How-do-I-log-an-error) |
 |133| [What is Monolog library in Laravel?](#What-is-Monolog-library-in-Laravel) |
 |134| [Exceptions are handled by which class in Laravel?](#Exceptions-are-handled-by-which-class-in-Laravel) |
 |135| [What is Serialization in Laravel?](#What-is-Serialization-in-Laravel) |
