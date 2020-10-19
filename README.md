@@ -14,6 +14,7 @@
 |50 | [What is Symfony?](#what-is-symfony) |
 |101 | [What are Triggers?](#What-are-Triggers) |
 |102 | [What are Procedures](#What-are-Procedures) |
+|242| [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
 |   | **CONCEPTS** |
 |241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
@@ -77,6 +78,7 @@
 |7  | [What is Controller?](#what-is-controller) |
 |   | **HELPER METHOD** |
 |120| [Helper Functions](#Helper-Functions) |
+|228| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
 |   | **DATABASE** |
 |9  | [What is a Model?](#what-is-a-model) |
 |11  | [When are Migrations?](#what-are-migrations) |
@@ -319,7 +321,6 @@
 |221| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
 |222| [What are service containers?](#What-are-service-containers) |
 |224| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
-|228| [How to create custom helper functions](#How-to-create-custom-helper-functions) |
 |231| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
 |232| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
 |233| [How will you register service provider?](#what-is-the-difference-between-where-and-having) |
@@ -329,7 +330,6 @@
 |238| [How to configure a mail-in Laravel?](#what-is-the-difference-between-where-and-having) |
 |239| [Differentiate between delete() and softDeletes()?](#what-is-the-difference-between-where-and-having) |
 |240| [How will you check table is exists or in the database?](#what-is-the-difference-between-where-and-having) |
-|242| [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
 |245| [What is an Observer?](#what-is-the-difference-between-where-and-having) |
 |246| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
 |252| [How do I perform dependency injection in Laravel?](#what-is-the-difference-between-where-and-having) |
