@@ -259,29 +259,12 @@
 |127| [How can you display HTML with Blade in Laravel?](#How-can-you-display-HTML-with-Blade-in-Laravel) |
 |259| [How to enable maintenance mode in Laravel 5?](#what-is-the-difference-between-where-and-having) |
 |225| [How to install laravel via composer?](#How-to-install-laravel-via-composer) |
-|   | **OTHERS** |
-|27 | [Which is Error management?](#which-is-error-management) |
 |28 | [How to create an API?](#how-to-create-an-api) |
-|31 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
-|34 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
-|35 | [What is Socialite and Auth?](#what-is-socialite-auth) |
-|36 | [What is Vue-js?](#what-is-vue-js) |
-|39 | [What is Lumen?](#what-is-lumen) |
-|42 | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
-|43 | [What is Vertical scaling?](#What-is-Vertical-scaling) |
-|44 | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
-|45 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
-|47 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
-|48 | [What are Validations and custom validations?](#what-are-validators) |
-|54 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
-|55 | [What are Laravel contracts?](#what-are-contracts) |
-|60 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query-builder) |
-|61 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
-|63 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
-|68 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
-|69 | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
 |71 | [How to call static methods?](#How-to-call-static-methods) |
-|73 | [What is Abstract class?](#what-is-Abstract-class) |
+|140| [How to get current environment in Laravel?](#How-to-get-current-environment-in-Laravel) |
+|141| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
+|   | **OTHERS** |
+|69 | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
 |86 | [Explain an apps DB architecture ?](#Explain-an-apps-DB-architecture) |
 |88 | [What is the difference among various php versions?](#What-is-the-difference-among-various-php-versions) |
 |89 | [What is the difference among various mysql versions?](#What-is-the-difference-among-various-mysql-versions) |
@@ -303,8 +286,6 @@
 |137| [What is Response Macros in Laravel?](#What-is-Response-Macros-in-Laravel) |
 |138| [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
 |139| [What is Lazy vs Eager Loading in Laravel?](#What-is-Lazy-vs-Eager-Loading-in-Laravel) |
-|140| [How to get current environment in Laravel?](#How-to-get-current-environment-in-Laravel) |
-|141| [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
 |149| [What is the make Method?](#What-is-the-make-Method) |
 |151| [What is CSRF token?](#What-is-CSRF-token) |
 |158| [What is faker in Laravel?](#What-is-faker-in-Laravel) |
@@ -329,9 +310,7 @@
 |205| [Define hashing in Laravel](#Define-hashing-in-Laravel) |
 |206| [What is Localization?](#What-is-Localization) |
 |207| [Explain the concept of encryption and decryption in Laravel.](#Explain-the-concept-of-encryption-and-decryption-in-Laravel) |
-
 |210| [I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?](#I-just-have-installed-a-fresh-version-of-Laravel-5-and-I-have-the-white-screen-of-death-What’s-wrong) |
-|221| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
 |224| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
 |231| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
 |232| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
@@ -344,8 +323,28 @@
 |301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
 |   | **COMPOSER** |
 |49 | [What is Composer?](#what-is-composer) |
-
-
+|   | **What Is** |
+|73 | [What is Abstract class?](#what-is-Abstract-class) |
+|27 | [Which is Error management?](#which-is-error-management) |
+|31 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
+|34 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
+|35 | [What is Socialite and Auth?](#what-is-socialite-auth) |
+|36 | [What is Vue-js?](#what-is-vue-js) |
+|39 | [What is Lumen?](#what-is-lumen) |
+|42 | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
+|43 | [What is Vertical scaling?](#What-is-Vertical-scaling) |
+|44 | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
+|45 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
+|47 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
+|48 | [What are Validations and custom validations?](#what-are-validators) |
+|54 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
+|55 | [What are Laravel contracts?](#what-are-contracts) |
+|60 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query-builder) |
+|61 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
+|63 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
+|68 | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
+|   | **Why** |
+|221| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
 1. ### What is Routing?
 
   When a user enters a URL, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
