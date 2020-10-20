@@ -163,6 +163,8 @@
 |94 | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
 |95 | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
 |96 | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
+|106| [Merge 2 arrays with duplicate](#Merge-2-arrays-with-duplicate) |
+|107| [Find the count of vowel and consonants](#Find-the-count-of-vowel-and-consonants) |
 |   | **PACKAGE DEVELOPMENT** |
 |33 | [What is Package development?](#what-is-package-development) |
 |52 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
@@ -298,8 +300,6 @@
 |90 | [What is the difference among various Laravel versions?](#What-is-the-difference-among-various-Laravel-versions) |
 |100 | [In MySql we use many types of engines which one is faster and why?](#In-MySql-we-use-many-types-of-engines-which-one-is-faster-and-why) |
 |103 | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
-|106| [Merge 2 arrays with duplicate](#Merge-2-arrays-with-duplicate) |
-|107| [Find the count of vowel and consonants](#Find-the-count-of-vowel-and-consonants) |
 |108| [Explain AWS Services](#Explain-AWS-Services) |
 |112| [Directory structure of Laravel](#Directory-structure-of-Laravel) |
 |117| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
