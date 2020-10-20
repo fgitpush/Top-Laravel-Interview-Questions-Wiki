@@ -130,75 +130,75 @@
 | | [How to connect Laravel with non-SQL databases?](#How-to-connect-Laravel-with-non-SQL-databases) |
 || [List out databases that laravel supports?](#List-out-databases-that-laravel-supports) |
 || [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
-|121| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
-|122| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
-|64 | [How to get the data from more than 3 table without using a join?](#how-to-get-the-data-from-more-than-3-table-without-using-a-join) |
-|159| [What are active records?](#What-are-active-records) |
-|170| [What are the difference between soft delete & delete in Laravel?](#What-are-the-difference-between-soft-delete-&-delete-in-Laravel) |
-|177| [Please write some additional where Clauses in Laravel?](#Please-write-some-additional-where-Clauses-in-Laravel) |
-|224| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
-|231| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
-|232| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
-|179| [What is eager loading in Laravel?](#What-is-eager-loading-in-Laravel) |
-|114| [Which ORM are being used by laravel?](#Which-ORM-are-being-used-by-laravel) |
+|| [What is Fillable Attribute in a Laravel Model?](#What-is-Fillable-Attribute-in-a-Laravel-Model) |
+|| [What is Guarded Attribute in a Laravel Model?](#What-is-Guarded-Attribute-in-a-Laravel-Model) |
+| | [How to get the data from more than 3 table without using a join?](#how-to-get-the-data-from-more-than-3-table-without-using-a-join) |
+|| [What are active records?](#What-are-active-records) |
+|| [What are the difference between soft delete & delete in Laravel?](#What-are-the-difference-between-soft-delete-&-delete-in-Laravel) |
+|| [Please write some additional where Clauses in Laravel?](#Please-write-some-additional-where-Clauses-in-Laravel) |
+|| [Write CRUD in Laravel Query Builder?](#Write-CRUD-in-Laravel-Query-Builder) |
+|| [What is the difference between where and having?](#what-is-the-difference-between-where-and-having) |
+|| [Name aggregates methods of query builder](#what-is-the-difference-between-where-and-having) |
+|| [What is eager loading in Laravel?](#What-is-eager-loading-in-Laravel) |
+|| [Which ORM are being used by laravel?](#Which-ORM-are-being-used-by-laravel) |
 |   | **LOGGING** |
-|56 | [What is Query log?](#what-is-query-log) |
-|132| [How do I log an error?](#How-do-I-log-an-error) |
+| | [What is Query log?](#what-is-query-log) |
+|| [How do I log an error?](#How-do-I-log-an-error) |
 |   | **MAIL** |
-|23 | [How to setup Emails?](#how-to-setup-emails) |
-|238| [How to configure a mail-in Laravel?](#what-is-the-difference-between-where-and-having) |
+| | [How to setup Emails?](#how-to-setup-emails) |
+|| [How to configure a mail-in Laravel?](#what-is-the-difference-between-where-and-having) |
 |   | **MIDDLEWARE** |
-|14  | [What is Middleware?](#what-is-middleware) |
-|278| [How to register a middleware in Laravel?](#what-is-the-difference-between-where-and-having) |
-|261| [How to assign multiple middleware to Laravel route ?](#what-is-the-difference-between-where-and-having) |
-|163| [What are Jobs and Middleware?](#What-are-Jobs-and-Middleware) |
+|  | [What is Middleware?](#what-is-middleware) |
+|| [How to register a middleware in Laravel?](#what-is-the-difference-between-where-and-having) |
+|| [How to assign multiple middleware to Laravel route ?](#what-is-the-difference-between-where-and-having) |
+|| [What are Jobs and Middleware?](#What-are-Jobs-and-Middleware) |
 |   | **NOTIFICATION** |
 |   | **PHP** |
-|281| [What does a $$$ mean in PHP? ](#what-is-the-difference-between-where-and-having) |
-|257| [What does PHP compact function do?](#what-is-the-difference-between-where-and-having) |
-|229| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
-|216| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
-|104 | [What are some new features of PHP X?](#how-to-combine-multiple-inline-style-objects) |
-|87 | [What is Difference between PHP 5 and 4?](#What-is-Difference-between-PHP-5-and-4) |
-|110| [Explain require and require once difference](#Explain-require-and-require-once-difference) |
-|111| [Explain include and require diffrence](#Explain-include-and-require-diffrence) |
-|67 | [What are Cookies?](#what-are-cookies) |
-|99 | [Explain CURL and SOAP?](#Explain-CURL-and-SOAP) |
-|93 | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
-|94 | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
-|95 | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
-|96 | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
-|106| [Merge 2 arrays with duplicate](#Merge-2-arrays-with-duplicate) |
-|107| [Find the count of vowel and consonants](#Find-the-count-of-vowel-and-consonants) |
-|73 | [What is Abstract class?](#what-is-Abstract-class) |
+|| [What does a $$$ mean in PHP? ](#what-is-the-difference-between-where-and-having) |
+|| [What does PHP compact function do?](#what-is-the-difference-between-where-and-having) |
+|| [How to check installed extensions in CLI and web for PHP?](#How-to-check-installed-extensions-in-CLI-and-web-for-PHP) |
+|| [What does PHP compact function do?](#What-does-PHP-compact-function-do) |
+| | [What are some new features of PHP X?](#how-to-combine-multiple-inline-style-objects) |
+| | [What is Difference between PHP 5 and 4?](#What-is-Difference-between-PHP-5-and-4) |
+|| [Explain require and require once difference](#Explain-require-and-require-once-difference) |
+|| [Explain include and require diffrence](#Explain-include-and-require-diffrence) |
+| | [What are Cookies?](#what-are-cookies) |
+| | [Explain CURL and SOAP?](#Explain-CURL-and-SOAP) |
+| | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
+| | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
+| | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
+| | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
+|| [Merge 2 arrays with duplicate](#Merge-2-arrays-with-duplicate) |
+|| [Find the count of vowel and consonants](#Find-the-count-of-vowel-and-consonants) |
+| | [What is Abstract class?](#what-is-Abstract-class) |
 |   | **PACKAGE DEVELOPMENT** |
-|33 | [What is Package development?](#what-is-package-development) |
-|52 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
+| | [What is Package development?](#what-is-package-development) |
+| | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
 |   | **QUEUES** |
-|24 | [What are Queues?](#what-are-queues) |
-|25 | [What are Jobs?](#what-are-jobs)
+| | [What are Queues?](#what-are-queues) |
+| | [What are Jobs?](#what-are-jobs)
 |   | **ROUTING** |
-|1  | [What is Routing?](#what-is-routing) |
-|2  | [How many types of routes are there?](#how-many-types-of-routes-are-there) |
-|3  | [What is web php?](#what-is-web-php) |
-|4  | [What is api php?](#what-is-api-php) |
-|5  | [What is channels php?](#what-is-channels-php) |
-|6  | [What is console-php?](#what-is-console-php) |
-|204| [Explain API.PHP route](#Explain-API.PHP-route) |
-|193| [How to exclude a route with parameters from CSRF verification?](#How-to-exclude-a-route-with-parameters-from-CSRF-verification) |
-|187| [How to get current route name?](#How-to-get-current-route-name) |
-|62 | [What is Reverse routing?](#what-is-reverse-routing) | 
-|53 | [What are Named routes?](#what-are-named-routes) |
+|  | [What is Routing?](#what-is-routing) |
+|  | [How many types of routes are there?](#how-many-types-of-routes-are-there) |
+|  | [What is web php?](#what-is-web-php) |
+|  | [What is api php?](#what-is-api-php) |
+|  | [What is channels php?](#what-is-channels-php) |
+|  | [What is console-php?](#what-is-console-php) |
+|| [Explain API.PHP route](#Explain-API.PHP-route) |
+|| [How to exclude a route with parameters from CSRF verification?](#How-to-exclude-a-route-with-parameters-from-CSRF-verification) |
+|| [How to get current route name?](#How-to-get-current-route-name) |
+| | [What is Reverse routing?](#what-is-reverse-routing) | 
+| | [What are Named routes?](#what-are-named-routes) |
 |   | **SECURITY** |
-|302| [How can we protect site from SQL Injections?](#what-is-the-difference-between-where-and-having) |
-|46 | [What is CSRF and JWT token?](#what-is-CSRF-and-JWT-token) |
-|70 | [What are SQL Injections?](#What-are-SQL-Injections) |
-|81 | [What is csrf token and xss attack?](#What-is-csrf-token-and-xss-attack) |
-|20 | [What is Authentication using Passport CSRF XSRF?](#What-is-Authentication-using-Passport-CSRF-XSRF) |
-|151| [What is CSRF token?](#What-is-CSRF-token) |
+|| [How can we protect site from SQL Injections?](#what-is-the-difference-between-where-and-having) |
+| | [What is CSRF and JWT token?](#what-is-CSRF-and-JWT-token) |
+| | [What are SQL Injections?](#What-are-SQL-Injections) |
+| | [What is csrf token and xss attack?](#What-is-csrf-token-and-xss-attack) |
+| | [What is Authentication using Passport CSRF XSRF?](#What-is-Authentication-using-Passport-CSRF-XSRF) |
+|| [What is CSRF token?](#What-is-CSRF-token) |
 |   | **SESSION** |
-|66 | [What are Sessions?](#what-are-sessions) |
-|79 | [What is default session time?](#What-is-default-session-time)
+| | [What are Sessions?](#what-are-sessions) |
+| | [What is default session time?](#What-is-default-session-time)
 |105| [Explain Difference between session and cookies?](#Explain-Difference-between-session-and-cookies)
 |203| [What is the default session timeout duration?](#What-is-the-default-session-timeout-duration) |
 |   | **TASK SCHEDULING** |
