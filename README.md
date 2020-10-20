@@ -47,6 +47,7 @@
 |181| [What is LTS version of Laravel?](#What-is-LTS-version-of-Laravel) |
 |39 | [What is Lumen?](#what-is-lumen) |
 |55 | [What are Laravel contracts?](#what-are-contracts) |
+|112| [Directory structure of Laravel](#Directory-structure-of-Laravel) |
 |   | **CONCEPTS** |
 |241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
@@ -301,7 +302,6 @@
 |100 | [In MySql we use many types of engines which one is faster and why?](#In-MySql-we-use-many-types-of-engines-which-one-is-faster-and-why) |
 |103 | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
 |108| [Explain AWS Services](#Explain-AWS-Services) |
-|112| [Directory structure of Laravel](#Directory-structure-of-Laravel) |
 |117| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
 |119| [Explain Laravel framework Architecture](#Explain-Laravel-framework-Architecture) |
 |123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
