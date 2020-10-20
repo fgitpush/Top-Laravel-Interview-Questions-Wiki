@@ -259,6 +259,7 @@
 |92 | [What are design patterns?](#What-are-design-patterns) |
 |97 | [What is MVC Framework?](#What-is-MVC-Framework) |
 |54 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
+|61 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
 |   | **How To** |
 |277| [How to get current Url in Laravel?](#what-is-the-difference-between-where-and-having) |
 |240| [How will you check table is exists or in the database?](#what-is-the-difference-between-where-and-having) |
@@ -340,7 +341,6 @@
 |44 | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
 |45 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
 |47 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
-|61 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
 |63 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
 |   | **Why** |
 |221| [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
