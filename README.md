@@ -7,7 +7,22 @@
 | No. | Questions |
 | --- | --------- |
 |   | **ARCHITECTURE** |
-|   | ######Request Lifecycle |
+|   | Request Lifecycle |
+|   | Service Container Binding and Resolution |
+|   | Service Providers |
+|   | Facades |
+|   | HTTP Verbs |
+|   | **Artisan Console** |
+|   | Generating Commands |
+|   | Command I/O |
+|   | Registering Commands |
+|   | Executing Commands |
+|   | **Caching** |
+|   | Drivers / Configuration |
+|   | Storing Items |
+|   | Retrieving Items |
+|   | Cache Tags |
+|   | Creating Custom Drivers |
 |  | [What is Request-Response?](#what-is-request-response) |
 |  | [What are Service Providers?](#what-are-service-providers) |
 | | [What are Facades?](#what-are-facades) |
