@@ -299,24 +299,21 @@
 || [How to get current environment in Laravel?](#How-to-get-current-environment-in-Laravel) |
 || [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
 || [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
+|| [How to rollback last migration?](#How-to-rollback-last-migration) |
+|| [How to check Ajax request in Laravel?](#How-to-check-Ajax-request-in-Laravel) |
+|| [How to check if value is sent in request?](#How-to-check-if-value-is-sent-in-request) |
 |   | **OTHERS** |
-| | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
-|| [Explain an apps DB architecture ?](#Explain-an-apps-DB-architecture) |
 | | [What is the difference among various php versions?](#What-is-the-difference-among-various-php-versions) |
 | | [What is the difference among various mysql versions?](#What-is-the-difference-among-various-mysql-versions) |
 | | [What is the difference among various Laravel versions?](#What-is-the-difference-among-various-Laravel-versions) |
 | | [In MySql we use many types of engines which one is faster and why?](#In-MySql-we-use-many-types-of-engines-which-one-is-faster-and-why) |
 | | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
-|| [Explain AWS Services](#Explain-AWS-Services) |
 || [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
 || [Exceptions are handled by which class in Laravel?](#Exceptions-are-handled-by-which-class-in-Laravel) |
 || [Talk about Laravel User Interface (UI)](#talk-about-Laravel-User-Interface-(UI)) |
 || [What are improved Authorization Responses?](#What-are-improved-Authorization-Responses) |
 || [What is ACL in laravel?](#What-is-ACL-in-laravel) |
 || [What are policies classes?](#What-are-policies-classes) |
-|| [How to rollback last migration?](#How-to-rollback-last-migration) |
-|| [How to check Ajax request in Laravel?](#How-to-check-Ajax-request-in-Laravel) |
-|| [How to check if value is sent in request?](#How-to-check-if-value-is-sent-in-request) |
 || [What is namespace in Laravel?](#What-is-namespace-in-Laravel) |
 || [State the difference between CodeIgniter and Laravel.](#State-the-difference-between-CodeIgniter-and-Laravel) |
 || [Define hashing in Laravel](#Define-hashing-in-Laravel) |
@@ -348,6 +345,10 @@
 |   | **Current Versions** |
 | | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
 1. ### What is Routing?
+|   | **General Questions** |
+| | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
+|| [Explain an apps DB architecture ?](#Explain-an-apps-DB-architecture) |
+|| [Explain AWS Services](#Explain-AWS-Services) |
 
   When a user enters a URL, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
 
