@@ -166,6 +166,7 @@
 |96 | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
 |106| [Merge 2 arrays with duplicate](#Merge-2-arrays-with-duplicate) |
 |107| [Find the count of vowel and consonants](#Find-the-count-of-vowel-and-consonants) |
+|73 | [What is Abstract class?](#what-is-Abstract-class) |
 |   | **PACKAGE DEVELOPMENT** |
 |33 | [What is Package development?](#what-is-package-development) |
 |52 | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
@@ -329,7 +330,6 @@
 |   | **COMPOSER** |
 |49 | [What is Composer?](#what-is-composer) |
 |   | **What Is** |
-|73 | [What is Abstract class?](#what-is-Abstract-class) |
 |27 | [Which is Error management?](#which-is-error-management) |
 |31 | [What are Payments and cashier?](#what-are-payments-and-cashier) |
 |34 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
