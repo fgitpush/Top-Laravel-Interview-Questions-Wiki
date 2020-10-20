@@ -23,6 +23,23 @@
 |   | Retrieving Items |
 |   | Cache Tags |
 |   | Creating Custom Drivers |
+|   | **Collections** |
+|   | Creating / Extending Collections |
+|   | Collection Methods |
+|   | Higher-order Messages |
+|   | **Controllers** |
+|   | Defining Controllers |
+|   | Controller Namespacing |
+|   | Single Action Controllers |
+|   | Middleware |
+|   | Resource Controllers |
+|   | Dependency Injection |
+|   | Route Caching |
+|   | **Database** |
+|   | Query Builder |
+|   | Pagination |
+|   | Migrations |
+|   | Seeding |
 |  | [What is Request-Response?](#what-is-request-response) |
 |  | [What are Service Providers?](#what-are-service-providers) |
 | | [What are Facades?](#what-are-facades) |
