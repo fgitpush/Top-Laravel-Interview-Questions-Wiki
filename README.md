@@ -172,7 +172,6 @@
 | | [What is Abstract class?](#what-is-Abstract-class) |
 |   | **PACKAGE DEVELOPMENT** |
 | | [What is Package development?](#what-is-package-development) |
-| | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
 |   | **QUEUES** |
 | | [What are Queues?](#what-are-queues) |
 | | [What are Jobs?](#what-are-jobs)
@@ -312,7 +311,6 @@
 || [Exceptions are handled by which class in Laravel?](#Exceptions-are-handled-by-which-class-in-Laravel) |
 || [Talk about Laravel User Interface (UI)](#talk-about-Laravel-User-Interface-(UI)) |
 || [What are improved Authorization Responses?](#What-are-improved-Authorization-Responses) |
-|| [What is ACL in laravel?](#What-is-ACL-in-laravel) |
 || [What are policies classes?](#What-are-policies-classes) |
 || [What is namespace in Laravel?](#What-is-namespace-in-Laravel) |
 || [State the difference between CodeIgniter and Laravel.](#State-the-difference-between-CodeIgniter-and-Laravel) |
@@ -328,18 +326,18 @@
 || [What are Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
 |   | **COMPOSER** |
 | | [What is Composer?](#what-is-composer) |
+|   | **Packages** |
+| | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
+| | [What are Default packages: Cashier,Envoy,Passport,Scout,Socialite,Horizon?](#default-packages) |
+|| [What is ACL in laravel?](#What-is-ACL-in-laravel) |
 |   | **What Is** |
 | | [Which is Error management?](#which-is-error-management) |
 || [What are Payments and cashier?](#what-are-payments-and-cashier) |
 | | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
 | | [What is Socialite and Auth?](#what-is-socialite-auth) |
-| | [What is Vue-js?](#what-is-vue-js) |
-| | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
-| | [What is Vertical scaling?](#What-is-Vertical-scaling) |
 | | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
 | | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
 | | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
-| | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
 |   | **Why** |
 || [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
 |   | **Current Versions** |
@@ -349,6 +347,9 @@
 | | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
 || [Explain an apps DB architecture ?](#Explain-an-apps-DB-architecture) |
 || [Explain AWS Services](#Explain-AWS-Services) |
+| | [What is Vue-js?](#what-is-vue-js) |
+| | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
+| | [What is Vertical scaling?](#What-is-Vertical-scaling) |
 
   When a user enters a URL, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
 
