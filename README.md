@@ -60,6 +60,7 @@
 |256| [What are Closures in Laravel?](#what-is-the-difference-between-where-and-having) |
 |123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
 |268| [How to create constants in laravel?](#what-is-the-difference-between-where-and-having) |
+|68 | [What are factories?](#what-are-factories) |
 |   | **ARTISAN CONSOLE** |
 |174| [What is tinker in laravel?](#What-is-tinker-in-laravel) |
 |175| [What is a REPL?](#What-is-a-REPL) |
