@@ -48,6 +48,8 @@
 |39 | [What is Lumen?](#what-is-lumen) |
 |55 | [What are Laravel contracts?](#what-are-contracts) |
 |112| [Directory structure of Laravel](#Directory-structure-of-Laravel) |
+|119| [Explain Laravel framework Architecture](#Explain-Laravel-framework-Architecture) |
+|133| [What is Monolog library in Laravel?](#What-is-Monolog-library-in-Laravel) |
 |   | **CONCEPTS** |
 |241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
@@ -56,6 +58,7 @@
 |255| [What is Rate Limiting OR Throttle in Laravel?](#what-is-the-difference-between-where-and-having) |
 |260| [What is Method Spoofing in Laravel?](#what-is-the-difference-between-where-and-having) |
 |256| [What are Closures in Laravel?](#what-is-the-difference-between-where-and-having) |
+|123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
 |268| [How to create constants in laravel?](#what-is-the-difference-between-where-and-having) |
 |   | **ARTISAN CONSOLE** |
 |174| [What is tinker in laravel?](#What-is-tinker-in-laravel) |
@@ -304,9 +307,6 @@
 |103 | [What are some new feaatures of Laravel X?](#What-are-some-new-feaatures-of-Laravel-X) |
 |108| [Explain AWS Services](#Explain-AWS-Services) |
 |117| [What is the purpose of using dd() function in laravel?](#What-is-the-purpose-of-using-dd()-function-in-laravel) |
-|119| [Explain Laravel framework Architecture](#Explain-Laravel-framework-Architecture) |
-|123| [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
-|133| [What is Monolog library in Laravel?](#What-is-Monolog-library-in-Laravel) |
 |134| [Exceptions are handled by which class in Laravel?](#Exceptions-are-handled-by-which-class-in-Laravel) |
 |164| [Talk about Laravel User Interface (UI)](#talk-about-Laravel-User-Interface-(UI)) |
 |166| [What are improved Authorization Responses?](#What-are-improved-Authorization-Responses) |
