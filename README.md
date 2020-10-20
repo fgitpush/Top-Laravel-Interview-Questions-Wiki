@@ -342,7 +342,6 @@
 || [Why prefer Laravel over other frameworks?](#Why-prefer-Laravel-over-other-frameworks) |
 |   | **Current Versions** |
 | | [What is Current version of PHP, MySQL, Laravel, MongoDB etc?](#what-is-current-version-of-PHP-MySQL-Laravel-MongoDB-etc) |
-1. ### What is Routing?
 |   | **General Questions** |
 | | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
 || [Explain an apps DB architecture ?](#Explain-an-apps-DB-architecture) |
@@ -351,6 +350,7 @@
 | | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
 | | [What is Vertical scaling?](#What-is-Vertical-scaling) |
 
+1. ### What is Routing?
   When a user enters a URL, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
 
 Below is an example get route from `routes/web.php`. You can call website.com/foo and it will bring the result.
