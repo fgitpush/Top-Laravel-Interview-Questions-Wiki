@@ -7,34 +7,34 @@
 | No. | Questions |
 | --- | --------- |
 |   | **ARCHITECTURE** |
-|10  | [What is Request-Response?](#what-is-request-response) |
-|13  | [What are Service Providers?](#what-are-service-providers) |
-|18 | [What are Facades?](#what-are-facades) |
-|19 | [What is Repository Pattern?](#what-is-repository-pattern) |
-|50 | [What is Symfony?](#what-is-symfony) |
-|101 | [What are Triggers?](#What-are-Triggers) |
-|102 | [What are Procedures](#What-are-Procedures) |
-|242| [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
-|142| [What is Binding?](#What-is-Binding) |
-|143| [Explain Binding A Singleton?](#Explain-Binding-A-Singleton) |
-|144| [Explain Binding Instances?](#Explain-Binding-Instances) |
-|145| [Explain Binding Primitives?](#Explain-Binding-Primitives) |
-|146| [Explain Contextual Binding and how does it work?](#Explain-Contextual-Binding-and-how-does-it-work) |
-|147| [What is Tagging?](#What-is-Tagging) |
-|148| [Explain Extending Bindings?](#Explain-Extending-Bindings) |
-|57 | [What are Laravel Traits?](#what-are-laravel-traits) |
-|58 | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
-|222| [What are service containers?](#What-are-service-containers) |
-|246| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
-|217| [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
-|219| [What directories that need to be writable laravel installation?](#What-directories-that-need-to-be-writable-laravel-installation?) |
-|215| [What is Kept in vendor directory of Laravel?](#What-is-Kept-in-vendor-directory-of-Laravel) |
-|237| [What is the use of dd() function?](#what-is-the-difference-between-where-and-having) |
-|214| [What does "composer dump-autoload" do?](#What-does-composer-dump-autoload-do) |
-|220| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
-|301| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
-|202| [What is the use of the bootstrap directory?](#What-is-the-use-of-the-bootstrap-directory) |
-|135| [What is Serialization in Laravel?](#What-is-Serialization-in-Laravel) |
+|  | [What is Request-Response?](#what-is-request-response) |
+|  | [What are Service Providers?](#what-are-service-providers) |
+| | [What are Facades?](#what-are-facades) |
+| | [What is Repository Pattern?](#what-is-repository-pattern) |
+| | [What is Symfony?](#what-is-symfony) |
+| | [What are Triggers?](#What-are-Triggers) |
+| | [What are Procedures](#What-are-Procedures) |
+|| [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
+|| [What is Binding?](#What-is-Binding) |
+|| [Explain Binding A Singleton?](#Explain-Binding-A-Singleton) |
+|| [Explain Binding Instances?](#Explain-Binding-Instances) |
+|| [Explain Binding Primitives?](#Explain-Binding-Primitives) |
+|| [Explain Contextual Binding and how does it work?](#Explain-Contextual-Binding-and-how-does-it-work) |
+|| [What is Tagging?](#What-is-Tagging) |
+|| [Explain Extending Bindings?](#Explain-Extending-Bindings) |
+| | [What are Laravel Traits?](#what-are-laravel-traits) |
+| | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
+|| [What are service containers?](#What-are-service-containers) |
+|| [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
+|| [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
+|| [What directories that need to be writable laravel installation?](#What-directories-that-need-to-be-writable-laravel-installation?) |
+|| [What is Kept in vendor directory of Laravel?](#What-is-Kept-in-vendor-directory-of-Laravel) |
+|| [What is the use of dd() function?](#what-is-the-difference-between-where-and-having) |
+|| [What does "composer dump-autoload" do?](#What-does-composer-dump-autoload-do) |
+|| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
+|| [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
+|| [What is the use of the bootstrap directory?](#What-is-the-use-of-the-bootstrap-directory) |
+|| [What is Serialization in Laravel?](#What-is-Serialization-in-Laravel) |
 |158| [What is faker in Laravel?](#What-is-faker-in-Laravel) |
 |136| [What is Response in Laravel?](#What-is-Response-in-Laravel) |
 |137| [What is Response Macros in Laravel?](#What-is-Response-Macros-in-Laravel) |
@@ -70,13 +70,13 @@
 |40 | [What is Redis?](#what-is-redis) |
 |41 | [What is Memcache?](#what-is-memcache) |
 |51 | [What is Route caching?](#what-is-route-caching) |
-|258| [Does Laravel support caching?](#what-is-the-difference-between-where-and-having) |
-|150| [How to clear cache in Laravel?](#How-to-clear-cache-in-Laravel) |
+|| [Does Laravel support caching?](#what-is-the-difference-between-where-and-having) |
+|| [How to clear cache in Laravel?](#How-to-clear-cache-in-Laravel) |
 |   | **COLLECTIONS** |
-|167| [What are lazy collections?](#What-are-lazy-collections) |
+|| [What are lazy collections?](#What-are-lazy-collections) |
 |   | **DATABASE** |
-|17 | [What is Query Builder?](#what-is-query-builder)
-|15 | [What is ORM?](#what-is-orm) |
+|| [What is Query Builder?](#what-is-query-builder)
+|| [What is ORM?](#what-is-orm) |
 |72 | [How to achieve multiple DB hosts?](#How-to-achieve-multiple-DB-hosts)
 |74 | [What are Default ports for MySQL Email etc?](#what-are-Default-ports-for-MySQL-Email-etc) |
 |75 | [Explain Joins](#Explain-Joins) |
