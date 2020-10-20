@@ -199,47 +199,47 @@
 |   | **SESSION** |
 | | [What are Sessions?](#what-are-sessions) |
 | | [What is default session time?](#What-is-default-session-time)
-|105| [Explain Difference between session and cookies?](#Explain-Difference-between-session-and-cookies)
-|203| [What is the default session timeout duration?](#What-is-the-default-session-timeout-duration) |
+|| [Explain Difference between session and cookies?](#Explain-Difference-between-session-and-cookies)
+|| [What is the default session timeout duration?](#What-is-the-default-session-timeout-duration) |
 |   | **TASK SCHEDULING** |
 |   | **TESTING** |
-|21 | [What is Unit testing?](#what-is-unit-testing) |
-|32 | [What is Test Driven Development?](#what-is-test-driven-development) |
+| | [What is Unit testing?](#what-is-unit-testing) |
+| | [What is Test Driven Development?](#what-is-test-driven-development) |
 |   | **URL GENERATION** |
-|302| [What is Request Lifecycle?](#what-is-the-difference-between-where-and-having) |
-|   | **VALIDATION** |
-|48 | [What are Validations and custom validations?](#what-are-validators) |
+|| [What is Request Lifecycle?](#what-is-the-difference-between-where-and-having) |
+||   | **VALIDATION** |
+ | [What are Validations and custom validations?](#what-are-validators) |
 |   | **VIEWS** |
-|8  | [What are Views?](#what-are-views) |
+|  | [What are Views?](#what-are-views) |
 |   | **WEB SOCKETS** |
-|300| [What is broadcasting in laravel?](#what-is-the-difference-between-where-and-having) |
-|267| [What is Pusher in Laravel?](#what-is-the-difference-between-where-and-having) |
+|| [What is broadcasting in laravel?](#what-is-the-difference-between-where-and-having) |
+|| [What is Pusher in Laravel?](#what-is-the-difference-between-where-and-having) |
 |   | **ECOSYSTEM** |
-|282| [What is Vapor?](#what-is-the-difference-between-where-and-having) |
-|283| [What is Forge?](#what-is-the-difference-between-where-and-having) |
-|284| [What is Envoyer?](#what-is-the-difference-between-where-and-having) |
-|285| [What is Horizon?](#what-is-the-difference-between-where-and-having) |
-|286| [What is Nova?](#what-is-the-difference-between-where-and-having) |
-|287| [What is Echo?](#what-is-the-difference-between-where-and-having) |
-|288| [What is Lumen?](#what-is-the-difference-between-where-and-having) |
-|289| [What is Homestead?](#what-is-the-difference-between-where-and-having) |
-|290| [What is Spark?](#what-is-the-difference-between-where-and-having) |
-|291| [What is Valet?](#what-is-the-difference-between-where-and-having) |
-|292| [What is Mix?](#what-is-the-difference-between-where-and-having) |
-|293| [What is Cashier?](#what-is-the-difference-between-where-and-having) |
-|294| [What is Dusk?](#what-is-the-difference-between-where-and-having) |
-|295| [What is Passport?](#what-is-the-difference-between-where-and-having) |
-|296| [What is Scout?](#what-is-the-difference-between-where-and-having) |
-|297| [What is Socialite?](#what-is-the-difference-between-where-and-having) |
-|298| [What is Telescope?](#what-is-the-difference-between-where-and-having) |
-|299| [What is Tinker?](#what-is-the-difference-between-where-and-having) |
-|249| [What is Laravel Elixir?](#what-is-the-difference-between-where-and-having) |
-|250| [What is Laravel Mix?](#what-is-the-difference-between-where-and-having) |
-|125| [What is Laravel Elixir?](#What-is-Laravel--Elixir) |
-|126| [What is Laravel Mix?](#What-is-Laravel-Mix) |
-|196| [What do you mean by Laravel Dusk?](#What-do-you-mean-by-Laravel-Dusk) |
-|197| [Explain Laravel echo](#Explain-Laravel-echo) |
-|199| [What is Laravel Forge?](#What-is-Laravel-Forge) |
+|| [What is Vapor?](#what-is-the-difference-between-where-and-having) |
+|| [What is Forge?](#what-is-the-difference-between-where-and-having) |
+|| [What is Envoyer?](#what-is-the-difference-between-where-and-having) |
+|| [What is Horizon?](#what-is-the-difference-between-where-and-having) |
+|| [What is Nova?](#what-is-the-difference-between-where-and-having) |
+|| [What is Echo?](#what-is-the-difference-between-where-and-having) |
+|| [What is Lumen?](#what-is-the-difference-between-where-and-having) |
+|| [What is Homestead?](#what-is-the-difference-between-where-and-having) |
+|| [What is Spark?](#what-is-the-difference-between-where-and-having) |
+|| [What is Valet?](#what-is-the-difference-between-where-and-having) |
+|| [What is Mix?](#what-is-the-difference-between-where-and-having) |
+|| [What is Cashier?](#what-is-the-difference-between-where-and-having) |
+|| [What is Dusk?](#what-is-the-difference-between-where-and-having) |
+|| [What is Passport?](#what-is-the-difference-between-where-and-having) |
+|| [What is Scout?](#what-is-the-difference-between-where-and-having) |
+|| [What is Socialite?](#what-is-the-difference-between-where-and-having) |
+|| [What is Telescope?](#what-is-the-difference-between-where-and-having) |
+|| [What is Tinker?](#what-is-the-difference-between-where-and-having) |
+|| [What is Laravel Elixir?](#what-is-the-difference-between-where-and-having) |
+|| [What is Laravel Mix?](#what-is-the-difference-between-where-and-having) |
+|| [What is Laravel Elixir?](#What-is-Laravel--Elixir) |
+|| [What is Laravel Mix?](#What-is-Laravel-Mix) |
+|| [What do you mean by Laravel Dusk?](#What-do-you-mean-by-Laravel-Dusk) |
+|| [Explain Laravel echo](#Explain-Laravel-echo) |
+|| [What is Laravel Forge?](#What-is-Laravel-Forge) |
 |   | **SETUP** |
 |270| [What is Homebrew?](#what-is-the-difference-between-where-and-having) |
 |271| [What is Valet?](#what-is-the-difference-between-where-and-having) |
