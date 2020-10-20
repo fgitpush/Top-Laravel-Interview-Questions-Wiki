@@ -208,7 +208,7 @@
 |   | **URL GENERATION** |
 || [What is Request Lifecycle?](#what-is-the-difference-between-where-and-having) |
 ||   | **VALIDATION** |
- | [What are Validations and custom validations?](#what-are-validators) |
+| | [What are Validations and custom validations?](#what-are-validators) |
 |   | **VIEWS** |
 |  | [What are Views?](#what-are-views) |
 |   | **WEB SOCKETS** |
