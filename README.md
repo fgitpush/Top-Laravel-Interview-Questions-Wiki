@@ -84,6 +84,7 @@
 |85 | [Write a complex query?](#Write-a-complex-query) |
 |235| [Name databases supported by Laravel](#what-is-the-difference-between-where-and-having) |
 |243| [Define Laravel guard](#what-is-the-difference-between-where-and-having) |
+|60 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query-builder) |
 |   | **ELOQUENT** |
 |16 | [What is Eloquent?](#what-is-eloquent) |
 |223| [Write CRUD in Laravel Eloquent?](#Write-CRUD-in-Laravel-Eloquent) |
@@ -339,7 +340,6 @@
 |44 | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
 |45 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
 |47 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
-|60 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query-builder) |
 |61 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
 |63 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
 |   | **Why** |
