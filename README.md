@@ -45,6 +45,8 @@
 |161| [Talk about Laravel Vapor Compatibility](#Talk-about-Laravel-Vapor-Compatibility) |
 |162| [What is Semantic Versioning?](#What-is-Semantic-Versioning) |
 |181| [What is LTS version of Laravel?](#What-is-LTS-version-of-Laravel) |
+|39 | [What is Lumen?](#what-is-lumen) |
+|55 | [What are Laravel contracts?](#what-are-contracts) |
 |   | **CONCEPTS** |
 |241| [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 |244| [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
@@ -197,6 +199,7 @@
 |   | **URL GENERATION** |
 |302| [What is Request Lifecycle?](#what-is-the-difference-between-where-and-having) |
 |   | **VALIDATION** |
+|48 | [What are Validations and custom validations?](#what-are-validators) |
 |   | **VIEWS** |
 |8  | [What are Views?](#what-are-views) |
 |   | **WEB SOCKETS** |
@@ -247,6 +250,7 @@
 |245| [What is an Observer?](#what-is-the-difference-between-where-and-having) |
 |92 | [What are design patterns?](#What-are-design-patterns) |
 |97 | [What is MVC Framework?](#What-is-MVC-Framework) |
+|54 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
 |   | **How To** |
 |277| [How to get current Url in Laravel?](#what-is-the-difference-between-where-and-having) |
 |240| [How will you check table is exists or in the database?](#what-is-the-difference-between-where-and-having) |
@@ -330,15 +334,11 @@
 |34 | [What are Laravel Scout search and Algolia?](#what-are-laravel-scout-search-and-algolia) |
 |35 | [What is Socialite and Auth?](#what-is-socialite-auth) |
 |36 | [What is Vue-js?](#what-is-vue-js) |
-|39 | [What is Lumen?](#what-is-lumen) |
 |42 | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
 |43 | [What is Vertical scaling?](#What-is-Vertical-scaling) |
 |44 | [What is Single Page Application in Laravel?](#What--Single-Page-Application-in-Laravel) |
 |45 | [What are Microservices in Laravel?](#What-are-Microservices-in-Laravel) |
 |47 | [What is Service Oriented Architecture in Laravel?](#what-is-soa) |
-|48 | [What are Validations and custom validations?](#what-are-validators) |
-|54 | [What is Dependency injection in Laravel?](#what-is-dependency-injection) |
-|55 | [What are Laravel contracts?](#what-are-contracts) |
 |60 | [What are Aggregate methods in query builder?](#what-are-aggregate-methods-in-query-builder) |
 |61 | [What is Singelton design pattern?](#what-is-singelton-design-pattern) |
 |63 | [What are Popular composer packages?](#what-are-Popular-composer-packages) |
