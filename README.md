@@ -31,7 +31,6 @@
 || [What is Kept in vendor directory of Laravel?](#What-is-Kept-in-vendor-directory-of-Laravel) |
 || [What is the use of dd() function?](#what-is-the-difference-between-where-and-having) |
 || [What does "composer dump-autoload" do?](#What-does-composer-dump-autoload-do) |
-|| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
 || [What is IOC (Inversion of Control)?](#what-is-the-difference-between-where-and-having) |
 || [What is the use of the bootstrap directory?](#What-is-the-use-of-the-bootstrap-directory) |
 || [What is Serialization in Laravel?](#What-is-Serialization-in-Laravel) |
@@ -299,6 +298,7 @@
 | | [How to call static methods?](#How-to-call-static-methods) |
 || [How to get current environment in Laravel?](#How-to-get-current-environment-in-Laravel) |
 || [How to use custom table in Laravel Model?](#How-to-use-custom-table-in-Laravel-Model) |
+|| [How to check current Laravel version using CLI?](#How-to-check-current-Laravel-version-using-CLI) |
 |   | **OTHERS** |
 | | [Describe design architecture of an app?](#Describe-design-architecture-of-an-app) |
 || [Explain an apps DB architecture ?](#Explain-an-apps-DB-architecture) |
