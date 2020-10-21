@@ -161,8 +161,6 @@
 |   | Broadcasting Channels |
 |   | Presence Channels |
 |   | Client Events |
-------------------------------------------------
-------------------------------------------------
 |   | **ARCHITECTURE** |
 |   | Request Lifecycle |
 |   | Service Container Binding and Resolution |
