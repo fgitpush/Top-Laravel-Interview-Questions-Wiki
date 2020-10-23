@@ -2212,7 +2212,7 @@ It just regenerates the list of all classes that need to be included in the proj
    
 215. ### What are service containers?
 
-  The place where service providers are stored
+Service container is like a container where we define how the dependency should be resolved. We have to register the dependencies into the service container during the initialization of the framework and the best place to do it is the service provider.
 
    **[⬆ Back to Top](#table-of-contents)**
    
