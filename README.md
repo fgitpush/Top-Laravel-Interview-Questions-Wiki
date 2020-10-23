@@ -12,10 +12,19 @@
 |   | Service Container Binding and Resolution |
 || [What are service containers?](#What-are-service-containers) |
 |   | Service Providers |
+|| [What is Binding?](#What-is-Binding) |
+|| [Explain Binding A Singleton?](#Explain-Binding-A-Singleton) |
+|| [Explain Binding Instances?](#Explain-Binding-Instances) |
+|| [Explain Binding Primitives?](#Explain-Binding-Primitives) |
+|| [Explain Contextual Binding and how does it work?](#Explain-Contextual-Binding-and-how-does-it-work) |
+|| [What is Tagging?](#What-is-Tagging) |
+|| [Explain Extending Bindings?](#Explain-Extending-Bindings) |
 |  | [What are Service Providers?](#what-are-service-providers) |
 |   | Facades |
 | | [What are Facades?](#what-are-facades) |
 |   | HTTP Verbs |
+| | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
+| | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
 |   | **Artisan Console** |
 |   | Generating Commands |
 |   | Command I/O |
@@ -325,13 +334,6 @@
 | | [What are Triggers?](#What-are-Triggers) |
 | | [What are Procedures](#What-are-Procedures) |
 || [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
-|| [What is Binding?](#What-is-Binding) |
-|| [Explain Binding A Singleton?](#Explain-Binding-A-Singleton) |
-|| [Explain Binding Instances?](#Explain-Binding-Instances) |
-|| [Explain Binding Primitives?](#Explain-Binding-Primitives) |
-|| [Explain Contextual Binding and how does it work?](#Explain-Contextual-Binding-and-how-does-it-work) |
-|| [What is Tagging?](#What-is-Tagging) |
-|| [Explain Extending Bindings?](#Explain-Extending-Bindings) |
 | | [What are Laravel Traits?](#what-are-laravel-traits) |
 | | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
 || [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
@@ -472,8 +474,6 @@
 || [Explain include and require diffrence](#Explain-include-and-require-diffrence) |
 | | [What are Cookies?](#what-are-cookies) |
 | | [Explain CURL and SOAP?](#Explain-CURL-and-SOAP) |
-| | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
-| | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
 | | [Explain 4 basics of OOP](#Explain-4-basics-of-OOP) |
 | | [What is diference between abstract class and interface?](#What-is-diference-between-abstract-class-and-interface) |
 || [Merge 2 arrays with duplicate](#Merge-2-arrays-with-duplicate) |
