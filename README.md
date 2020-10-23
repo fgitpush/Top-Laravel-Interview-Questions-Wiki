@@ -14,6 +14,7 @@
 |   | Service Providers |
 |  | [What are Service Providers?](#what-are-service-providers) |
 |   | Facades |
+| | [What are Facades?](#what-are-facades) |
 |   | HTTP Verbs |
 |   | **Artisan Console** |
 |   | Generating Commands |
@@ -319,7 +320,6 @@
 |   | Broadcasting Channels |
 |   | Presence Channels |
 |   | Client Events |
-| | [What are Facades?](#what-are-facades) |
 | | [What is Repository Pattern?](#what-is-repository-pattern) |
 | | [What is Symfony?](#what-is-symfony) |
 | | [What are Triggers?](#What-are-Triggers) |
