@@ -12,6 +12,7 @@
 |   | Service Container Binding and Resolution |
 || [What are service containers?](#What-are-service-containers) |
 |   | Service Providers |
+|  | [What are Service Providers?](#what-are-service-providers) |
 |   | Facades |
 |   | HTTP Verbs |
 |   | **Artisan Console** |
@@ -318,7 +319,6 @@
 |   | Broadcasting Channels |
 |   | Presence Channels |
 |   | Client Events |
-|  | [What are Service Providers?](#what-are-service-providers) |
 | | [What are Facades?](#what-are-facades) |
 | | [What is Repository Pattern?](#what-is-repository-pattern) |
 | | [What is Symfony?](#what-is-symfony) |
