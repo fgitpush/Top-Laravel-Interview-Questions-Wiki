@@ -9,6 +9,7 @@
 |   | **ARCHITECTURE** |
 |   | Request Lifecycle |
 |   | Service Container Binding and Resolution |
+|| [What are service containers?](#What-are-service-containers) |
 |   | Service Providers |
 |   | Facades |
 |   | HTTP Verbs |
@@ -333,7 +334,6 @@
 || [Explain Extending Bindings?](#Explain-Extending-Bindings) |
 | | [What are Laravel Traits?](#what-are-laravel-traits) |
 | | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
-|| [What are service containers?](#What-are-service-containers) |
 || [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
 || [What is APP_KEY used for?](#What-is-APP_KEY-used-for) |
 || [What directories that need to be writable laravel installation?](#What-directories-that-need-to-be-writable-laravel-installation?) |
