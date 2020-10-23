@@ -11,7 +11,6 @@
 |  | [What is Request-Response?](#what-is-request-response) |
 |   | Service Container Binding and Resolution |
 || [What are service containers?](#What-are-service-containers) |
-|   | Service Providers |
 || [What is Binding?](#What-is-Binding) |
 || [Explain Binding A Singleton?](#Explain-Binding-A-Singleton) |
 || [Explain Binding Instances?](#Explain-Binding-Instances) |
@@ -19,6 +18,7 @@
 || [Explain Contextual Binding and how does it work?](#Explain-Contextual-Binding-and-how-does-it-work) |
 || [What is Tagging?](#What-is-Tagging) |
 || [Explain Extending Bindings?](#Explain-Extending-Bindings) |
+|   | Service Providers |
 |  | [What are Service Providers?](#what-are-service-providers) |
 |   | Facades |
 | | [What are Facades?](#what-are-facades) |
