@@ -27,6 +27,7 @@
 | | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
 |   | **Artisan Console** |
 |   | Generating Commands |
+|| [How to generate application key in laravel?](#How-to-generate-application-key-in-laravel) |
 |   | Command I/O |
 |   | Registering Commands |
 |   | Executing Commands |
@@ -581,7 +582,6 @@
 || [How to generate a request in Laravel?](#How-to-generate-a-request-in-Laravel) |
 || [How to use GROUP_CONCAT() with JOIN in Laravel?](#How-to-use-GROUP_CONCAT()-with-JOIN-in-Laravel) |
 || [How to extend login expire time in Auth?](#How-to-extend-login-expire-time-in-Auth) |
-|| [How to generate application key in laravel?](#How-to-generate-application-key-in-laravel) |
 || [How to check column is exists or not in a table using Laravel?](#How-to-check-column-is-exists-or-not-in-a-tabl-using-Laravel) |
 || [How we can upload files in laravel?](#How-we-can-upload-files-in-laravel) |
 || [How to create real time sitemap.xml file in Laravel?](#How-to-create-real-time-sitemap.xml-file-in-Laravel) |
