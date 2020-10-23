@@ -23,7 +23,8 @@
 |   | Facades |
 | | [What are Facades?](#what-are-facades) |
 |   | HTTP Verbs |
-| | [What is the difference between GET and POST](#What-is-the-difference-between-GET-and-POST) |
+| | [What are HTTP Verbs?](#http-verbs) |
+| | [What is the difference between GET and POST?](#What-is-the-difference-between-GET-and-POST) |
 | | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
 |   | **Artisan Console** |
 |   | Generating Commands |
@@ -2423,3 +2424,6 @@ You should always try to use use prepared statements.
   make:seeder          Create a new seeder class
   
   make:test            Create a new test class
+
+  303. ### What Are HTTP Verbs?
+  POST, GET, PUT, PATCH, and DELETE etc
