@@ -18,8 +18,8 @@
 || [Explain Contextual Binding and how does it work?](#Explain-Contextual-Binding-and-how-does-it-work) |
 || [What is Tagging?](#What-is-Tagging) |
 || [Explain Extending Bindings?](#Explain-Extending-Bindings) |
-|   | Service Providers |
-|  | [What are Service Providers?](#what-are-service-providers) |
+|| Service Providers |
+|| [What are Service Providers?](#what-are-service-providers) |
 |   | Facades |
 | | [What are Facades?](#what-are-facades) |
 |   | HTTP Verbs |
@@ -28,6 +28,7 @@
 |   | **Artisan Console** |
 |   | Generating Commands |
 || [How to generate application key in laravel?](#How-to-generate-application-key-in-laravel) |
+|| [List all make commands](#List-all-make-commands) |
 |   | Command I/O |
 |   | Registering Commands |
 |   | Executing Commands |
@@ -2373,6 +2374,33 @@ For XSS protection i.e when you have to enter string in HTML use htmlspecialchar
 You should always try to use use prepared statements.
      
  **[⬆ Back to Top](#table-of-contents)**
+ 
+ 
+  303. ### List all make commands
+
+  make:cast            Create a new custom Eloquent cast class
+  make:channel         Create a new channel class
+  make:command         Create a new Artisan command
+  make:component       Create a new view component class
+  make:controller      Create a new controller class
+  make:event           Create a new event class
+  make:exception       Create a new custom exception class
+  make:factory         Create a new model factory
+  make:job             Create a new job class
+  make:listener        Create a new event listener class
+  make:mail            Create a new email class
+  make:middleware      Create a new middleware class
+  make:migration       Create a new migration file
+  make:model           Create a new Eloquent model class
+  make:notification    Create a new notification class
+  make:observer        Create a new observer class
+  make:policy          Create a new policy class
+  make:provider        Create a new service provider class
+  make:request         Create a new form request class
+  make:resource        Create a new resource
+  make:rule            Create a new validation rule
+  make:seeder          Create a new seeder class
+  make:test            Create a new test class
 
 
  
