@@ -44,6 +44,7 @@
 |   | Collection Methods |
 |   | Higher-order Messages |
 |   | **Controllers** |
+|| [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
 |   | Defining Controllers |
 |   | Controller Namespacing |
 |   | Single Action Controllers |
@@ -181,7 +182,6 @@
 | | [What is Symfony?](#what-is-symfony) |
 | | [What are Triggers?](#What-are-Triggers) |
 | | [What are Procedures](#What-are-Procedures) |
-|| [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
 | | [What are Laravel Traits?](#what-are-laravel-traits) |
 | | [What are Bundles in Laravel?](#what-are-Bundles-in-Laravel) |
 || [In which folder robot.txt is placed?](#what-is-the-difference-between-where-and-having) |
