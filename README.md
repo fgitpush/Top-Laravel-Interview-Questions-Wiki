@@ -130,7 +130,7 @@
 |   | Route Groups |
 |   | Route Model Binding |
 |   | Rate Limiting |
-|| [What is Rate Limiting OR Throttle in Laravel?](#what-is-the-difference-between-where-and-having) |
+|| [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
 |   | **Security** |
 |   | Authentication |
 |   | Authorization |
@@ -198,7 +198,6 @@
 || [What is faker in Laravel?](#What-is-faker-in-Laravel) |
 || [What is Response in Laravel?](#What-is-Response-in-Laravel) |
 || [What is Response Macros in Laravel?](#What-is-Response-Macros-in-Laravel) |
-|| [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
 || [What is Lazy vs Eager Loading in Laravel?](#What-is-Lazy-vs-Eager-Loading-in-Laravel) |
 || [What is the make Method?](#What-is-the-make-Method) |
 || [What are the difference between insert() and insertGetId() in laravel?](#What-are-the-difference-between-insert-and-insertGetId-in-laravel) |
