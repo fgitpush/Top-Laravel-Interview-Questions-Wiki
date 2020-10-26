@@ -129,6 +129,7 @@
 |   | Route Groups |
 |   | Route Model Binding |
 |   | Rate Limiting |
+|| [What is Rate Limiting OR Throttle in Laravel?](#what-is-the-difference-between-where-and-having) |
 |   | **Security** |
 |   | Authentication |
 |   | Authorization |
@@ -213,7 +214,6 @@
 || [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
 || [What is Serialization in Laravel?](#what-is-the-difference-between-where-and-having) |
 || [What are Response Macros in Laravel?](#what-is-the-difference-between-where-and-having) |
-|| [What is Rate Limiting OR Throttle in Laravel?](#what-is-the-difference-between-where-and-having) |
 || [What is Method Spoofing in Laravel?](#what-is-the-difference-between-where-and-having) |
 || [What are Closures in Laravel?](#what-is-the-difference-between-where-and-having) |
 || [What are Closures in Laravel?](#What-are-Closures-in-Laravel) |
