@@ -62,6 +62,7 @@
 |   | Relationships |
 |   | Eloquent Collections |
 |   | Mutators / Accessors |
+|| [What are Accessors and Mutators in Eloquent and why should you use them?](#What-are-Accessors-and-Mutators-in-Eloquent-and-why-should-you-use-them) |
 |   | API Resources |
 |   | Serialization |
 |   | Scopes |
@@ -256,13 +257,10 @@
 || [How to create multiple where clause in eloquent?](#How-to-create-multiple-where-clause-in-eloquent) |
 || [What is the purpose of the Eloquent cursor() method in Laravel?](#what-is-the-difference-between-where-and-having) |
 || [List types of relationships available in Laravel Eloquent?](#what-is-the-difference-between-where-and-having) |
-|| [What are Accessors and Mutators in Eloquent and why should you use them?](#what-is-the-difference-between-where-and-having) |
 | | [Write CRUD in Laravel Eloquent](#Write-CRUD-in-Laravel-Eloquent) |
 || [Talk about Eloquent Subquery Enhancements?](#Talk-about-Eloquent-Subquery-Enhancements) |
 || [How can we create a record in Laravel using eloquent?](#How-can-we-create-a-record-in-Laravel-using-eloquent) |
 || [List types of relationships available in Laravel Eloquent?](#List-types-of-relationships-available-in-Laravel-Eloquent) |
-|| [How To Use Select Query In Laravel? Eloquent and QB?](#How-To-Use-Select-Query-In-Laravel-Eloquent-and-QB) |
-|| [What are Accessors and Mutators in Eloquent and why should you use them?](#What-are-Accessors-and-Mutators-in-Eloquent-and-why-should-you-use-them) |
 |   | **EVENTS** |
 | | [What are Events?](#what-are-events) |
 | | [What are Listeners?](#what-are-listeners) |
