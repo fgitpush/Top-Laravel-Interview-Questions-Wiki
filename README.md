@@ -56,7 +56,9 @@
 |   | Query Builder |
 |   | Pagination |
 |   | Migrations |
+|  | [When are Migrations?](#what-are-migrations) |
 |   | Seeding |
+|  | [What are Seeders?](#what-are-seeders) |
 |   | **Eloquent ORM** |
 |   | Conventions |
 |   | Relationships |
@@ -67,6 +69,8 @@
 |   | Serialization |
 |   | Scopes |
 |   | **Events** |
+| | [What are Events?](#what-are-events) |
+| | [What are Listeners?](#what-are-listeners) |
 |   | Registering Events / Listeners |
 |   | Queued Listeners |
 |   | Dispatching Events |
@@ -260,10 +264,6 @@
 || [Talk about Eloquent Subquery Enhancements?](#Talk-about-Eloquent-Subquery-Enhancements) |
 || [How can we create a record in Laravel using eloquent?](#How-can-we-create-a-record-in-Laravel-using-eloquent) |
 || [List types of relationships available in Laravel Eloquent?](#List-types-of-relationships-available-in-Laravel-Eloquent) |
-|   | **EVENTS** |
-| | [What are Events?](#what-are-events) |
-| | [What are Listeners?](#what-are-listeners) |
-|   | **FILE STORAGE** |
 |   | **FRONT END** |
 || [What does yield mean in PHP?](#what-is-the-difference-between-where-and-having) |
 || [How to extend a layout file in laravel view?](#How-to-extend-a-layout-file-in-laravel-view) |
@@ -278,8 +278,6 @@
 || [Laravel Array Helper functions?](#Laravel-Array-Helper-functions) |
 |   | **DATABASE** |
 | | [What is a Model?](#what-is-a-model) |
-|  | [When are Migrations?](#what-are-migrations) |
-|  | [What are Seeders?](#what-are-seeders) |
 | | [What are Advanced Eloquent and Query Builder?](#what-are-advanced-eloquent-and-query-builder) |
 | | [How to connect Laravel with other SQL databases?](#How-to-connect-Laravel-with-other-SQL-databases) |
 | | [How to connect Laravel with non-SQL databases?](#How-to-connect-Laravel-with-non-SQL-databases) |
