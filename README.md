@@ -94,13 +94,13 @@
 |   | Configuration (https://laravel.com/docs/8.x/logging#configuration) |
 |   | Writing to Specific Channels (https://laravel.com/docs/8.x/logging#configuring-the-channel-name) |
 |   | Creating Custom Channels (https://laravel.com/docs/8.x/logging#advanced-monolog-channel-customization) |
-|   | **Mail** |
-|   | Drivers / Configuration |
-|   | Generating Mailables |
-|   | Writing Mail |
-|   | Sending Mail |
-|   | Markdown |
-|   | Local Development |
+|   | **Mail** (https://laravel.com/docs/8.x/mail#introduction) |
+|   | Drivers (https://laravel.com/docs/8.x/mail#driver-prerequisites) / Configuration (https://laravel.com/docs/8.x/mail#configuration)  |
+|   | Generating Mailables (https://laravel.com/docs/8.x/mail#generating-mailables) |
+|   | Writing Mail (https://laravel.com/docs/8.x/mail#writing-mailables) |
+|   | Sending Mail (https://laravel.com/docs/8.x/mail#sending-mail) |
+|   | Markdown (https://laravel.com/docs/8.x/mail#markdown-mailables) |
+|   | Local Development (https://laravel.com/docs/8.x/mail#mail-and-local-development) |
 |   | **Middleware** |
 |   | Defining / Registering Middleware |
 |   | Middleware Parameters |
