@@ -66,8 +66,8 @@
 |   | Eloquent Collections (https://laravel.com/docs/8.x/eloquent-collections) |
 |   | Mutators / Accessors (https://laravel.com/docs/8.x/eloquent-mutators) |
 || [What are Accessors and Mutators in Eloquent and why should you use them?](#What-are-Accessors-and-Mutators-in-Eloquent-and-why-should-you-use-them) |
-|   | API Resources |
-|   | Serialization |
+|   | API Resources (https://laravel.com/docs/8.x/eloquent-resources) |
+|   | Serialization (https://laravel.com/docs/8.x/eloquent-serialization) |
 |   | Scopes |
 |   | **Events** |
 | | [What are Events?](#what-are-events) |
