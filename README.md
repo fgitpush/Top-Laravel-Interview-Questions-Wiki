@@ -214,6 +214,7 @@
 || [Directory structure of Laravel](#Directory-structure-of-Laravel) |
 || [Explain Laravel framework Architecture](#Explain-Laravel-framework-Architecture) |
 || [What is Monolog library in Laravel?](#What-is-Monolog-library-in-Laravel) |
+|| [What is ORM?](#What-is-ORM) |
 |   | **CONCEPTS** |
 || [Explain active record concept in Laravel](#what-is-the-difference-between-where-and-having) |
 || [What is Laravel API rate limit?](#what-is-the-difference-between-where-and-having) |
@@ -2271,4 +2272,9 @@ You should always try to use use prepared statements.
   
   305. ### How to do Pagination in DB?
 $users = DB::table('users')->paginate(15);
+
+ 
+  305. ### What is ORM?
+Object–relational mapping is used to use Object oriented way to use database.
+
 
