@@ -53,18 +53,18 @@
 |   | Dependency Injection (https://laravel.com/docs/8.x/controllers#dependency-injection-and-controllers) |
 |   | Route Caching (https://laravel.com/docs/8.x/controllers#route-caching) |
 |   | **Database** |
-|   | Query Builder |
-|   | Pagination |
+|   | Query Builder (https://laravel.com/docs/8.x/queries)|
+|   | Pagination (https://laravel.com/docs/8.x/pagination) |
 | |    [How to do Pagination in DB?](#how-to-do-pagination-in-db) |
-|   | Migrations |
+|   | Migrations (https://laravel.com/docs/8.x/migrations) |
 |  | [When are Migrations?](#what-are-migrations) |
-|   | Seeding |
+|   | Seeding (https://laravel.com/docs/8.x/seeding) |
 |  | [What are Seeders?](#what-are-seeders) |
 |   | **Eloquent ORM** |
 |   | Conventions |
-|   | Relationships |
-|   | Eloquent Collections |
-|   | Mutators / Accessors |
+|   | Relationships (https://laravel.com/docs/8.x/eloquent-relationships) |
+|   | Eloquent Collections (https://laravel.com/docs/8.x/eloquent-collections) |
+|   | Mutators / Accessors (https://laravel.com/docs/8.x/eloquent-mutators) |
 || [What are Accessors and Mutators in Eloquent and why should you use them?](#What-are-Accessors-and-Mutators-in-Eloquent-and-why-should-you-use-them) |
 |   | API Resources |
 |   | Serialization |
