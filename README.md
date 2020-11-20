@@ -68,7 +68,7 @@
 || [What are Accessors and Mutators in Eloquent and why should you use them?](#What-are-Accessors-and-Mutators-in-Eloquent-and-why-should-you-use-them) |
 |   | API Resources (https://laravel.com/docs/8.x/eloquent-resources) |
 |   | Serialization (https://laravel.com/docs/8.x/eloquent-serialization) |
-|   | Scopes |
+|   | Scopes (https://laravel.com/docs/8.x/eloquent#global-scopes) |
 |   | **Events** (https://laravel.com/docs/8.x/events) |
 | | [What are Events?](#what-are-events) |
 | | [What are Listeners (https://laravel.com/docs/8.x/events#defining-listeners)?](#what-are-listeners) |
