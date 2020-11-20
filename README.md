@@ -55,6 +55,7 @@
 |   | **Database** |
 |   | Query Builder |
 |   | Pagination |
+|   [How to do Pagination in DB?](#how-to-do-pagination-in-db) |
 |   | Migrations |
 |  | [When are Migrations?](#what-are-migrations) |
 |   | Seeding |
@@ -2267,3 +2268,7 @@ You should always try to use use prepared statements.
 
   303. ### What Are HTTP Verbs?
   POST, GET, PUT, PATCH, and DELETE etc
+  
+  305. ### How to do Pagination in DB?
+$users = DB::table('users')->paginate(15);
+
