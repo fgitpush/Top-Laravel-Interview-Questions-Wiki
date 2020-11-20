@@ -90,7 +90,7 @@
 |   | Strings (https://laravel.com/docs/8.x/helpers#strings-method-list) |
 |   | URLs (https://laravel.com/docs/8.x/helpers#urls-method-list) |
 |   | Misc (https://laravel.com/docs/8.x/helpers#miscellaneous-method-list) |
-|   | **Logging** |
+|   | **Logging** (https://laravel.com/docs/8.x/logging#introduction) |
 |   | Configuration |
 |   | Writing to Specific Channels |
 |   | Creating Custom Channels |
