@@ -69,9 +69,9 @@
 |   | API Resources (https://laravel.com/docs/8.x/eloquent-resources) |
 |   | Serialization (https://laravel.com/docs/8.x/eloquent-serialization) |
 |   | Scopes |
-|   | **Events** |
+|   | **Events** (https://laravel.com/docs/8.x/events) |
 | | [What are Events?](#what-are-events) |
-| | [What are Listeners?](#what-are-listeners) |
+| | [What are Listeners (https://laravel.com/docs/8.x/events#defining-listeners)?](#what-are-listeners) |
 |   | Registering Events / Listeners |
 |   | Queued Listeners |
 |   | Dispatching Events |
