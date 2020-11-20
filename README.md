@@ -81,9 +81,9 @@
 |   | Storing / Retrieving Files |
 |   | Custom Filesystems |
 |   | **Frontend** |
-|   | Blade Templating |
-|   | Localization |
-|   | Asset Compilation |
+|   | Blade Templating (https://laravel.com/docs/8.x/blade) |
+|   | Localization (https://laravel.com/docs/8.x/localization) |
+|   | Asset Compilation (https://laravel.com/docs/8.x/mix) |
 |   | **Helper Methods** |
 |   | Arrays / Objects |
 |   | Paths |
