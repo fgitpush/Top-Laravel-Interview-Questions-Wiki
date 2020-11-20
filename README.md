@@ -31,8 +31,8 @@
 || [How to generate application key in laravel?](#How-to-generate-application-key-in-laravel) |
 || [List all make commands](#List-all-make-commands) |
 |   | Command I/O (https://laravel.com/docs/8.x/artisan#defining-input-expectations)|
-|   | Registering Commands |
-|   | Executing Commands |
+|   | Registering Commands (https://laravel.com/docs/8.x/artisan#registering-commands) |
+|   | Executing Commands (https://laravel.com/docs/8.x/artisan#programmatically-executing-commands) |
 |   | **Caching** |
 |   | Drivers / Configuration |
 |   | Storing Items |
