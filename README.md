@@ -76,10 +76,10 @@
 |   | Queued Listeners (https://laravel.com/docs/8.x/events#queued-event-listeners) |
 |   | Dispatching Events (https://laravel.com/docs/8.x/events#dispatching-events) |
 |   | Subscribing to Events (https://laravel.com/docs/8.x/events#event-subscribers) |
-|   | **File Storage** |
-|   | Configuration / Drivers |
-|   | Storing / Retrieving Files |
-|   | Custom Filesystems |
+|   | **File Storage** (https://laravel.com/docs/8.x/filesystem) |
+|   | Configuration / Drivers  (https://laravel.com/docs/8.x/filesystem#configuration) |
+|   | Storing (https://laravel.com/docs/8.x/filesystem#storing-files) / Retrieving Files (https://laravel.com/docs/8.x/filesystem#retrieving-files) |
+|   | Custom Filesystems (https://laravel.com/docs/8.x/filesystem#custom-filesystems) |
 |   | **Frontend** |
 |   | Blade Templating (https://laravel.com/docs/8.x/blade) |
 |   | Localization (https://laravel.com/docs/8.x/localization) |
