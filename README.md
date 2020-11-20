@@ -85,11 +85,11 @@
 |   | Localization (https://laravel.com/docs/8.x/localization) |
 |   | Asset Compilation (https://laravel.com/docs/8.x/mix) |
 |   | **Helper Methods** (https://laravel.com/docs/8.x/helpers) |
-|   | Arrays / Objects |
-|   | Paths |
-|   | Strings |
-|   | URLs |
-|   | Misc |
+|   | Arrays / Objects (https://laravel.com/docs/8.x/helpers#arrays-and-objects-method-list) |
+|   | Paths (https://laravel.com/docs/8.x/helpers#paths-method-list) |
+|   | Strings (https://laravel.com/docs/8.x/helpers#strings-method-list) |
+|   | URLs (https://laravel.com/docs/8.x/helpers#urls-method-list) |
+|   | Misc (https://laravel.com/docs/8.x/helpers#miscellaneous-method-list) |
 |   | **Logging** |
 |   | Configuration |
 |   | Writing to Specific Channels |
