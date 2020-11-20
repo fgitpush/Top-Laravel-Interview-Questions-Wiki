@@ -84,7 +84,7 @@
 |   | Blade Templating (https://laravel.com/docs/8.x/blade) |
 |   | Localization (https://laravel.com/docs/8.x/localization) |
 |   | Asset Compilation (https://laravel.com/docs/8.x/mix) |
-|   | **Helper Methods** |
+|   | **Helper Methods** (https://laravel.com/docs/8.x/helpers) |
 |   | Arrays / Objects |
 |   | Paths |
 |   | Strings |
