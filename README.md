@@ -34,24 +34,24 @@
 |   | Registering Commands (https://laravel.com/docs/8.x/artisan#registering-commands) |
 |   | Executing Commands (https://laravel.com/docs/8.x/artisan#programmatically-executing-commands) |
 |   | **Caching** |
-|   | Drivers / Configuration |
-|   | Storing Items |
-|   | Retrieving Items |
-|   | Cache Tags |
-|   | Creating Custom Drivers |
+|   | Drivers / Configuration (https://laravel.com/docs/8.x/cache#driver-prerequisites)|
+|   | Storing Items (https://laravel.com/docs/8.x/cache#storing-tagged-cache-items) |
+|   | Retrieving Items (https://laravel.com/docs/8.x/cache#accessing-tagged-cache-items)|
+|   | Cache Tags (https://laravel.com/docs/8.x/cache#cache-tags) |
+|   | Creating Custom Drivers (https://laravel.com/docs/8.x/cache#adding-custom-cache-drivers) |
 |   | **Collections** |
-|   | Creating / Extending Collections |
-|   | Collection Methods |
-|   | Higher-order Messages |
+|   | Creating (https://laravel.com/docs/8.x/collections#creating-collections) / Extending Collections (https://laravel.com/docs/8.x/collections#extending-collections) |
+|   | Collection Methods (https://laravel.com/docs/8.x/collections#available-methods) |
+|   | Higher-order Messages (https://laravel.com/docs/8.x/collections#higher-order-messages) |
 |   | **Controllers** |
 || [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
-|   | Defining Controllers |
+|   | Defining Controllers (https://laravel.com/docs/8.x/controllers#defining-controllers) |
 |   | Controller Namespacing |
-|   | Single Action Controllers |
-|   | Middleware |
-|   | Resource Controllers |
-|   | Dependency Injection |
-|   | Route Caching |
+|   | Single Action Controllers (https://laravel.com/docs/8.x/controllers#single-action-controllers) |
+|   | Middleware (https://laravel.com/docs/8.x/controllers#controller-middleware)|
+|   | Resource Controllers (https://laravel.com/docs/8.x/controllers#resource-controllers) |
+|   | Dependency Injection (https://laravel.com/docs/8.x/controllers#dependency-injection-and-controllers) |
+|   | Route Caching (https://laravel.com/docs/8.x/controllers#route-caching) |
 |   | **Database** |
 |   | Query Builder |
 |   | Pagination |
