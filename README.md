@@ -91,9 +91,9 @@
 |   | URLs (https://laravel.com/docs/8.x/helpers#urls-method-list) |
 |   | Misc (https://laravel.com/docs/8.x/helpers#miscellaneous-method-list) |
 |   | **Logging** (https://laravel.com/docs/8.x/logging#introduction) |
-|   | Configuration |
-|   | Writing to Specific Channels |
-|   | Creating Custom Channels |
+|   | Configuration (https://laravel.com/docs/8.x/logging#configuration) |
+|   | Writing to Specific Channels (https://laravel.com/docs/8.x/logging#configuring-the-channel-name) |
+|   | Creating Custom Channels (https://laravel.com/docs/8.x/logging#advanced-monolog-channel-customization) |
 |   | **Mail** |
 |   | Drivers / Configuration |
 |   | Generating Mailables |
