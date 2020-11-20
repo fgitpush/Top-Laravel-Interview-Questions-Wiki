@@ -72,10 +72,10 @@
 |   | **Events** (https://laravel.com/docs/8.x/events) |
 | | [What are Events?](#what-are-events) |
 | | [What are Listeners (https://laravel.com/docs/8.x/events#defining-listeners)?](#what-are-listeners) |
-|   | Registering Events / Listeners |
-|   | Queued Listeners |
-|   | Dispatching Events |
-|   | Subscribing to Events |
+|   | Registering Events  / Listeners (https://laravel.com/docs/8.x/events#registering-events-and-listeners) |
+|   | Queued Listeners (https://laravel.com/docs/8.x/events#queued-event-listeners) |
+|   | Dispatching Events (https://laravel.com/docs/8.x/events#dispatching-events) |
+|   | Subscribing to Events (https://laravel.com/docs/8.x/events#event-subscribers) |
 |   | **File Storage** |
 |   | Configuration / Drivers |
 |   | Storing / Retrieving Files |
