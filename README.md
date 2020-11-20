@@ -55,7 +55,7 @@
 |   | **Database** |
 |   | Query Builder |
 |   | Pagination |
-|   [How to do Pagination in DB?](#how-to-do-pagination-in-db) |
+| |    [How to do Pagination in DB?](#how-to-do-pagination-in-db) |
 |   | Migrations |
 |  | [When are Migrations?](#what-are-migrations) |
 |   | Seeding |
