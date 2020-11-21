@@ -6,10 +6,10 @@
 
 | No. | Questions |
 | --- | --------- |
-|   | **ARCHITECTURE** |
-|   | Request Lifecycle |
-|  | [What is Request-Response?](#what-is-request-response) |
-|   | Service Container Binding and Resolution |
+|| **ARCHITECTURE** |
+|| Request Lifecycle |
+|| [What is Request-Response?](#what-is-request-response) |
+|| Service Container Binding and Resolution |
 || [What are service containers?](#What-are-service-containers) |
 || [What is Binding?](#What-is-Binding) |
 || [Explain Binding A Singleton?](#Explain-Binding-A-Singleton) |
@@ -20,47 +20,47 @@
 || [Explain Extending Bindings?](#Explain-Extending-Bindings) |
 || Service Providers |
 || [What are Service Providers?](#what-are-service-providers) |
-|   | Facades |
-| | [What are Facades?](#what-are-facades) |
-|   | HTTP Verbs |
-| | [What are HTTP Verbs?](#http-verbs) |
-| | [What is the difference between GET and POST?](#What-is-the-difference-between-GET-and-POST) |
-| | [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
-|   | **Artisan Console** |
-|   | Generating Commands |
+|| Facades |
+|| [What are Facades?](#what-are-facades) |
+|| HTTP Verbs |
+|| [What are HTTP Verbs?](#http-verbs) |
+|| [What is the difference between GET and POST?](#What-is-the-difference-between-GET-and-POST) |
+|| [Which is fast between GET and POST?](#Which-is-fast-between-GET-and-POST) |
+|| **Artisan Console** |
+|| Generating Commands |
 || [How to generate application key in laravel?](#How-to-generate-application-key-in-laravel) |
 || [List all make commands](#List-all-make-commands) |
-|   | [Command I/O](https://laravel.com/docs/8.x/artisan#defining-input-expectations)|
-|   | Registering Commands (https://laravel.com/docs/8.x/artisan#registering-commands) |
-|   | Executing Commands (https://laravel.com/docs/8.x/artisan#programmatically-executing-commands) |
-|   | **Caching** |
-|   | Drivers / Configuration (https://laravel.com/docs/8.x/cache#driver-prerequisites)|
-|   | Storing Items (https://laravel.com/docs/8.x/cache#storing-tagged-cache-items) |
-|   | Retrieving Items (https://laravel.com/docs/8.x/cache#accessing-tagged-cache-items)|
-|   | Cache Tags (https://laravel.com/docs/8.x/cache#cache-tags) |
-|   | Creating Custom Drivers (https://laravel.com/docs/8.x/cache#adding-custom-cache-drivers) |
-|   | **Collections** |
-|   | Creating (https://laravel.com/docs/8.x/collections#creating-collections) / Extending Collections (https://laravel.com/docs/8.x/collections#extending-collections) |
-|   | Collection Methods (https://laravel.com/docs/8.x/collections#available-methods) |
-|   | Higher-order Messages (https://laravel.com/docs/8.x/collections#higher-order-messages) |
-|   | **Controllers** |
+|| [Command I/O](https://laravel.com/docs/8.x/artisan#defining-input-expectations)|
+|| Registering Commands (https://laravel.com/docs/8.x/artisan#registering-commands) |
+|| Executing Commands (https://laravel.com/docs/8.x/artisan#programmatically-executing-commands) |
+|| **Caching** |
+|| Drivers / Configuration (https://laravel.com/docs/8.x/cache#driver-prerequisites)|
+|| Storing Items (https://laravel.com/docs/8.x/cache#storing-tagged-cache-items) |
+|| Retrieving Items (https://laravel.com/docs/8.x/cache#accessing-tagged-cache-items)|
+|| Cache Tags (https://laravel.com/docs/8.x/cache#cache-tags) |
+|| Creating Custom Drivers (https://laravel.com/docs/8.x/cache#adding-custom-cache-drivers) |
+|| **Collections** |
+|| Creating (https://laravel.com/docs/8.x/collections#creating-collections) / Extending Collections (https://laravel.com/docs/8.x/collections#extending-collections) |
+|| Collection Methods (https://laravel.com/docs/8.x/collections#available-methods) |
+|| Higher-order Messages (https://laravel.com/docs/8.x/collections#higher-order-messages) |
+|| **Controllers** |
 || [Define Implicit Controller](#what-is-the-difference-between-where-and-having) |
-|   | Defining Controllers (https://laravel.com/docs/8.x/controllers#defining-controllers) |
-|   | Controller Namespacing |
-|   | Single Action Controllers (https://laravel.com/docs/8.x/controllers#single-action-controllers) |
-|   | Middleware (https://laravel.com/docs/8.x/controllers#controller-middleware)|
-|   | Resource Controllers (https://laravel.com/docs/8.x/controllers#resource-controllers) |
-|   | Dependency Injection (https://laravel.com/docs/8.x/controllers#dependency-injection-and-controllers) |
-|   | Route Caching (https://laravel.com/docs/8.x/controllers#route-caching) |
-|   | **Database** |
-|   | Query Builder (https://laravel.com/docs/8.x/queries)|
-|   | Pagination (https://laravel.com/docs/8.x/pagination) |
-| |    [How to do Pagination in DB?](#how-to-do-pagination-in-db) |
-|   | Migrations (https://laravel.com/docs/8.x/migrations) |
-|  | [When are Migrations?](#what-are-migrations) |
-|   | Seeding (https://laravel.com/docs/8.x/seeding) |
-|  | [What are Seeders?](#what-are-seeders) |
-|   | **Eloquent ORM** |
+|| Defining Controllers (https://laravel.com/docs/8.x/controllers#defining-controllers) |
+|| Controller Namespacing |
+|| Single Action Controllers (https://laravel.com/docs/8.x/controllers#single-action-controllers) |
+|| Middleware (https://laravel.com/docs/8.x/controllers#controller-middleware)|
+|| Resource Controllers (https://laravel.com/docs/8.x/controllers#resource-controllers) |
+|| Dependency Injection (https://laravel.com/docs/8.x/controllers#dependency-injection-and-controllers) |
+|| Route Caching (https://laravel.com/docs/8.x/controllers#route-caching) |
+|| **Database** |
+|| Query Builder (https://laravel.com/docs/8.x/queries)|
+|| Pagination (https://laravel.com/docs/8.x/pagination) |
+||    [How to do Pagination in DB?](#how-to-do-pagination-in-db) |
+|| Migrations (https://laravel.com/docs/8.x/migrations) |
+|| [When are Migrations?](#what-are-migrations) |
+|| Seeding (https://laravel.com/docs/8.x/seeding) |
+|| [What are Seeders?](#what-are-seeders) |
+|| **Eloquent ORM** |
 |   | Conventions |
 |   | Relationships (https://laravel.com/docs/8.x/eloquent-relationships) |
 |   | Eloquent Collections (https://laravel.com/docs/8.x/eloquent-collections) |
