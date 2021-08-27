@@ -61,7 +61,7 @@
 || Seeding (https://laravel.com/docs/8.x/seeding) |
 || [What are Seeders?](#what-are-seeders) |
 || **Eloquent ORM** |
-|   | Conventions |
+|   | Conventions (https://laravel.com/docs/5.0/eloquent) |
 |   | Relationships (https://laravel.com/docs/8.x/eloquent-relationships) |
 |   | Eloquent Collections (https://laravel.com/docs/8.x/eloquent-collections) |
 |   | Mutators / Accessors (https://laravel.com/docs/8.x/eloquent-mutators) |
