@@ -119,12 +119,12 @@
 |   | Composer |
 |   | Autoloading Standards |
 |   | **Package Development** |
-|   | Discovery |
-|   | Service Providers |
-|   | Resources |
-|   | Commands |
-|   | Assets |
-|   | Publishing File Groups |
+|   | Discovery (https://laravel.com/docs/8.x/packages#package-discovery) |
+|   | Service Providers (https://laravel.com/docs/8.x/packages#service-providers) |
+|   | Resources (https://laravel.com/docs/8.x/packages#resources) |
+|   | Commands (https://laravel.com/docs/8.x/packages#commands) |
+|   | Assets (https://laravel.com/docs/8.x/packages#public-assets) |
+|   | Publishing File Groups (https://laravel.com/docs/8.x/packages#publishing-file-groups) |
 |   | **Queues** |
 |   | Drivers / Configurations (https://laravel.com/docs/8.x/queues#other-driver-prerequisites) |
 |   | Creating / Dispatching Jobs (https://laravel.com/docs/8.x/queues#dispatching-jobs) |
