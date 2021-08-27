@@ -137,10 +137,10 @@
 |   | Rate Limiting (https://laravel.com/docs/8.x/routing#rate-limiting) |
 |   | [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
 |   | **Security** |
-|   | Authentication |
-|   | Authorization |
-|   | Encryption / Hashing |
-|   | CSRF Protection |
+|   | Authentication (https://laravel.com/docs/8.x/authentication#introduction) |
+|   | Authorization (https://laravel.com/docs/8.x/authorization#introduction) |
+|   | Encryption (https://laravel.com/docs/8.x/encryption) / Hashing (https://laravel.com/docs/8.x/hashing) |
+|   | CSRF Protection (https://laravel.com/docs/8.x/csrf#csrf-introduction) |
 |   | XSS Protection |
 |   | **Sessions** |
 |   | Configuration |
