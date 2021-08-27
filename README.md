@@ -126,8 +126,8 @@
 |   | Assets |
 |   | Publishing File Groups |
 |   | **Queues** |
-|   | Drivers / Configurations |
-|   | Creating / Dispatching Jobs |
+|   | Drivers / Configurations (https://laravel.com/docs/8.x/queues#other-driver-prerequisites) |
+|   | Creating / Dispatching Jobs (https://laravel.com/docs/8.x/queues#dispatching-jobs) |
 |   | **Routing** |
 |   | Redirects |
 |   | Route Parameters |
