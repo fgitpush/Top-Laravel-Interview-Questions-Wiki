@@ -149,26 +149,26 @@
 |   | Deleting Data (https://laravel.com/docs/8.x/session#deleting-data) |
 |   | Flash Data (https://laravel.com/docs/8.x/session#flash-data) |
 |   | Custom Drivers (https://laravel.com/docs/8.x/session#adding-custom-session-drivers) |
-|   | **Task Scheduling** |
-|   | Scheduling Artisan Commands |
-|   | Scheduling Queue Jobs |
-|   | Scheduling Shell Commands |
-|   | Time Zones |
-|   | Preventing Task Overlaps |
-|   | Maintenance Mode |
+|   | **Task Scheduling** (https://laravel.com/docs/8.x/scheduling#introduction) |
+|   | Scheduling Artisan Commands (https://laravel.com/docs/8.x/scheduling#scheduling-artisan-commands) |
+|   | Scheduling Queue Jobs (https://laravel.com/docs/8.x/scheduling#scheduling-queued-jobs)|
+|   | Scheduling Shell Commands (https://laravel.com/docs/8.x/scheduling#scheduling-shell-commands) |
+|   | Time Zones (https://laravel.com/docs/8.x/scheduling#timezones) |
+|   | Preventing Task Overlaps (https://laravel.com/docs/8.x/scheduling#preventing-task-overlaps) |
+|   | Maintenance Mode (https://laravel.com/docs/8.x/scheduling#maintenance-mode) |
 |   | **Testing** |
-|   | Creating / Running Tests |
-|   | HTTP Tests |
+|   | Creating (https://laravel.com/docs/8.x/testing#creating-tests) / Running Tests (https://laravel.com/docs/8.x/testing#running-tests) |
+|   | HTTP Tests (https://laravel.com/docs/8.x/http-tests) |
 |   | Session / Authentication |
 |   | Testing File Uploads |
 |   | Available Assertions |
 |   | Browser Tests / Dusk |
 |   | Data Factories |
-|   | Fakes / Mocking |
-|   | **URL Generation** |
-|   | Named Routes |
-|   | Controller Actions |
-|   | Default Values |
+|   | Fakes / Mocking (https://laravel.com/docs/8.x/mocking) |
+|   | **URL Generation** (https://laravel.com/docs/8.x/urls#introduction) |
+|   | Named Routes (https://laravel.com/docs/8.x/urls#urls-for-named-routes) |
+|   | Controller Actions (https://laravel.com/docs/8.x/urls#urls-for-controller-actions) |
+|   | Default Values (https://laravel.com/docs/8.x/urls#default-values)|
 |   | **Validation** |
 |   | Form Requests |
 |   | Manually Creating Validators |
