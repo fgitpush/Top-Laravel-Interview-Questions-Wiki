@@ -142,13 +142,13 @@
 |   | Encryption (https://laravel.com/docs/8.x/encryption) / Hashing (https://laravel.com/docs/8.x/hashing) |
 |   | CSRF Protection (https://laravel.com/docs/8.x/csrf#csrf-introduction) |
 |   | XSS Protection |
-|   | **Sessions** |
-|   | Configuration |
-|   | Storing Data |
-|   | Retrieving Data |
-|   | Deleting Data |
-|   | Flash Data |
-|   | Custom Drivers |
+|   | **Sessions** (https://laravel.com/docs/8.x/session) |
+|   | Configuration (https://laravel.com/docs/8.x/session#configuration) |
+|   | Storing Data (https://laravel.com/docs/8.x/session#storing-data)|
+|   | Retrieving Data (https://laravel.com/docs/8.x/session#retrieving-data)|
+|   | Deleting Data (https://laravel.com/docs/8.x/session#deleting-data) |
+|   | Flash Data (https://laravel.com/docs/8.x/session#flash-data) |
+|   | Custom Drivers (https://laravel.com/docs/8.x/session#adding-custom-session-drivers) |
 |   | **Task Scheduling** |
 |   | Scheduling Artisan Commands |
 |   | Scheduling Queue Jobs |
