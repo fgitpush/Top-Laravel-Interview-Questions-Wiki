@@ -102,18 +102,18 @@
 |   | Markdown (https://laravel.com/docs/8.x/mail#markdown-mailables) |
 |   | Local Development (https://laravel.com/docs/8.x/mail#mail-and-local-development) |
 |   | **Middleware** |
-|   | Defining / Registering Middleware |
-|   | Middleware Parameters |
+|   | Defining / Registering Middleware (https://laravel.com/docs/8.x/middleware#registering-middleware) |
+|   | Middleware Parameters (https://laravel.com/docs/8.x/middleware#middleware-parameters)|
 |   | **Notifications** |
-|   | Creating Notifications |
-|   | Sending Notifications |
-|   | Mail Notifications |
-|   | Markdown |
-|   | Database Notifications |
-|   | Broadcast Notifications |
-|   | SMS Notifications |
-|   | Slack Notifications |
-|   | Custom Channels |
+|   | Creating Notifications (https://laravel.com/docs/8.x/notifications#introduction) |
+|   | Sending Notifications (https://laravel.com/docs/8.x/notifications#sending-notifications) |
+|   | Mail Notifications (https://laravel.com/docs/8.x/notifications#mail-notifications) |
+|   | Markdown (https://laravel.com/docs/8.x/notifications#markdown-mail-notifications) |
+|   | Database Notifications (https://laravel.com/docs/8.x/notifications#database-notifications) |
+|   | Broadcast Notifications (https://laravel.com/docs/8.x/notifications#broadcast-notifications) |
+|   | SMS Notifications (https://laravel.com/docs/8.x/notifications#sms-notifications) |
+|   | Slack Notifications (https://laravel.com/docs/8.x/notifications#slack-notifications) |
+|   | Custom Channels (https://laravel.com/docs/8.x/notifications#custom-channels) |
 |   | **PHP** |
 |   | Version 7.1+ |
 |   | Composer |
