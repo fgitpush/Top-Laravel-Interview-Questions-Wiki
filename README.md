@@ -129,13 +129,13 @@
 |   | Drivers / Configurations (https://laravel.com/docs/8.x/queues#other-driver-prerequisites) |
 |   | Creating / Dispatching Jobs (https://laravel.com/docs/8.x/queues#dispatching-jobs) |
 |   | **Routing** |
-|   | Redirects |
-|   | Route Parameters |
-|   | Named Routes |
-|   | Route Groups |
-|   | Route Model Binding |
-|   | Rate Limiting |
-|| [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
+|   | Redirects (https://laravel.com/docs/8.x/routing#basic-routing) |
+|   | Route Parameters (https://laravel.com/docs/8.x/routing#route-parameters) |
+|   | Named Routes (https://laravel.com/docs/8.x/routing#named-routes) |
+|   | Route Groups (https://laravel.com/docs/8.x/routing#route-groups) |
+|   | Route Model Binding (https://laravel.com/docs/8.x/routing#route-model-binding) |
+|   | Rate Limiting (https://laravel.com/docs/8.x/routing#rate-limiting) |
+|   | [What is Rate Limiting OR Throttle in Laravel?](#What-is-Rate-Limiting-OR-Throttle-in-Laravel) |
 |   | **Security** |
 |   | Authentication |
 |   | Authorization |
