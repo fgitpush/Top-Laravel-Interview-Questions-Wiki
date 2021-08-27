@@ -1238,19 +1238,19 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-97. ### What are Procedures
+101. ### What are Procedures
 
     Stored procedures are SQL code in tables. It is called and executed inside tables.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-98. ### What are some new feaatures of Laravel X?
+102. ### What are some new feaatures of Laravel X?
 
    https://medium.com/@samwatsonets/difference-between-laravel-6-0-and-its-previous-versions-efb2829d0f55
 
    **[⬆ Back to Top](#table-of-contents)**
     
-99. ### What are some new features of PHP X?
+103. ### What are some new features of PHP X?
 
     PHP 7.4 brings,
     1. 
@@ -1258,14 +1258,14 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-100. ### Explain Difference between session and cookies?
+104. ### Explain Difference between session and cookies?
 
   Cookies is data sent with every request. It is usually generalized for all.
   Session is data related to a specific user.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-101. ### Merge 2 arrays with duplicate
+105. ### Merge 2 arrays with duplicate
 
     ```
     array_unique(array_merge($array1,$array2), SORT_REGULAR);
@@ -1274,7 +1274,7 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-102. ### Find the count of vowel and consonants
+106. ### Find the count of vowel and consonants
 
     $str="Find the count of vowel and consonants"
     $i=0; $vowel=0; $const=0;
@@ -1292,32 +1292,32 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-103. ### Explain AWS Services
+107. ### Explain AWS Services
 
     AWS has 20 main categories and 150 sub-categories of items. For hosting, EC2 is a well known server type.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-104. ### How to do Web scraping?
+108. ### How to do Web scraping?
 
     Composer has built in packages for it. They may get stopped due to IP usage (no of connections
 
    **[⬆ Back to Top](#table-of-contents)**
     
-105. ### Explain require and require once difference
+109. ### Explain require and require once difference
 
     In require, you can use require multiple times for the same file. It will add the file multiple times while require_once will only require it once.
 
 
    **[⬆ Back to Top](#table-of-contents)**
    
-106. ### Explain include and require diffrence
+110. ### Explain include and require diffrence
 
     In include() the script will run even if the file is not found while in require it will stop if file required is not found.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-107. ### Directory structure of Laravel
+111. ### Directory structure of Laravel
 
     ```
     /bootsrtrap
@@ -1332,7 +1332,7 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-108. ### How to install Laravel via composer?
+112. ### How to install Laravel via composer?
 
     ```
     composer create-project --prefer-dist laravel/laravel blog "5.8.*"
@@ -1340,13 +1340,13 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-109. ### Which ORM are being used by laravel?
+113. ### Which ORM are being used by laravel?
 
     Eloquent
 
    **[⬆ Back to Top](#table-of-contents)**
    
-110. ### List types of relationships available in Laravel Eloquent?
+114. ### List types of relationships available in Laravel Eloquent?
 
     One To One
     One To Many
@@ -1361,7 +1361,7 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-111. ### How to enable maintenance mode in Laravel?
+115. ### How to enable maintenance mode in Laravel?
 
     ```
     php artisan down
@@ -1369,13 +1369,13 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-112. ### What is the purpose of using dd() function in laravel?
+116. ### What is the purpose of using dd() function in laravel?
 
     dd() is dump and die. It prints the variable/array and exits the script.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-113. ### How do you register a Service Provider?
+117. ### How do you register a Service Provider?
     
     Inside `config/app.php`
     ```
@@ -1391,36 +1391,36 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-114. ### Explain Laravel framework Architecture
+119. ### Explain Laravel framework Architecture
 
    **[⬆ Back to Top](#table-of-contents)**
     
-115. ### Helper Functions
+120. ### Helper Functions
     
     Common function which you can use in many classes are stored in helper functions.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-116. ### What is Fillable Attribute in a Laravel Model?
+121. ### What is Fillable Attribute in a Laravel Model?
 
    Which can be mass assigned.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-117. ### What is Guarded Attribute in a Laravel Model?
+122. ### What is Guarded Attribute in a Laravel Model?
 
     Which can't be mass assigned.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-118. ### What are Closures in Laravel?
+123. ### What are Closures in Laravel?
 
     a closure gives you access to an outer function's scope from an inner function
 
    **[⬆ Back to Top](#table-of-contents)**
     
-119. ### How to get Logged in user info in Laravel?
+124. ### How to get Logged in user info in Laravel?
 
     ```
     $user = auth()->user();
@@ -1429,199 +1429,199 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-120. ### What is Laravel Elixir?
+125. ### What is Laravel Elixir?
 
    Used for compiling JS.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-121. ### What is Laravel Mix?
+126. ### What is Laravel Mix?
 
     Used for compiling JS.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-122. ### How can you display HTML with Blade in Laravel?
+127. ### How can you display HTML with Blade in Laravel?
 
      {!! $text !!}
 
    **[⬆ Back to Top](#table-of-contents)**
     
-123. ### How to install laravel via composer ?
+128. ### How to install laravel via composer ?
 
      composer create-project laravel/laravel name
 
    **[⬆ Back to Top](#table-of-contents)**
     
-124. ### List out databases that laravel supports?
+129. ### List out databases that laravel supports?
 
      Laravel supports four database systems: MySQL, Postgres, SQLite, and SQL Server.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-124. ### How to use custom table in Laravel Model?
+130. ### How to use custom table in Laravel Model?
 
     By mentoning the name of the table in `$table` variable
 
    **[⬆ Back to Top](#table-of-contents)**
     
-125. ### How To Use Select Query In Laravel? Eloquent and QB?
+131. ### How To Use Select Query In Laravel? Eloquent and QB?
 
     QB: $users = DB::table('users')->select('name', 'email as user_email')->get();
     Eloquent: $users = User::all();
     
-126. ### What are Accessors and Mutators in Eloquent and why should you use them?
+132. ### What are Accessors and Mutators in Eloquent and why should you use them?
 
     https://laravel.com/docs/4.2/eloquent#accessors-and-mutators
 
    **[⬆ Back to Top](#table-of-contents)**
     
-127. ### How do I log an error?
+133. ### How do I log an error?
 
     https://laravel.com/docs/5.2/errors
 
    **[⬆ Back to Top](#table-of-contents)**
     
-128. ### What is Monolog library in Laravel?
+134. ### What is Monolog library in Laravel?
 
     Helps with logging.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-129. ### Exceptions are handled by which class in Laravel?
+135. ### Exceptions are handled by which class in Laravel?
 
      App\Exceptions\Handler class.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-130. ### What is Serialization in Laravel?
+136. ### What is Serialization in Laravel?
 
     https://laravel.com/docs/5.8/eloquent-serialization
 
    **[⬆ Back to Top](#table-of-contents)**
     
-131. ### What is Response in Laravel?
+137. ### What is Response in Laravel?
 
     When we make a request , we get a responsse.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-132. ### What is Response Macros in Laravel?
+138. ### What is Response Macros in Laravel?
 
     https://laravel.com/docs/5.8/responses#response-macros
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-133. ### What is Rate Limiting OR Throttle in Laravel?
+139. ### What is Rate Limiting OR Throttle in Laravel?
 
     https://www.cloudways.com/blog/laravel-and-api-rate-limiting/
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-134. ### What is Lazy vs Eager Loading in Laravel?
+140. ### What is Lazy vs Eager Loading in Laravel?
 
     https://laravel.com/docs/5.8/eloquent-relationships
 
    **[⬆ Back to Top](#table-of-contents)**
     
-135. ### How to get current environment in Laravel?
+141. ### How to get current environment in Laravel?
 
     https://stackoverflow.com/questions/14935846/laravel-4-how-can-i-get-the-environment-value
 
    **[⬆ Back to Top](#table-of-contents)**
     
-136. ### How to use custom table in Laravel Model ?
+142. ### How to use custom table in Laravel Model ?
 
     $table=""
 
    **[⬆ Back to Top](#table-of-contents)**
     
-137. ### What is Binding?
+143. ### What is Binding?
 
     https://stackoverflow.com/questions/49348681/what-is-a-usage-and-purpose-of-laravels-binding
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-138. ### Explain Binding A Singleton?
+144. ### Explain Binding A Singleton?
 
     https://stackoverflow.com/questions/25229064/laravel-difference-appbind-and-appsingleton
 
    **[⬆ Back to Top](#table-of-contents)**
     
-139. ### Explain Binding Instances?
+145. ### Explain Binding Instances?
 
     https://stackoverflow.com/questions/40767040/how-laravels-container-binding-mechanisms-differ
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-140. ### Explain Binding Primitives?
+146. ### Explain Binding Primitives?
 
     https://stackoverflow.com/questions/40767040/how-laravels-container-binding-mechanisms-differ
 
    **[⬆ Back to Top](#table-of-contents)**
     
-141. ### Explain Contextual Binding and how does it work?
+147. ### Explain Contextual Binding and how does it work?
 
     https://stackoverflow.com/questions/40767040/how-laravels-container-binding-mechanisms-differ
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-142. ### What is Tagging?
+148. ### What is Tagging?
 
     Giving your binding a name.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-143. ### Explain Extending Bindings?
+149. ### Explain Extending Bindings?
 
         https://stackoverflow.com/questions/40767040/how-laravels-container-binding-mechanisms-differ
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-144. ### What is the make Method?
+150. ### What is the make Method?
 
     Makes controller, view, route, group and other items in artisan.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-145. ### How to clear cache in Laravel?
+151. ### How to clear cache in Laravel?
 
     php artisan cache:cleaer
 
    **[⬆ Back to Top](#table-of-contents)**
     
-146. ### What is CSRF token?
+152. ### What is CSRF token?
 
      Protects against cross site attack
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-147. ### How will you explain homestead in Laravel?
+153. ### How will you explain homestead in Laravel?
 
     Virtual box for vagrant
 
    **[⬆ Back to Top](#table-of-contents)**
     
-148. ### How can we get the user's IP address in Laravel?
+154. ### How can we get the user's IP address in Laravel?
 
     Request::ip();
 
    **[⬆ Back to Top](#table-of-contents)**
     
-149. ### How will you create a helper file in Laravel?
+155. ### How will you create a helper file in Laravel?
 
     https://tutsforweb.com/creating-helpers-laravel/
 
    **[⬆ Back to Top](#table-of-contents)**
     
-150. ### How can we create a record in Laravel using eloquent?
+156. ### How can we create a record in Laravel using eloquent?
         
         ```
         $flight = new Flight;
@@ -1634,7 +1634,7 @@ There are four types of routes,
    **[⬆ Back to Top](#table-of-contents)**
     
 
-151. ### How can we get the user's IP address in Laravel?
+157. ### How can we get the user's IP address in Laravel?
 
    ```
    Request::ip();
@@ -1642,7 +1642,7 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-152. ### What is faker in Laravel?
+158. ### What is faker in Laravel?
 
    
      Used to generate dummy data
@@ -1650,71 +1650,71 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-153. ### What are active records?
+159. ### What are active records?
 
     A design pattern which masks SQL queries to make database CRUD operations easy.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-154. ### What are the difference between insert() and insertGetId() in laravel?
+160. ### What are the difference between insert() and insertGetId() in laravel?
 
     insert() only inserts
     insertGetId() inserts and returns id of last added item
 
    **[⬆ Back to Top](#table-of-contents)**
     
-155. ### Talk about Laravel Vapor Compatibility
+161. ### Talk about Laravel Vapor Compatibility
 
     https://vapor.laravel.com/
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-156. ### What is Semantic Versioning?
+162. ### What is Semantic Versioning?
 
     Major version . Minor version . Bug fix
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-157. ### What are Jobs and Middleware?
+163. ### What are Jobs and Middleware?
 
     Jobs:
     Middleware:
 
    **[⬆ Back to Top](#table-of-contents)**
     
-158. ### Talk about Laravel User Interface (UI)
+164. ### Talk about Laravel User Interface (UI)
 
     It uses Blade Templating Engine
 
    **[⬆ Back to Top](#table-of-contents)**
     
-159. ### Talk about Eloquent Subquery Enhancements?
+165. ### Talk about Eloquent Subquery Enhancements?
 
     https://laravel-news.com/eloquent-subquery-enhancements
 
    **[⬆ Back to Top](#table-of-contents)**
     
-160. ### What are improved Authorization Responses?
+166. ### What are improved Authorization Responses?
 
     https://fullstackworld.com/post/what-is-new-to-laravel-6
 
    **[⬆ Back to Top](#table-of-contents)**
     
-161. ### What are lazy collections?
+167. ### What are lazy collections?
 
     https://laravel.com/docs/6.x/collections#lazy-collection-introduction
 
    **[⬆ Back to Top](#table-of-contents)**
     
-162. ### How to make a constant and use globally?
+168. ### How to make a constant and use globally?
 
     https://medium.com/@panjeh/laravel-define-global-constants-config-php-file-5d6a9900bb6e
 
    **[⬆ Back to Top](#table-of-contents)**
     
-163. ### How to remove /public from URL in laravel?
+169. ### How to remove /public from URL in laravel?
 
 
      Rename server.php in your Laravel root folder to index.php
@@ -1723,7 +1723,7 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-164. ### What are the difference between soft delete & delete in Laravel?
+170. ### What are the difference between soft delete & delete in Laravel?
 
 
      https://blog.hashvel.com/posts/eloquent-orm-soft-delete-permanent-delete-in-laravel/
@@ -1731,7 +1731,7 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-165. ### How we can upload files in laravel?
+171. ### How we can upload files in laravel?
 
     Using `Form` class.
     ```
@@ -1750,227 +1750,227 @@ There are four types of routes,
     
    **[⬆ Back to Top](#table-of-contents)**
     
-166. ### Why are Redux state functions c166. ### How to create real time sitemap.xml file in Laravel?
+172. ### Why are Redux state functions c166. ### How to create real time sitemap.xml file in Laravel?
 
     Make a controller to loop through all pages and list them. Make a route to it.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-167. ### How to use skip() and take() in Laravel Query?
+173. ### How to use skip() and take() in Laravel Query?
 
     https://www.bestinterviewquestion.com/question/how-to-use-skip-take-in-laravel-query-kcle83908l2
 
    **[⬆ Back to Top](#table-of-contents)**
     
-168. ### What is tinker in laravel?
+174. ### What is tinker in laravel?
 
     Tinker is command line code functionality where you can write Laravel code in CLI.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-169. ### What is a REPL?
+175. ### What is a REPL?
 
     https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop
 
    **[⬆ Back to Top](#table-of-contents)**
     
-170. ### How to use multiple 'OR' condition in Laravel Query?
+176. ### How to use multiple 'OR' condition in Laravel Query?
     
     Use it as an array in a single or function.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-171. ### Please write some additional where Clauses in Laravel?
+177. ### Please write some additional where Clauses in Laravel?
     
     Use it as an array inside where function.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-172. ### How to check column is exists or not in a table using Laravel?
+178. ### How to check column is exists or not in a table using Laravel?
 
     SELECT that column and chekc if result is not null
 
    **[⬆ Back to Top](#table-of-contents)**
     
-173. ### What is eager loading in Laravel?
+179. ### What is eager loading in Laravel?
    
     https://medium.com/@sdkcodes/laravel-eloquent-eager-loading-9596b15e8b5d
 
    **[⬆ Back to Top](#table-of-contents)**
     
-174. ### How to generate application key in laravel?
+180. ### How to generate application key in laravel?
 
   php artisan key:generate
 
    **[⬆ Back to Top](#table-of-contents)**
     
-175. ### What is LTS version of Laravel?
+181. ### What is LTS version of Laravel?
 
     LTS version is a version where the support is longer i.e it gets longer fixes and support and is a stable version.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-176. ### How to use GROUP_CONCAT() with JOIN in Laravel?
+182. ### How to use GROUP_CONCAT() with JOIN in Laravel?
 
     https://www.bestinterviewquestion.com/question/how-to-use-group-concat-with-join-in-laravel-cht1n5023bz
 
    **[⬆ Back to Top](#table-of-contents)**
     
-177. ### How to extend login expire time in Auth?
+183. ### How to extend login expire time in Auth?
 
     Change the minutes in config\session.php file.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-178. ### How to extend a layout file in laravel view?
+184. ### How to extend a layout file in laravel view?
 
     @extends('name.app')
 
    **[⬆ Back to Top](#table-of-contents)**
     
-179. ### How do you use yield()?
+185. ### How do you use yield()?
 
      @yield('navigation')
 
    **[⬆ Back to Top](#table-of-contents)**
     
-182. ### What is ACL in laravel?
+186. ### What is ACL in laravel?
 
     Package that manages user permissions
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-183. ### How to check Ajax request in Laravel?
+187. ### How to check Ajax request in Laravel?
 
     https://stackoverflow.com/questions/29231587/laravel-check-if-ajax-request
 
    **[⬆ Back to Top](#table-of-contents)**
     
-184. ### How to check if value is sent in request?
+188. ### How to check if value is sent in request?
 
     dd($Request)
 
    **[⬆ Back to Top](#table-of-contents)**
     
-185. ### Laravel String Helper functions?
+189. ### Laravel String Helper functions?
 
     https://laravel.com/docs/5.8/helpers
 
    **[⬆ Back to Top](#table-of-contents)**
     
-186. ### Laravel Array Helper functions?
+190. ### Laravel Array Helper functions?
 
     https://laravel.com/docs/5.8/helpers
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-187. ### How to exclude a route with parameters from CSRF verification?
+191. ### How to exclude a route with parameters from CSRF verification?
 
     https://stackoverflow.com/questions/48062083/laravel-5-4-exclude-a-route-with-parameters-from-csrf-verification
     
 
    **[⬆ Back to Top](#table-of-contents)**
     
-188. ### What are policies classes?
+192. ### What are policies classes?
 
     https://laravel.com/docs/5.7/authorization#policy-methods
 
    **[⬆ Back to Top](#table-of-contents)**
     
-189. ### How to rollback last migration?
+193. ### How to rollback last migration?
 
     Run migration rollback. If you want to rollback more than one steps, give the steps count.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-190. ### What do you mean by Laravel Dusk?
+194. ### What do you mean by Laravel Dusk?
 
     https://laravel.com/docs/5.8/dusk
 
    **[⬆ Back to Top](#table-of-contents)**
     
-191. ### Explain Laravel echo
+195. ### Explain Laravel echo
 
     Used with broadcasting and sockets.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-192. ### What is namespace in Laravel?
+196. ### What is namespace in Laravel?
 
     Identifies a code block and treats it separate fropm the rest so same name confusions don't occur.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-193. ### What is Laravel Forge?
+197. ### What is Laravel Forge?
 
    Laravel managed cloud hosting
 
    **[⬆ Back to Top](#table-of-contents)**
     
-194. ### State the difference between CodeIgniter and Laravel.
+198. ### State the difference between CodeIgniter and Laravel.
 
     CodeIgniter is an older framework and Laravel is a much advanced framework.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-195. ### What is an Observer?
+199. ### What is an Observer?
 
     https://codebriefly.com/brief-understanding-on-laravel-observers/
 
    **[⬆ Back to Top](#table-of-contents)**
     
-196. ### What is the use of the bootstrap directory?
+200. ### What is the use of the bootstrap directory?
 
    Laravel starts from there.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-197. ### What is the default session timeout duration?
+201. ### What is the default session timeout duration?
 
   120 minutes
 
    **[⬆ Back to Top](#table-of-contents)**
     
-198. ### Explain API.PHP route
+202. ### Explain API.PHP route
 
    It is used for creating API. Its url is /api/slug
 
    **[⬆ Back to Top](#table-of-contents)**
     
-199. ### Define hashing in Laravel
+203. ### Define hashing in Laravel
 
    https://laravel.com/docs/5.7/hashing
 
    **[⬆ Back to Top](#table-of-contents)**
     
-200. ### What is Localization?
+204. ### What is Localization?
 
    https://medium.com/@nedsoft/laravel-localization-made-simple-8ee4a34731e7
 
    **[⬆ Back to Top](#table-of-contents)**
     
-202. ### How to share data with views?
+205. ### How to share data with views?
 
    Pass it from the routes. To add for all views: https://laravel.com/docs/5.7/views#sharing-data-with-all-views
 
    **[⬆ Back to Top](#table-of-contents)**
     
-203. ### How to generate a request in Laravel?
+206. ### How to generate a request in Laravel?
 
    Enter a route. It will go to the routes file to match the route and return a response.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-204. ### I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?
+207. ### I just have installed a fresh version of Laravel 5, and I have the white screen of death. What’s wrong?
 
     You might see the white screen of death because of not enough permissions in folders. Try changing permissions of `/public`, `/vendor`, `/storage` folders.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-205. ### How to assign a variable value for all view file?
+208. ### How to assign a variable value for all view file?
 
     ```
             public function __construct() {       
@@ -1995,44 +1995,44 @@ There are four types of routes,
 
    **[⬆ Back to Top](#table-of-contents)**
     
-206. ### How to make a constant and use globally?
+209. ### How to make a constant and use globally?
 
 Create it in the .env file
 
-207. ### How to check current installed version of Laravel?
+210. ### How to check current installed version of Laravel?
 
     See `composer.json` file.
 
    **[⬆ Back to Top](#table-of-contents)**
     
-208. ### What does "composer dump-autoload" do?
+211. ### What does "composer dump-autoload" do?
 
 It just regenerates the list of all classes that need to be included in the project (autoload_classmap.php).
 
    **[⬆ Back to Top](#table-of-contents)**
     
-209. ### What is Kept in vendor directory of Laravel?
+212. ### What is Kept in vendor directory of Laravel?
 
    Laravel dependencies. Their code.
    
 
    **[⬆ Back to Top](#table-of-contents)**
     
-210. ### What does PHP compact function do?
+213. ### What does PHP compact function do?
 
    Convert variables to array.
 
 
    **[⬆ Back to Top](#table-of-contents)**
    
-211. ### What are Laravel facades?
+214. ### What are Laravel facades?
 
    ...
 
 
    **[⬆ Back to Top](#table-of-contents)**
    
-212. ### What directories that need to be writable laravel installation?
+215. ### What directories that need to be writable laravel installation?
 
    /public
    /bootstrap/cache
@@ -2041,27 +2041,27 @@ It just regenerates the list of all classes that need to be included in the proj
 
    **[⬆ Back to Top](#table-of-contents)**
 
-213. ### How to check current Laravel version using CLI?
+216. ### How to check current Laravel version using CLI?
 
    php artisan --version
 
 
    **[⬆ Back to Top](#table-of-contents)**
    
-214. ### Why prefer Laravel over other frameworks?
+217. ### Why prefer Laravel over other frameworks?
 
    https://blog.vanila.io/why-laravel-is-best-php-framework-98a2784d76dc?gi=a81f8fa92a65
 
    **[⬆ Back to Top](#table-of-contents)**
    
-215. ### What are service containers?
+218. ### What are service containers?
 
 Service container is like a container where we define how the dependency should be resolved. We have to register the dependencies into the service container during the initialization of the framework and the best place to do it is the service provider.
 
    **[⬆ Back to Top](#table-of-contents)**
    
    
- 216. ### Write CRUD in Laravel Eloquent
+ 219. ### Write CRUD in Laravel Eloquent
 
    CREATE:
    
@@ -2089,7 +2089,7 @@ Service container is like a container where we define how the dependency should 
 
    **[⬆ Back to Top](#table-of-contents)**
    
- 217. ### Write CRUD in Laravel Query Builder
+ 220. ### Write CRUD in Laravel Query Builder
 
    CREATE:
      ```
@@ -2118,19 +2118,19 @@ Service container is like a container where we define how the dependency should 
    
    **[⬆ Back to Top](#table-of-contents)**
 
- 219. ###  What are Eloquent collections?
+ 221. ###  What are Eloquent collections?
 
    A way to get all of the data of a one or more models which might be required.
 
    **[⬆ Back to Top](#table-of-contents)**
 
- 220. ### Build a to-do application with Laravel backend and a frontend framework  
+ 222. ### Build a to-do application with Laravel backend and a frontend framework  
 
    --
 
    **[⬆ Back to Top](#table-of-contents)**
    
- 221. ### What are the day to day tasks of a Laravel developer?
+ 223. ### What are the day to day tasks of a Laravel developer?
          1. Creating APIs
          2. Write queries using Eloquent
          3. Write helper functions
@@ -2147,7 +2147,7 @@ Service container is like a container where we define how the dependency should 
 
    **[⬆ Back to Top](#table-of-contents)**
 
- 220. ### Output a raw query using eloquent or query builder. 
+ 224. ### Output a raw query using eloquent or query builder. 
 
    Two ways,
    1. Turn the DB logs on and check the last query run in it.
@@ -2155,7 +2155,7 @@ Service container is like a container where we define how the dependency should 
    
    **[⬆ Back to Top](#table-of-contents)**
 
- 220. ### How to create custom helper functions?
+ 225. ### How to create custom helper functions?
 
    Create a helper.php file anywhere and place the functions in it
    
@@ -2167,7 +2167,7 @@ Service container is like a container where we define how the dependency should 
    
    **[⬆ Back to Top](#table-of-contents)**
    
- 221. ### How to check installed extensions in CLI and web for PHP?
+ 226. ### How to check installed extensions in CLI and web for PHP?
 
    ```
    web: run phpinfo() function
@@ -2177,7 +2177,7 @@ Service container is like a container where we define how the dependency should 
    ```
    **[⬆ Back to Top](#table-of-contents)**
    
- 222. ### How to create multiple where clause in eloquent?
+ 227. ### How to create multiple where clause in eloquent?
 
    Use a single where clause and give the parameters as array
    ```
@@ -2188,7 +2188,7 @@ Service container is like a container where we define how the dependency should 
       ...
      ])
    ```
- 223. ### How to clear all cache?
+ 228. ### How to clear all cache?
  
  There are 4 cache in Laravel. Clear them all.
  
@@ -2205,10 +2205,10 @@ Service container is like a container where we define how the dependency should 
  **[⬆ Back to Top](#table-of-contents)**
  
  
-  223. ### What is the difference between where and having?
+  229. ### What is the difference between where and having?
  
 
- 302. ### How can we protect site from SQL Injections?
+ 230. ### How can we protect site from SQL Injections?
  
 We can protect site from SQL injections by sanitizing inputs. Whenever you have to enter string, use PHP function mysqli_real_escape_string().
 
@@ -2219,7 +2219,7 @@ You should always try to use use prepared statements.
  **[⬆ Back to Top](#table-of-contents)**
  
  
-  303. ### List all make commands
+  231. ### List all make commands
 
   make:cast            Create a new custom Eloquent cast class
   
@@ -2267,14 +2267,14 @@ You should always try to use use prepared statements.
   
   make:test            Create a new test class
 
-  303. ### What Are HTTP Verbs?
+  232. ### What Are HTTP Verbs?
   POST, GET, PUT, PATCH, and DELETE etc
   
-  305. ### How to do Pagination in DB?
+  233. ### How to do Pagination in DB?
 $users = DB::table('users')->paginate(15);
 
  
-  305. ### What is ORM?
+  234. ### What is ORM?
 Object–relational mapping is used to use Object oriented way to use database.
 
 
