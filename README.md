@@ -179,12 +179,12 @@
 |   | Creating Views |
 |   | Passing Data to Views |
 |   | View Composer |
-|   | **Websockets** |
-|   | Broadcasting Events |
+|   | **Websockets** (https://laravel.com/docs/8.x/broadcasting) |
+|   | Broadcasting Events (https://laravel.com/docs/8.x/broadcasting#broadcasting-events) |
 |   | Receiving Events |
-|   | Broadcasting Channels |
-|   | Presence Channels |
-|   | Client Events |
+|   | Broadcasting Channels () |
+|   | Presence Channels (https://laravel.com/docs/8.x/broadcasting#presence-channels) |
+|   | Client Events (https://laravel.com/docs/8.x/broadcasting#client-events) |
 | | [What is Repository Pattern?](#what-is-repository-pattern) |
 | | [What is Symfony?](#what-is-symfony) |
 | | [What are Triggers?](#What-are-Triggers) |
