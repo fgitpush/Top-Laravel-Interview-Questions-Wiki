@@ -169,16 +169,16 @@
 |   | Named Routes (https://laravel.com/docs/8.x/urls#urls-for-named-routes) |
 |   | Controller Actions (https://laravel.com/docs/8.x/urls#urls-for-controller-actions) |
 |   | Default Values (https://laravel.com/docs/8.x/urls#default-values)|
-|   | **Validation** |
-|   | Form Requests |
-|   | Manually Creating Validators |
-|   | Error Messages |
-|   | Validation Rules |
-|   | Custom Validation Rules |
-|   | **Views** |
-|   | Creating Views |
-|   | Passing Data to Views |
-|   | View Composer |
+|   | **Validation** (https://laravel.com/docs/8.x/validation) |
+|   | Form Requests (https://laravel.com/docs/8.x/validation#form-request-validation) |
+|   | Manually Creating Validators (https://laravel.com/docs/8.x/validation#manually-creating-validators) |
+|   | Error Messages (https://laravel.com/docs/8.x/validation#working-with-error-messages) |
+|   | Validation Rules (https://laravel.com/docs/8.x/validation#available-validation-rules)|
+|   | Custom Validation Rules (https://laravel.com/docs/8.x/validation#custom-validation-rules) |
+|   | **Views** (https://laravel.com/docs/8.x/views#creating-and-rendering-views) |
+|   | Creating Views (https://laravel.com/docs/8.x/views#creating-and-rendering-views) |
+|   | Passing Data to Views (https://laravel.com/docs/8.x/views#passing-data-to-views) |
+|   | View Composer (https://laravel.com/docs/8.x/views#view-composers) |
 |   | **Websockets** (https://laravel.com/docs/8.x/broadcasting) |
 |   | Broadcasting Events (https://laravel.com/docs/8.x/broadcasting#broadcasting-events) |
 |   | Receiving Events |
