@@ -159,7 +159,7 @@
 |   | **Testing** |
 |   | Creating (https://laravel.com/docs/8.x/testing#creating-tests) / Running Tests (https://laravel.com/docs/8.x/testing#running-tests) |
 |   | HTTP Tests (https://laravel.com/docs/8.x/http-tests) |
-|   | Session / Authentication |
+|   | Session / Authentication (https://laravel.com/docs/8.x/http-tests#session-and-authentication) |
 |   | Testing File Uploads |
 |   | Available Assertions |
 |   | Browser Tests / Dusk |
