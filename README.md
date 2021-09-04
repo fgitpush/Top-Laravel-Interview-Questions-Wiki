@@ -160,8 +160,8 @@
 |   | Creating (https://laravel.com/docs/8.x/testing#creating-tests) / Running Tests (https://laravel.com/docs/8.x/testing#running-tests) |
 |   | HTTP Tests (https://laravel.com/docs/8.x/http-tests) |
 |   | Session / Authentication (https://laravel.com/docs/8.x/http-tests#session-and-authentication) |
-|   | Testing File Uploads |
-|   | Available Assertions |
+|   | Testing File Uploads (https://laravel.com/docs/8.x/http-tests#testing-file-uploads) |
+|   | Available Assertions (https://laravel.com/docs/8.x/http-tests#available-assertions) |
 |   | Browser Tests / Dusk |
 |   | Data Factories |
 |   | Fakes / Mocking (https://laravel.com/docs/8.x/mocking) |
