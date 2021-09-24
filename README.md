@@ -2206,6 +2206,7 @@ Service container is like a container where we define how the dependency should 
  
  
   229. ### What is the difference between where and having?
+  Where is used for rows, having is used for columns.
  
 
  230. ### How can we protect site from SQL Injections?
