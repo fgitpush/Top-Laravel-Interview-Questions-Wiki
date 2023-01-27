@@ -504,7 +504,7 @@
 | | [What is Vertical scaling?](#What-is-Vertical-scaling) |
 
 1. ### What is Routing?
-  When a user enters a URL, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
+  When a user enters a URL or call a console command etc, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
 
 Below is an example get route from `routes/web.php`. You can call website.com/foo and it will bring the result.
 
@@ -655,14 +655,14 @@ There are four types of routes,
     
 14. ### What is ORM?
 
-    Object oriented and Model based way of DB query
+    Object oriented and Model based way of accessing DB. The ORM Laravel uses is Active Records.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
 15. ### What is Eloquent?
 
-    The ORM wrapper Laravel uses is called Eloquent. Every table has a model associated with it.
+    The ORM wrapper Laravel uses is called active records. The active record that is used is Eloquent. Every table has a model associated with it.
     
    **[⬆ Back to Top](#table-of-contents)**
     
