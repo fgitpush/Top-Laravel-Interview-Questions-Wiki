@@ -710,7 +710,7 @@ There are four types of routes,
    
 23. ### How to setup Emails?
 
-    Using PHP's `mail()` function and Laravel's `sendmail()` function. You can custoimize it using templates.
+    We use PHP Mailer. The config of SMTP are given in .env.
 
   **[⬆ Back to Top](#table-of-contents)**
   
@@ -730,7 +730,7 @@ There are four types of routes,
    
 26. ### How to setup Emails?
 
-   Use Laravel's sendmail() function and create a mail template.
+   We use PHP Mailer. The config of SMTP are given in .env.
 
    **[⬆ Back to Top](#table-of-contents)**
     
