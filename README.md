@@ -686,12 +686,13 @@ There are four types of routes,
     
 19. ### What is Authentication using Passport?
     
-    Passport provides a better way to create API.
+    Passport uses OAuth making it a more secure choice for authentication. The details are taken care of by Passport.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 20. ### What Unit testing?
-    Testing every function
+
+   Break the function into separate unit so it can be tested individually.
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -735,13 +736,13 @@ There are four types of routes,
     
 27. ### What are Advanced Eloquent and Query Builder?
 
-    Complex eloquent queries are called advanced eloquent. Query builder is wrapper for database queries.
+    ...
 
    **[⬆ Back to Top](#table-of-contents)**
     
 28. ### Which is Error management?
 
-   Error handling is managing `exception` in a Laravel application.
+   Error handling is managing `exception` in a Laravel application. Laravel uses App\Exception\Handler for it. 
 
    **[⬆ Back to Top](#table-of-contents)**
     
@@ -753,13 +754,13 @@ There are four types of routes,
     
 30. ### What are Events?
 
-   You get notified when an action is triggered.
+   ....
 
    **[⬆ Back to Top](#table-of-contents)**
     
 31. ### What are Listeners?
 
-    Which listen to the events.
+    ..
 
    **[⬆ Back to Top](#table-of-contents)**
     
