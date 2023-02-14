@@ -2287,3 +2287,9 @@ $users = DB::table('users')->paginate(15);
 Object–relational mapping is used to use Object oriented way to use database.
 
 
+235. What are pub/sub in Laravel?
+Its a broadcasting method.
+Pub=Publisher
+Sub=Subscriber
+Decreases communication complexity
+Peforms its task without knowing the other details of the system
