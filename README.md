@@ -504,7 +504,7 @@
 | | [What is Vertical scaling?](#What-is-Vertical-scaling) |
 
 1. ### What is Routing?
-  When a user enters a URL or call a console command etc, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
+When a user enters a URL or call a console command etc, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
 
 Below is an example get route from `routes/web.php`. You can call website.com/foo and it will bring the result.
 
@@ -630,6 +630,13 @@ There are four types of routes,
 
     When we type a URL, a request is sent to the server. The server goes from /public to bootstrap folder from which is goes to the routes file. The route files sends it the right controller/view.
 
+When we access via any of the 4 ways,
+1. write a url
+2. write a console command
+3. do a broadcast
+4. hit an api
+
+the request goes to index.php (which usually is in the /public folder or the root folder). From there, the request goes to bootstrap folder, then to the Auth rules and after that lands in the routes folder in any of the web, api, console or the broadcast routes which is dependant on which route you called.
 
    **[⬆ Back to Top](#table-of-contents)**
     
