@@ -761,13 +761,13 @@ the request goes to index.php (which usually is in the /public folder or the roo
     
 30. ### What are Events?
 
-   ....
+   You can do event based programming in Laravel that is attach stuff to when an event happens. You can do that via events.
 
    **[⬆ Back to Top](#table-of-contents)**
     
 31. ### What are Listeners?
 
-    ..
+    You can monitor an event using listener.
 
    **[⬆ Back to Top](#table-of-contents)**
     
