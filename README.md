@@ -502,6 +502,7 @@
 | | [What is Vue-js?](#what-is-vue-js) |
 | | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
 | | [What is Vertical scaling?](#What-is-Vertical-scaling) |
+||  |**100 Concepts to master ** |
 | | [Routing system for handling HTTP requests]() |
 | | [Model-View-Controller (MVC) architecture for code organization]() |
 | | [Eloquent ORM for database operations]() |
