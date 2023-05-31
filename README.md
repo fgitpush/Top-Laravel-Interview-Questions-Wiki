@@ -502,169 +502,111 @@
 | | [What is Vue-js?](#what-is-vue-js) |
 | | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
 | | [What is Vertical scaling?](#What-is-Vertical-scaling) |
-| [Routing system for handling HTTP requests] | | (routing-system)
-| [Model-View-Controller (MVC) architecture for code organization] | | (mvc-architecture)
-| [Eloquent ORM for database operations] | | (eloquent-orm)
-| [Database migration system for managing database changes] | | (database-migration-system)
-| [Blade templating engine for creating views] | | (blade-templating-engine)
-| [Authentication system with user registration, login, and password reset] | | (authentication-system)
-| [Authorization mechanisms for access control] | | (authorization-mechanisms)
-| [Caching support for improved performance] | | (caching-support)
-| [Queue system for processing tasks asynchronously] | | (queue-system)
-| [Event system for decoupled and modular code] | | (event-system)
-| [Error and exception handling with detailed error pages and logging] | | (error-and-exception-handling)
-| [Built-in testing support for unit, HTTP, and browser testing] | | (built-in-testing-support)
-| [Security features including CSRF protection, encryption, and input validation] | | (security-features)
-| [API development tools with authentication, rate limiting, and resource transformation] | | (api-development-tools)
-| [Task scheduling for running commands at specified intervals] | | (task-scheduling)
-| [Notification system for sending notifications via various channels] | | (notification-system)
-| [File storage with support for different drivers like local, S3, FTP, etc.] | | (file-storage)
-| [Localization tools for translating application text] | | (localization-tools)
-| [Validation system for validating user input] | | (validation-system)
-| [Middleware for modifying incoming requests or outgoing responses] | | (middleware)
-| [Artisan command-line interface for common development tasks] | | (artisan-command-line-interface)
-| [Dependency Injection container for managing class dependencies] | | (dependency-injection-container)
-| [Form and HTML helpers for simplifying form creation] | | (form-and-html-helpers)
-| [Query Builder for building database queries in a fluent manner] | | (query-builder)
-| [Pagination support for easily paginating query results] | | (pagination-support)
-| [Session handling for managing user sessions] | | (session-handling)
-| [Redis integration for fast and efficient caching and data storage] | | (redis-integration)
-| [Broadcasting system for real-time event broadcasting] | | (broadcasting-system)
-| [E-mail sending capabilities with support for various drivers] | | (e-mail-sending-capabilities)
-| [Logging system for recording application logs] | | (logging-system)
-| [Socialite integration for social authentication] | | (socialite-integration)
-| [Validation of incoming requests using form request classes] | | (validation-of-incoming-requests-using-form-request-classes)
-| [Task scheduling for running commands at specified times] | | (task-scheduling)
-| [Horizon dashboard for monitoring and managing queues] | | (horizon-dashboard)
-| [Telescope debug assistant for exploring application errors] | | (telescope-debug-assistant)
-| [API resource classes for transforming and formatting API responses] | | (api-resource-classes)
-| [Policies for fine-grained authorization control] | | (policies-for-fine-grained-authorization-control)
-| [Artisan command scheduling for automated command execution] | | (artisan-command-scheduling-for-automated-command-execution)
-| [Multiple file system configuration for managing different storage locations] | | (multiple-file-system-configuration)
-| [Helper functions for common tasks like working with arrays, strings, and dates] | | (helper-functions-for-common-tasks-like-working-with-arrays-strings-and-dates)
-| [Authorization gates for defining authorization policies] | | (authorization-gates-for-defining-authorization-policies)
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-| | [Routing system for handling HTTP requests]
-| | [Model-View-Controller (MVC) architecture for code organization]
-| | [Eloquent ORM for database operations]
-| | [Database migration system for managing database changes]
-| | [Blade templating engine for creating views]
-| | [Authentication system with user registration, login, and password reset]
-| | [Authorization mechanisms for access control]
-| | [Caching support for improved performance]
-| | [Queue system for processing tasks asynchronously]
-| | [Event system for decoupled and modular code]
-| | [Error and exception handling with detailed error pages and logging]
-| | [Built-in testing support for unit, HTTP, and browser testing]
-| | [Security features including CSRF protection, encryption, and input validation]
-| | [API development tools with authentication, rate limiting, and resource transformation]
-| | [Task scheduling for running commands at specified intervals]
-| | [Notification system for sending notifications via various channels]
-| | [File storage with support for different drivers like local, S3, FTP, etc.]
-| | [Localization tools for translating application text]
-| | [Validation system for validating user input]
-| | [Middleware for modifying incoming requests or outgoing responses]
-| | [Artisan command-line interface for common development tasks]
-| | [Dependency Injection container for managing class dependencies]
-| | [Form and HTML helpers for simplifying form creation]
-| | [Query Builder for building database queries in a fluent manner]
-| | [Pagination support for easily paginating query results]
-| | [Session handling for managing user sessions]
-| | [Redis integration for fast and efficient caching and data storage]
-| | [Broadcasting system for real-time event broadcasting]
-| | [E-mail sending capabilities with support for various drivers]
-| | [Logging system for recording application logs]
-| | [Socialite integration for social authentication]
-| | [Validation of incoming requests using form request classes]
-| | [Task scheduling for running commands at specified times]
-| | [Horizon dashboard for monitoring and managing queues]
-| | [Telescope debug assistant for exploring application errors]
-| | [API resource classes for transforming and formatting API responses]
-| | [Policies for fine-grained authorization control]
-| | [Artisan command scheduling for automated command execution]
-| | [Multiple file system configuration for managing different storage locations]
-| | [Helper functions for common tasks like working with arrays, strings, and dates]
-| | [Authorization gates for defining authorization policies]
-| | [HTTP client for making HTTP requests to external APIs]
-| | [Blade components and slots for reusable view components]
-| | [Rate limiting for protecting API endpoints from abuse]
-| | [Database query logging for debugging and optimization]
-| | [Route model binding for automatic injection of model instances]
-| | [Maintenance mode for displaying a maintenance page during updates]
-| | [Broadcasting events to websockets for real-time updates]
-| | [Soft deletes for marking database records as deleted without permanently deleting them]
-| | [Resource controllers for automatically handling CRUD operations]
-| | [OAuth authentication support for integrating with third-party providers]
-| | [Task queues for managing and executing background jobs]
-| | [Database seeds for populating the database with sample data]
-| | [API versioning for managing different versions of your API]
-| | [Mailing list functionality for managing subscriptions and sending newsletters]
-| | [In-memory cache drivers for faster caching]
-| | [Cross-origin resource sharing (CORS) support for handling AJAX requests from different domains]
-| | [Database query builder macros for extending the query builder with custom methods]
-| | [File uploads handling and validation]
-| | [Pagination customization for creating custom pagination styles]
-| | [Maintenance mode scheduling for automatically enabling and disabling maintenance mode]
-| | [Command bus for handling commands and command pattern implementation]
-| | [Queue worker management for controlling the processing of queued jobs]
-| | [Encryption and decryption utilities for securing sensitive data]
-| | [API rate limiting for controlling the number of requests per minute for APIs]
-| | [Automatic model event handling for performing actions when specific model events occur]
-| | [Database transactions for ensuring atomicity and consistency in database operations]
-| | [Form request validation for validating form input with custom validation rules]
-| | [Resourceful routing for generating routes for CRUD operations automatically]
-| | [Nested resource routing for handling nested resource relationships]
-| | [API authentication using token-based authentication or OAuth]
-| | [Localization of dates, numbers, and other language-specific content]
-| | [Pagination links customization for customizing pagination link URLs]
-| | [Eager loading of relationships to optimize database queries]
-| | [Reverse routing for generating URLs based on named routes]
-| | [Automatic injection of request dependencies in controller methods]
-| | [Dynamic configuration loading for loading configuration values dynamically]
-| | [Database connection switching for handling multiple databases]
-| | [HTTP caching for caching responses to improve performance]
-| | [Request handling using form input, query strings, or JSON payload]
-| | [Console commands for running custom commands from the command line]
-| | [View composers for organizing view-related logic and data binding]
-||[Authorization using gates and policies to define fine-grained access control]
-||[Cross-site scripting (XSS) protection for securing user-generated content]
-||[Cookie handling for setting, getting, and deleting cookies]
-||[API resource pagination for paginating API responses]
-||[Custom validation rules for creating and using custom validation rules]
-||[Database connection pooling for improving database performance]
-||[Task scheduling based on cron expressions for complex scheduling scenarios]
-||[Macroable trait for extending Laravel core classes with custom functionality]
-||[Response macros for extending the response class with custom methods]
-||[Maintenance mode customization for displaying custom maintenance pages]
-||[Database query logging customization for controlling query logging behavior]
-||[Authorization ability checks for checking user permissions]
-||[Middleware groups for applying multiple middleware to a group of routes]
-||[Subquery support for executing subqueries in database queries]
-||[Model factories for generating fake data for testing or database seeding]
-||[Dynamic database connection switching based on runtime conditions]
-||[Route caching for improving route registration performance]
-||[Environment configuration for managing different environments (development, staging, production)]
+| | [Routing system for handling HTTP requests]|()
+| | [Model-View-Controller (MVC) architecture for code organization]|()
+| | [Eloquent ORM for database operations]|()
+| | [Database migration system for managing database changes]|()
+| | [Blade templating engine for creating views]|()
+| | [Authentication system with user registration, login, and password reset]|()
+| | [Authorization mechanisms for access control]|()
+| | [Caching support for improved performance]|()
+| | [Queue system for processing tasks asynchronously]|()
+| | [Event system for decoupled and modular code]|()
+| | [Error and exception handling with detailed error pages and logging]|()
+| | [Built-in testing support for unit, HTTP, and browser testing]|()
+| | [Security features including CSRF protection, encryption, and input validation]|()
+| | [API development tools with authentication, rate limiting, and resource transformation]|()
+| | [Task scheduling for running commands at specified intervals]|()
+| | [Notification system for sending notifications via various channels]|()
+| | [File storage with support for different drivers like local, S3, FTP, etc.]|()
+| | [Localization tools for translating application text]|()
+| | [Validation system for validating user input]|()
+| | [Middleware for modifying incoming requests or outgoing responses]|()
+| | [Artisan command-line interface for common development tasks]|()
+| | [Dependency Injection container for managing class dependencies]|()
+| | [Form and HTML helpers for simplifying form creation]|()
+| | [Query Builder for building database queries in a fluent manner]|()
+| | [Pagination support for easily paginating query results]|()
+| | [Session handling for managing user sessions]|()
+| | [Redis integration for fast and efficient caching and data storage]|()
+| | [Broadcasting system for real-time event broadcasting]|()
+| | [E-mail sending capabilities with support for various drivers]|()
+| | [Logging system for recording application logs]|()
+| | [Socialite integration for social authentication]|()
+| | [Validation of incoming requests using form request classes]|()
+| | [Task scheduling for running commands at specified times]|()
+| | [Horizon dashboard for monitoring and managing queues]|()
+| | [Telescope debug assistant for exploring application errors]|()
+| | [API resource classes for transforming and formatting API responses]|()
+| | [Policies for fine-grained authorization control]|()
+| | [Artisan command scheduling for automated command execution]|()
+| | [Multiple file system configuration for managing different storage locations]|()
+| | [Helper functions for common tasks like working with arrays, strings, and dates]|()
+| | [Authorization gates for defining authorization policies]|()
+| | [HTTP client for making HTTP requests to external APIs]|()
+| | [Blade components and slots for reusable view components]|()
+| | [Rate limiting for protecting API endpoints from abuse]|()
+| | [Database query logging for debugging and optimization]|()
+| | [Route model binding for automatic injection of model instances]|()
+| | [Maintenance mode for displaying a maintenance page during updates]|()
+| | [Broadcasting events to websockets for real-time updates]|()
+| | [Soft deletes for marking database records as deleted without permanently deleting them]|()
+| | [Resource controllers for automatically handling CRUD operations]|()
+| | [OAuth authentication support for integrating with third-party providers]|()
+| | [Task queues for managing and executing background jobs]|()
+| | [Database seeds for populating the database with sample data]|()
+| | [API versioning for managing different versions of your API]|()
+| | [Mailing list functionality for managing subscriptions and sending newsletters]|()
+| | [In-memory cache drivers for faster caching]|()
+| | [Cross-origin resource sharing (CORS) support for handling AJAX requests from different domains]|()
+| | [Database query builder macros for extending the query builder with custom methods]|()
+| | [File uploads handling and validation]|()
+| | [Pagination customization for creating custom pagination styles]|()
+| | [Maintenance mode scheduling for automatically enabling and disabling maintenance mode]|()
+| | [Command bus for handling commands and command pattern implementation]|()
+| | [Queue worker management for controlling the processing of queued jobs]|()
+| | [Encryption and decryption utilities for securing sensitive data]|()
+| | [API rate limiting for controlling the number of requests per minute for APIs]|()
+| | [Automatic model event handling for performing actions when specific model events occur]|()
+| | [Database transactions for ensuring atomicity and consistency in database operations]|()
+| | [Form request validation for validating form input with custom validation rules]|()
+| | [Resourceful routing for generating routes for CRUD operations automatically]|()
+| | [Nested resource routing for handling nested resource relationships]|()
+| | [API authentication using token-based authentication or OAuth]|()
+| | [Localization of dates, numbers, and other language-specific content]|()
+| | [Pagination links customization for customizing pagination link URLs]|()
+| | [Eager loading of relationships to optimize database queries]|()
+| | [Reverse routing for generating URLs based on named routes]|()
+| | [Automatic injection of request dependencies in controller methods]|()
+| | [Dynamic configuration loading for loading configuration values dynamically]|()
+| | [Database connection switching for handling multiple databases]|()
+| | [HTTP caching for caching responses to improve performance]|()
+| | [Request handling using form input, query strings, or JSON payload]|()
+| | [Console commands for running custom commands from the command line]|()
+| | [View composers for organizing view-related logic and data binding]|()
+||[Authorization using gates and policies to define fine-grained access control]|()
+||[Cross-site scripting (XSS) protection for securing user-generated content]|()
+||[Cookie handling for setting, getting, and deleting cookies]|()
+||[API resource pagination for paginating API responses]|()
+||[Custom validation rules for creating and using custom validation rules]|()
+||[Database connection pooling for improving database performance]|()
+||[Task scheduling based on cron expressions for complex scheduling scenarios]|()
+||[Macroable trait for extending Laravel core classes with custom functionality]|()
+||[Response macros for extending the response class with custom methods]|()
+||[Maintenance mode customization for displaying custom maintenance pages]|()
+||[Database query logging customization for controlling query logging behavior]|()
+||[Authorization ability checks for checking user permissions]|()
+||[Middleware groups for applying multiple middleware to a group of routes]|()
+||[Subquery support for executing subqueries in database queries]|()
+||[Model factories for generating fake data for testing or database seeding]|()
+||[Dynamic database connection switching based on runtime conditions]|()
+||[Route caching for improving route registration performance]|()
+||[Environment configuration for managing different environments (development, staging, production)]|()
 
 1. ### What is Routing?
 When a user enters a URL or call a console command etc, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
