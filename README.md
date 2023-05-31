@@ -571,38 +571,38 @@
 | | [Automatic model event handling for performing actions when specific model events occur]() |
 | | [Database transactions for ensuring atomicity and consistency in database operations]() |
 | | [Form request validation for validating form input with custom validation rules]() |
-| | [Resourceful routing for generating routes for CRUD operations automatically]
-| | [Nested resource routing for handling nested resource relationships]|()
-| | [API authentication using token-based authentication or OAuth]|()
-| | [Localization of dates, numbers, and other language-specific content]|()
-| | [Pagination links customization for customizing pagination link URLs]|()
-| | [Eager loading of relationships to optimize database queries]|()
-| | [Reverse routing for generating URLs based on named routes]|()
-| | [Automatic injection of request dependencies in controller methods]|()
-| | [Dynamic configuration loading for loading configuration values dynamically]|()
-| | [Database connection switching for handling multiple databases]|()
-| | [HTTP caching for caching responses to improve performance]|()
-| | [Request handling using form input, query strings, or JSON payload]|()
-| | [Console commands for running custom commands from the command line]|()
-| | [View composers for organizing view-related logic and data binding]|()
-||[Authorization using gates and policies to define fine-grained access control]|()
-||[Cross-site scripting (XSS) protection for securing user-generated content]|()
-||[Cookie handling for setting, getting, and deleting cookies]|()
-||[API resource pagination for paginating API responses]|()
-||[Custom validation rules for creating and using custom validation rules]|()
-||[Database connection pooling for improving database performance]|()
-||[Task scheduling based on cron expressions for complex scheduling scenarios]|()
-||[Macroable trait for extending Laravel core classes with custom functionality]|()
-||[Response macros for extending the response class with custom methods]|()
-||[Maintenance mode customization for displaying custom maintenance pages]|()
-||[Database query logging customization for controlling query logging behavior]|()
-||[Authorization ability checks for checking user permissions]|()
-||[Middleware groups for applying multiple middleware to a group of routes]|()
-||[Subquery support for executing subqueries in database queries]|()
-||[Model factories for generating fake data for testing or database seeding]|()
-||[Dynamic database connection switching based on runtime conditions]|()
-||[Route caching for improving route registration performance]|()
-||[Environment configuration for managing different environments (development, staging, production)]|()
+| | [Resourceful routing for generating routes for CRUD operations automatically]() |
+| | [Nested resource routing for handling nested resource relationships]() |
+| | [API authentication using token-based authentication or OAuth]() |
+| | [Localization of dates, numbers, and other language-specific content]() |
+| | [Pagination links customization for customizing pagination link URLs]() |
+| | [Eager loading of relationships to optimize database queries]() |
+| | [Reverse routing for generating URLs based on named routes]() |
+| | [Automatic injection of request dependencies in controller methods]() |
+| | [Dynamic configuration loading for loading configuration values dynamically]() |
+| | [Database connection switching for handling multiple databases]() |
+| | [HTTP caching for caching responses to improve performance]() |
+| | [Request handling using form input, query strings, or JSON payload]() |
+| | [Console commands for running custom commands from the command line]() |
+| | [View composers for organizing view-related logic and data binding]() |
+||[Authorization using gates and policies to define fine-grained access control]() |
+||[Cross-site scripting (XSS) protection for securing user-generated content]() |
+||[Cookie handling for setting, getting, and deleting cookies]() |
+||[API resource pagination for paginating API responses]() |
+||[Custom validation rules for creating and using custom validation rules]() |
+||[Database connection pooling for improving database performance]() |
+||[Task scheduling based on cron expressions for complex scheduling scenarios]() |
+||[Macroable trait for extending Laravel core classes with custom functionality]() |
+||[Response macros for extending the response class with custom methods]() |
+||[Maintenance mode customization for displaying custom maintenance pages]() |
+||[Database query logging customization for controlling query logging behavior]() |
+||[Authorization ability checks for checking user permissions]() |
+||[Middleware groups for applying multiple middleware to a group of routes]() |
+||[Subquery support for executing subqueries in database queries]() |
+||[Model factories for generating fake data for testing or database seeding]() |
+||[Dynamic database connection switching based on runtime conditions]() |
+||[Route caching for improving route registration performance]() |
+||[Environment configuration for managing different environments (development, staging, production)]() |
 
 1. ### What is Routing?
 When a user enters a URL or call a console command etc, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
