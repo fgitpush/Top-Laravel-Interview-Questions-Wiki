@@ -502,6 +502,69 @@
 | | [What is Vue-js?](#what-is-vue-js) |
 | | [What is Horizontal scaling?](#What-is-Horizontal-scaling) |
 | | [What is Vertical scaling?](#What-is-Vertical-scaling) |
+| [Routing system for handling HTTP requests] | | (routing-system)
+| [Model-View-Controller (MVC) architecture for code organization] | | (mvc-architecture)
+| [Eloquent ORM for database operations] | | (eloquent-orm)
+| [Database migration system for managing database changes] | | (database-migration-system)
+| [Blade templating engine for creating views] | | (blade-templating-engine)
+| [Authentication system with user registration, login, and password reset] | | (authentication-system)
+| [Authorization mechanisms for access control] | | (authorization-mechanisms)
+| [Caching support for improved performance] | | (caching-support)
+| [Queue system for processing tasks asynchronously] | | (queue-system)
+| [Event system for decoupled and modular code] | | (event-system)
+| [Error and exception handling with detailed error pages and logging] | | (error-and-exception-handling)
+| [Built-in testing support for unit, HTTP, and browser testing] | | (built-in-testing-support)
+| [Security features including CSRF protection, encryption, and input validation] | | (security-features)
+| [API development tools with authentication, rate limiting, and resource transformation] | | (api-development-tools)
+| [Task scheduling for running commands at specified intervals] | | (task-scheduling)
+| [Notification system for sending notifications via various channels] | | (notification-system)
+| [File storage with support for different drivers like local, S3, FTP, etc.] | | (file-storage)
+| [Localization tools for translating application text] | | (localization-tools)
+| [Validation system for validating user input] | | (validation-system)
+| [Middleware for modifying incoming requests or outgoing responses] | | (middleware)
+| [Artisan command-line interface for common development tasks] | | (artisan-command-line-interface)
+| [Dependency Injection container for managing class dependencies] | | (dependency-injection-container)
+| [Form and HTML helpers for simplifying form creation] | | (form-and-html-helpers)
+| [Query Builder for building database queries in a fluent manner] | | (query-builder)
+| [Pagination support for easily paginating query results] | | (pagination-support)
+| [Session handling for managing user sessions] | | (session-handling)
+| [Redis integration for fast and efficient caching and data storage] | | (redis-integration)
+| [Broadcasting system for real-time event broadcasting] | | (broadcasting-system)
+| [E-mail sending capabilities with support for various drivers] | | (e-mail-sending-capabilities)
+| [Logging system for recording application logs] | | (logging-system)
+| [Socialite integration for social authentication] | | (socialite-integration)
+| [Validation of incoming requests using form request classes] | | (validation-of-incoming-requests-using-form-request-classes)
+| [Task scheduling for running commands at specified times] | | (task-scheduling)
+| [Horizon dashboard for monitoring and managing queues] | | (horizon-dashboard)
+| [Telescope debug assistant for exploring application errors] | | (telescope-debug-assistant)
+| [API resource classes for transforming and formatting API responses] | | (api-resource-classes)
+| [Policies for fine-grained authorization control] | | (policies-for-fine-grained-authorization-control)
+| [Artisan command scheduling for automated command execution] | | (artisan-command-scheduling-for-automated-command-execution)
+| [Multiple file system configuration for managing different storage locations] | | (multiple-file-system-configuration)
+| [Helper functions for common tasks like working with arrays, strings, and dates] | | (helper-functions-for-common-tasks-like-working-with-arrays-strings-and-dates)
+| [Authorization gates for defining authorization policies] | | (authorization-gates-for-defining-authorization-policies)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 | | [Routing system for handling HTTP requests]
 | | [Model-View-Controller (MVC) architecture for code organization]
 | | [Eloquent ORM for database operations]
