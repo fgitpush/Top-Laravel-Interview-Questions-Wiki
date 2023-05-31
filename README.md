@@ -2435,103 +2435,130 @@ Peforms its task without knowing the other details of the system
 236. Event system for decoupled and modular code
 ....
 
-236. Queue system for processing tasks asynchronously
+236. Error and exception handling with detailed error pages and logging
 ....
 
-236. Queue system for processing tasks asynchronously
+236. Built-in testing support for unit, HTTP, and browser testing
 ....
 
-236. Queue system for processing tasks asynchronously
+236. Security features including CSRF protection, encryption, and input validation
 ....
 
+236. API development tools with authentication, rate limiting, and resource transformation
+....
 
-| | [Error and exception handling with detailed error pages and logging]() |
-| | [Built-in testing support for unit, HTTP, and browser testing]() |
-| | [Security features including CSRF protection, encryption, and input validation]() |
-| | [API development tools with authentication, rate limiting, and resource transformation]() |
-| | [Task scheduling for running commands at specified intervals] () |
-| | [Notification system for sending notifications via various channels]() |
-| | [File storage with support for different drivers like local, S3, FTP, etc.]() |
-| | [Localization tools for translating application text]() |
-| | [Validation system for validating user input]() |
-| | [Middleware for modifying incoming requests or outgoing responses]() |
-| | [Artisan command-line interface for common development tasks]() |
-| | [Dependency Injection container for managing class dependencies]() |
-| | [Form and HTML helpers for simplifying form creation]() |
-| | [Query Builder for building database queries in a fluent manner]() |
-| | [Pagination support for easily paginating query results]() |
-| | [Session handling for managing user sessions]() |
-| | [Redis integration for fast and efficient caching and data storage]() |
-| | [Broadcasting system for real-time event broadcasting]() |
-| | [E-mail sending capabilities with support for various drivers]() |
-| | [Logging system for recording application logs]() |
-| | [Socialite integration for social authentication]() |
-| | [Validation of incoming requests using form request classes]() |
-| | [Task scheduling for running commands at specified times]() |
-| | [Horizon dashboard for monitoring and managing queues]() |
-| | [Telescope debug assistant for exploring application errors]() |
-| | [API resource classes for transforming and formatting API responses]() |
-| | [Policies for fine-grained authorization control]() |
-| | [Artisan command scheduling for automated command execution]() |
-| | [Multiple file system configuration for managing different storage locations]() |
-| | [Helper functions for common tasks like working with arrays, strings, and dates]() |
-| | [Authorization gates for defining authorization policies]() |
-| | [HTTP client for making HTTP requests to external APIs]() |
-| | [Blade components and slots for reusable view components]() |
-| | [Rate limiting for protecting API endpoints from abuse]() |
-| | [Database query logging for debugging and optimization]() |
-| | [Route model binding for automatic injection of model instances]() |
-| | [Maintenance mode for displaying a maintenance page during updates]() |
-| | [Broadcasting events to websockets for real-time updates]() |
-| | [Soft deletes for marking database records as deleted without permanently deleting them]() |
-| | [Resource controllers for automatically handling CRUD operations]() |
-| | [OAuth authentication support for integrating with third-party providers]() |
-| | [Task queues for managing and executing background jobs]() |
-| | [Database seeds for populating the database with sample data]() |
-| | [API versioning for managing different versions of your API]() |
-| | [Mailing list functionality for managing subscriptions and sending newsletters]() |
-| | [In-memory cache drivers for faster caching]() |
-| | [Cross-origin resource sharing (CORS) support for handling AJAX requests from different domains]() |
-| | [Database query builder macros for extending the query builder with custom methods]() |
-| | [File uploads handling and validation]() |
-| | [Pagination customization for creating custom pagination styles]() |
-| | [Maintenance mode scheduling for automatically enabling and disabling maintenance mode]() |
-| | [Command bus for handling commands and command pattern implementation]() |
-| | [Queue worker management for controlling the processing of queued jobs]() |
-| | [Encryption and decryption utilities for securing sensitive data]() |
-| | [API rate limiting for controlling the number of requests per minute for APIs]|() |
-| | [Automatic model event handling for performing actions when specific model events occur]() |
-| | [Database transactions for ensuring atomicity and consistency in database operations]() |
-| | [Form request validation for validating form input with custom validation rules]() |
-| | [Resourceful routing for generating routes for CRUD operations automatically]() |
-| | [Nested resource routing for handling nested resource relationships]() |
-| | [API authentication using token-based authentication or OAuth]() |
-| | [Localization of dates, numbers, and other language-specific content]() |
-| | [Pagination links customization for customizing pagination link URLs]() |
-| | [Eager loading of relationships to optimize database queries]() |
-| | [Reverse routing for generating URLs based on named routes]() |
-| | [Automatic injection of request dependencies in controller methods]() |
-| | [Dynamic configuration loading for loading configuration values dynamically]() |
-| | [Database connection switching for handling multiple databases]() |
-| | [HTTP caching for caching responses to improve performance]() |
-| | [Request handling using form input, query strings, or JSON payload]() |
-| | [Console commands for running custom commands from the command line]() |
-| | [View composers for organizing view-related logic and data binding]() |
-||[Authorization using gates and policies to define fine-grained access control]() |
-||[Cross-site scripting (XSS) protection for securing user-generated content]() |
-||[Cookie handling for setting, getting, and deleting cookies]() |
-||[API resource pagination for paginating API responses]() |
-||[Custom validation rules for creating and using custom validation rules]() |
-||[Database connection pooling for improving database performance]() |
-||[Task scheduling based on cron expressions for complex scheduling scenarios]() |
-||[Macroable trait for extending Laravel core classes with custom functionality]() |
-||[Response macros for extending the response class with custom methods]() |
-||[Maintenance mode customization for displaying custom maintenance pages]() |
-||[Database query logging customization for controlling query logging behavior]() |
-||[Authorization ability checks for checking user permissions]() |
-||[Middleware groups for applying multiple middleware to a group of routes]() |
-||[Subquery support for executing subqueries in database queries]() |
-||[Model factories for generating fake data for testing or database seeding]() |
-||[Dynamic database connection switching based on runtime conditions]() |
-||[Route caching for improving route registration performance]() |
-||[Environment configuration for managing different environments (development, staging, production)]() |
+236. Task scheduling for running commands at specified intervals
+....
+
+236. File storage with support for different drivers like local, S3, FTP, etc.
+....
+
+236. Notification system for sending notifications via various channels 
+....
+
+236. Localization tools for translating application text
+....
+
+236. Validation system for validating user input
+....
+
+236. Middleware for modifying incoming requests or outgoing responses
+....
+
+236. Artisan command-line interface for common development tasks
+....
+
+236. Dependency Injection container for managing class dependencies
+....
+
+236. Form and HTML helpers for simplifying form creation
+....
+
+236. Query Builder for building database queries in a fluent manner
+....
+
+236. Notification system for sending notifications via various channels 
+....
+
+236. Notification system for sending notifications via various channels 
+....
+
+236. Notification system for sending notifications via various channels 
+....
+
+227. Pagination support
+228. Session handling
+229. Redis integration
+230. Broadcasting system
+231. E-mail sending capabilities
+232. Logging system
+233. Socialite integration
+234. Validation of incoming requests using form request classes
+235. Task scheduling
+236. Horizon dashboard
+237. Telescope debug assistant
+238. API resource classes
+239. Policies
+240. Artisan command scheduling
+241. Multiple file system configuration
+242. Helper functions
+243. Authorization gates
+244. HTTP client
+245. Blade components and slots
+246. Rate limiting
+247. Database query logging
+248. Route model binding
+249. Maintenance mode
+250. Broadcasting events to websockets
+251. Soft deletes
+252. Resource controllers
+253. OAuth authentication support
+254. Task queues
+255. Database seeds
+256. API versioning
+257. Mailing list functionality
+258. In-memory cache drivers
+259. Cross-origin resource sharing (CORS) support
+260. Database query builder macros
+261. File uploads handling and validation
+262. Pagination customization
+263. Maintenance mode scheduling
+264. Command bus
+265. Queue worker management
+266. Encryption and decryption utilities
+267. API rate limiting
+268. Automatic model event handling
+269. Database transactions
+270. Form request validation
+271. Resourceful routing
+272. Nested resource routing
+273. API authentication
+274. Localization
+275. Pagination links customization
+276. Eager loading of relationships
+277. Reverse routing
+278. Automatic injection of request dependencies in controller methods
+279. Dynamic configuration loading
+280. Database connection switching
+281. HTTP caching
+282. Request handling
+283. Console commands
+284. View composers
+285. Authorization using gates and policies
+286. Cross-site scripting (XSS) protection
+287. Cookie handling
+288. API resource pagination
+289. Custom validation rules
+290. Database connection pooling
+291. Task scheduling based on cron expressions
+292. Macroable trait
+293. Response macros
+294. Maintenance mode customization
+295. Database query logging customization
+296. Authorization ability checks
+297. Middleware groups
+298. Subquery support
+299. Model factories
+300. Dynamic database connection switching based on runtime conditions
+301. Route caching
+302. Environment configuration
