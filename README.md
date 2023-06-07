@@ -3188,3 +3188,47 @@ Peforms its task without knowing the other details of the system
 923. How do you define a one-to-many polymorphic relationship in Eloquent?
 924. How can you use the orderByDesc method to sort query results in descending order in Eloquent?
 925. What is the purpose of the tap method in Eloquent and how can you use it in query building
+926. What is a queue in Laravel and what purpose does it serve?
+927. How do you configure the default queue driver in Laravel?
+928. What are the different queue drivers available in Laravel?
+929. How can you create a new job in Laravel?
+930. How do you dispatch a job to a queue in Laravel?
+931. What is the purpose of the handle method in a Laravel job?
+932. How can you specify the queue on which a job should be dispatched in Laravel?
+933. How do you run the queue worker in Laravel?
+934. What is the purpose of the --queue option when running the queue worker in Laravel?
+935. How can you delay the execution of a job in Laravel?
+936. What is the purpose of the tries property in a Laravel job?
+937. How do you define the maximum number of times a job should be attempted in Laravel?
+938. What is the purpose of the failed method in a Laravel job?
+939. How can you handle failed jobs in Laravel?
+940. What is a supervisor process and how does it relate to Laravel queues?
+941. How do you restart the queue worker in Laravel?
+942. What is the purpose of the connection property in a Laravel job?
+943. How can you prioritize certain jobs over others in Laravel queues?
+944. What is the purpose of the failed_jobs table in Laravel?
+945. How do you configure the maximum number of queue workers in Laravel?
+946. What is the purpose of the timeout property in a Laravel job?
+947. How can you limit the maximum number of jobs a queue worker can process in Laravel?
+948. What is the purpose of the unique method in Laravel job dispatching?
+949. How do you monitor the status of queued jobs in Laravel?
+950. What is the purpose of the --queue option when running the queue:work command in Laravel?
+951. How can you prioritize certain queues over others in Laravel?
+952. What is the purpose of the failed_jobs configuration option in Laravel?
+953. How do you retry a failed job in Laravel?
+954. What is the purpose of the onDelete method in a Laravel job?
+955. How can you specify the maximum time a job is allowed to be processed in Laravel?
+956. What is the purpose of the --tries option when running the queue:work command in Laravel?
+957. How do you specify a custom connection for a specific job in Laravel?
+958. What is the purpose of the --once option when running the queue:work command in Laravel?
+959. How can you dispatch a job to a specific queue in Laravel?
+960. What is the purpose of the --sleep option when running the queue:work command in Laravel?
+961. How do you specify the maximum number of times a failed job should be attempted in Laravel?
+962. What is the purpose of the release method in a Laravel job?
+963. How can you specify a specific delay for a failed job retry in Laravel?
+964. What is the purpose of the --daemon option when running the queue:work command in Laravel?
+965. How do you specify a custom delay for a specific job in Laravel?
+966. What is the purpose of the backoff method in a Laravel job?
+967. How can you configure a custom connection for Laravel queues?
+968. What is the purpose of the --quiet option when running the queue:work command in Laravel?
+969. How do you specify a custom queue name for a specific job in Laravel?
