@@ -3067,3 +3067,88 @@ Peforms its task without knowing the other details of the system
 802. What are the considerations and techniques for implementing distributed session management in Laravel using technologies like Redis or database sharding for high availability and scalability?
 803. Explain the concept of "event sourcing" in Laravel and how it can be used to reconstruct application state by replaying stored events.
 804. How can you implement a distributed search ranking system in Laravel using technologies like Elasticsearch or Solr to provide relevance-based search results.
+805. How can you perform a left join using Laravel's query builder?
+806. What is the difference between get() and first() methods in Laravel's query builder?
+807. How can you execute raw SQL queries using Laravel's query builder?
+How do you perform a nested where clause using Laravel's query builder?
+How can you use the orWhere method in Laravel's query builder?
+How do you paginate query results using Laravel's query builder?
+What is the purpose of the selectRaw method in Laravel's query builder?
+How can you order query results in descending order using Laravel's query builder?
+How do you perform a group by clause using Laravel's query builder?
+How can you use the whereIn method to query multiple values in Laravel's query builder?
+How do you join three tables using Laravel's query builder?
+How can you perform a subquery using Laravel's query builder?
+What is the purpose of the pluck method in Laravel's query builder?
+How do you use the having clause in Laravel's query builder?
+How can you use the leftJoinSub method in Laravel's query builder?
+How do you perform a raw update query using Laravel's query builder?
+How can you use the orWhereIn method to query multiple values in Laravel's query builder?
+How do you perform a union query using Laravel's query builder?
+How can you retrieve only specific columns from a table using Laravel's query builder?
+How do you perform a cross join using Laravel's query builder?
+How can you use the offset method to skip a certain number of records in Laravel's query builder?
+How do you perform an update query with a join in Laravel's query builder?
+How can you use the orWhereColumn method in Laravel's query builder?
+How do you count the number of records returned by a query using Laravel's query builder?
+How can you use the orderByRaw method to perform a raw order by clause in Laravel's query builder?
+How do you perform a left join with a subquery in Laravel's query builder?
+How can you use the pluck method to retrieve a specific column from a query result in Laravel's query builder?
+How do you perform a case-insensitive search using Laravel's query builder?
+How can you use the unionAll method to perform a union all query in Laravel's query builder?
+How do you perform a conditional where clause in Laravel's query builder?
+How can you use the join method to perform a specific type of join in Laravel's query builder?
+How do you retrieve the first record from a table using Laravel's query builder?
+How can you use the orWhereNotNull method to query records where a specific column is not null in Laravel's query builder?
+How do you retrieve the last inserted ID using Laravel's query builder?
+How can you use the raw method to insert raw SQL in Laravel's query builder?
+How do you perform a where clause with multiple conditions using Laravel's query builder?
+How can you use the orWhereColumnNot method to query records where two columns are not equal in Laravel's query builder?
+How do you perform a right join using Laravel's query builder?
+How can you use the whereInRaw method to query multiple values with a raw SQL expression in Laravel's query builder?
+How do you retrieve a random record from a table using Laravel's query builder?
+How can you use the orWhereExists method to query records where a subquery exists in Laravel's query builder?
+How do you perform a where not in clause using Laravel's query builder?
+How can you use the havingRaw method to perform a raw having clause in Laravel's query builder?
+How do you perform a where between clause using Laravel's query builder?
+How can you use the updateOrInsert method to update or insert a record in Laravel's query builder?
+How do you perform a where date clause using Laravel's query builder?
+How can you use the orWhereBetween method to query records where a value falls between a range in Laravel's query builder?
+How do you perform a where null clause using Laravel's query builder?
+How can you use the avg method to calculate the average value of a column in Laravel's query builder?
+How do you perform a raw delete query using Laravel's query builder?
+How can you use the orWhereHas method to query records based on a related model's condition in Laravel's query builder?
+How do you perform a where in subquery using Laravel's query builder?
+How can you use the sum method to calculate the sum of a column's values in Laravel's query builder?
+How do you perform a raw insert query using Laravel's query builder?
+How can you use the orWhereDate method to query records based on a specific date in Laravel's query builder?
+How do you perform a where not null clause using Laravel's query builder?
+How can you use the joinSub method to perform a join with a subquery in Laravel's query builder?
+How do you retrieve the minimum and maximum values of a column using Laravel's query builder?
+How can you use the orWhereJsonContains method to query records based on a JSON column in Laravel's query builder?
+How do you perform a where year clause using Laravel's query builder?
+How can you use the chunk method to process query results in chunks in Laravel's query builder?
+How do you perform a where column is distinct clause using Laravel's query builder?
+How can you use the avg method with a grouped query to calculate average values per group in Laravel's query builder?
+How do you perform a where exists clause using Laravel's query builder?
+How can you use the orderByRaw method with a case statement to perform a conditional order by in Laravel's query builder?
+How do you perform a where time clause using Laravel's query builder?
+How can you use the count method with a grouped query to calculate counts per group in Laravel's query builder?
+How do you perform a where column is not distinct clause using Laravel's query builder?
+How can you use the pluck method with a keyed column to retrieve a key-value pair in Laravel's query builder?
+How do you perform a where not exists clause using Laravel's query builder?
+How can you use the orderByRaw method with a custom expression to sort query results in Laravel's query builder?
+How do you perform a where day clause using Laravel's query builder?
+How can you use the min and max methods to retrieve the minimum and maximum values of multiple columns in Laravel's query builder?
+How do you perform a whereJsonLength clause using Laravel's query builder?
+How can you use the when method to conditionally apply query conditions in Laravel's query builder?
+How do you perform a where month clause using Laravel's query builder?
+How can you use the whereColumn method to compare two columns in Laravel's query builder?
+How do you perform a whereJsonContains clause with multiple values in Laravel's query builder?
+How can you use the orWhereJsonLength method to query records based on the length of a JSON column in Laravel's query builder?
+How do you perform a where year and month clause using Laravel's query builder?
+How can you use the whenColumn method to conditionally apply query conditions based on column values in Laravel's query builder?
+How do you perform a whereJsonLength clause with a range of values in Laravel's query builder?
+How can you use the orWhereColumnIn method to query records where a column's value is in a list of values in Laravel's query builder?
+How do you perform a whereJsonContains clause with an array?
+
