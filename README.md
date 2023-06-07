@@ -3151,3 +3151,40 @@ Peforms its task without knowing the other details of the system
 886. How do you perform a whereJsonLength clause with a range of values in Laravel's query builder?
 887. How can you use the orWhereColumnIn method to query records where a column's value is in a list of values in Laravel's query builder?
 888. How do you perform a whereJsonContains clause with an array?
+889. How can you define a one-to-one relationship between two Eloquent models in Laravel?
+890. What is the purpose of the with method in Eloquent and how does it improve performance?
+891. How do you define a many-to-many relationship between two Eloquent models in Laravel?
+892. How can you eager load relationships with nested eager loading in Eloquent?
+893. What is the difference between the save and create methods in Eloquent for creating new records?
+894. How do you define a polymorphic relationship between two Eloquent models in Laravel?
+895. How can you retrieve only specific columns from a related model using Eloquent?
+896. What are accessors and mutators in Eloquent, and how can you define them in a model?
+897. How do you define a one-to-many relationship between two Eloquent models in Laravel?
+898. How can you use the whereHas method to query records based on a related model's condition in Eloquent?
+899. What is the purpose of the firstOrFail method in Eloquent and when should you use it?
+900. How do you define a has-many-through relationship between three Eloquent models in Laravel?
+901. How can you order query results based on a related model's column using Eloquent?
+902. What is the purpose of the pluck method in Eloquent and how can you use it to retrieve specific columns?
+903. How do you define a one-to-many inverse relationship in Eloquent?
+904. How can you query records based on a related model's count using Eloquent?
+905. What is the purpose of the findOrFail method in Eloquent and when should you use it?
+906. How do you define a belongs-to-many relationship with additional pivot columns in Eloquent?
+907. How can you use the withCount method to retrieve records with the count of related models in Eloquent?
+908. How do you define a many-to-many relationship with additional pivot columns in Eloquent?
+909. How can you use the has method to query records based on the existence of a related model in Eloquent?
+910. What is the purpose of the firstOrNew method in Eloquent and how does it work?
+911. How do you define a polymorphic many-to-many relationship between three Eloquent models in Laravel?
+912. How can you eager load relationships with constraints in Eloquent?
+913. How do you define a has-one-through relationship between three Eloquent models in Laravel?
+914. How can you use the update method to perform mass updates on multiple records in Eloquent?
+915. What is the purpose of the firstOrCreate method in Eloquent and how does it work?
+916. How do you define a many-to-many inverse relationship in Eloquent?
+917. How can you use the orderBy method to sort query results in Eloquent?
+918. How do you define a one-to-one polymorphic relationship in Eloquent?
+919. How can you use the chunk method to process query results in chunks in Eloquent?
+920. What is the purpose of the findOrNew method in Eloquent and how does it work?
+921. How do you define a has-many-through inverse relationship in Eloquent?
+922. How can you use the orWhere method to perform an OR condition in Eloquent queries?
+923. How do you define a one-to-many polymorphic relationship in Eloquent?
+924. How can you use the orderByDesc method to sort query results in descending order in Eloquent?
+925. What is the purpose of the tap method in Eloquent and how can you use it in query building
