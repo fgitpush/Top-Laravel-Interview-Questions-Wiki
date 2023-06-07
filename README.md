@@ -61,24 +61,24 @@
 || Seeding (https://laravel.com/docs/8.x/seeding) |
 || [What are Seeders?](#what-are-seeders) |
 || **Eloquent ORM** |
-|   | Conventions (https://laravel.com/docs/5.0/eloquent) |
-|   | Relationships (https://laravel.com/docs/8.x/eloquent-relationships) |
-|   | Eloquent Collections (https://laravel.com/docs/8.x/eloquent-collections) |
-|   | Mutators / Accessors (https://laravel.com/docs/8.x/eloquent-mutators) |
+|| Conventions (https://laravel.com/docs/5.0/eloquent) |
+|| Relationships (https://laravel.com/docs/8.x/eloquent-relationships) |
+|| Eloquent Collections (https://laravel.com/docs/8.x/eloquent-collections) |
+|| Mutators / Accessors (https://laravel.com/docs/8.x/eloquent-mutators) |
 || [What are Accessors and Mutators in Eloquent and why should you use them?](#What-are-Accessors-and-Mutators-in-Eloquent-and-why-should-you-use-them) |
-|   | API Resources (https://laravel.com/docs/8.x/eloquent-resources) |
-|   | Serialization (https://laravel.com/docs/8.x/eloquent-serialization) |
-|   | Scopes (https://laravel.com/docs/8.x/eloquent#global-scopes) |
-|   | **Events** (https://laravel.com/docs/8.x/events) |
-| | [What are Events?](#what-are-events) |
-| | [What are Listeners (https://laravel.com/docs/8.x/events#defining-listeners)?](#what-are-listeners) |
-|   | Registering Events  / Listeners (https://laravel.com/docs/8.x/events#registering-events-and-listeners) |
-|   | Queued Listeners (https://laravel.com/docs/8.x/events#queued-event-listeners) |
-|   | Dispatching Events (https://laravel.com/docs/8.x/events#dispatching-events) |
-|   | Subscribing to Events (https://laravel.com/docs/8.x/events#event-subscribers) |
-|   | **File Storage** (https://laravel.com/docs/8.x/filesystem) |
-|   | Configuration / Drivers  (https://laravel.com/docs/8.x/filesystem#configuration) |
-|   | Storing (https://laravel.com/docs/8.x/filesystem#storing-files) / Retrieving Files (https://laravel.com/docs/8.x/filesystem#retrieving-files) |
+|| API Resources (https://laravel.com/docs/8.x/eloquent-resources) |
+|| Serialization (https://laravel.com/docs/8.x/eloquent-serialization) |
+|| Scopes (https://laravel.com/docs/8.x/eloquent#global-scopes) |
+|| **Events** (https://laravel.com/docs/8.x/events) |
+|| [What are Events?](#what-are-events) |
+|| [What are Listeners (https://laravel.com/docs/8.x/events#defining-listeners)?](#what-are-listeners) |
+|| Registering Events  / Listeners (https://laravel.com/docs/8.x/events#registering-events-and-listeners) |
+|| Queued Listeners (https://laravel.com/docs/8.x/events#queued-event-listeners) |
+|| Dispatching Events (https://laravel.com/docs/8.x/events#dispatching-events) |
+|| Subscribing to Events (https://laravel.com/docs/8.x/events#event-subscribers) |
+|| **File Storage** (https://laravel.com/docs/8.x/filesystem) |
+|| Configuration / Drivers  (https://laravel.com/docs/8.x/filesystem#configuration) |
+|| Storing (https://laravel.com/docs/8.x/filesystem#storing-files) / Retrieving Files (https://laravel.com/docs/8.x/filesystem#retrieving-files) |
 |   | Custom Filesystems (https://laravel.com/docs/8.x/filesystem#custom-filesystems) |
 |   | **Frontend** |
 |   | Blade Templating (https://laravel.com/docs/8.x/blade) |
