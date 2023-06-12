@@ -79,39 +79,39 @@
 || **File Storage** (https://laravel.com/docs/8.x/filesystem) |
 || Configuration / Drivers  (https://laravel.com/docs/8.x/filesystem#configuration) |
 || Storing (https://laravel.com/docs/8.x/filesystem#storing-files) / Retrieving Files (https://laravel.com/docs/8.x/filesystem#retrieving-files) |
-|   | Custom Filesystems (https://laravel.com/docs/8.x/filesystem#custom-filesystems) |
-|   | **Frontend** |
-|   | Blade Templating (https://laravel.com/docs/8.x/blade) |
-|   | Localization (https://laravel.com/docs/8.x/localization) |
-|   | Asset Compilation (https://laravel.com/docs/8.x/mix) |
-|   | **Helper Methods** (https://laravel.com/docs/8.x/helpers) |
-|   | Arrays / Objects (https://laravel.com/docs/8.x/helpers#arrays-and-objects-method-list) |
-|   | Paths (https://laravel.com/docs/8.x/helpers#paths-method-list) |
-|   | Strings (https://laravel.com/docs/8.x/helpers#strings-method-list) |
-|   | URLs (https://laravel.com/docs/8.x/helpers#urls-method-list) |
-|   | Misc (https://laravel.com/docs/8.x/helpers#miscellaneous-method-list) |
-|   | **Logging** (https://laravel.com/docs/8.x/logging#introduction) |
-|   | Configuration (https://laravel.com/docs/8.x/logging#configuration) |
-|   | Writing to Specific Channels (https://laravel.com/docs/8.x/logging#configuring-the-channel-name) |
-|   | Creating Custom Channels (https://laravel.com/docs/8.x/logging#advanced-monolog-channel-customization) |
-|   | **Mail** (https://laravel.com/docs/8.x/mail#introduction) |
-|   | Drivers (https://laravel.com/docs/8.x/mail#driver-prerequisites) / Configuration (https://laravel.com/docs/8.x/mail#configuration)  |
-|   | Generating Mailables (https://laravel.com/docs/8.x/mail#generating-mailables) |
-|   | Writing Mail (https://laravel.com/docs/8.x/mail#writing-mailables) |
-|   | Sending Mail (https://laravel.com/docs/8.x/mail#sending-mail) |
-|   | Markdown (https://laravel.com/docs/8.x/mail#markdown-mailables) |
-|   | Local Development (https://laravel.com/docs/8.x/mail#mail-and-local-development) |
-|   | **Middleware** |
-|   | Defining / Registering Middleware (https://laravel.com/docs/8.x/middleware#registering-middleware) |
-|   | Middleware Parameters (https://laravel.com/docs/8.x/middleware#middleware-parameters)|
-|   | **Notifications** |
-|   | Creating Notifications (https://laravel.com/docs/8.x/notifications#introduction) |
-|   | Sending Notifications (https://laravel.com/docs/8.x/notifications#sending-notifications) |
-|   | Mail Notifications (https://laravel.com/docs/8.x/notifications#mail-notifications) |
-|   | Markdown (https://laravel.com/docs/8.x/notifications#markdown-mail-notifications) |
-|   | Database Notifications (https://laravel.com/docs/8.x/notifications#database-notifications) |
-|   | Broadcast Notifications (https://laravel.com/docs/8.x/notifications#broadcast-notifications) |
-|   | SMS Notifications (https://laravel.com/docs/8.x/notifications#sms-notifications) |
+|| Custom Filesystems (https://laravel.com/docs/8.x/filesystem#custom-filesystems) |
+|| **Frontend** |
+|| Blade Templating (https://laravel.com/docs/8.x/blade) |
+|| Localization (https://laravel.com/docs/8.x/localization) |
+|| Asset Compilation (https://laravel.com/docs/8.x/mix) |
+|| **Helper Methods** (https://laravel.com/docs/8.x/helpers) |
+|| Arrays / Objects (https://laravel.com/docs/8.x/helpers#arrays-and-objects-method-list) |
+|| Paths (https://laravel.com/docs/8.x/helpers#paths-method-list) |
+|| Strings (https://laravel.com/docs/8.x/helpers#strings-method-list) |
+|| URLs (https://laravel.com/docs/8.x/helpers#urls-method-list) |
+|| Misc (https://laravel.com/docs/8.x/helpers#miscellaneous-method-list) |
+|| **Logging** (https://laravel.com/docs/8.x/logging#introduction) |
+|| Configuration (https://laravel.com/docs/8.x/logging#configuration) |
+|| Writing to Specific Channels (https://laravel.com/docs/8.x/logging#configuring-the-channel-name) |
+|| Creating Custom Channels (https://laravel.com/docs/8.x/logging#advanced-monolog-channel-customization) |
+|| **Mail** (https://laravel.com/docs/8.x/mail#introduction) |
+|| Drivers (https://laravel.com/docs/8.x/mail#driver-prerequisites) / Configuration (https://laravel.com/docs/8.x/mail#configuration)  |
+|| Generating Mailables (https://laravel.com/docs/8.x/mail#generating-mailables) |
+|| Writing Mail (https://laravel.com/docs/8.x/mail#writing-mailables) |
+|| Sending Mail (https://laravel.com/docs/8.x/mail#sending-mail) |
+|| Markdown (https://laravel.com/docs/8.x/mail#markdown-mailables) |
+|| Local Development (https://laravel.com/docs/8.x/mail#mail-and-local-development) |
+|| **Middleware** |
+|| Defining / Registering Middleware (https://laravel.com/docs/8.x/middleware#registering-middleware) |
+|| Middleware Parameters (https://laravel.com/docs/8.x/middleware#middleware-parameters)|
+|| **Notifications** |
+|| Creating Notifications (https://laravel.com/docs/8.x/notifications#introduction) |
+|| Sending Notifications (https://laravel.com/docs/8.x/notifications#sending-notifications) |
+|| Mail Notifications (https://laravel.com/docs/8.x/notifications#mail-notifications) |
+|| Markdown (https://laravel.com/docs/8.x/notifications#markdown-mail-notifications) |
+|| Database Notifications (https://laravel.com/docs/8.x/notifications#database-notifications) |
+|| Broadcast Notifications (https://laravel.com/docs/8.x/notifications#broadcast-notifications) |
+|| SMS Notifications (https://laravel.com/docs/8.x/notifications#sms-notifications) |
 |   | Slack Notifications (https://laravel.com/docs/8.x/notifications#slack-notifications) |
 |   | Custom Channels (https://laravel.com/docs/8.x/notifications#custom-channels) |
 |   | **PHP** |
@@ -605,15 +605,8 @@
 ||[Environment configuration for managing different environments (development, staging, production)]() |
 
 1. ### What is Routing?
-When a user enters a URL or call a console command etc, it gets send to a routes folder. web.php route is for web requests while api.php route is for API requests.
+Mapping the urls to controllers/views is called routing. routing can be done in web.php, api.php, console.php or broadcast.php. You can also define your routes in Http/Kernel.
 
-Below is an example get route from `routes/web.php`. You can call website.com/foo and it will bring the result.
-
-  ```
-  Route::get('foo', function () {
-      return 'Hello World';
-  });
-  ```
  **[⬆ Back to Top](#table-of-contents)**
     
 2. ### How many types of routes are there?
@@ -657,7 +650,24 @@ There are four types of routes,
      
 5. ### What is channels php?
 
-    It is used for broadcasting
+```
+// Create a channel
+$channel = new Channel();
+
+// Create a publisher
+$publisher = new Publisher($channel);
+
+// Create a subscriber
+$subscriber = new Subscriber($channel);
+
+// Subscribe to the channel
+$subscriber->subscribe(function ($message) {
+    // Do something with the message
+});
+
+// Publish a message
+$publisher->publish('Hello World!');
+```
 
  **[⬆ Back to Top](#table-of-contents)**
 
