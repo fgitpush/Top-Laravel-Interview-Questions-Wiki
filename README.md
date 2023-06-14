@@ -3231,7 +3231,20 @@ CRUD controllers usually used for APIs. Created via make:resource not make:contr
 950. How can you use the orderByDesc method to sort query results in descending order in Eloquent?
 $users = User::orderByDesc('created_at')->get();
 949. What is the purpose of the tap method in Eloquent and how can you use it in query building
-950. What is a queue in Laravel and what purpose does it serve?
+
+```
+$users = DB::table('users')
+    ->where('status', 'active')
+    ->tap(function ($query) {
+        if ($someCondition) {
+            $query->where('age', '>', 18);
+        }
+    })
+    ->orderBy('name')
+    ->get();
+```
+
+951. What is a queue in Laravel and what purpose does it serve?
 Queue helps provide a bus lane for the jobs to run. We can prioritize on bus lane over another i.e one queue over another and also find use a specific low traffic queue to run our mission critial jobs and keep the critial jobs in another place.
 933. How do you configure the default queue driver in Laravel?
 Put it in the connection
