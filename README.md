@@ -3215,15 +3215,16 @@ Use the session() function
 943. What is the purpose of the failed method in a Laravel job?
 944. How can you handle failed jobs in Laravel?
 945. What is a supervisor process and how does it relate to Laravel queues?
-946. How do you restart the queue worker in Laravel?
-947. What is the purpose of the connection property in a Laravel job?
-948. How can you prioritize certain jobs over others in Laravel queues?
-949. What is the purpose of the failed_jobs table in Laravel?
+946. How do you restart the queue worker in Laravel? Find the queue by process ID and kill it.
+947. What is the purpose of the connection property in a Laravel job? To tell which DB to use.
+948. How can you prioritize certain jobs over others in Laravel queues? Set the priority in the connection.
+949. What is the purpose of the failed_jobs table in Laravel? Failed jobs land there until they succeed
 950. How do you configure the maximum number of queue workers in Laravel?
-951. What is the purpose of the timeout property in a Laravel job?
-952. How can you limit the maximum number of jobs a queue worker can process in Laravel?
-953. What is the purpose of the unique method in Laravel job dispatching?
-954. How do you monitor the status of queued jobs in Laravel?
+Set the no of traffic here:     'maxProcesses' => 10
+952. What is the purpose of the timeout property in a Laravel job? Set how long to run the queue before stoping.
+953. How can you limit the maximum number of jobs a queue worker can process in Laravel?
+954. What is the purpose of the unique method in Laravel job dispatching? To prevent duplicate jobs from running.
+955. How do you monitor the status of queued jobs in Laravel?
 Use Laravel Horizon
 956. What is the purpose of the --queue option when running the queue:work command in Laravel?
 957. How can you prioritize certain queues over others in Laravel?
