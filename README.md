@@ -3199,25 +3199,41 @@ Use the session() function
 929. How can you use the orderByDesc method to sort query results in descending order in Eloquent?
 930. What is the purpose of the tap method in Eloquent and how can you use it in query building
 931. What is a queue in Laravel and what purpose does it serve?
-932. How do you configure the default queue driver in Laravel?
-933. What are the different queue drivers available in Laravel?
-934. How can you create a new job in Laravel?
-935. How do you dispatch a job to a queue in Laravel?
-936. What is the purpose of the handle method in a Laravel job?
-937. How can you specify the queue on which a job should be dispatched in Laravel?
-938. How do you run the queue worker in Laravel?
-939. What is the purpose of the --queue option when running the queue worker in Laravel?
+Queue helps provide a bus lane for the jobs to run. We can prioritize on bus lane over another i.e one queue over another and also find use a specific low traffic queue to run our mission critial jobs and keep the critial jobs in another place.
+933. How do you configure the default queue driver in Laravel?
+Put it in the connection
+934. What are the different queue drivers available in Laravel?
+There are many drivers like database, redis etc
+935. How can you create a new job in Laravel?
+php artisan make:job SendEmailJob
+936. How do you dispatch a job to a queue in Laravel?
+Use the dispatch function:
+SendEmailJob::dispatch()->onQueue('high');
+937. What is the purpose of the handle method in a Laravel job?
+We write the logic of job in it
+938. How can you specify the queue on which a job should be dispatched in Laravel?
+php artisan queue:work --queue=high,default,low
+In above high, low and default are queues and each has its priority.
+939. How do you run the queue worker in Laravel?
+php artisan queue:work --queue=high,default,low
+940. What is the purpose of the --queue option when running the queue worker in Laravel?
+Specify queue and priority
 940. How can you delay the execution of a job in Laravel?
 941. What is the purpose of the tries property in a Laravel job?
-942. How do you define the maximum number of times a job should be attempted in Laravel?
-943. What is the purpose of the failed method in a Laravel job?
-944. How can you handle failed jobs in Laravel?
-945. What is a supervisor process and how does it relate to Laravel queues?
-946. How do you restart the queue worker in Laravel? Find the queue by process ID and kill it.
-947. What is the purpose of the connection property in a Laravel job? To tell which DB to use.
-948. How can you prioritize certain jobs over others in Laravel queues? Set the priority in the connection.
-949. What is the purpose of the failed_jobs table in Laravel? Failed jobs land there until they succeed
-950. How do you configure the maximum number of queue workers in Laravel?
+To define number of retries.
+943. How do you define the maximum number of times a job should be attempted in Laravel?
+$tries
+944. What is the purpose of the failed method in a Laravel job?
+To do something if job fails.
+945. How can you handle failed jobs in Laravel?
+Use retries and put the code in fail function
+946. What is a supervisor process and how does it relate to Laravel queues?
+Supervisor is the daddy of the queues and takes care of them. We need to install the package.
+947. How do you restart the queue worker in Laravel? Find the queue by process ID and kill it.
+948. What is the purpose of the connection property in a Laravel job? To tell which DB to use.
+949. How can you prioritize certain jobs over others in Laravel queues? Set the priority in the connection.
+950. What is the purpose of the failed_jobs table in Laravel? Failed jobs land there until they succeed
+951. How do you configure the maximum number of queue workers in Laravel?
 Set the no of traffic here:     'maxProcesses' => 10
 952. What is the purpose of the timeout property in a Laravel job? Set how long to run the queue before stoping.
 953. How can you limit the maximum number of jobs a queue worker can process in Laravel?
@@ -3225,7 +3241,9 @@ Set the no of traffic here:     'maxProcesses' => 10
 955. How do you monitor the status of queued jobs in Laravel?
 Use Laravel Horizon
 956. What is the purpose of the --queue option when running the queue:work command in Laravel?
-957. How can you prioritize certain queues over others in Laravel?
+Use to set priority of queue.
+php artisan queue:work --queue=high,default,low
+958. How can you prioritize certain queues over others in Laravel?
 Set your priority in connections:
 ```
 'connections' => [
