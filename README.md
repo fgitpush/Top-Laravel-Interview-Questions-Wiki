@@ -1371,9 +1371,7 @@ the request goes to index.php (which usually is in the /public folder or the roo
     
 103. ### What are some new features of PHP X?
 
-    PHP 7.4 brings,
-    1. 
-    2.
+    PHP 8.2
 
    **[⬆ Back to Top](#table-of-contents)**
     
