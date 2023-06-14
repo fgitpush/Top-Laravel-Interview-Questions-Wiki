@@ -2554,7 +2554,7 @@ class YourModel extends Model
 273. Resource controllers
 CRUD controllers usually used for APIs. Created via make:resource not make:controller.
 275. OAuth authentication support
-
+Use passport
 277. Task queues
 278. Database seeds
 279. API versioning
