@@ -3230,14 +3230,22 @@ Use the session() function
 958. How do you retry a failed job in Laravel?
 959. What is the purpose of the onDelete method in a Laravel job?
 960. How can you specify the maximum time a job is allowed to be processed in Laravel?
-961. What is the purpose of the --tries option when running the queue:work command in Laravel?
-962. How do you specify a custom connection for a specific job in Laravel?
-963. What is the purpose of the --once option when running the queue:work command in Laravel?
-964. How can you dispatch a job to a specific queue in Laravel?
-965. What is the purpose of the --sleep option when running the queue:work command in Laravel?
-966. How do you specify the maximum number of times a failed job should be attempted in Laravel?
-967. What is the purpose of the release method in a Laravel job?
-968. How can you specify a specific delay for a failed job retry in Laravel?
+public $timeout = 60;
+962. What is the purpose of the --tries option when running the queue:work command in Laravel?
+How many attemps to give in terms of failure: php artisan queue:work --tries=3
+963. How do you specify a custom connection for a specific job in Laravel?
+mention the connection inside the job:
+MyJob::dispatch()->onConnection('custom-connection');
+964. What is the purpose of the --once option when running the queue:work command in Laravel?
+965. How can you dispatch a job to a specific queue in Laravel?
+Select the bus lane (queue) using : ```MyJob::dispatch()->onQueue('my-queue');```
+966. What is the purpose of the --sleep option when running the queue:work command in Laravel?
+To add delay between jobs: ```php artisan queue:work --sleep=5```
+967. How do you specify the maximum number of times a failed job should be attempted in Laravel?
+$tries=4;
+968. What is the purpose of the release method in a Laravel job?
+to tell the job to stop and not try anymore.
+969. How can you specify a specific delay for a failed job retry in Laravel?
 Yes. Use the backoff() function.
 970. What is the purpose of the --daemon option when running the queue:work command in Laravel?
 Daemon mode is background mode.
