@@ -3224,12 +3224,49 @@ Use the session() function
 952. How can you limit the maximum number of jobs a queue worker can process in Laravel?
 953. What is the purpose of the unique method in Laravel job dispatching?
 954. How do you monitor the status of queued jobs in Laravel?
-955. What is the purpose of the --queue option when running the queue:work command in Laravel?
-956. How can you prioritize certain queues over others in Laravel?
-957. What is the purpose of the failed_jobs configuration option in Laravel?
-958. How do you retry a failed job in Laravel?
-959. What is the purpose of the onDelete method in a Laravel job?
-960. How can you specify the maximum time a job is allowed to be processed in Laravel?
+Use Laravel Horizon
+956. What is the purpose of the --queue option when running the queue:work command in Laravel?
+957. How can you prioritize certain queues over others in Laravel?
+Set your priority in connections:
+```
+'connections' => [
+    'high' => [
+        'driver' => 'redis',
+        'connection' => 'default',
+        'queue' => 'high-priority-queue',
+        'retry_after' => 90,
+    ],
+    'default' => [
+        'driver' => 'redis',
+        'connection' => 'default',
+        'queue' => 'default-queue',
+        'retry_after' => 60,
+    ],
+    'low' => [
+        'driver' => 'redis',
+        'connection' => 'default',
+        'queue' => 'low-priority-queue',
+        'retry_after' => 120,
+    ],
+],
+```
+In the example above, three queue connections (high, default, and low) are defined, representing queues with different priorities. Each connection has its own queue value, specifying the name of the associated queue.
+
+Adjust the queue worker configuration in the same config/queue.php file.
+php
+Copy code
+'worker' => [
+    'sleep' => 3,
+    'max_tries' => 3,
+    'max_time' => 60,
+],
+
+958. What is the purpose of the failed_jobs configuration option in Laravel?
+Jobs which fail, land there.
+959. How do you retry a failed job in Laravel?
+Put the next steps in failed() function
+960. What is the purpose of the onDelete method in a Laravel job?
+961. How can you specify the maximum time a job is allowed to be processed in Laravel?
 public $timeout = 60;
 962. What is the purpose of the --tries option when running the queue:work command in Laravel?
 How many attemps to give in terms of failure: php artisan queue:work --tries=3
