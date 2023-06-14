@@ -3215,8 +3215,9 @@ If you name the controller, model right and put them right in the routes folder 
 945. How can you use the orWhere method to perform an OR condition in Eloquent queries?
 946. How do you define a one-to-many polymorphic relationship in Eloquent?
 947. How can you use the orderByDesc method to sort query results in descending order in Eloquent?
-948. What is the purpose of the tap method in Eloquent and how can you use it in query building
-949. What is a queue in Laravel and what purpose does it serve?
+$users = User::orderByDesc('created_at')->get();
+949. What is the purpose of the tap method in Eloquent and how can you use it in query building
+950. What is a queue in Laravel and what purpose does it serve?
 Queue helps provide a bus lane for the jobs to run. We can prioritize on bus lane over another i.e one queue over another and also find use a specific low traffic queue to run our mission critial jobs and keep the critial jobs in another place.
 933. How do you configure the default queue driver in Laravel?
 Put it in the connection
@@ -3237,7 +3238,8 @@ php artisan queue:work --queue=high,default,low
 940. What is the purpose of the --queue option when running the queue worker in Laravel?
 Specify queue and priority
 940. How can you delay the execution of a job in Laravel?
-941. What is the purpose of the tries property in a Laravel job?
+use delay function
+942. What is the purpose of the tries property in a Laravel job?
 To define number of retries.
 943. How do you define the maximum number of times a job should be attempted in Laravel?
 $tries
