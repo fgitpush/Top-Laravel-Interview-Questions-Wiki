@@ -2555,99 +2555,100 @@ class YourModel extends Model
 CRUD controllers usually used for APIs. Created via make:resource not make:controller.
 275. OAuth authentication support
 Use passport
-277. Task queues
-278. Database seeds
-279. API versioning
-280. Mailing list functionality
-281. In-memory cache drivers
-282. Cross-origin resource sharing (CORS) support
-283. Database query builder macros
-284. File uploads handling and validation
-285. Pagination customization
-286. Maintenance mode scheduling
-287. Command bus
-288. Queue worker management
-289. Encryption and decryption utilities
-290. API rate limiting
-291. Automatic model event handling
-292. Database transactions
-293. Form request validation
-294. Resourceful routing
-295. Nested resource routing
-296. API authentication
-297. Localization
-298. Pagination links customization
-299. Eager loading of relationships
-300. Reverse routing
-301. Automatic injection of request dependencies in controller methods
-302. Dynamic configuration loading
-303. Database connection switching
-304. HTTP caching
-305. Request handling
-306. Console commands
-307. View composers
-308. Authorization using gates and policies
-309. Cross-site scripting (XSS) protection
-310. Cookie handling
-311. API resource pagination
-312. Custom validation rules
-313. Database connection pooling
-314. Task scheduling based on cron expressions
-315. Macroable trait
-316. Response macros
-317. Maintenance mode customization
-318. Database query logging customization
-319. Authorization ability checks
-320. Middleware groups
-321. Subquery support
-322. Model factories
-323. Dynamic database connection switching based on runtime conditions
-324. Route caching
-325. Environment configuration
-326. Laravel Interview Questions
-327. What is a service container in Laravel?
-328. What is method injection in Laravel?
-329. Explain the concept of event broadcasting in Laravel.
-330. What is the purpose of the Laravel scheduler?
-331. How can you handle file uploads in Laravel?
-332. Explain the concept of eager loading in Laravel.
-333. How can you implement pagination in Laravel?
-334. What are Laravel collections?
-335. Explain the purpose of the "has" and "whereHas" methods in Eloquent.
-336. What are the different types of relationships in Laravel Eloquent?
-337. How can you implement sorting in Laravel Eloquent?
-338. Explain the concept of method chaining in Laravel.
-339. Explain the purpose of the "belongsToMany" relationship in Laravel Eloquent.
-340. What is the purpose of the "tap" method in Laravel?
-341. Explain the purpose of the "compact" function in Laravel.
-342. How can you implement task scheduling in Laravel?
-343. What is the purpose of the "remember" method in Laravel cache?
-344. How can you implement event listeners in Laravel?
-345. What is the purpose of the "dispatch" function in Laravel?
-346. How can you implement soft deletes in Laravel?
-347. Explain the concept of lazy loading in Laravel.
-348. What is the purpose of the "whereBetween" method in Laravel query builder?
-349. How can you implement API rate limiting in Laravel?
-350. What is the purpose of the "hasManyThrough" relationship in Laravel Eloquent?
-351. How can you implement database transactions in Laravel?
-352. What is the purpose of the "route" function in Laravel views?
-353. Explain the concept of eager loading constraints in Laravel.
-354. What is the purpose of the "attach" method in Laravel Eloquent relationships?
-355. Explain the purpose of the "assertSee" method in Laravel testing.
-356. How can you implement full-text search in Laravel?
-357. What is the purpose of the "encryptString" method in Laravel?
-358. How can you implement job queues in Laravel?
-359. Explain the concept of method spoofing in Laravel forms.
-360. How can you implement database indexing in Laravel?
-361. What is the purpose of the "detach" method in Laravel Eloquent relationships?
-362. How can you implement real-time notifications in Laravel?
-363. What is the purpose of the "paginate" method in Laravel Eloquent?
-364. What is the purpose of the "hasOne" relationship in Laravel Eloquent?
-365. What is the purpose of the "once" method in Laravel cache?
-366. What is the purpose of the "crossJoin" method in Laravel query builder?
-367. How can you implement multiple authentication guards in Laravel?
-368. How can you implement custom error pages in Laravel?
-369. Explain the purpose and usage of the "macro" method in Laravel.
+277. Task queue
+     jobs and queues
+279. Database seeds. seed the dv
+280. API version. give version to api.
+281. Mailing list functionality
+282. In-memory cache drivers
+283. Cross-origin resource sharing (CORS) support
+284. Database query builder macros
+285. File uploads handling and validation
+286. Pagination customization
+287. Maintenance mode scheduling. php artisan down.
+288. Command bus
+289. Queue worker management. laravel horizon.
+290. Encryption and decryption utilities
+291. API rate limiting.
+292. Automatic model event handling
+293. Database transactions
+294. Form request validation
+295. Resourceful routing
+296. Nested resource routing
+297. API authentication
+298. Localization
+299. Pagination links customization
+300. Eager loading of relationships
+301. Reverse routing
+302. Automatic injection of request dependencies in controller methods
+303. Dynamic configuration loading
+304. Database connection switching
+305. HTTP caching
+306. Request handling
+307. Console commands
+308. View composers
+309. Authorization using gates and policies
+310. Cross-site scripting (XSS) protection
+311. Cookie handling
+312. API resource pagination
+313. Custom validation rules
+314. Database connection pooling
+315. Task scheduling based on cron expressions
+316. Macroable trait
+317. Response macros
+318. Maintenance mode customization
+319. Database query logging customization
+320. Authorization ability checks
+321. Middleware groups
+322. Subquery support
+323. Model factories
+324. Dynamic database connection switching based on runtime conditions
+325. Route caching
+326. Environment configuration
+327. Laravel Interview Questions
+328. What is a service container in Laravel?
+329. What is method injection in Laravel?
+330. Explain the concept of event broadcasting in Laravel.
+331. What is the purpose of the Laravel scheduler?
+332. How can you handle file uploads in Laravel?
+333. Explain the concept of eager loading in Laravel.
+334. How can you implement pagination in Laravel?
+335. What are Laravel collections?
+336. Explain the purpose of the "has" and "whereHas" methods in Eloquent.
+337. What are the different types of relationships in Laravel Eloquent?
+338. How can you implement sorting in Laravel Eloquent?
+339. Explain the concept of method chaining in Laravel.
+340. Explain the purpose of the "belongsToMany" relationship in Laravel Eloquent.
+341. What is the purpose of the "tap" method in Laravel?
+342. Explain the purpose of the "compact" function in Laravel.
+343. How can you implement task scheduling in Laravel?
+344. What is the purpose of the "remember" method in Laravel cache?
+345. How can you implement event listeners in Laravel?
+346. What is the purpose of the "dispatch" function in Laravel?
+347. How can you implement soft deletes in Laravel?
+348. Explain the concept of lazy loading in Laravel.
+349. What is the purpose of the "whereBetween" method in Laravel query builder?
+350. How can you implement API rate limiting in Laravel?
+351. What is the purpose of the "hasManyThrough" relationship in Laravel Eloquent?
+352. How can you implement database transactions in Laravel?
+353. What is the purpose of the "route" function in Laravel views?
+354. Explain the concept of eager loading constraints in Laravel.
+355. What is the purpose of the "attach" method in Laravel Eloquent relationships?
+356. Explain the purpose of the "assertSee" method in Laravel testing.
+357. How can you implement full-text search in Laravel?
+358. What is the purpose of the "encryptString" method in Laravel?
+359. How can you implement job queues in Laravel?
+360. Explain the concept of method spoofing in Laravel forms.
+361. How can you implement database indexing in Laravel?
+362. What is the purpose of the "detach" method in Laravel Eloquent relationships?
+363. How can you implement real-time notifications in Laravel?
+364. What is the purpose of the "paginate" method in Laravel Eloquent?
+365. What is the purpose of the "hasOne" relationship in Laravel Eloquent?
+366. What is the purpose of the "once" method in Laravel cache?
+367. What is the purpose of the "crossJoin" method in Laravel query builder?
+368. How can you implement multiple authentication guards in Laravel?
+369. How can you implement custom error pages in Laravel?
+370. Explain the purpose and usage of the "macro" method in Laravel.
 446. How can you implement custom URL generators in Laravel?
 371. What is the purpose of the "artisan event:generate" command?
 372. Explain the concept of database sharding in Laravel.
