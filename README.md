@@ -2555,8 +2555,8 @@ class YourModel extends Model
 CRUD controllers usually used for APIs. Created via make:resource not make:controller.
 275. OAuth authentication support
 Use passport
-277. Task queue
-     jobs and queues
+277. Jobs and Queues
+Jobs are background operations. Queues a
 279. Database seeds. seed the dv
 280. API version. give version to api.
 281. Mailing list functionality
