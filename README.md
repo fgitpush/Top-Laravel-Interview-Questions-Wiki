@@ -603,7 +603,6 @@
 ||[Dynamic database connection switching based on runtime conditions]() |
 ||[Route caching for improving route registration performance]() |
 ||[Environment configuration for managing different environments (development, staging, production)]() |
-
 235. What are pub/sub in Laravel?
 236. Routing system for handling HTTP requests
 236. Model-View-Controller (MVC) architecture for code organization
@@ -1331,49 +1330,20 @@
 948. How can you use the orWhere method to perform an OR condition in Eloquent queries?
 949. How do you define a one-to-many polymorphic relationship in Eloquent?
 950. How can you use the orderByDesc method to sort query results in descending order in Eloquent?
-$users = User::orderByDesc('created_at')->get();
 949. What is the purpose of the tap method in Eloquent and how can you use it in query building
-
-```
-$users = DB::table('users')
-    ->where('status', 'active')
-    ->tap(function ($query) {
-        if ($someCondition) {
-            $query->where('age', '>', 18);
-        }
-    })
-    ->orderBy('name')
-    ->get();
-```
-
 951. What is a queue in Laravel and what purpose does it serve?
-Queue helps provide a bus lane for the jobs to run. We can prioritize on bus lane over another i.e one queue over another and also find use a specific low traffic queue to run our mission critial jobs and keep the critial jobs in another place.
 933. How do you configure the default queue driver in Laravel?
-Put it in the connection
 934. What are the different queue drivers available in Laravel?
-There are many drivers like database, redis etc
 935. How can you create a new job in Laravel?
-php artisan make:job SendEmailJob
 936. How do you dispatch a job to a queue in Laravel?
-Use the dispatch function:
-SendEmailJob::dispatch()->onQueue('high');
 937. What is the purpose of the handle method in a Laravel job?
-We write the logic of job in it
 938. How can you specify the queue on which a job should be dispatched in Laravel?
-php artisan queue:work --queue=high,default,low
-In above high, low and default are queues and each has its priority.
 939. How do you run the queue worker in Laravel?
-php artisan queue:work --queue=high,default,low
 940. What is the purpose of the --queue option when running the queue worker in Laravel?
-Specify queue and priority
 940. How can you delay the execution of a job in Laravel?
-use delay function
 942. What is the purpose of the tries property in a Laravel job?
-To define number of retries.
 943. How do you define the maximum number of times a job should be attempted in Laravel?
-$tries
 944. What is the purpose of the failed method in a Laravel job?
-To do something if job fails.
 945. How can you handle failed jobs in Laravel?
 Use retries and put the code in fail function
 946. What is a supervisor process and how does it relate to Laravel queues?
@@ -1388,106 +1358,26 @@ Set the no of traffic here:     'maxProcesses' => 10
 953. How can you limit the maximum number of jobs a queue worker can process in Laravel?
 954. What is the purpose of the unique method in Laravel job dispatching? To prevent duplicate jobs from running.
 955. How do you monitor the status of queued jobs in Laravel?
-Use Laravel Horizon
 956. What is the purpose of the --queue option when running the queue:work command in Laravel?
-Use to set priority of queue.
-php artisan queue:work --queue=high,default,low
 958. How can you prioritize certain queues over others in Laravel?
-Set your priority in connections:
-```
-'connections' => [
-    'high' => [
-        'driver' => 'redis',
-        'connection' => 'default',
-        'queue' => 'high-priority-queue',
-        'retry_after' => 90,
-    ],
-    'default' => [
-        'driver' => 'redis',
-        'connection' => 'default',
-        'queue' => 'default-queue',
-        'retry_after' => 60,
-    ],
-    'low' => [
-        'driver' => 'redis',
-        'connection' => 'default',
-        'queue' => 'low-priority-queue',
-        'retry_after' => 120,
-    ],
-],
-```
-In the example above, three queue connections (high, default, and low) are defined, representing queues with different priorities. Each connection has its own queue value, specifying the name of the associated queue.
-
-Adjust the queue worker configuration in the same config/queue.php file.
-php
-Copy code
-'worker' => [
-    'sleep' => 3,
-    'max_tries' => 3,
-    'max_time' => 60,
-],
-
 958. What is the purpose of the failed_jobs configuration option in Laravel?
-Jobs which fail, land there.
 959. How do you retry a failed job in Laravel?
-Put the next steps in failed() function
 960. What is the purpose of the onDelete method in a Laravel job?
 961. How can you specify the maximum time a job is allowed to be processed in Laravel?
-public $timeout = 60;
 962. What is the purpose of the --tries option when running the queue:work command in Laravel?
-How many attemps to give in terms of failure: php artisan queue:work --tries=3
 963. How do you specify a custom connection for a specific job in Laravel?
-mention the connection inside the job:
-MyJob::dispatch()->onConnection('custom-connection');
 964. What is the purpose of the --once option when running the queue:work command in Laravel?
 965. How can you dispatch a job to a specific queue in Laravel?
-Select the bus lane (queue) using : ```MyJob::dispatch()->onQueue('my-queue');```
 966. What is the purpose of the --sleep option when running the queue:work command in Laravel?
-To add delay between jobs: ```php artisan queue:work --sleep=5```
 967. How do you specify the maximum number of times a failed job should be attempted in Laravel?
-$tries=4;
 968. What is the purpose of the release method in a Laravel job?
-to tell the job to stop and not try anymore.
 969. How can you specify a specific delay for a failed job retry in Laravel?
-Yes. Use the backoff() function.
 970. What is the purpose of the --daemon option when running the queue:work command in Laravel?
-Daemon mode is background mode.
 971. How do you specify a custom delay for a specific job in Laravel?
-backoff() function
 972. What is the purpose of the backoff method in a Laravel job?
-When a job fails, backoff() function helps set the time interval between another try.
 974. How can you configure a custom connection for Laravel queues?
-Put the connection in config/queue.php file.
 974. What is the purpose of the --quiet option when running the queue:work command in Laravel?
-It doesn't show the logs and messages while running the job.
 975. How do you specify a custom queue name for a specific job in Laravel?
-Use the  $queue  variable in the code.
-```
-class CustomJob implements ShouldQueue
-{
-    use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
-
-    public $queue = 'custom_queue'; // Specify the custom queue name here
-
-    /**
-     * Execute the job.
-     *
-     * @return void
-     */
-    public function handle()
-    {
-        // Logic for the job execution
-    }
-}
-In the above code, we have a CustomJob class that implements the ShouldQueue interface, indicating that the job should be pushed onto a queue for asynchronous processing.
-
-By adding the $queue property to the job class and assigning it a custom queue name (in this case, 'custom_queue'), you can specify the desired queue for the job.
-
-Remember to update the namespace and handle method with your specific logic for the job execution.
-
-Once you dispatch this job, it will be added to the specified queue and processed accordingly.
-```
-
 
 1. ### What is Routing?
 Mapping the urls to controllers/views is called routing. routing can be done in web.php, api.php, console.php or broadcast.php. You can also define your routes in Http/Kernel.
