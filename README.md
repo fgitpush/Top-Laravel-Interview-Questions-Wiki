@@ -655,9 +655,6 @@
 269. Maintenance mode: php artisan down.
 270. Broadcasting events to websockets
 271. Soft deletes
-
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes;
 273. Resource controllers
 275. OAuth authentication support
 277. Jobs and Queues
