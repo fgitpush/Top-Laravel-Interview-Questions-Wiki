@@ -604,169 +604,63 @@
 ||[Route caching for improving route registration performance]() |
 ||[Environment configuration for managing different environments (development, staging, production)]() |
 
-
-
 235. What are pub/sub in Laravel?
-
-
-Its a broadcasting method.
-Pub=Publisher
-Sub=Subscriber
-Decreases communication complexity
-Peforms its task without knowing the other details of the system
-
-
 236. Routing system for handling HTTP requests
-Routes are in routes/web.php for web routes. There are 3 more routes.
-
 236. Model-View-Controller (MVC) architecture for code organization
-It is used for separation of concern.
-
-
 236. Eloquent ORM for database operations
-Eloquent is a DB wrapper which is OOP based. Has lots of advantages.
-
 236. Database migration system for managing database changes
-Laravel has migrations up(), down() functions which run the migrations when we do php artisan migrate or rollback.
-
 236. Blade templating engine for creating views
-Blade is a templating engine.
-
 236. Authentication system with user registration, login, and password reset
-...
-
 236. Authorization mechanisms for access control
-use spatie
-
 236. Caching support for improved performance
-....
-
 236. Queue system for processing tasks asynchronously
-....
-
 236. Event system for decoupled and modular code
-....
-
 236. Error and exception handling with detailed error pages and logging
-....
-
 236. Built-in testing support for unit, HTTP, and browser testing
-....
-
-236. Security features including CSRF protection, encryption, and input validation
-....
-
+236. Security features including CSRF protection, encryption, and input validatio
 236. API development tools with authentication, rate limiting, and resource transformation
-....
-
 236. Task scheduling for running commands at specified intervals
-....
-
 236. File storage with support for different drivers like local, S3, FTP, etc.
-....
-
 236. Notification system for sending notifications via various channels 
-....
-
 236. Localization tools for translating application text
-....
-
 236. Validation system for validating user input
-....
-
 236. Middleware for modifying incoming requests or outgoing responses
-....
-
 236. Artisan command-line interface for common development tasks
-....
-
 236. Dependency Injection container for managing class dependencies
-....
-
 236. Form and HTML helpers for simplifying form creation
-....
-
 236. Query Builder for building database queries in a fluent manner
-....
-
 236. Notification system for sending notifications via various channels 
-....
-
 227. Pagination support
-```
-Use the paginate() function
-
-use App\Models\Post;
-public function index()
-{
-    $posts = Post::paginate(10); // Retrieve 10 posts per page
-    
-    return view('posts.index', ['posts' => $posts]);
-}
-```
 229. Session handling
-Use the session() function
-
 230. Redis integration
-
 232. Broadcasting system
-We use it to send message to many people
 234. E-mail sending capabilities
-It uses PHPMailer
 236. Logging system
-It uses Log facade.
 238. Socialite integration
-It uses Laravel socialite for social login
 240. Validation of incoming requests using form request classes
-You can write the terminal query to create the /App/Request/ItemRequest.php file which will hold the rules and the failure response.
 242. Task scheduling
-Put the code in  ```app/Console/Kernel.php```
 244. Horizon dashboard
-Queue monitoring
 246. Telescope debug assistant
-For debugging.
 248. API resource classes
-make:resource name. Use to create CRUD scaffolding automatically.
 250. Policies:
-Use to define rules which data will be accepted in API
 252. Artisan command scheduling
 253. Multiple file system configuration
-You can define multiple filesystems like S3 and local and for each save decide where you want to take it.
 255. Helper functions
-App/Helper.php for common functions.
 257. Authorization gates
-For the authenticated users we can select who can see what using gates. 
 259. HTTP client
-Laravel has a HTTP facade for making API calls.
 261. Blade components and slots
-you can define layouts in blade
 263. Rate limiting
-you can limit the amount of time API is hit by a single IP
 265. Database query logging
-You can log the entire query in the file log.
 267. Route model binding
-If you name the controller, model right and put them right in the routes folder than you don't need to call the model in the controller in order to use the model. Laravel figures it out itself.
 269. Maintenance mode: php artisan down.
 270. Broadcasting events to websockets
 271. Soft deletes
 
-```
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-
-class YourModel extends Model
-{
-    use SoftDeletes;
-
-    // ...
-}
-```
 273. Resource controllers
-CRUD controllers usually used for APIs. Created via make:resource not make:controller.
 275. OAuth authentication support
-Use passport
 277. Jobs and Queues
-Jobs are background operations. Queues a
 279. Database seeds. seed the dv
 280. API version. give version to api.
 281. Mailing list functionality
