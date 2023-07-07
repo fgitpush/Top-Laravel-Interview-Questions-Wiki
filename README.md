@@ -3295,7 +3295,8 @@ make:resource name. Use to create CRUD scaffolding automatically.
 250. Policies:
 Use to define rules which data will be accepted in API
 252. Artisan command scheduling
-253. Multiple file system configuration
+     Make:command, write logic in handle function, put the scheduling time in Console/kernel.php. Then write ``` php artisan schedule:run in crontab -e
+254. Multiple file system configuration
 You can define multiple filesystems like S3 and local and for each save decide where you want to take it.
 255. Helper functions
 App/Helper.php for common functions.
@@ -3331,10 +3332,10 @@ CRUD controllers usually used for APIs. Created via make:resource not make:contr
 275. OAuth authentication support
 Use passport
 277. Jobs and Queues
-Jobs are background operations. Queues a
-279. Database seeds. seed the dv
+Jobs are background operations. Queues are the bus lanes or the job lanes which execute them. Multiple jobs can have the same queue which can make one job execute after another. If the job is time depenedent then its a good practice to dedicate a separate queue to it for executing faster.
+279. Database seeds. seed the db with records.
 280. API version. give version to api.
-281. Mailing list functionality
+281. Mailing list functionality. You can write your own newsletter. One wouldn't do it these days as everyone uses mailchip or other 3rd party.
 282. In-memory cache drivers
 283. Cross-origin resource sharing (CORS) support
 284. Database query builder macros
