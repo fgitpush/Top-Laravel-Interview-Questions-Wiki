@@ -603,82 +603,82 @@
 ||[Dynamic database connection switching based on runtime conditions]() |
 ||[Route caching for improving route registration performance]() |
 ||[Environment configuration for managing different environments (development, staging, production)]() |
-235. What are pub/sub in Laravel?
-236. Routing system for handling HTTP requests
-236. Model-View-Controller (MVC) architecture for code organization
-236. Eloquent ORM for database operations
-236. Database migration system for managing database changes
-236. Blade templating engine for creating views
-236. Authentication system with user registration, login, and password reset
-236. Authorization mechanisms for access control
-236. Caching support for improved performance
-236. Queue system for processing tasks asynchronously
-236. Event system for decoupled and modular code
-236. Error and exception handling with detailed error pages and logging
-236. Built-in testing support for unit, HTTP, and browser testing
-236. Security features including CSRF protection, encryption, and input validatio
-236. API development tools with authentication, rate limiting, and resource transformation
-236. Task scheduling for running commands at specified intervals
-236. File storage with support for different drivers like local, S3, FTP, etc.
-236. Notification system for sending notifications via various channels 
-236. Localization tools for translating application text
-236. Validation system for validating user input
-236. Middleware for modifying incoming requests or outgoing responses
-236. Artisan command-line interface for common development tasks
-236. Dependency Injection container for managing class dependencies
-236. Form and HTML helpers for simplifying form creation
-236. Query Builder for building database queries in a fluent manner
-236. Notification system for sending notifications via various channels 
-227. Pagination support
-229. Session handling
-230. Redis integration
-232. Broadcasting system
-234. E-mail sending capabilities
-236. Logging system
-238. Socialite integration
-240. Validation of incoming requests using form request classes
-242. Task scheduling
-244. Horizon dashboard
-246. Telescope debug assistant
-248. API resource classes
-250. Policies:
-252. Artisan command scheduling
-253. Multiple file system configuration
-255. Helper functions
-257. Authorization gates
-259. HTTP client
-261. Blade components and slots
-263. Rate limiting
-265. Database query logging
-267. Route model binding
-269. Maintenance mode: php artisan down.
-270. Broadcasting events to websockets
-271. Soft deletes
-273. Resource controllers
-275. OAuth authentication support
-277. Jobs and Queues
-279. Database seeds. seed the dv
-280. API version. give version to api.
-281. Mailing list functionality
-282. In-memory cache drivers
-283. Cross-origin resource sharing (CORS) support
-284. Database query builder macros
-285. File uploads handling and validation
-286. Pagination customization
-287. Maintenance mode scheduling. php artisan down.
-288. Command bus
-289. Queue worker management. laravel horizon.
-290. Encryption and decryption utilities
-291. API rate limiting.
-292. Automatic model event handling
-293. Database transactions
-294. Form request validation
-295. Resourceful routing
-296. Nested resource routing
-297. API authentication
-298. Localization
-299. Pagination links customization
-300. Eager loading of relationships
+||What are pub/sub in Laravel?
+|| Routing system for handling HTTP requests
+|| Model-View-Controller (MVC) architecture for code organization
+|| Eloquent ORM for database operations
+|| Database migration system for managing database changes
+|| Blade templating engine for creating views
+|| Authentication system with user registration, login, and password reset
+|| Authorization mechanisms for access control
+||236. Caching support for improved performance
+||236. Queue system for processing tasks asynchronously
+||236. Event system for decoupled and modular code
+||236. Error and exception handling with detailed error pages and logging
+||236. Built-in testing support for unit, HTTP, and browser testing
+||236. Security features including CSRF protection, encryption, and input validatio
+||236. API development tools with authentication, rate limiting, and resource transformation
+||236. Task scheduling for running commands at specified intervals
+||236. File storage with support for different drivers like local, S3, FTP, etc.
+||236. Notification system for sending notifications via various channels 
+||236. Localization tools for translating application text
+||236. Validation system for validating user input
+||236. Middleware for modifying incoming requests or outgoing responses
+||236. Artisan command-line interface for common development tasks
+||236. Dependency Injection container for managing class dependencies
+||236. Form and HTML helpers for simplifying form creation
+||236. Query Builder for building database queries in a fluent manner
+||236. Notification system for sending notifications via various channels 
+||227. Pagination support
+||229. Session handling
+||230. Redis integration
+||232. Broadcasting system
+||234. E-mail sending capabilities
+||236. Logging system
+||238. Socialite integration
+||240. Validation of incoming requests using form request classes
+||242. Task scheduling
+||244. Horizon dashboard
+||246. Telescope debug assistant
+||248. API resource classes
+||250. Policies:
+||252. Artisan command scheduling
+||253. Multiple file system configuration
+||255. Helper functions
+||257. Authorization gates
+||259. HTTP client
+||261. Blade components and slots
+||263. Rate limiting
+||265. Database query logging
+||267. Route model binding
+||269. Maintenance mode: php artisan down.
+||270. Broadcasting events to websockets
+||271. Soft deletes
+||273. Resource controllers
+||275. OAuth authentication support
+||277. Jobs and Queues
+||279. Database seeds. seed the dv
+||280. API version. give version to api.
+||281. Mailing list functionality
+||282. In-memory cache drivers
+||283. Cross-origin resource sharing (CORS) support
+||284. Database query builder macros
+||285. File uploads handling and validation
+||286. Pagination customization
+||287. Maintenance mode scheduling. php artisan down.
+||288. Command bus
+||289. Queue worker management. laravel horizon.
+||290. Encryption and decryption utilities
+||291. API rate limiting.
+||292. Automatic model event handling
+||293. Database transactions
+||294. Form request validation
+||295. Resourceful routing
+||296. Nested resource routing
+||297. API authentication
+||298. Localization
+||299. Pagination links customization
+||300. Eager loading of relationships
 301. Reverse routing
 302. Automatic injection of request dependencies in controller methods
 303. Dynamic configuration loading
