@@ -3198,16 +3198,16 @@ Laravel has migrations up(), down() functions which run the migrations when we d
 Blade is a templating engine.
 
 236. Authentication system with user registration, login, and password reset
-...
+Its already there in Laravel.
 
 236. Authorization mechanisms for access control
 use spatie
 
 236. Caching support for improved performance
-....
+Its there. You can use it.
 
 236. Queue system for processing tasks asynchronously
-....
+    Queues are there. You can create your own too.
 
 236. Event system for decoupled and modular code
 ....
@@ -4060,11 +4060,11 @@ Supervisor is the daddy of the queues and takes care of them. We need to install
 951. How do you configure the maximum number of queue workers in Laravel?
 Set the no of traffic here:     'maxProcesses' => 10
 952. What is the purpose of the timeout property in a Laravel job? Set how long to run the queue before stoping.
-953. How can you limit the maximum number of jobs a queue worker can process in Laravel?
-954. What is the purpose of the unique method in Laravel job dispatching? To prevent duplicate jobs from running.
-955. How do you monitor the status of queued jobs in Laravel?
+953. How can you limit the maximum number of jobs a queue worker can process in Laravel? By giving its parameter.
+954. What is the purpose of the unique method in Laravel job dispatching?To prevent duplicate jobs from running.
+956. How do you monitor the status of queued jobs in Laravel?
 Use Laravel Horizon
-956. What is the purpose of the --queue option when running the queue:work command in Laravel?
+957. What is the purpose of the --queue option when running the queue:work command in Laravel?
 Use to set priority of queue.
 php artisan queue:work --queue=high,default,low
 958. How can you prioritize certain queues over others in Laravel?
