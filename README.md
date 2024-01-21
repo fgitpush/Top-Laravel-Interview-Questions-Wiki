@@ -1,4 +1,4 @@
-# Top Laravel Interview Questions & Answers (+950 Interview Questions)
+# Top Laravel Interview Questions & Answers (+500 Interview Questions)
 
 > Click :star: if you like the project. Pull Request are highly appreciated.
 ### Table of Contents
